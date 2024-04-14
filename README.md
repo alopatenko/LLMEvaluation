@@ -5,6 +5,13 @@
 ### Reviews and Surveys
 
 ### Leaderboards and Arenas
+#### LMSys Arena https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard
+#### MTEB https://huggingface.co/spaces/mteb/leaderboard
+#### SWE Bench https://www.swebench.com/
+#### Gorilla, Berkeley function calling Leaderboard https://gorilla.cs.berkeley.edu/leaderboard.html https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
+#### WildBench WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild https://huggingface.co/spaces/allenai/WildBench
+#### Enterprise Scenarios, Patronus https://huggingface.co/blog/leaderboard-patronus
+#### Vectara Halluzinations https://github.com/vectara/hallucination-leaderboard
 
 ### Evaluation Software
 
