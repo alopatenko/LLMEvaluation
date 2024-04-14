@@ -25,10 +25,16 @@
 #### BigCode Evaluation Harness https://github.com/bigcode-project/bigcode-evaluation-harness
 ﻿
 ### LLM Evaluation articles in tech media and blog posts from companies
+#### https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/
+#### https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/
+####
+#### 
 
 ### Large benchmarks
 
 ### Evaluation theory, evaluation methods
+
+### HITL (Human in the Loop)
 ### LLM as Judge
 ---
 ## LLM Evaluation
