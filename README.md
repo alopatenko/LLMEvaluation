@@ -32,7 +32,12 @@
 
 ### Large benchmarks
 
-### Evaluation theory, evaluation methods
+### Specific benchmarks
+#### OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
+#### ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, https://arxiv.org/pdf/2403.20262.pdf
+
+### Evaluation theory, evaluation methods analysis of evaluation
+#### Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
 
 ### HITL (Human in the Loop)
 ### LLM as Judge
@@ -57,5 +62,7 @@
 ### Conversational systems
 ### Copilots
 ### Search and Recommendation Engines
+### Task Utility
+#### Towards better Human-Agent Alignment: Assessing Task Utility in LLM-Powered Applications, Feb 2024, https://arxiv.org/abs/2402.09015
 
 
