@@ -16,14 +16,14 @@
 ### Evaluation Software
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
 #### OpenICL Framework https://arxiv.org/abs/2303.02913
-#### RAGAS https://docs.ragas.io/en/stable/	
-﻿#### EleutherAI LLM Evaluation Harness https://github.com/EleutherAI/lm-evaluation-harness
-﻿####  OpenAI Evals https://github.com/openai/evals
-﻿####  ML Flow Evaluate https://mlflow.org/docs/latest/llms/llm-evaluate/index.html
-﻿####  MosaicML Composer https://github.com/mosaicml/composer
-﻿####  TruLens https://github.com/truera/trulens/
-﻿#### BigCode Evaluation Harness https://github.com/bigcode-project/bigcode-evaluation-harness
-
+#### RAGAS https://docs.ragas.io/en/stable/
+#### EleutherAI LLM Evaluation Harness https://github.com/EleutherAI/lm-evaluation-harness
+#### OpenAI Evals https://github.com/openai/evals
+#### ML Flow Evaluate https://mlflow.org/docs/latest/llms/llm-evaluate/index.html
+#### MosaicML Composer https://github.com/mosaicml/composer
+#### TruLens https://github.com/truera/trulens/
+#### BigCode Evaluation Harness https://github.com/bigcode-project/bigcode-evaluation-harness
+﻿
 ### LLM Evaluation articles in tech media and blog posts from companies
 
 ### Large benchmarks
