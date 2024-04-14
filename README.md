@@ -48,6 +48,7 @@
 ### Hallucinations
 ### Multi Turn
 ### Multi-Lingual
+#### The Invalsi Benchmark: measuring Language Models Mathematical and Language understanding in Italian, Mar 2024, https://arxiv.org/pdf/2403.18697.pdf
 ### Multi-Modal
 ### Instruction Following
 ### Ethical AI
