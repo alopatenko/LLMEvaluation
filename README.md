@@ -67,6 +67,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, https://arxiv.org/abs/2402.06204
 #### Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html
 #### ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate, Aug 2023, https://arxiv.org/abs/2308.07201
+#### ALLURE: Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning, Sep 2023, https://arxiv.org/abs/2309.13701
 ---
 ---
 ## LLM Evaluation
