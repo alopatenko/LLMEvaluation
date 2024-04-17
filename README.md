@@ -87,6 +87,7 @@ I aim to create a resource that will enable anyone with queries—whether it's a
 ### Reasoning
 #### Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
 #### LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models, https://arxiv.org/abs/2404.05221
+#### Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, https://arxiv.org/abs/2402.11194v2 
 ---
 ### Multi-Lingual
 #### AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology https://aclanthology.org/2023.arabicnlp-1.21.pdf https://aclanthology.org/2023.arabicnlp-1.21/ 
@@ -155,5 +156,12 @@ I aim to create a resource that will enable anyone with queries—whether it's a
 #### Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, Nature https://www.nature.com/articles/s41746-024-01074-z.epdf
 #### Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 https://arxiv.org/abs/2401.06866
 #### Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, https://arxiv.org/abs/2402.01730
+### Science (generic)
+#### SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, https://arxiv.org/abs/2211.13308
+
+### Financial
+#### Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, https://arxiv.org/abs/2402.11194v2 
+
+
 
 
