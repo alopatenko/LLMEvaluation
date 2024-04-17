@@ -137,6 +137,7 @@ The aim of this compendium is to assist academics and industry professionals in 
 #### How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 https://arxiv.org/abs/2402.05863
 ---
 ### Copilots
+#### Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming Feb 24 https://arxiv.org/abs/2402.14261
 ---
 ### Search and Recommendation Engines
 #### Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 https://arxiv.org/abs/2304.10149 
