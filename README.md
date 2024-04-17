@@ -8,7 +8,7 @@
 #### Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
 
 ### Leaderboards and Arenas
-#### LMSys Arena https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard
+#### LMSys Arena https://chat.lmsys.org/?leaderboard (explanation: https://lmsys.org/blog/2023-05-03-arena/)
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
 #### SWE Bench https://www.swebench.com/
 #### Gorilla, Berkeley function calling Leaderboard https://gorilla.cs.berkeley.edu/leaderboard.html https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
