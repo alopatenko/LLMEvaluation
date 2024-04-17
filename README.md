@@ -78,6 +78,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 ####  The LAMBADA dataset: Word prediction requiring a broad discourse context 2016, https://arxiv.org/abs/1606.06031 
 ---
 ### Hallucinations
+#### HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  https://aclanthology.org/2023.emnlp-main.397.pdf 
+#### Long-form factuality in large language models, Mar 2024, https://arxiv.org/abs/2403.18802
+
 ---
 ### Multi Turn
 #### LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, https://arxiv.org/abs/2311.18232
