@@ -38,10 +38,6 @@
 #### SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
 #### MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 ---
-### Specific benchmarks <a id="specificbenchmarks"></a>
-#### OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
-#### ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, https://arxiv.org/pdf/2403.20262.pdf
----
 ### Evaluation theory, evaluation methods, analysis of evaluation <a id="theory"></a>
 #### Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
 #### Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
@@ -109,6 +105,9 @@ Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.o
 ### Various unclassified tasks
 #### Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/
 ####  LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large Language Models, jul 2023 https://arxiv.org/abs/2307.07889v3
+#### OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
+#### ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, https://arxiv.org/pdf/2403.20262.pdf
+
 ---
 ---
 
