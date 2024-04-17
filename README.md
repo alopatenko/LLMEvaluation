@@ -47,28 +47,49 @@
 
 ### HITL (Human in the Loop)
 ### LLM as Judge
+Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.org/abs/2306.05685
 ---
 ## LLM Evaluation
 ### Embeddings
+#### MTEB: Massive Text Embedding Benchmark Oct 2022 https://arxiv.org/abs/2210.07316 Leaderboard https://huggingface.co/spaces/mteb/leaderboard
 ### In Context Learning
+#### HellaSwag,  HellaSwag: Can a Machine Really Finish Your Sentence? 2019, https://arxiv.org/abs/1905.07830 Paper + code + dataset https://rowanzellers.com/hellaswag/ 
+####  The LAMBADA dataset: Word prediction requiring a broad discourse context 2016, https://arxiv.org/abs/1606.06031 
 ### Hallucinations
 ### Multi Turn
+#### LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, https://arxiv.org/abs/2311.18232
+### Reasoning
+#### Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
 ### Multi-Lingual
 #### The Invalsi Benchmark: measuring Language Models Mathematical and Language understanding in Italian, Mar 2024, https://arxiv.org/pdf/2403.18697.pdf
 ### Multi-Modal
 ### Instruction Following
+#### Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, https://arxiv.org/abs/2310.07641
 ### Ethical AI
+#### Evaluating the Moral Beliefs Encoded in LLMs,  Jul 23 https://arxiv.org/abs/2307.14324
+#### AI Deception: A Survey of Examples, Risks, and Potential Solutions Aug 23 https://arxiv.org/abs/2308.14752
 ### Biases
 #### FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 https://arxiv.org/abs/2404.06619v1
 
 ### Safe AI
+#### Gradient-Based Language Model Red Teaming Jan 24, https://arxiv.org/abs/2401.16656
 ### Code Generating LLMs
+#### Evaluating Large Language Models Trained on Code HumanEval Jul 2022 https://arxiv.org/abs/2107.03374
+#### CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation Feb 21 https://arxiv.org/abs/2102.04664
+#### Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming Feb 24 https://arxiv.org/abs/2402.14261
+#### SWE Bench SWE-bench: Can Language Models Resolve Real-World GitHub Issues? Feb 2024 https://arxiv.org/abs/2402.05863 https://www.cognition-labs.com/post/swe-bench-technical-report
+#### Gorilla Functional Calling Leaderboard, Berkeley https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
 
+### Various unclassified tasks
+#### Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/
+####  LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large Language Models, jul 2023 https://arxiv.org/abs/2307.07889v3
 
 ---
 
 ## LLM Systems
 ### RAG Evaluation
+#### RAGAS: Automated Evaluation of Retrieval Augmented Generation Jul 23, https://arxiv.org/abs/2309.15217
+#### ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, https://arxiv.org/abs/2311.09476 
 ### Conversational systems
 #### https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7
 ### Copilots
