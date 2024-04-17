@@ -58,11 +58,19 @@ Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.o
 ### Hallucinations
 ### Multi Turn
 #### LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, https://arxiv.org/abs/2311.18232
+#### MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 https://arxiv.org/abs/2402.14762
+#### How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 https://arxiv.org/abs/2402.05863
 ### Reasoning
 #### Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
 ### Multi-Lingual
+#### AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology https://aclanthology.org/2023.arabicnlp-1.21.pdf https://aclanthology.org/2023.arabicnlp-1.21/ 
+#### Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem https://huggingface.co/blog/leaderboard-upstage
+####
+####
 #### The Invalsi Benchmark: measuring Language Models Mathematical and Language understanding in Italian, Mar 2024, https://arxiv.org/pdf/2403.18697.pdf
 ### Multi-Modal
+#### Holistic Evaluation of Text-to-Image Models Nov 23 https://arxiv.org/abs/2311.04287
+#### VBench: Comprehensive Benchmark Suite for Video Generative Models Nov 23 https://arxiv.org/abs/2311.04287
 ### Instruction Following
 #### Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, https://arxiv.org/abs/2310.07641
 ### Ethical AI
@@ -91,10 +99,18 @@ Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.o
 #### RAGAS: Automated Evaluation of Retrieval Augmented Generation Jul 23, https://arxiv.org/abs/2309.15217
 #### ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, https://arxiv.org/abs/2311.09476 
 ### Conversational systems
+#### Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, Nature https://www.nature.com/articles/s41746-024-01074-z.epdf
 #### https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7
+#### How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 https://arxiv.org/abs/2402.05863
 ### Copilots
 ### Search and Recommendation Engines
+#### Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 https://arxiv.org/abs/2304.10149 
 ### Task Utility
 #### Towards better Human-Agent Alignment: Assessing Task Utility in LLM-Powered Applications, Feb 2024, https://arxiv.org/abs/2402.09015
+
+## Verticals
+### Healthcare and medicine
+#### Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, Nature https://www.nature.com/articles/s41746-024-01074-z.epdf
+#### Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 https://arxiv.org/abs/2401.06866
 
 
