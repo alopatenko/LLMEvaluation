@@ -31,13 +31,19 @@
 #### 
 
 ### Large benchmarks
+#### SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
+#### MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 
 ### Specific benchmarks
 #### OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
 #### ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, https://arxiv.org/pdf/2403.20262.pdf
 
-### Evaluation theory, evaluation methods analysis of evaluation
+### Evaluation theory, evaluation methods, analysis of evaluation
 #### Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
+#### Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
+#### Are Emergent Abilities of Large Language Models a Mirage? Apr 23 https://arxiv.org/abs/2304.15004
+#### Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 https://arxiv.org/abs/2311.01964
+#### (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
 
 ### HITL (Human in the Loop)
 ### LLM as Judge
