@@ -122,6 +122,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### SWE Bench SWE-bench: Can Language Models Resolve Real-World GitHub Issues? Feb 2024 https://arxiv.org/abs/2402.05863 https://www.cognition-labs.com/post/swe-bench-technical-report
 #### Gorilla Functional Calling Leaderboard, Berkeley https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
 ---
+### LLM  quality (generic methods: overfitting, redundant layers etc)
+#### https://calculatedcontent.com/2024/01/23/evaluating-fine-tuned-llms-with-weightwatcher/
+---
 ### Various unclassified tasks
 #### Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/
 ####  LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large Language Models, jul 2023 https://arxiv.org/abs/2307.07889v3
