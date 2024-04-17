@@ -3,6 +3,9 @@
 
 ---
 ### Reviews and Surveys
+#### Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 https://arxiv.org/abs/2310.19736
+#### A Survey on Evaluation of Large Language Models Jul 2023 https://arxiv.org/abs/2307.03109
+#### Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
 
 ### Leaderboards and Arenas
 #### LMSys Arena https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard
@@ -11,7 +14,7 @@
 #### Gorilla, Berkeley function calling Leaderboard https://gorilla.cs.berkeley.edu/leaderboard.html https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
 #### WildBench WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild https://huggingface.co/spaces/allenai/WildBench
 #### Enterprise Scenarios, Patronus https://huggingface.co/blog/leaderboard-patronus
-#### Vectara Halluzinations https://github.com/vectara/hallucination-leaderboard
+#### Vectara Hallucination Leaderboard https://github.com/vectara/hallucination-leaderboard
 
 ### Evaluation Software
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
