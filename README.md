@@ -86,6 +86,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, https://arxiv.org/abs/2311.18232
 #### MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 https://arxiv.org/abs/2402.14762
 #### How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 https://arxiv.org/abs/2402.05863
+#### MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback, Mar 2024, https://arxiv.org/abs/2309.10691
+ 
 ---
 ### Reasoning
 #### Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
