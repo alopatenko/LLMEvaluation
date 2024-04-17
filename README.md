@@ -2,12 +2,12 @@
 # Compendium of LLM Evaluation methods
 
 ---
-### Reviews and Surveys
+### Reviews and Surveys <a id="reviews"></a>
 #### Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 https://arxiv.org/abs/2310.19736
 #### A Survey on Evaluation of Large Language Models Jul 2023 https://arxiv.org/abs/2307.03109
 #### Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
 ---
-### Leaderboards and Arenas
+### Leaderboards and Arenas <a id="leaderboards"></a>
 #### LMSys Arena https://chat.lmsys.org/?leaderboard (explanation: https://lmsys.org/blog/2023-05-03-arena/)
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
 #### SWE Bench https://www.swebench.com/
@@ -17,7 +17,7 @@
 #### Vectara Hallucination Leaderboard https://github.com/vectara/hallucination-leaderboard
 #### Ray/Anyscale's LLM Performance Leaderboard https://github.com/ray-project/llmperf-leaderboard (explanation: https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm)
 ---
-### Evaluation Software
+### Evaluation Software <a id="software"></a>
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
 #### OpenICL Framework https://arxiv.org/abs/2303.02913
 #### RAGAS https://docs.ragas.io/en/stable/
@@ -28,30 +28,30 @@
 #### TruLens https://github.com/truera/trulens/
 #### BigCode Evaluation Harness https://github.com/bigcode-project/bigcode-evaluation-harness
 ﻿---
-### LLM Evaluation articles in tech media and blog posts from companies
+### LLM Evaluation articles in tech media and blog posts from companies <a id="articles"></a>
 #### https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/
 #### https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/
 #### https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html
 #### 
 ---
-### Large benchmarks
+### Large benchmarks <a id="largebenchmarks"></a>
 #### SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
 #### MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 ---
-### Specific benchmarks
+### Specific benchmarks <a id="specificbenchmarks"></a>
 #### OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=dataset
 #### ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, https://arxiv.org/pdf/2403.20262.pdf
 ---
-### Evaluation theory, evaluation methods, analysis of evaluation
+### Evaluation theory, evaluation methods, analysis of evaluation <a id="theory"></a>
 #### Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
 #### Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
 #### Are Emergent Abilities of Large Language Models a Mirage? Apr 23 https://arxiv.org/abs/2304.15004
 #### Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 https://arxiv.org/abs/2311.01964
 #### (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
 ---
-### HITL (Human in the Loop)
+### HITL (Human in the Loop) <a id="hitl"></a>
 ---
-### LLM as Judge
+### LLM as Judge <a id="llmjudge"></a>
 Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.org/abs/2306.05685
 ---
 ---
