@@ -27,7 +27,7 @@
 ### LLM Evaluation articles in tech media and blog posts from companies
 #### https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/
 #### https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/
-####
+#### https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html
 #### 
 
 ### Large benchmarks
@@ -52,6 +52,9 @@
 ### Multi-Modal
 ### Instruction Following
 ### Ethical AI
+### Biases
+#### FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 https://arxiv.org/abs/2404.06619v1
+
 ### Safe AI
 ### Code Generating LLMs
 
@@ -61,6 +64,7 @@
 ## LLM Systems
 ### RAG Evaluation
 ### Conversational systems
+#### https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7
 ### Copilots
 ### Search and Recommendation Engines
 ### Task Utility
