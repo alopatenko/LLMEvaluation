@@ -95,7 +95,9 @@ Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.o
 #### FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 https://arxiv.org/abs/2404.06619v1
 ---
 ### Safe AI
-#### Gradient-Based Language Model Red Teaming Jan 24, https://arxiv.org/abs/2401.16656
+#### Gradient-Based Language Model Red Teaming, Jan 24, https://arxiv.org/abs/2401.16656
+#### JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models, Mar 2024, https://arxiv.org/abs/2404.01318
+
 ---
 ### Code Generating LLMs
 #### Evaluating Large Language Models Trained on Code HumanEval Jul 2022 https://arxiv.org/abs/2107.03374
