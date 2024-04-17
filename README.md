@@ -15,6 +15,7 @@
 #### WildBench WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild https://huggingface.co/spaces/allenai/WildBench
 #### Enterprise Scenarios, Patronus https://huggingface.co/blog/leaderboard-patronus
 #### Vectara Hallucination Leaderboard https://github.com/vectara/hallucination-leaderboard
+#### Ray/Anyscale's LLM Performance Leaderboard https://github.com/ray-project/llmperf-leaderboard (explanation: https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm)
 
 ### Evaluation Software
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
