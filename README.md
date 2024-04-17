@@ -56,6 +56,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
 #### Evaluating Open-QA Evaluation, 2023, https://arxiv.org/abs/2305.12421
 #### (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
+#### Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, https://arxiv.org/abs/2402.19472
 ---
 ### HITL (Human in the Loop) <a id="hitl"></a>
 #### Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
@@ -106,6 +107,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 ### Multi-Modal
 #### Holistic Evaluation of Text-to-Image Models Nov 23 https://arxiv.org/abs/2311.04287
 #### VBench: Comprehensive Benchmark Suite for Video Generative Models Nov 23 https://arxiv.org/abs/2311.04287
+#### Evaluating Text-to-Visual Generation with Image-to-Text Generation, Apr 2024, https://arxiv.org/abs/2404.01291
 ---
 ### Instruction Following
 #### Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, https://arxiv.org/abs/2310.07641
