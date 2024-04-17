@@ -83,6 +83,7 @@ The aim of this compendium is to assist academics and industry professionals in 
 ---
 ### Reasoning
 #### Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
+#### LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models, https://arxiv.org/abs/2404.05221
 ---
 ### Multi-Lingual
 #### AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology https://aclanthology.org/2023.arabicnlp-1.21.pdf https://aclanthology.org/2023.arabicnlp-1.21/ 
