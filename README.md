@@ -45,17 +45,25 @@ The aim of this compendium is to assist academics and industry professionals in 
 #### SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
 #### MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 ---
-### Evaluation theory, evaluation methods, analysis of evaluation <a id="theory"></a>
+### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation <a id="theory"></a>
 #### Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
 #### Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
 #### Are Emergent Abilities of Large Language Models a Mirage? Apr 23 https://arxiv.org/abs/2304.15004
 #### Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 https://arxiv.org/abs/2311.01964
+#### Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
+#### Evaluating Open-QA Evaluation, 2023, https://arxiv.org/abs/2305.12421
 #### (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
 ---
 ### HITL (Human in the Loop) <a id="hitl"></a>
+#### Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
+#### Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, https://arxiv.org/abs/2402.09346 
+
 ---
 ### LLM as Judge <a id="llmjudge"></a>
-Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.org/abs/2306.05685
+#### Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.org/abs/2306.05685
+#### The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, https://arxiv.org/abs/2402.06204
+#### Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html
+#### ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate, Aug 2023, https://arxiv.org/abs/2308.07201
 ---
 ---
 ## LLM Evaluation
@@ -141,5 +149,6 @@ Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.o
 ### Healthcare and medicine
 #### Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, Nature https://www.nature.com/articles/s41746-024-01074-z.epdf
 #### Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 https://arxiv.org/abs/2401.06866
+#### Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, https://arxiv.org/abs/2402.01730
 
 
