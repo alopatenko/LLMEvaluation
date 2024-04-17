@@ -4,7 +4,7 @@
 ### Introduction
 The aim of this compendium is to assist academics and industry professionals in creating effective evaluation suites tailored to their specific needs. It does so by reviewing the top industry practices for assessing large language models (LLMs) and their applications. This work goes beyond merely cataloging benchmarks and evaluation studies; it encompasses a comprehensive overview of all effective and practical evaluation techniques, including those embedded within papers that primarily introduce new LLM methodologies and tasks. I plan to periodically update this survey with any noteworthy and shareable evaluation methods that I come across.
 
-My view on LLM Evaluation 
+[My view on LLM Evaluation, Deck](LLMEvaluation.pdf) 
 
 
 
