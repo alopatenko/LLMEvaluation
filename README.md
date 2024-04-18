@@ -46,9 +46,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 
 ---
 ### Reviews and Surveys
-#### Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 https://arxiv.org/abs/2310.19736
-#### A Survey on Evaluation of Large Language Models Jul 2023 https://arxiv.org/abs/2307.03109
-#### Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
+- Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 https://arxiv.org/abs/2310.19736
+- A Survey on Evaluation of Large Language Models Jul 2023 https://arxiv.org/abs/2307.03109
+- Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
 ---
 ### Leaderboards and Arenas
 #### LMSys Arena https://chat.lmsys.org/?leaderboard (explanation: https://lmsys.org/blog/2023-05-03-arena/)
