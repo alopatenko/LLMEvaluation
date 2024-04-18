@@ -157,6 +157,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 ### Safe AI
 - Gradient-Based Language Model Red Teaming, Jan 24, https://arxiv.org/abs/2401.16656
 - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models, Mar 2024, https://arxiv.org/abs/2404.01318
+- Announcing a Benchmark to Improve AI Safety MLCommons has made benchmarks for AI performance—now it's time to measure safety, Apr 2024 [IEEE Spectrum](https://spectrum.ieee.org/ai-safety-benchmark)
 
 ---
 ### Code Generating LLMs
