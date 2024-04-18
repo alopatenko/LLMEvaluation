@@ -140,6 +140,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese , Apr 2024 https://arxiv.org/abs/2404.07824
 - AlignBench: Benchmarking Chinese Alignment of Large Language Models, Nov 2023, https://arxiv.org/abs/2311.18743
 - The Invalsi Benchmark: measuring Language Models Mathematical and Language understanding in Italian, Mar 2024, https://arxiv.org/pdf/2403.18697.pdf
+- MEGA: Multilingual Evaluation of Generative AI, Mar 2023, https://arxiv.org/abs/2303.12528
+- M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
+
 ---
 ### Multi-Modal
 - Holistic Evaluation of Text-to-Image Models Nov 23 https://arxiv.org/abs/2311.04287
