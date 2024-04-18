@@ -9,7 +9,40 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 
 ![Evals are surprisingly often all you need](greg.png)
 
-
+# Table of contents
+    - [Reviews and Surveys <a id="reviews"></a>](#reviews-and-surveys-a-idreviewsa)
+    - [Leaderboards and Arenas <a id="leaderboards"></a>](#leaderboards-and-arenas-a-idleaderboardsa)
+    - [Evaluation Software <a id="software"></a>](#evaluation-software-a-idsoftwarea)
+    - [LLM Evaluation articles in tech media and blog posts from companies <a id="articles"></a>](#llm-evaluation-articles-in-tech-media-and-blog-posts-from-companies-a-idarticlesa)
+    - [Large benchmarks <a id="largebenchmarks"></a>](#large-benchmarks-a-idlargebenchmarksa)
+    - [Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation <a id="theory"></a>](#evaluation-of-evaluation-evaluation-theory-evaluation-methods-analysis-of-evaluation-a-idtheorya)
+    - [HITL (Human in the Loop) <a id="hitl"></a>](#hitl-human-in-the-loop-a-idhitla)
+    - [LLM as Judge <a id="llmjudge"></a>](#llm-as-judge-a-idllmjudgea)
+  - [LLM Evaluation](#llm-evaluation)
+    - [Embeddings](#embeddings)
+    - [In Context Learning](#in-context-learning)
+    - [Hallucinations](#hallucinations)
+    - [Multi Turn](#multi-turn)
+    - [Reasoning](#reasoning)
+    - [Multi-Lingual](#multi-lingual)
+    - [Multi-Modal](#multi-modal)
+    - [Instruction Following](#instruction-following)
+    - [Ethical AI](#ethical-ai)
+    - [Biases](#biases)
+    - [Safe AI](#safe-ai)
+    - [Code Generating LLMs](#code-generating-llms)
+    - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
+    - [Various unclassified tasks](#various-unclassified-tasks)
+  - [LLM Systems](#llm-systems)
+    - [RAG Evaluation](#rag-evaluation)
+    - [Conversational systems](#conversational-systems)
+    - [Copilots](#copilots)
+    - [Search and Recommendation Engines](#search-and-recommendation-engines)
+    - [Task Utility](#task-utility)
+  - [Verticals](#verticals)
+    - [Healthcare and medicine](#healthcare-and-medicine)
+    - [Science (generic)](#science-generic)
+    - [Financial](#financial)
 
 ---
 ### Reviews and Surveys <a id="reviews"></a>
