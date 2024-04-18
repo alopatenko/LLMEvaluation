@@ -1,4 +1,4 @@
-# LLM Evaluation
+# Evaluation of LLM and LLM based Systems
 # Compendium of LLM Evaluation methods
 ---
 ### Introduction
