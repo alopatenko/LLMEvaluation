@@ -83,7 +83,6 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
-- Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
 - Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
 - Are Emergent Abilities of Large Language Models a Mirage? Apr 23 https://arxiv.org/abs/2304.15004
 - Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 https://arxiv.org/abs/2311.01964
@@ -91,6 +90,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - Evaluating Open-QA Evaluation, 2023, https://arxiv.org/abs/2305.12421
 - (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
 - Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, https://arxiv.org/abs/2402.19472
+- Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
+- What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, https://arxiv.org/abs/2404.02415
+
 ---
 ### HITL (Human in the Loop)
 - Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
@@ -142,6 +144,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - Holistic Evaluation of Text-to-Image Models Nov 23 https://arxiv.org/abs/2311.04287
 - VBench: Comprehensive Benchmark Suite for Video Generative Models Nov 23 https://arxiv.org/abs/2311.04287
 - Evaluating Text-to-Visual Generation with Image-to-Text Generation, Apr 2024, https://arxiv.org/abs/2404.01291
+- What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, https://arxiv.org/abs/2404.02415
+- Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
+
 ---
 ### Instruction Following
 - Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, https://arxiv.org/abs/2310.07641
