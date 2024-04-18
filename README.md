@@ -172,6 +172,10 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 ### LLM  quality (generic methods: overfitting, redundant layers etc)
 - https://calculatedcontent.com/2024/01/23/evaluating-fine-tuned-llms-with-weightwatcher/
 ---
+### Software Performance
+- Ray/Anyscale's LLM Performance Leaderboard https://github.com/ray-project/llmperf-leaderboard (explanation: https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm)
+- MLCommons MLPerf benchmarks (inference) [MLPerf announcement of the LLM track](https://mlcommons.org/2023/09/mlperf-results-highlight-growing-importance-of-generative-ai-and-storage/)
+---
 ### Various unclassified tasks
 - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/
 -  LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large Language Models, jul 2023 https://arxiv.org/abs/2307.07889v3
