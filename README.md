@@ -187,6 +187,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena, Oct 2023, https://arxiv.org/abs/2310.05746
 - LLM-Deliberation: Evaluating LLMs with Interactive Multi-Agent Negotiation Games, Sep 2023, https://arxiv.org/abs/2309.17234
 - AgentBench: Evaluating LLMs as Agents, Aug 2023, https://arxiv.org/abs/2308.03688
+- How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments, Mar 2024, https://arxiv.org/abs/2403.11807
+- R-Judge: Benchmarking Safety Risk Awareness for LLM Agents, Jan 2024, https://arxiv.org/abs/2401.10019
 ---
 ### Various unclassified tasks
 - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/
