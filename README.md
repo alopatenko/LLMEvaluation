@@ -72,6 +72,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - MosaicML Composer https://github.com/mosaicml/composer
 - TruLens https://github.com/truera/trulens/
 - BigCode Evaluation Harness https://github.com/bigcode-project/bigcode-evaluation-harness
+- LLMeBench https://github.com/qcri/LLMeBench/ (see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking
+](https://arxiv.org/abs/2308.04945))
 ﻿---
 ### LLM Evaluation articles in tech media and blog posts from companies <a id="articles"></a>
 - https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/
