@@ -233,7 +233,11 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, https://arxiv.org/abs/2211.13308
 
 ### Financial
-- Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, https://arxiv.org/abs/2402.11194v2 
+- Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, https://arxiv.org/abs/2402.11194v2
+- PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance, Jun 2023, https://arxiv.org/abs/2306.05443
+- BloombergGPT: A Large Language Model for Finance (see Chapter 5 Evaluation), Mar 2023, https://arxiv.org/abs/2303.17564
+
+
 
 
 
