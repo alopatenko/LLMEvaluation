@@ -148,6 +148,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 ### Ethical AI
 #### Evaluating the Moral Beliefs Encoded in LLMs,  Jul 23 https://arxiv.org/abs/2307.14324
 #### AI Deception: A Survey of Examples, Risks, and Potential Solutions Aug 23 https://arxiv.org/abs/2308.14752
+#### Aligning AI With Shared Human Value, Aug 20 - Feb 23, https://arxiv.org/abs/2008.02275 Re: ETHICS benchmark
 ---
 ### Biases
 #### FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 https://arxiv.org/abs/2404.06619v1
