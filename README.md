@@ -79,11 +79,10 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 - https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/
 - https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/
 - https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html
-- 
 ---
 ### Large benchmarks
-- SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
-- MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
+- Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
+- Measuring Massive Multitask Language Understanding, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
