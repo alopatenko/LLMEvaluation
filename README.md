@@ -32,6 +32,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
     - [Safe AI](#safe-ai)
     - [Code Generating LLMs](#code-generating-llms)
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
+    - [Software Performace (latency, throughput, memory, storage)](#software-performance)
     - [Various unclassified tasks](#various-unclassified-tasks)
 - [LLM Systems](#llm-systems)
     - [RAG Evaluation](#rag-evaluation)
