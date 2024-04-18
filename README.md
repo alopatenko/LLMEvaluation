@@ -45,12 +45,12 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
     - [Financial](#financial)
 
 ---
-### Reviews and Surveys <a id="reviews"></a>
+### Reviews and Surveys
 #### Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 https://arxiv.org/abs/2310.19736
 #### A Survey on Evaluation of Large Language Models Jul 2023 https://arxiv.org/abs/2307.03109
 #### Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
 ---
-### Leaderboards and Arenas <a id="leaderboards"></a>
+### Leaderboards and Arenas
 #### LMSys Arena https://chat.lmsys.org/?leaderboard (explanation: https://lmsys.org/blog/2023-05-03-arena/)
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
 #### SWE Bench https://www.swebench.com/
@@ -60,7 +60,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### Vectara Hallucination Leaderboard https://github.com/vectara/hallucination-leaderboard
 #### Ray/Anyscale's LLM Performance Leaderboard https://github.com/ray-project/llmperf-leaderboard (explanation: https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm)
 ---
-### Evaluation Software <a id="software"></a>
+### Evaluation Software
 #### MTEB https://huggingface.co/spaces/mteb/leaderboard
 #### OpenICL Framework https://arxiv.org/abs/2303.02913
 #### RAGAS https://docs.ragas.io/en/stable/
@@ -77,11 +77,11 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html
 #### 
 ---
-### Large benchmarks <a id="largebenchmarks"></a>
+### Large benchmarks
 #### SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
 #### MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
 ---
-### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation <a id="theory"></a>
+### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 #### Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
 #### Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
 #### Are Emergent Abilities of Large Language Models a Mirage? Apr 23 https://arxiv.org/abs/2304.15004
@@ -91,12 +91,12 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video](https://commu
 #### (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
 #### Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, https://arxiv.org/abs/2402.19472
 ---
-### HITL (Human in the Loop) <a id="hitl"></a>
+### HITL (Human in the Loop)
 #### Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
 #### Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, https://arxiv.org/abs/2402.09346 
 
 ---
-### LLM as Judge <a id="llmjudge"></a>
+### LLM as Judge
 #### Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, https://arxiv.org/abs/2306.05685
 #### The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, https://arxiv.org/abs/2402.06204
 #### Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html
