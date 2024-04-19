@@ -56,7 +56,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
 - [SWE Bench ](https://www.swebench.com/)
-- [Gorilla, Berkeley function calling Leaderboard ](https://gorilla.cs.berkeley.edu/leaderboard.html Explanation ](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
+- [Gorilla, Berkeley function calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) [Explanation ](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
 - [WildBench WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild ](https://huggingface.co/spaces/allenai/WildBench)
 - [Enterprise Scenarios, Patronus ](https://huggingface.co/blog/leaderboard-patronus)
 - [Vectara Hallucination Leaderboard ]( https://github.com/vectara/hallucination-leaderboard)
@@ -76,29 +76,29 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 ](https://arxiv.org/abs/2308.04945))
 ﻿---
 ### LLM Evaluation articles in tech media and blog posts from companies <a id="articles"></a>
-- https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/
-- https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/
-- https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html
+- [Why it’s impossible to review AIs, and why TechCrunch is doing it anyway Techcrun mat 2024](https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/)
+- [Mozilla AI Exploring LLM Evaluation at scale](https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/)
+- [A.I. has a measurement problem, NY Times, Apr 2024](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
 ---
 ### Large benchmarks
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
-- Measuring Massive Multitask Language Understanding, ICLR, 2021,  https://arxiv.org/pdf/2009.03300.pdf
+- Measuring Massive Multitask Language Understanding, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf)
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
-- Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 https://arxiv.org/abs/2311.17295
-- Are Emergent Abilities of Large Language Models a Mirage? Apr 23 https://arxiv.org/abs/2304.15004
-- Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 https://arxiv.org/abs/2311.01964
+- Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
+- Are Emergent Abilities of Large Language Models a Mirage? Apr 23 [arxiv](https://arxiv.org/abs/2304.15004)
+- Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 [arxiv](https://arxiv.org/abs/2311.01964)
 - Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
-- Evaluating Open-QA Evaluation, 2023, https://arxiv.org/abs/2305.12421
-- (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, https://arxiv.org/abs/2311.01453
-- Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, https://arxiv.org/abs/2402.19472
-- Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, https://arxiv.org/pdf/2403.20330.pdf
-- What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, https://arxiv.org/abs/2404.02415
+- Evaluating Open-QA Evaluation, 2023, [arxiv](https://arxiv.org/abs/2305.12421)
+- (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, [arxiv](https://arxiv.org/abs/2311.01453)
+- Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, [arxiv](https://arxiv.org/abs/2402.19472)
+- Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
+- What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
 
 ---
 ### HITL (Human in the Loop)
 - Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
-- Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, https://arxiv.org/abs/2402.09346 
+- Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09346) 
 
 ---
 ### LLM as Judge
