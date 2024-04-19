@@ -48,19 +48,19 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 
 ---
 ### Reviews and Surveys
-- Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 https://arxiv.org/abs/2310.19736
-- A Survey on Evaluation of Large Language Models Jul 2023 https://arxiv.org/abs/2307.03109
-- Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , https://arxiv.org/abs/2308.07902
+- Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 [arxiv:](https://arxiv.org/abs/2310.19736)
+- A Survey on Evaluation of Large Language Models Jul 2023 [arxiv:](https://arxiv.org/abs/2307.03109)
+- Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , [arxiv:](https://arxiv.org/abs/2308.07902)
 ---
 ### Leaderboards and Arenas
-- LMSys Arena https://chat.lmsys.org/?leaderboard (explanation: https://lmsys.org/blog/2023-05-03-arena/)
-- MTEB https://huggingface.co/spaces/mteb/leaderboard
-- SWE Bench https://www.swebench.com/
-- Gorilla, Berkeley function calling Leaderboard https://gorilla.cs.berkeley.edu/leaderboard.html https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html
-- WildBench WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild https://huggingface.co/spaces/allenai/WildBench
-- Enterprise Scenarios, Patronus https://huggingface.co/blog/leaderboard-patronus
-- Vectara Hallucination Leaderboard https://github.com/vectara/hallucination-leaderboard
-- Ray/Anyscale's LLM Performance Leaderboard https://github.com/ray-project/llmperf-leaderboard (explanation: https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm)
+- [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
+- [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
+- [SWE Bench ](https://www.swebench.com/)
+- [Gorilla, Berkeley function calling Leaderboard ](https://gorilla.cs.berkeley.edu/leaderboard.html Explanation ](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
+- [WildBench WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild ](https://huggingface.co/spaces/allenai/WildBench)
+- [Enterprise Scenarios, Patronus ](https://huggingface.co/blog/leaderboard-patronus)
+- [Vectara Hallucination Leaderboard ]( https://github.com/vectara/hallucination-leaderboard)
+- [Ray/Anyscale's LLM Performance Leaderboard]( https://github.com/ray-project/llmperf-leaderboard) ([explanation:]( https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm))
 ---
 ### Evaluation Software
 - [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
