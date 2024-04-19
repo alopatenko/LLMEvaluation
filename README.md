@@ -63,16 +63,16 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Ray/Anyscale's LLM Performance Leaderboard https://github.com/ray-project/llmperf-leaderboard (explanation: https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm)
 ---
 ### Evaluation Software
-- MTEB https://huggingface.co/spaces/mteb/leaderboard
-- OpenICL Framework https://arxiv.org/abs/2303.02913
-- RAGAS https://docs.ragas.io/en/stable/
-- EleutherAI LLM Evaluation Harness https://github.com/EleutherAI/lm-evaluation-harness
-- OpenAI Evals https://github.com/openai/evals
-- ML Flow Evaluate https://mlflow.org/docs/latest/llms/llm-evaluate/index.html
-- MosaicML Composer https://github.com/mosaicml/composer
-- TruLens https://github.com/truera/trulens/
-- BigCode Evaluation Harness https://github.com/bigcode-project/bigcode-evaluation-harness
-- LLMeBench https://github.com/qcri/LLMeBench/ (see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking
+- [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
+- [OpenICL Framework ](https://arxiv.org/abs/2303.02913)
+- [RAGAS]( https://docs.ragas.io/en/stable/)
+- [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
+- [OpenAI Evals]( https://github.com/openai/evals)
+- [ML Flow Evaluate ](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html)
+- [MosaicML Composer ](https://github.com/mosaicml/composer)
+- [TruLens ](https://github.com/truera/trulens/)
+- [BigCode Evaluation Harness ](https://github.com/bigcode-project/bigcode-evaluation-harness)
+- [LLMeBench]( https://github.com/qcri/LLMeBench/) (see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking
 ](https://arxiv.org/abs/2308.04945))
 ﻿---
 ### LLM Evaluation articles in tech media and blog posts from companies <a id="articles"></a>
