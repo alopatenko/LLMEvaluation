@@ -81,30 +81,30 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [A.I. has a measurement problem, NY Times, Apr 2024](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
 ---
 ### Large benchmarks
-- Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, https://aclanthology.org/2022.emnlp-main.340.pdf
+- Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
 - Measuring Massive Multitask Language Understanding, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf)
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
 - Are Emergent Abilities of Large Language Models a Mirage? Apr 23 [arxiv](https://arxiv.org/abs/2304.15004)
 - Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 [arxiv](https://arxiv.org/abs/2311.01964)
-- Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
+- Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
 - Evaluating Open-QA Evaluation, 2023, [arxiv](https://arxiv.org/abs/2305.12421)
-- (RE: stat methods ) Prediction-Powered Inference jan 23 https://arxiv.org/abs/2301.09633  PPI++: Efficient Prediction-Powered Inference nov 23, [arxiv](https://arxiv.org/abs/2311.01453)
+- (RE: stat methods ) Prediction-Powered Inference jan 23 [arxiv](https://arxiv.org/abs/2301.09633)  PPI++: Efficient Prediction-Powered Inference nov 23, [arxiv](https://arxiv.org/abs/2311.01453)
 - Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, [arxiv](https://arxiv.org/abs/2402.19472)
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
 - What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
 
 ---
 ### HITL (Human in the Loop)
-- Evaluating Question Answering Evaluation, 2019, https://aclanthology.org/D19-5817/
+- Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
 - Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09346) 
 
 ---
 ### LLM as Judge
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
 - The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, [arxiv](https://arxiv.org/abs/2402.06204)
-- Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html
+- Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, [NEURIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html)
 - ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate, Aug 2023, [arxiv](https://arxiv.org/abs/2308.07201)
 - ALLURE: Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning, Sep 2023, [arxiv](https://arxiv.org/abs/2309.13701)
 ---
@@ -118,7 +118,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 -  The LAMBADA dataset: Word prediction requiring a broad discourse context 2016, [arxiv](https://arxiv.org/abs/1606.06031) 
 ---
 ### Hallucinations
-- HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  https://aclanthology.org/2023.emnlp-main.397.pdf 
+- HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  [ACL](https://aclanthology.org/2023.emnlp-main.397.pdf) 
 - Long-form factuality in large language models, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
 
 ---
@@ -136,8 +136,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Competition-Level Problems are Effective LLM Evaluators, Dec 23, [arxiv](https://arxiv.org/abs/2312.02143)
 ---
 ### Multi-Lingual
-- AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology https://aclanthology.org/2023.arabicnlp-1.21.pdf https://aclanthology.org/2023.arabicnlp-1.21/ 
-- Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem https://huggingface.co/blog/leaderboard-upstage
+- AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology [ACL](https://aclanthology.org/2023.arabicnlp-1.21.pdf https://aclanthology.org/2023.arabicnlp-1.21/) 
+- Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem [HF blog](https://huggingface.co/blog/leaderboard-upstage)
 - Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese , Apr 2024 [arxiv](https://arxiv.org/abs/2404.07824)
 - AlignBench: Benchmarking Chinese Alignment of Large Language Models, Nov 2023, [arxiv](https://arxiv.org/abs/2311.18743)
 - The Invalsi Benchmark: measuring Language Models Mathematical and Language understanding in Italian, Mar 2024, [arxiv](https://arxiv.org/pdf/2403.18697.pdf
@@ -197,7 +197,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 ### Various unclassified tasks
 - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, [ms blog](https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/)
 -  LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large Language Models, jul 2023 [arxiv](https://arxiv.org/abs/2307.07889v3)
-- OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  [facebook blog](https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/)
+- OpenEQA: From word models to world models, Meta, Apr 2024, Understanding physical spaces by Models,  [Meta AI blog](https://ai.meta.com/blog/openeqa-embodied-question-answering-robotics-ar-glasses/)
 - ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20262.pdf)
 - Is Your LLM Outdated? Benchmarking LLMs & Alignment Algorithms for Time-Sensitive Knowledge. Apr 2024, [arxiv](https://arxiv.org/abs/2404.08700)
 ---
@@ -209,8 +209,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, [arxiv](https://arxiv.org/abs/2311.09476) 
 ---
 ### Conversational systems
-- Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, Nature https://www.nature.com/articles/s41746-024-01074-z.epdf
-- https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7)
+- Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
+- Simulated user feedback for the LLM production, [TDS](https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7)
 - How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863)
 ---
 ### Copilots
@@ -225,7 +225,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 ---
 ## Verticals
 ### Healthcare and medicine
-- Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, Nature https://www.nature.com/articles/s41746-024-01074-z.epdf
+- Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
 - Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 [arxiv](https://arxiv.org/abs/2401.06866)
 - Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, [arxiv](https://arxiv.org/abs/2402.01730)
 ### Science (generic)
