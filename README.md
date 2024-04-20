@@ -115,6 +115,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Style Over Substance: Evaluation Biases for Large Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.03025)
 - Large Language Models Are State-of-the-Art Evaluators of Translation Quality, Feb 2023, [arxiv](https://arxiv.org/abs/2302.14520)
 - Large Language Models Are State-of-the-Art Evaluators of Code Generation, Apr 2023, [researchgate](https://www.researchgate.net/publication/370338371_Large_Language_Models_Are_State-of-the-Art_Evaluators_of_Code_Generation)
+- Aligning with Human Judgement: The Role of Pairwise Preference in Large Language Model Evaluators, Mar 2024, [arxiv](https://arxiv.org/abs/2403.16950)
 ---
 ---
 ## LLM Evaluation
@@ -155,6 +156,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - MEGA: Multilingual Evaluation of Generative AI, Mar 2023, [arxiv](https://arxiv.org/abs/2303.12528)
 - M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
 - LAraBench: Benchmarking Arabic AI with Large Language Models, May 23, [arxiv](https://arxiv.org/abs/2305.14982)
+- Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?, Apr 2024, [arxiv](https://arxiv.org/abs/2404.06644)
 - 
 ---
 ### Multi-Modal
@@ -163,6 +165,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Evaluating Text-to-Visual Generation with Image-to-Text Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.01291)
 - What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
+- MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning, Nov 2023, [arxiv](https://arxiv.org/abs/2311.10774)
+
 -
 ---
 ### Instruction Following
