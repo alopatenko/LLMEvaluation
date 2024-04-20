@@ -103,7 +103,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 ---
 ### HITL (Human in the Loop)
 - Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
-- Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09346) 
+- Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09346)
+- Which Prompts Make The Difference? Data Prioritization For Efficient Human LLM Evaluation, Nov 2023, [arxiv](https://arxiv.org/abs/2310.14424)
 -
 ---
 ### LLM as Judge
