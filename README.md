@@ -165,6 +165,10 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
 - LAraBench: Benchmarking Arabic AI with Large Language Models, May 23, [arxiv](https://arxiv.org/abs/2305.14982)
 - Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?, Apr 2024, [arxiv](https://arxiv.org/abs/2404.06644)
+#### Multi-Lingual Embedding tasks
+- The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding, [openreview pdf](https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf)
+- Chinese MTEB C-MTEB [repository](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)
+- French MTEB [repository](https://github.com/Lyon-NLP/mteb-french)
 - 
 ---
 ### Multi-Modal
@@ -174,10 +178,6 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
 - MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning, Nov 2023, [arxiv](https://arxiv.org/abs/2311.10774)
-#### Embedding tasks
-- The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding, [openreview pdf](https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf)
-- Chinese MTEB C-MTEB [repository](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)
-- French MTEB [repository](https://github.com/Lyon-NLP/mteb-french)
 -
 ---
 ### Instruction Following
