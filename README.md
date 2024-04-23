@@ -76,11 +76,13 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [ML Flow Evaluate ](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html)
 - [MosaicML Composer ](https://github.com/mosaicml/composer)
 - [TruLens ](https://github.com/truera/trulens/)
+- [Promptfoo](https://www.promptfoo.dev/)
 - [BigCode Evaluation Harness ](https://github.com/bigcode-project/bigcode-evaluation-harness)
+- [LangFuse](https://langfuse.com/)
 - [LLMeBench]( https://github.com/qcri/LLMeBench/) (see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking
 ](https://arxiv.org/abs/2308.04945))
 -[ChainForge](https://chainforge.ai/)
--
+-[Ironclad Rivet](https://rivet.ironcladapp.com/)
 ﻿---
 ### LLM Evaluation articles in tech media and blog posts from companies
 - [Why it’s impossible to review AIs, and why TechCrunch is doing it anyway Techcrun mat 2024](https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/)
