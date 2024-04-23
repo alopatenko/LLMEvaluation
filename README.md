@@ -17,6 +17,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [LLM Evaluation articles in tech media and blog posts from companies](#llm-evaluation-articles-in-tech-media-and-blog-posts-from-companies)
 - [Large benchmarks](#large-benchmarks)
 - [Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation](#evaluation-of-evaluation-evaluation-theory-evaluation-methods-analysis-of-evaluation)
+- [Long Comprehensive Studies](#long-comprehensive-studies)
 - [HITL (Human in the Loop)](#hitl-human-in-the-loop)
 - [LLM as Judge](#llm-as-judge)
 - [LLM Evaluation](#llm-evaluation)
@@ -103,7 +104,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, [arxiv](https://arxiv.org/abs/2402.19472)
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
 - What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
--
+### Long Comprehensive Studies
+- TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
+
 ---
 ### HITL (Human in the Loop)
 - Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
@@ -281,6 +284,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [Open Medical LLM Leaderboard from HF](https://huggingface.co/blog/leaderboard-medicalllm) [Explanation](https://huggingface.co/blog/leaderboard-medicalllm)
 - Evaluating Large Language Models on a Highly-specialized Topic, Radiation Oncology Physics, Apr 2023, [arxiv](https://arxiv.org/abs/2304.01938)
 - Assessing the Accuracy of Responses by the Language Model ChatGPT to Questions Regarding Bariatric Surgery, Apr 2023, [pub med](https://pubmed.ncbi.nlm.nih.gov/37106269/)
+- Can LLMs like GPT-4 outperform traditional AI tools in dementia diagnosis? Maybe, but not today, Jun 2023, [arxiv](https://arxiv.org/abs/2306.01499)
+- Evaluating the use of large language model in identifying top research questions in gastroenterology, Mar 2023, [nature](https://www.nature.com/articles/s41598-023-31412-2)
 
 
 - 
