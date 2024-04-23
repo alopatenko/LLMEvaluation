@@ -277,17 +277,25 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams, MedQA benchmark, Sep 2020, [arxiv](https://arxiv.org/abs/2009.13081)
 - PubMedQA: A Dataset for Biomedical Research Question Answering, 2019, [acl](https://aclanthology.org/D19-1259/)
 - [Open Medical LLM Leaderboard from HF](https://huggingface.co/blog/leaderboard-medicalllm) [Explanation](https://huggingface.co/blog/leaderboard-medicalllm)
+- Evaluating Large Language Models on a Highly-specialized Topic, Radiation Oncology Physics, Apr 2023, [arxiv](https://arxiv.org/abs/2304.01938)
+- Assessing the Accuracy of Responses by the Language Model ChatGPT to Questions Regarding Bariatric Surgery, Apr 2023, [pub med](https://pubmed.ncbi.nlm.nih.gov/37106269/)
+
 
 - 
 ### Science (generic)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
 -
+### Math
+-  How well do large language models perform in arithmetic tasks?, Mar 2023, [arxiv](https://arxiv.org/abs/2304.02015)
+-   Cmath: Can your language model pass chinese elementary school math test?, Jun 23, [arxiv](https://arxiv.org/abs/2306.16636)
 ### Financial
 - Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, [arxiv](https://arxiv.org/abs/2402.11194v2)
 - PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance, Jun 2023, [arxiv](https://arxiv.org/abs/2306.05443)
 - BloombergGPT: A Large Language Model for Finance (see Chapter 5 Evaluation), Mar 2023, [arxiv](https://arxiv.org/abs/2303.17564)
 - FinGPT: Instruction Tuning Benchmark for Open-Source Large Language Models in Financial Datasets, Oct 2023, [arxiv](https://arxiv.org/abs/2310.04793)
+### Other
+- Understanding the Capabilities of Large Language Models for Automated Planning, May 2023, [arxiv](https://arxiv.org/abs/2305.16151)
 -
 ---
 
