@@ -291,8 +291,6 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Assessing the Accuracy of Responses by the Language Model ChatGPT to Questions Regarding Bariatric Surgery, Apr 2023, [pub med](https://pubmed.ncbi.nlm.nih.gov/37106269/)
 - Can LLMs like GPT-4 outperform traditional AI tools in dementia diagnosis? Maybe, but not today, Jun 2023, [arxiv](https://arxiv.org/abs/2306.01499)
 - Evaluating the use of large language model in identifying top research questions in gastroenterology, Mar 2023, [nature](https://www.nature.com/articles/s41598-023-31412-2)
-
-
 - 
 ### Science (generic)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
