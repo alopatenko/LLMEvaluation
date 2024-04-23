@@ -68,11 +68,12 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [Multi-task Language Understanding on MMLU](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu)
 ---
 ### Evaluation Software
+- [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
+- [OpenAI Evals]( https://github.com/openai/evals)
+- [ConfidentAI DeepEval](https://github.com/confident-ai/deepeval)
 - [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
 - [OpenICL Framework ](https://arxiv.org/abs/2303.02913)
 - [RAGAS]( https://docs.ragas.io/en/stable/)
-- [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
-- [OpenAI Evals]( https://github.com/openai/evals)
 - [ML Flow Evaluate ](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html)
 - [MosaicML Composer ](https://github.com/mosaicml/composer)
 - [TruLens ](https://github.com/truera/trulens/)
