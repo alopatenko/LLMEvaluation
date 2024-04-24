@@ -249,7 +249,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20262.pdf)
 - LongEmbed: Extending Embedding Models for Long Context Retrieval, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12096), benchmark for long context tasks, [repository for LongEmbed](https://github.com/dwzhu-pku/LongEmbed)
 - Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07440), LoCoV1 benchmark for long context LLM,
-- A User-Centric Benchmark for Evaluating Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13940)
+- A User-Centric Benchmark for Evaluating Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13940), [data of user centric benchmark at github](https://github.com/Alice1998/URS)
 ---
 ---
 
