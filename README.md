@@ -81,8 +81,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [Promptfoo](https://www.promptfoo.dev/)
 - [BigCode Evaluation Harness ](https://github.com/bigcode-project/bigcode-evaluation-harness)
 - [LangFuse](https://langfuse.com/)
-- [LLMeBench]( https://github.com/qcri/LLMeBench/) (see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking
-](https://arxiv.org/abs/2308.04945))
+- [LLMeBench]( https://github.com/qcri/LLMeBench/) (see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking](https://arxiv.org/abs/2308.04945))
 -[ChainForge](https://chainforge.ai/)
 -[Ironclad Rivet](https://rivet.ironcladapp.com/)
 ﻿---
