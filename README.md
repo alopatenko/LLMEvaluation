@@ -283,7 +283,10 @@ QA is used in many vertical domains, see Vertical section bellow
 - BIRCO: A Benchmark of Information Retrieval Tasks with Complex Objectives, Feb 2024, [arxiv](https://arxiv.org/abs/2402.14151)
 - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents, Apr 2023, [arxiv](https://arxiv.org/abs/2304.09542)
 -  BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models, Oct 2021, [arxiv](https://arxiv.org/abs/2104.08663)
--  BENCHMARK : LoTTE,  Long-Tail Topic-stratified Evaluation for IR that features 12 domain-specific search tests, spanning StackExchange communities and using queries from GooAQ, [ColBERT repository wth the benchmark data](https://github.com/stanford-futuredata/ColBERT) 
+-  BENCHMARK : LoTTE,  Long-Tail Topic-stratified Evaluation for IR that features 12 domain-specific search tests, spanning StackExchange communities and using queries from GooAQ, [ColBERT repository wth the benchmark data](https://github.com/stanford-futuredata/ColBERT)
+- LongEmbed: Extending Embedding Models for Long Context Retrieval, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12096), benchmark for long context tasks, [repository for LongEmbed](https://github.com/dwzhu-pku/LongEmbed)
+- Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07440), LoCoV1 benchmark for long context LLM,
+-  STARK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13207) [code github](https://github.com/snap-stanford/stark)
 
 
 
