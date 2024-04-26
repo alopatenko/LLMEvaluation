@@ -284,12 +284,15 @@ QA is used in many vertical domains, see Vertical section bellow
 ### RAG Evaluation
 - RAGAS: Automated Evaluation of Retrieval Augmented Generation Jul 23, [arxiv](https://arxiv.org/abs/2309.15217)
 - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, [arxiv](https://arxiv.org/abs/2311.09476)
-- 
+- Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
+
 ---
 ### Conversational systems
+And Dialog systems
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
 - Simulated user feedback for the LLM production, [TDS](https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7)
 - How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863)
+- Rethinking the Evaluation of Dialogue Systems: Effects of User Feedback on Crowdworkers and LLMs, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12994)
 - 
 ---
 ### Copilots
