@@ -95,7 +95,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 ---
 ### Large benchmarks
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
-- Measuring Massive Multitask Language Understanding, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf)
+- Measuring Massive Multitask Language Understanding,  MMLU, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf) [MMLU dataset](https://github.com/hendrycks/test)
 - 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
@@ -156,7 +156,13 @@ QA is used in many vertical domains, see Vertical section bellow
 - CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge, Jun 2019, [ACL](https://aclanthology.org/N19-1421/) 
 - Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering, Sep 2018, [arxiv](https://arxiv.org/abs/1809.02789) [OpenBookQA dataset at AllenAI](https://allenai.org/data/open-book-qa)
 - Jin, Di, et al. "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams., 2020, [arxiv](https://arxiv.org/abs/2009.13081) [MedQA](https://paperswithcode.com/dataset/medqa-usmle)
-
+- Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge, 2018, [arxiv](https://arxiv.org/abs/1803.05457)  [ARC Easy dataset](https://leaderboard.allenai.org/arc_easy/submissions/get-started) [ARC dataset](https://allenai.org/data/arc)
+- BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions, 2019, [arxiv](https://arxiv.org/abs/1905.10044) [BoolQ dataset](https://huggingface.co/datasets/google/boolq)
+- HellaSwag,  HellaSwag: Can a Machine Really Finish Your Sentence? 2019, [arxiv](https://arxiv.org/abs/1905.07830) Paper + code + dataset https://rowanzellers.com/hellaswag/
+- PIQA: Reasoning about Physical Commonsense in Natural Language, Nov 2019, [arxiv](https://arxiv.org/abs/1911.11641)
+[PIQA dataset](https://github.com/ybisk/ybisk.github.io/tree/master/piqa)
+- Crowdsourcing Multiple Choice Science Questions [arxiv](https://arxiv.org/abs/1707.06209) [SciQ dataset](https://allenai.org/data/sciq)
+- WinoGrande: An Adversarial Winograd Schema Challenge at Scale, 2017, [arxiv](https://arxiv.org/abs/1907.10641) [Winogrande dataset](https://www.tensorflow.org/datasets/catalog/winogrande)
 ### Multi Turn
 - LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, [arxiv](https://arxiv.org/abs/2311.18232)
 - MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 [arxiv](https://arxiv.org/abs/2402.14762)
