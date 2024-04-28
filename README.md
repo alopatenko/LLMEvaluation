@@ -113,6 +113,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
 - What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
 - Detecting Pretraining Data from Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.16789)
+- Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
 ### Long Comprehensive Studies
 - TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
 
@@ -211,6 +212,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning, Nov 2023, [arxiv](https://arxiv.org/abs/2311.10774)
 - BLINK: Multimodal Large Language Models Can See but Not Perceive, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12390) [github](https://zeyofu.github.io/blink/)
 - Eyes Can Deceive: Benchmarking Counterfactual Reasoning Capabilities of Multimodal Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12966)
+- Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
+
 
 -
 ---
@@ -225,6 +228,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - What are human values, and how do we align AI to them?, Mar 2024, [pdf](https://static1.squarespace.com/static/65392ca578eee444c445c9de/t/6606f95edb20e8118074a344/1711733370985/human-values-and-alignment-29MAR2024.pdf)
 - TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
 - Helpfulness, Honesty, Harmlessness (HHH) framework from Antrhtopic, introduced in A General Language Assistantas a Laboratory for Alignment, 2021, [arxiv](https://arxiv.org/pdf/2112.00861), it's in BigBench now [bigbench](https://github.com/google/BIG-bench)
+- WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models, April 2024, [arxiv](https://arxiv.org/abs/2404.16308)
 
 - 
 ---
