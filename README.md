@@ -152,6 +152,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 -   
 ---
 ### Hallucinations
+- INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  [ACL](https://aclanthology.org/2023.emnlp-main.397.pdf) 
 - Long-form factuality in large language models, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
 -
@@ -239,6 +240,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Biases
 - FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 [arxiv](https://arxiv.org/abs/2404.06619v1)
 - BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation, 2021, [arxiv](https://arxiv.org/abs/2101.11718), [dataset](https://github.com/amazon-science/bold)
+- “I’m fully who I am”: Towards centering transgender and non-binary voices to measure biases in open language generation, ACM FAcct 2023, [amazon science](https://www.amazon.science/publications/im-fully-who-i-am-towards-centering-transgender-and-non-binary-voices-to-measure-biases-in-open-language-generation)
 
 - 
 ---
@@ -291,6 +293,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models, 2020, [arxiv](https://arxiv.org/abs/2010.00133) [CrowS-Pairs dataset](https://github.com/nyu-mll/crows-pairs)
 - DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs, Jun 2019, [ACL](https://aclanthology.org/N19-1246/) [data](https://allenai.org/data/drop)
 - RewardBench: Evaluating Reward Models for Language Modeling, Mar 2024, [arxiv](https://arxiv.org/abs/2403.13787v1)
+- Toward informal language processing: Knowledge of slang in large language models, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 
 
 
