@@ -220,6 +220,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Instruction Following
 - Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, [arxiv](https://arxiv.org/abs/2310.07641)
 - Instruction-Following Evaluation for Large Language Models, Nov 2023, [arxiv](https://arxiv.org/abs/2311.07911)
+- FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets, Jul 2023, [arxiv](https://arxiv.org/abs/2307.10928) , [FLASK dataset](https://github.com/kaistAI/FLASK)
 - DINGO: Towards Diverse and Fine-Grained Instruction-Following Evaluation, Mar 2024, [aaai](https://ojs.aaai.org/index.php/AAAI/article/view/29768), [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29768/31322)
 
 - 
