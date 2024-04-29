@@ -238,6 +238,8 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Biases
 - FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 [arxiv](https://arxiv.org/abs/2404.06619v1)
+- BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation, 2021, [arxiv](https://arxiv.org/abs/2101.11718), [dataset](https://github.com/amazon-science/bold)
+
 - 
 ---
 ### Safe AI
