@@ -117,6 +117,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Faithful model evaluation for model-based metrics, EMNLP 2023, [amazon science](https://www.amazon.science/publications/faithful-model-evaluation-for-model-based-metrics)
 ### Long Comprehensive Studies
 - TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
+- Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, [arxiv](https://arxiv.org/abs/2307.02191)
+
 
 ---
 ### HITL (Human in the Loop)
@@ -356,6 +358,8 @@ And Dialog systems
 - Assessing the Accuracy of Responses by the Language Model ChatGPT to Questions Regarding Bariatric Surgery, Apr 2023, [pub med](https://pubmed.ncbi.nlm.nih.gov/37106269/)
 - Can LLMs like GPT-4 outperform traditional AI tools in dementia diagnosis? Maybe, but not today, Jun 2023, [arxiv](https://arxiv.org/abs/2306.01499)
 - Evaluating the use of large language model in identifying top research questions in gastroenterology, Mar 2023, [nature](https://www.nature.com/articles/s41598-023-31412-2)
+- Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, [arxiv](https://arxiv.org/abs/2307.02191)
+
 - 
 ### Science (generic)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
