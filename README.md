@@ -215,6 +215,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - BLINK: Multimodal Large Language Models Can See but Not Perceive, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12390) [github](https://zeyofu.github.io/blink/)
 - Eyes Can Deceive: Benchmarking Counterfactual Reasoning Capabilities of Multimodal Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12966)
 - Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
+- VALOR-EVAL: Holistic Coverage and Faithfulness Evaluation of Large Vision-Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13874v1)
 
 
 -
