@@ -130,8 +130,10 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 ---
 ### LLM as Judge
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
+- Discovering Language Model Behaviors with Model-Written Evaluations, Dec 2022, [arxiv](https://arxiv.org/abs/2212.09251)
 - The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, [arxiv](https://arxiv.org/abs/2402.06204)
 - Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, [NEURIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html)
+- Red Teaming Language Models with Language Models, Feb 2022, [arxiv](https://arxiv.org/abs/2202.03286)
 - ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate, Aug 2023, [arxiv](https://arxiv.org/abs/2308.07201)
 - ALLURE: Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning, Sep 2023, [arxiv](https://arxiv.org/abs/2309.13701)
 - Style Over Substance: Evaluation Biases for Large Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.03025)
@@ -251,6 +253,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Safe AI
+- Explore, Establish, Exploit: Red Teaming Language Models from Scratch, Jun 2023, [arxiv](https://arxiv.org/abs/2306.09442)
 - Gradient-Based Language Model Red Teaming, Jan 24, [arxiv](https://arxiv.org/abs/2401.16656)
 - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models, Mar 2024, [arxiv](https://arxiv.org/abs/2404.01318)
 - Announcing a Benchmark to Improve AI Safety MLCommons has made benchmarks for AI performance—now it's time to measure safety, Apr 2024 [IEEE Spectrum](https://spectrum.ieee.org/ai-safety-benchmark)
@@ -266,6 +269,11 @@ QA is used in many vertical domains, see Vertical section bellow
 - DevBench: A Comprehensive Benchmark for Software Development, Mar 2024,[arxiv](https://arxiv.org/abs/2403.08604)
 - MBPP (Mostly Basic Python Programming) benchmark, introduced in Program Synthesis with Large Language Models
 , 2021 [papers with code](https://paperswithcode.com/paper/program-synthesis-with-large-language-models) [data](https://huggingface.co/datasets/mbpp)
+- CodeMind: A Framework to Challenge Large Language Models for Code Reasoning, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09664)
+- CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution, Jan 2024, [arxiv](https://arxiv.org/abs/2401.03065)
+- CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning, Jul 2022, [arxiv](https://arxiv.org/abs/2207.01780) [code at salesforce github](https://github.com/salesforce/CodeRL)
+
+
 
 ---
 ### LLM  quality (generic methods: overfitting, redundant layers etc)
