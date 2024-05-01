@@ -257,8 +257,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - Gradient-Based Language Model Red Teaming, Jan 24, [arxiv](https://arxiv.org/abs/2401.16656)
 - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models, Mar 2024, [arxiv](https://arxiv.org/abs/2404.01318)
 - Announcing a Benchmark to Improve AI Safety MLCommons has made benchmarks for AI performance—now it's time to measure safety, Apr 2024 [IEEE Spectrum](https://spectrum.ieee.org/ai-safety-benchmark)
-- Model evaluation for extreme risks, May 2023, https://arxiv.org/abs/2305.15324
--
+- Model evaluation for extreme risks, May 2023, [arxiv](https://arxiv.org/abs/2305.15324)
+- Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05566)
 ---
 ### Code Generating LLMs
 - Evaluating Large Language Models Trained on Code HumanEval Jul 2022 [arxiv](https://arxiv.org/abs/2107.03374)
