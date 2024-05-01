@@ -161,7 +161,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  [ACL](https://aclanthology.org/2023.emnlp-main.397.pdf) 
 - Long-form factuality in large language models, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
--
+- Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models, Sep 2023, [arxiv](https://arxiv.org/abs/2309.01219)
+- Measuring Faithfulness in Chain-of-Thought Reasoning, Jul 2023, [[arxiv](https://arxiv.org/abs/2307.13702)
 ---
 ### Question answering
 QA is used in many vertical domains, see Vertical section bellow
