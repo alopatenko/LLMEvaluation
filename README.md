@@ -393,7 +393,7 @@ And Dialog systems
 @article{Lopatenko2024CompendiumLLMEvaluation,
   title   = {Compendium of LLM Evaluation methods},
   author  = {Lopatenko, Andrei},
-  year    = {2023},
+  year    = {2024},
   note    = {\url{https://github.com/alopatenko/LLMEvaluation}}
 }
 ```
