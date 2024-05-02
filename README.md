@@ -389,14 +389,14 @@ And Dialog systems
 -
 ## Citation
 
-'''
+```
 @article{Lopatenko2024CompendiumLLMEvaluation,
   title   = {Compendium of LLM Evaluation methods},
   author  = {Lopatenko, Andrei},
   year    = {2023},
   note    = {\url{https://github.com/alopatenko/LLMEvaluation}}
 }
-'''
+```
 
 
 
