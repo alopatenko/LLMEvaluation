@@ -387,6 +387,10 @@ And Dialog systems
 ### Other
 - Understanding the Capabilities of Large Language Models for Automated Planning, May 2023, [arxiv](https://arxiv.org/abs/2305.16151)
 -
+## Other Collections 
+- [LLM/VLM Benchmarks by Aman Chadha](https://aman.ai/primers/ai/benchmarks/)
+- [Awesome LLMs Evaluation Papers](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers), a list of papers mentioned in the [Evaluating Large Language Models: A Comprehensive Survey](https://arxiv.org/pdf/2310.19736), Nov 2023 
+
 ## Citation
 
 ```
