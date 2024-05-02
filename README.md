@@ -47,7 +47,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
     - [Healthcare and medicine](#healthcare-and-medicine)
     - [Science (generic)](#science-generic)
     - [Financial](#financial)
-
+- [Citation](#citation)
 ---
 ### Reviews and Surveys
 - Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 [arxiv:](https://arxiv.org/abs/2310.19736)
@@ -387,10 +387,16 @@ And Dialog systems
 ### Other
 - Understanding the Capabilities of Large Language Models for Automated Planning, May 2023, [arxiv](https://arxiv.org/abs/2305.16151)
 -
----
+## Citation
 
-
-
+'''
+@article{Lopatenko2024CompendiumLLMEvaluation,
+  title   = {Compendium of LLM Evaluation methods},
+  author  = {Lopatenko, Andrei},
+  year    = {2023},
+  note    = {\url{https://github.com/alopatenko/LLMEvaluation}}
+}
+'''
 
 
 
