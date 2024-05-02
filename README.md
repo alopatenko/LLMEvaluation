@@ -47,6 +47,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
     - [Healthcare and medicine](#healthcare-and-medicine)
     - [Science (generic)](#science-generic)
     - [Financial](#financial)
+- [Other collections](#other-collections)
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
