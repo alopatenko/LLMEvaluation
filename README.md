@@ -164,6 +164,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Long-form factuality in large language models, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
 - Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models, Sep 2023, [arxiv](https://arxiv.org/abs/2309.01219)
 - Measuring Faithfulness in Chain-of-Thought Reasoning, Jul 2023, [[arxiv](https://arxiv.org/abs/2307.13702)
+- FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation, May 2023, [arxiv](https://arxiv.org/abs/2305.14251) [repository](https://github.com/shmsw25/FActScore)
 ---
 ### Question answering
 QA is used in many vertical domains, see Vertical section bellow
