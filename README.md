@@ -372,6 +372,8 @@ And Dialog systems
 - Can LLMs like GPT-4 outperform traditional AI tools in dementia diagnosis? Maybe, but not today, Jun 2023, [arxiv](https://arxiv.org/abs/2306.01499)
 - Evaluating the use of large language model in identifying top research questions in gastroenterology, Mar 2023, [nature](https://www.nature.com/articles/s41598-023-31412-2)
 - Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, [arxiv](https://arxiv.org/abs/2307.02191)
+- MedDialog: Two Large-scale Medical Dialogue Datasets, Apr 2020, [arxiv](https://arxiv.org/abs/2004.03329)
+- An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition, 2015, [article html](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0564-6)
 
 - 
 ### Science (generic)
