@@ -224,6 +224,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Eyes Can Deceive: Benchmarking Counterfactual Reasoning Capabilities of Multimodal Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12966)
 - Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
 - VALOR-EVAL: Holistic Coverage and Faithfulness Evaluation of Large Vision-Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13874v1)
+- Evaluation part of https://arxiv.org/abs/2404.18930, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18930), [repository](https://github.com/showlab/Awesome-MLLM-Hallucination)
 
 
 -
