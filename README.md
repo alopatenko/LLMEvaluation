@@ -67,6 +67,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [Enterprise Scenarios, Patronus ](https://huggingface.co/blog/leaderboard-patronus)
 - [Vectara Hallucination Leaderboard ]( https://github.com/vectara/hallucination-leaderboard)
 - [Ray/Anyscale's LLM Performance Leaderboard]( https://github.com/ray-project/llmperf-leaderboard) ([explanation:]( https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm))
+- Hugging Face LLM Performance [hugging face leaderboard](https://huggingface.co/spaces/ArtificialAnalysis/LLM-Performance-Leaderboard)
 - [Multi-task Language Understanding on MMLU](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu)
 ---
 ### Evaluation Software
