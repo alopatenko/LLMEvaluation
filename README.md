@@ -376,6 +376,7 @@ And Dialog systems
 - MedDialog: Two Large-scale Medical Dialogue Datasets, Apr 2020, [arxiv](https://arxiv.org/abs/2004.03329)
 - An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition, 2015, [article html](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0564-6)
 - DrugBank 5.0: a major update to the DrugBank database for 2018, 2018, [paper html](https://academic.oup.com/nar/article/46/D1/D1074/4602867)]
+- A Dataset for Evaluating Contextualized Representation of Biomedical Concepts in Language Models, May 2024, [nature](https://www.nature.com/articles/s41597-024-03317-w), [dataset](https://github.com/hrouhizadeh/BioWiC)
 
 - 
 ### Science (generic)
