@@ -33,6 +33,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
     - [Biases](#biases)
     - [Safe AI](#safe-ai)
     - [Code Generating LLMs](#code-generating-llms)
+    - [Summarization](#summarization)
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
     - [Software Performace (latency, throughput, memory, storage)](#software-performance)
     - [Agent LLM architectures](#agent-llm-architectures)
@@ -278,7 +279,9 @@ QA is used in many vertical domains, see Vertical section bellow
 - CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution, Jan 2024, [arxiv](https://arxiv.org/abs/2401.03065)
 - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning, Jul 2022, [arxiv](https://arxiv.org/abs/2207.01780) [code at salesforce github](https://github.com/salesforce/CodeRL)
 
-
+### Summarization
+- Human-like Summarization Evaluation with ChatGPT, Apr 2023, [arxiv](https://arxiv.org/abs/2304.02554)
+- WikiAsp: A Dataset for Multi-domain Aspect-based Summarization, 2021, [Transactions ACL](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00362/98088/WikiAsp-A-Dataset-for-Multi-domain-Aspect-based) [dataset](https://huggingface.co/datasets/wiki_asp)
 
 ---
 ### LLM  quality (generic methods: overfitting, redundant layers etc)
@@ -308,7 +311,6 @@ QA is used in many vertical domains, see Vertical section bellow
 - LongEmbed: Extending Embedding Models for Long Context Retrieval, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12096), benchmark for long context tasks, [repository for LongEmbed](https://github.com/dwzhu-pku/LongEmbed)
 - Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07440), LoCoV1 benchmark for long context LLM,
 - A User-Centric Benchmark for Evaluating Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13940), [data of user centric benchmark at github](https://github.com/Alice1998/URS)
-- Human-like Summarization Evaluation with ChatGPT, Apr 2023, [arxiv](https://arxiv.org/abs/2304.02554)
 - RACE: Large-scale ReAding Comprehension Dataset From Examinations, 2017, [arxiv](https://arxiv.org/abs/1704.04683) [RACE dataset at CMU](https://www.cs.cmu.edu/~glai1/data/race/)
 - CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models, 2020, [arxiv](https://arxiv.org/abs/2010.00133) [CrowS-Pairs dataset](https://github.com/nyu-mll/crows-pairs)
 - DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs, Jun 2019, [ACL](https://aclanthology.org/N19-1246/) [data](https://allenai.org/data/drop)
