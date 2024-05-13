@@ -46,7 +46,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
     - [Task Utility](#task-utility)
   - [Verticals](#verticals)
     - [Healthcare and medicine](#healthcare-and-medicine)
-    - [Law](law)
+    - [Law](#law)
     - [Science (generic)](#science)
     - [Financial](#financial)
 - [Other collections](#other-collections)
