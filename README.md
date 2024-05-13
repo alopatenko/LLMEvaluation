@@ -24,6 +24,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
     - [Embeddings](#embeddings)
     - [In Context Learning](#in-context-learning)
     - [Hallucinations](#hallucinations)
+    - [Question Answering](#question-answering)
     - [Multi Turn](#multi-turn)
     - [Reasoning](#reasoning)
     - [Multi-Lingual](#multi-lingual)
