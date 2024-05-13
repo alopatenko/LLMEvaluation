@@ -46,7 +46,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
     - [Task Utility](#task-utility)
   - [Verticals](#verticals)
     - [Healthcare and medicine](#healthcare-and-medicine)
-    - [Science (generic)](#science-generic)
+    - [Law](law)
+    - [Science (generic)](#science)
     - [Financial](#financial)
 - [Other collections](#other-collections)
 - [Citation](#citation)
@@ -316,6 +317,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs, Jun 2019, [ACL](https://aclanthology.org/N19-1246/) [data](https://allenai.org/data/drop)
 - RewardBench: Evaluating Reward Models for Language Modeling, Mar 2024, [arxiv](https://arxiv.org/abs/2403.13787v1)
 - Toward informal language processing: Knowledge of slang in large language models, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
+- FOFO: A Benchmark to Evaluate LLMs' Format-Following Capability, Feb 2024, [arxiv](https://arxiv.org/abs/2402.18667)
+
 
 
 
@@ -379,9 +382,14 @@ And Dialog systems
 - An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition, 2015, [article html](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0564-6)
 - DrugBank 5.0: a major update to the DrugBank database for 2018, 2018, [paper html](https://academic.oup.com/nar/article/46/D1/D1074/4602867)]
 - A Dataset for Evaluating Contextualized Representation of Biomedical Concepts in Language Models, May 2024, [nature](https://www.nature.com/articles/s41597-024-03317-w), [dataset](https://github.com/hrouhizadeh/BioWiC)
+- MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records, Aug 2023, [arxiv](https://arxiv.org/abs/2308.14089)
 
+### Law
+- LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models, [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/89e44582fd28ddfea1ea4dcb0ebbf4b0-Abstract-Datasets_and_Benchmarks.html)
+- LEXTREME: A Multi-Lingual and Multi-Task Benchmark for the Legal Domain, [EMNLP 2023](https://aclanthology.org/2023.findings-emnlp.200/)
+- Multi-LexSum: Real-world Summaries of Civil Rights Lawsuits at Multiple Granularities [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/552ef803bef9368c29e53c167de34b55-Abstract-Datasets_and_Benchmarks.html)
 - 
-### Science (generic)
+### Science
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
 -
