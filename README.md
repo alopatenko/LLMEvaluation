@@ -121,6 +121,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Detecting Pretraining Data from Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.16789)
 - Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
 - Faithful model evaluation for model-based metrics, EMNLP 2023, [amazon science](https://www.amazon.science/publications/faithful-model-evaluation-for-model-based-metrics)
+- Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models, ICML 2023, [mlr press](https://proceedings.mlr.press/v202/liu23ao.html)
 ### Long Comprehensive Studies
 - TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
 - Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, [arxiv](https://arxiv.org/abs/2307.02191)
