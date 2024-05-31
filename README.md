@@ -99,6 +99,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - [Mozilla AI Exploring LLM Evaluation at scale](https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/)
 - Evaluation part of [How to Maximize LLM Performance](https://humanloop.com/blog/optimizing-llms)
 - Mozilla AI blog published multiple good articles in [Mozilla AI blog](https://blog.mozilla.ai/)
+- Andrej Karpathy on evaluation [X](https://twitter.com/karpathy/status/1795873666481402010)
 ---
 ### Large benchmarks
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
@@ -107,6 +108,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- Lessons from the Trenches on Reproducible Evaluation of Language Models, [arxiv](https://arxiv.org/abs/2405.14782)
 - *Synthetic data in evaluation*, see Chapter 3 in Best Practices and Lessons Learned on Synthetic Data for Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.07503)
 - Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
 - When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards, Feb 2024, [arxiv](https://arxiv.org/abs/2402.01781)
