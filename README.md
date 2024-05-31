@@ -108,7 +108,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
-- Lessons from the Trenches on Reproducible Evaluation of Language Models, [arxiv](https://arxiv.org/abs/2405.14782)
+- Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - *Synthetic data in evaluation*, see Chapter 3 in Best Practices and Lessons Learned on Synthetic Data for Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.07503)
 - Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
 - When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards, Feb 2024, [arxiv](https://arxiv.org/abs/2402.01781)
@@ -137,6 +137,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 -
 ---
 ### LLM as Judge
+- Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18796)
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
 - Discovering Language Model Behaviors with Model-Written Evaluations, Dec 2022, [arxiv](https://arxiv.org/abs/2212.09251)
 - The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, [arxiv](https://arxiv.org/abs/2402.06204)
