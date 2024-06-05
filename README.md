@@ -100,6 +100,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and  [video Analytics Vidh
 - Evaluation part of [How to Maximize LLM Performance](https://humanloop.com/blog/optimizing-llms)
 - Mozilla AI blog published multiple good articles in [Mozilla AI blog](https://blog.mozilla.ai/)
 - Andrej Karpathy on evaluation [X](https://twitter.com/karpathy/status/1795873666481402010)
+- From Meta on evaluation of Llama 3 models [github](https://github.com/meta-llama/llama3/blob/main/eval_details.md) 
 ---
 ### Large benchmarks
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
