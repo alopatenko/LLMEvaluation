@@ -328,6 +328,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - RewardBench: Evaluating Reward Models for Language Modeling, Mar 2024, [arxiv](https://arxiv.org/abs/2403.13787v1)
 - Toward informal language processing: Knowledge of slang in large language models, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - FOFO: A Benchmark to Evaluate LLMs' Format-Following Capability, Feb 2024, [arxiv](https://arxiv.org/abs/2402.18667)
+- Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs, 05 2024,Bird, a big benchmark for large-scale database grounded in text-to-SQL tasks, containing 12,751 pairs of text-to-SQL data and 95 databases with a total size of 33.4 GB, spanning 37 professional domain [arxiv](https://arxiv.org/abs/2305.03111) [data and leaderboard](https://bird-bench.github.io/)
 
 
 
