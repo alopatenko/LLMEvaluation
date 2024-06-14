@@ -100,7 +100,10 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Evaluation part of [How to Maximize LLM Performance](https://humanloop.com/blog/optimizing-llms)
 - Mozilla AI blog published multiple good articles in [Mozilla AI blog](https://blog.mozilla.ai/)
 - Andrej Karpathy on evaluation [X](https://twitter.com/karpathy/status/1795873666481402010)
-- From Meta on evaluation of Llama 3 models [github](https://github.com/meta-llama/llama3/blob/main/eval_details.md) 
+- From Meta on evaluation of Llama 3 models [github](https://github.com/meta-llama/llama3/blob/main/eval_details.md)
+- DeepMind AI Safety evaluation June 24 [deepmind blog, Introducing Frontier Safety Framework](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)
+- AI Snake Oil, June 2024, [AI leaderboards are no longer useful. It's time to switch to Pareto curves.](https://www.aisnakeoil.com/p/ai-leaderboards-are-no-longer-useful)
+- Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Large benchmarks
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
@@ -125,6 +128,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
 - Faithful model evaluation for model-based metrics, EMNLP 2023, [amazon science](https://www.amazon.science/publications/faithful-model-evaluation-for-model-based-metrics)
 - Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models, ICML 2023, [mlr press](https://proceedings.mlr.press/v202/liu23ao.html)
+- AI Snake Oil, June 2024, [AI leaderboards are no longer useful. It's time to switch to Pareto curves.](https://www.aisnakeoil.com/p/ai-leaderboards-are-no-longer-useful)
+
 ### Long Comprehensive Studies
 - TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
 - Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, [arxiv](https://arxiv.org/abs/2307.02191)
