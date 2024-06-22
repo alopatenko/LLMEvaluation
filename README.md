@@ -145,6 +145,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ### LLM as Judge
 - Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18796)
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
+- Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges, Jum 2024, [arxiv](https://arxiv.org/abs/2406.12624)
 - Discovering Language Model Behaviors with Model-Written Evaluations, Dec 2022, [arxiv](https://arxiv.org/abs/2212.09251)
 - The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, [arxiv](https://arxiv.org/abs/2402.06204)
 - Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, [NEURIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html)
