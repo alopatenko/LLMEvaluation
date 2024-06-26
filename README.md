@@ -234,7 +234,9 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Multi-Modal
-- Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models, Reka AI, May 2024 [arxiv](https://arxiv.org/abs/2405.02287) [dataset](https://github.com/reka-ai/reka-vibe-eval)  [blog post](https://www.reka.ai/news/vibe-eval) 
+- Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models, Reka AI, May 2024 [arxiv](https://arxiv.org/abs/2405.02287) [dataset](https://github.com/reka-ai/reka-vibe-eval)  [blog post](https://www.reka.ai/news/vibe-eval)
+- EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.05756)
+- MFC-Bench: Benchmarking Multimodal Fact-Checking with Large Vision-Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11288)
 - Holistic Evaluation of Text-to-Image Models Nov 23 [arxiv](https://arxiv.org/abs/2311.04287)
 - VBench: Comprehensive Benchmark Suite for Video Generative Models Nov 23 [arxiv](https://arxiv.org/abs/2311.04287)
 - Evaluating Text-to-Visual Generation with Image-to-Text Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.01291)
