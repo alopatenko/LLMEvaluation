@@ -275,6 +275,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Helpfulness, Honesty, Harmlessness (HHH) framework from Antrhtopic, introduced in A General Language Assistantas a Laboratory for Alignment, 2021, [arxiv](https://arxiv.org/pdf/2112.00861), it's in BigBench now [bigbench](https://github.com/google/BIG-bench)
 - WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models, April 2024, [arxiv](https://arxiv.org/abs/2404.16308)
 - Chapter 19 in The Ethics of Advanced AI Assistants, Apr 2024, Google DeepMind, [pdf at google](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/ethics-of-advanced-ai-assistants/the-ethics-of-advanced-ai-assistants-2024-i.pdf)
+- BEHONEST: Benchmarking Honesty of Large Language Models, June 2024, [arxiv](https://arxiv.org/abs/2406.13261)
 
 - 
 ---
@@ -397,6 +398,7 @@ And Dialog systems
 ## Verticals
 ### Healthcare and medicine
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
+- Evaluating Generative AI Responses to Real-world Drug-Related Questions, June 2024, [Psychiatry Research](https://www.sciencedirect.com/science/article/abs/pii/S0165178124003433)
 - Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 [arxiv](https://arxiv.org/abs/2401.06866)
 - Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, [arxiv](https://arxiv.org/abs/2402.01730)
 - MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering, 2022, [PMLR](https://proceedings.mlr.press/v174/pal22a.html)
