@@ -282,6 +282,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations, Apr 2024 [arxiv](https://arxiv.org/abs/2404.06619v1)
 - BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation, 2021, [arxiv](https://arxiv.org/abs/2101.11718), [dataset](https://github.com/amazon-science/bold)
 - “I’m fully who I am”: Towards centering transgender and non-binary voices to measure biases in open language generation, ACM FAcct 2023, [amazon science](https://www.amazon.science/publications/im-fully-who-i-am-towards-centering-transgender-and-non-binary-voices-to-measure-biases-in-open-language-generation)
+- This Land is {Your, My} Land: Evaluating Geopolitical Biases in Language Models, May 2023, [arxiv](https://arxiv.org/abs/2305.14610)
+
 
 - 
 ---
@@ -362,6 +364,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Conversational systems
 And Dialog systems
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
+- CausalScore: An Automatic Reference-Free Metric for Assessing Response Relevance in Open-Domain Dialogue Systems, Jun 2024, [arxiv](https://arxiv.org/abs/2406.17300)
 - Simulated user feedback for the LLM production, [TDS](https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7)
 - How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863)
 - Rethinking the Evaluation of Dialogue Systems: Effects of User Feedback on Crowdworkers and LLMs, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12994)
