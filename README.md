@@ -60,6 +60,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - 
 ---
 ### Leaderboards and Arenas
+-  New Hard Leaderboard by HuggingFace [leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) [description, blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog)
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
@@ -107,9 +108,12 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Large benchmarks
+- MMLU Pro Massive Multitask Language Understanding - Pro version, Jun 2024, [arxiv](https://arxiv.org/abs/2406.01574)
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
 - Measuring Massive Multitask Language Understanding,  MMLU, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf) [MMLU dataset](https://github.com/hendrycks/test)
 - BigBench: Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, 2022, [arxiv](https://arxiv.org/abs/2206.04615),  [datasets](https://github.com/google/BIG-bench)
+- Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them, Oct 2022, [arxiv](https://arxiv.org/abs/2210.09261)
+
 - 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
@@ -213,6 +217,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, [arxiv](https://arxiv.org/abs/2402.11194v2) 
 - Competition-Level Problems are Effective LLM Evaluators, Dec 23, [arxiv](https://arxiv.org/abs/2312.02143)
 - Eyes Can Deceive: Benchmarking Counterfactual Reasoning Capabilities of Multimodal Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12966)
+- MuSR: Testing the Limits of Chain-of-thought with Multistep Soft Reasoning, Oct 2023, [arxiv](https://arxiv.org/abs/2310.16049)
 - 
 ---
 ### Multi-Lingual
@@ -255,7 +260,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Instruction Following
 - Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, [arxiv](https://arxiv.org/abs/2310.07641)
-- Instruction-Following Evaluation for Large Language Models, Nov 2023, [arxiv](https://arxiv.org/abs/2311.07911)
+- Instruction-Following Evaluation for Large Language Models, IFEval, Nov 2023, [arxiv](https://arxiv.org/abs/2311.07911)
 - FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets, Jul 2023, [arxiv](https://arxiv.org/abs/2307.10928) , [FLASK dataset](https://github.com/kaistAI/FLASK)
 - DINGO: Towards Diverse and Fine-Grained Instruction-Following Evaluation, Mar 2024, [aaai](https://ojs.aaai.org/index.php/AAAI/article/view/29768), [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29768/31322)
 
@@ -414,6 +419,8 @@ And Dialog systems
 ### Science
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
+- MATH Mathematics Aptitude Test of Heuristics, Measuring Mathematical Problem Solving With the MATH Dataset, Nov 2021 [arxiv](https://arxiv.org/abs/2103.03874)
+
 -
 ### Math
 -  How well do large language models perform in arithmetic tasks?, Mar 2023, [arxiv](https://arxiv.org/abs/2304.02015)
