@@ -349,6 +349,10 @@ QA is used in many vertical domains, see Vertical section bellow
 - Toward informal language processing: Knowledge of slang in large language models, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - FOFO: A Benchmark to Evaluate LLMs' Format-Following Capability, Feb 2024, [arxiv](https://arxiv.org/abs/2402.18667)
 - Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs, 05 2024,Bird, a big benchmark for large-scale database grounded in text-to-SQL tasks, containing 12,751 pairs of text-to-SQL data and 95 databases with a total size of 33.4 GB, spanning 37 professional domain [arxiv](https://arxiv.org/abs/2305.03111) [data and leaderboard](https://bird-bench.github.io/)
+- MuSiQue: Multihop Questions via Single-hop Question Composition, Aug 2021, [arxiv](https://arxiv.org/abs/2108.00573)
+- Evaluating Copyright Takedown Methods for Language Models, June 2024, [arxiv](https://arxiv.org/abs/2406.18664)
+
+
 
 
 
@@ -370,6 +374,8 @@ And Dialog systems
 - Simulated user feedback for the LLM production, [TDS](https://towardsdatascience.com/how-to-make-the-most-out-of-llm-production-data-simulated-user-feedback-843c444febc7)
 - How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863)
 - Rethinking the Evaluation of Dialogue Systems: Effects of User Feedback on Crowdworkers and LLMs, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12994)
+- A Two-dimensional Zero-shot Dialogue State Tracking Evaluation Method using GPT-4, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11651)
+
 - 
 ---
 ### Copilots
