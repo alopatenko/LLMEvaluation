@@ -297,6 +297,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Safe AI
 - Explore, Establish, Exploit: Red Teaming Language Models from Scratch, Jun 2023, [arxiv](https://arxiv.org/abs/2306.09442)
+- Rethinking Backdoor Detection Evaluation for Language Models, Aug 2024, [arxiv pdf](https://arxiv.org/abs/2409.00399)
 - Gradient-Based Language Model Red Teaming, Jan 24, [arxiv](https://arxiv.org/abs/2401.16656)
 - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models, Mar 2024, [arxiv](https://arxiv.org/abs/2404.01318)
 - Announcing a Benchmark to Improve AI Safety MLCommons has made benchmarks for AI performance—now it's time to measure safety, Apr 2024 [IEEE Spectrum](https://spectrum.ieee.org/ai-safety-benchmark)
