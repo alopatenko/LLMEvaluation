@@ -98,6 +98,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ### LLM Evaluation articles in tech media and blog posts from companies
 - Let's talk about LLM Evaluation, HuggingFace, [article](https://huggingface.co/blog/clefourrier/llm-evaluation)
 - Using LLMs for Evaluation LLM-as-a-Judge and other scalable additions to human quality ratings. Aug 2024, [Deep Learning Focus](https://cameronrwolfe.substack.com/p/llm-as-a-judge)
+- Catch me if you can! How to beat GPT-4 with a 13B model, [LM sys org](https://lmsys.org/blog/2023-11-14-llm-decontaminator/)
 -  [Why it’s impossible to review AIs, and why TechCrunch is doing it anyway Techcrun mat 2024](https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2024/03/23/why-its-impossible-to-review-ais-and-why-techcrunch-is-doing-it-anyway/amp/)
 - [A.I. has a measurement problem, NY Times, Apr 2024](https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html)
 - [Beyond Accuracy: The Changing Landscape Of AI Evaluation, Forbes, Mar 2024](https://www.forbes.com/sites/sylvainduranton/2024/03/14/beyond-accuracy-the-changing-landscape-of-ai-evaluation/?sh=34576ff61e3d)
