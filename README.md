@@ -155,6 +155,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### LLM as Judge
 - Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18796)
+- Report Cards: Qualitative Evaluation of Language Models Using Natural Language Summaries, Sep 2024, [arxiv](https://arxiv.org/abs/2409.00844)
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
 - Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges, Jum 2024, [arxiv](https://arxiv.org/abs/2406.12624)
 - Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators, Apr 2024, [arxiv](https://arxiv.org/abs/2404.04475) [leaderboard](https://tatsu-lab.github.io/alpaca_eval/) [code](https://github.com/tatsu-lab/alpaca_eval)
@@ -247,6 +248,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Multi-Modal
 - Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models, Reka AI, May 2024 [arxiv](https://arxiv.org/abs/2405.02287) [dataset](https://github.com/reka-ai/reka-vibe-eval)  [blog post](https://www.reka.ai/news/vibe-eval)
+- Zero-Shot Visual Reasoning by Vision-Language Models: Benchmarking and Analysis, Aug 2024, [arxiv](https://arxiv.org/abs/2409.00106)
 - CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.06007)
 - EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.05756)
 - MFC-Bench: Benchmarking Multimodal Fact-Checking with Large Vision-Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11288)
