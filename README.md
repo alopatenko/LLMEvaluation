@@ -416,6 +416,7 @@ And Dialog systems
 ### Healthcare and medicine
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
 - Evaluating Generative AI Responses to Real-world Drug-Related Questions, June 2024, [Psychiatry Research](https://www.sciencedirect.com/science/article/abs/pii/S0165178124003433)
+- Clinical Insights: A Comprehensive Review of Language Models in Medicine, Aug 2024, [arxiv](https://arxiv.org/abs/2408.11735) See table 2 for evaluation
 - Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 [arxiv](https://arxiv.org/abs/2401.06866)
 - Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, [arxiv](https://arxiv.org/abs/2402.01730)
 - MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering, 2022, [PMLR](https://proceedings.mlr.press/v174/pal22a.html)
