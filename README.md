@@ -374,6 +374,8 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ## LLM Systems
 ### RAG Evaluation
+- Google Frames Dataset for evaluation of RAG systems, Sep 2024, [arxiv paper: Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation
+](https://arxiv.org/abs/2409.12941) [Hugging Face, dataset](https://huggingface.co/datasets/google/frames-benchmark)
 - RAGAS: Automated Evaluation of Retrieval Augmented Generation Jul 23, [arxiv](https://arxiv.org/abs/2309.15217)
 - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, [arxiv](https://arxiv.org/abs/2311.09476)
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
