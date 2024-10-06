@@ -274,6 +274,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - Instruction-Following Evaluation for Large Language Models, IFEval, Nov 2023, [arxiv](https://arxiv.org/abs/2311.07911)
 - FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets, Jul 2023, [arxiv](https://arxiv.org/abs/2307.10928) , [FLASK dataset](https://github.com/kaistAI/FLASK)
 - DINGO: Towards Diverse and Fine-Grained Instruction-Following Evaluation, Mar 2024, [aaai](https://ojs.aaai.org/index.php/AAAI/article/view/29768), [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29768/31322)
+- LongForm: Effective Instruction Tuning with Reverse Instructions, Apr 2023, [arxiv](https://arxiv.org/abs/2304.08460) [dataset](https://github.com/akoksal/LongForm)
+
 
 - 
 ---
@@ -345,6 +347,9 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- Suri: Multi-constraint Instruction Following for Long-form Text Generation, Jun 2024, [arxiv](https://arxiv.org/abs/2406.19371)
+- LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs, Aug 2024, [arxiv](https://arxiv.org/abs/2408.07055)
+- LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding, Aug 2023, [arxiv](https://arxiv.org/abs/2308.14508)
 - HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models, Sep 2024, [arxiv](https://arxiv.org/abs/2409.16191)
 - DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph, June 2024, [arxiv](https://arxiv.org/abs/2406.17271)
 - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, [ms blog](https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/)
