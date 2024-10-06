@@ -39,7 +39,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
     - [Software Performace (latency, throughput, memory, storage)](#software-performance)
     - [Agent LLM architectures](#agent-llm-architectures)
-    - [Long Text Geneation](#long-text-generation)
+    - [Long Text Generation](#long-text-generation)
+    - [Graph Understandings](#graph-understanding)
     - [Various unclassified tasks](#various-unclassified-tasks)
 - [LLM Systems](#llm-systems)
     - [RAG Evaluation](#rag-evaluation)
@@ -351,6 +352,14 @@ QA is used in many vertical domains, see Vertical section bellow
 - LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs, Aug 2024, [arxiv](https://arxiv.org/abs/2408.07055)
 - LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding, Aug 2023, [arxiv](https://arxiv.org/abs/2308.14508)
 - HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models, Sep 2024, [arxiv](https://arxiv.org/abs/2409.16191)
+---
+### Graph understanding
+-  GPT4Graph: Can Large Language Models Understand Graph Structured Data ? An Empirical Evaluation and Benchmarking, May 2023, [arxiv](https://arxiv.org/abs/2305.15066)
+- LLM4DyG: Can Large Language Models Solve Spatial-Temporal Problems on Dynamic Graphs? Oct 2023, [arxiv](https://arxiv.org/abs/2310.17110)
+- Talk like a Graph: Encoding Graphs for Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.04560)
+- Open Graph Benchmark: Datasets for Machine Learning on Graphs, [NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/fb60d411a5c5b72b2e7d3527cfc84fd0-Abstract.html)
+- Can Language Models Solve Graph Problems in Natural Language? [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/622afc4edf2824a1b6aaf5afe153fa93-Abstract-Conference.html)
+- Evaluating Large Language Models on Graphs: Performance Insights and Comparative Analysis, Aug 2023, [https://arxiv.org/abs/2308.11224]
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
