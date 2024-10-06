@@ -417,6 +417,7 @@ And Dialog systems
 ---
 ### Search and Recommendation Engines
 - Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 [arxiv](https://arxiv.org/abs/2304.10149)
+- LaMP: When Large Language Models Meet Personalization, Apr 2023,  [arxiv](https://arxiv.org/abs/2304.11406)
 - BIRCO: A Benchmark of Information Retrieval Tasks with Complex Objectives, Feb 2024, [arxiv](https://arxiv.org/abs/2402.14151)
 - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents, Apr 2023, [arxiv](https://arxiv.org/abs/2304.09542)
 -  BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models, Oct 2021, [arxiv](https://arxiv.org/abs/2104.08663)
