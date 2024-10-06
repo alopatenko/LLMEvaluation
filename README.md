@@ -39,6 +39,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
     - [Software Performace (latency, throughput, memory, storage)](#software-performance)
     - [Agent LLM architectures](#agent-llm-architectures)
+    - [Long Text Geneation](#long-text-generation)
     - [Various unclassified tasks](#various-unclassified-tasks)
 - [LLM Systems](#llm-systems)
     - [RAG Evaluation](#rag-evaluation)
@@ -344,14 +345,15 @@ QA is used in many vertical domains, see Vertical section bellow
 - AgentBench: Evaluating LLMs as Agents, Aug 2023, [arxiv](https://arxiv.org/abs/2308.03688)
 - How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments, Mar 2024, [arxiv](https://arxiv.org/abs/2403.11807)
 - R-Judge: Benchmarking Safety Risk Awareness for LLM Agents, Jan 2024, [arxiv](https://arxiv.org/abs/2401.10019)
-- 
 ---
-### Various unclassified tasks
-(TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+### Long Text Generation
 - Suri: Multi-constraint Instruction Following for Long-form Text Generation, Jun 2024, [arxiv](https://arxiv.org/abs/2406.19371)
 - LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs, Aug 2024, [arxiv](https://arxiv.org/abs/2408.07055)
 - LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding, Aug 2023, [arxiv](https://arxiv.org/abs/2308.14508)
 - HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models, Sep 2024, [arxiv](https://arxiv.org/abs/2409.16191)
+---
+### Various unclassified tasks
+(TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
 - DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph, June 2024, [arxiv](https://arxiv.org/abs/2406.17271)
 - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study Mar 24, WSDM 24, [ms blog](https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/)
 -  LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large Language Models, jul 2023 [arxiv](https://arxiv.org/abs/2307.07889v3)
