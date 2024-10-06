@@ -406,6 +406,8 @@ And Dialog systems
 - LongEmbed: Extending Embedding Models for Long Context Retrieval, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12096), benchmark for long context tasks, [repository for LongEmbed](https://github.com/dwzhu-pku/LongEmbed)
 - Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07440), LoCoV1 benchmark for long context LLM,
 -  STARK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13207) [code github](https://github.com/snap-stanford/stark)
+-  Constitutional AI: Harmlessness from AI Feedback, Sep 2022 [arxiv](https://arxiv.org/abs/2212.08073) (See Appendix B Identifying and Classifying Harmful Conversations, other parts)
+
 
 
 
