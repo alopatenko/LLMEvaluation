@@ -397,6 +397,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - RAGAS: Automated Evaluation of Retrieval Augmented Generation Jul 23, [arxiv](https://arxiv.org/abs/2309.15217)
 - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, [arxiv](https://arxiv.org/abs/2311.09476)
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
+- IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 
 ---
 ### Conversational systems
@@ -417,6 +418,7 @@ And Dialog systems
 ---
 ### Search and Recommendation Engines
 - Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 [arxiv](https://arxiv.org/abs/2304.10149)
+- IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 - LaMP: When Large Language Models Meet Personalization, Apr 2023,  [arxiv](https://arxiv.org/abs/2304.11406)
 - BIRCO: A Benchmark of Information Retrieval Tasks with Complex Objectives, Feb 2024, [arxiv](https://arxiv.org/abs/2402.14151)
 - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents, Apr 2023, [arxiv](https://arxiv.org/abs/2304.09542)
