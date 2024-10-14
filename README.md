@@ -252,6 +252,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Multi-Modal
+- VHELM: A Holistic Evaluation of Vision Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07112)
 - Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models, Reka AI, May 2024 [arxiv](https://arxiv.org/abs/2405.02287) [dataset](https://github.com/reka-ai/reka-vibe-eval)  [blog post](https://www.reka.ai/news/vibe-eval)
 - Zero-Shot Visual Reasoning by Vision-Language Models: Benchmarking and Analysis, Aug 2024, [arxiv](https://arxiv.org/abs/2409.00106)
 - CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.06007)
@@ -341,6 +342,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Agent LLM Architectures
+- Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena, Oct 2023, [arxiv](https://arxiv.org/abs/2310.05746)
 - LLM-Deliberation: Evaluating LLMs with Interactive Multi-Agent Negotiation Games, Sep 2023,[arxiv](https://arxiv.org/abs/2309.17234)
 - AgentBench: Evaluating LLMs as Agents, Aug 2023, [arxiv](https://arxiv.org/abs/2308.03688)
