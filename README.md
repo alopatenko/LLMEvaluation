@@ -7,7 +7,8 @@ The aim of this compendium is to assist academics and industry professionals in 
 I aim to create a resource that will enable anyone with queries—whether it's about evaluating a large language model (LLM) or an LLM application for specific tasks, determining the best methods to assess LLM effectiveness, or understanding how well an LLM performs in a particular domain—to easily find all the relevant information needed for these tasks. Additionally, I want to highlight various methods for evaluating the evaluation tasks themselves, to ensure that these evaluations align effectively with business or academic objectives.
 
 My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and AICamp](https://www.youtube.com/watch?v=dW89BHjLA4M) [video Analytics Vidhya](https://community.analyticsvidhya.com/c/datahour/evaluating-llms-and-llm-systems-pragmatic-approach) ([Data Phoenix Mar 5](https://www.youtube.com/watch?v=spgVnMgvLSw)) (by [Andrei Lopatenko](https://www.linkedin.com/in/lopatenko/))
-[Main repository](https://github.com/alopatenko/LLMEvaluation)
+
+## [Main repository](https://github.com/alopatenko/LLMEvaluation)
 
 ![Evals are surprisingly often all you need](greg.png)
 
