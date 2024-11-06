@@ -263,6 +263,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Multi-Modal
 - Careless Whisper: Speech-to-Text Hallucination Harms, FAccT '24, [ACM](https://dl.acm.org/doi/abs/10.1145/3630106.3658996)
 - AutoBench-V: Can Large Vision-Language Models Benchmark Themselves?, Oct 2024 [arxiv](https://arxiv.org/abs/2410.21259)
+- HaloQuest: A Visual Hallucination Dataset for Advancing Multimodal Reasoning, Oct 2024,  [Computer Vision – ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-72980-5_17) 
 - VHELM: A Holistic Evaluation of Vision Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07112)
 - Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models, Reka AI, May 2024 [arxiv](https://arxiv.org/abs/2405.02287) [dataset](https://github.com/reka-ai/reka-vibe-eval)  [blog post](https://www.reka.ai/news/vibe-eval)
 - Zero-Shot Visual Reasoning by Vision-Language Models: Benchmarking and Analysis, Aug 2024, [arxiv](https://arxiv.org/abs/2409.00106)
