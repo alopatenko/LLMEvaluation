@@ -378,6 +378,8 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
 - Should We Really Edit Language Models? On the Evaluation of Edited Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.18785)
+- DyKnow: Dynamically Verifying Time-Sensitive Factual Knowledge in LLMs, EMNLP 2024, Oct 2024, [arxiv](https://arxiv.org/abs/2404.08700), [Guthub for DyKnow](https://github.com/sislab-unitn/DyKnow)
+- Evaluation of Response Generation Models: Shouldn’t It Be Shareable and Replicable?, Dec 2022, [Proceedings of the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)](https://aclanthology.org/2022.gem-1.12/) Github repository for Human Evaluation Protocol](https://github.com/sislab-unitn/Human-Evaluation-Protocol)
 - From Babbling to Fluency: Evaluating the Evolution of Language Models in Terms of Human Language Acquisition, Oct 2024, [arxiv](https://arxiv.org/abs/2410.13259)
 - DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph, June 2024, [arxiv](https://arxiv.org/abs/2406.17271)
 - RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16184)
