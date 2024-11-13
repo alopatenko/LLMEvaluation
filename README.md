@@ -233,8 +233,7 @@ QA is used in many vertical domains, see Vertical section bellow
 -
 ---
 ### Reasoning
-- FrontierMath at EpochAI, [FrontierAI page](FrontierMath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024, 
-[arxiv](https://arxiv.org/abs/2411.04872)
+- FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
 - Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
 - LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models, [arxiv](https://arxiv.org/abs/2404.05221)
 - Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, [arxiv](https://arxiv.org/abs/2402.11194v2) 
@@ -498,8 +497,7 @@ And Dialog systems
 -
 ### Math
 -  How well do large language models perform in arithmetic tasks?, Mar 2023, [arxiv](https://arxiv.org/abs/2304.02015)
-- FrontierMath at EpochAI, [FrontierAI page](FrontierMath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024, 
-[arxiv](https://arxiv.org/abs/2411.04872)
+- FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
 -   Cmath: Can your language model pass chinese elementary school math test?, Jun 23, [arxiv](https://arxiv.org/abs/2306.16636)
 -   GSM8K [paperwithcode](https://paperswithcode.com/dataset/gsm8k) [repository github](https://github.com/openai/grade-school-math)
 ### Financial
