@@ -321,6 +321,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Safe AI
 - CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models, July 2023, [Meta](https://ai.meta.com/research/publications/cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models/) [arxiv](https://arxiv.org/abs/2408.01605)
 - CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
+- Benchmarking OpenAI o1 in Cyber Security, Oct 2024, [arxiv](https://arxiv.org/abs/2410.21939)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
 - LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Attack Atlas: A Practitioner's Perspective on Challenges and Pitfalls in Red Teaming GenAI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15398)
