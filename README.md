@@ -319,7 +319,11 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Safe AI
+- CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models, July 2023, [Meta](https://ai.meta.com/research/publications/cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models/) [arxiv](https://arxiv.org/abs/2408.01605)
 - CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
+- SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
+- Attack Atlas: A Practitioner's Perspective on Challenges and Pitfalls in Red Teaming GenAI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15398)
+- DetoxBench: Benchmarking Large Language Models for Multitask Fraud & Abuse Detection, Sep 2024, [arxiv](https://arxiv.org/abs/2409.06072)
 - Purple Llama, an umbrella project from Meta, [Purple Llama repository](https://github.com/meta-llama/PurpleLlama)
 - Explore, Establish, Exploit: Red Teaming Language Models from Scratch, Jun 2023, [arxiv](https://arxiv.org/abs/2306.09442)
 - Rethinking Backdoor Detection Evaluation for Language Models, Aug 2024, [arxiv pdf](https://arxiv.org/abs/2409.00399)
