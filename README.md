@@ -83,6 +83,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Evaluation Software
 - [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
+- Eureka, Microsoft, A framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. [github](https://github.com/microsoft/eureka-ml-insights) Sep 2024 [arxiv](https://arxiv.org/abs/2409.10566)
 - [OpenAI Evals]( https://github.com/openai/evals)
 - [ConfidentAI DeepEval](https://github.com/confident-ai/deepeval)
 - [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
