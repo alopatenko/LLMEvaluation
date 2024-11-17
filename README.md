@@ -322,6 +322,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models, July 2023, [Meta](https://ai.meta.com/research/publications/cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models/) [arxiv](https://arxiv.org/abs/2408.01605)
 - CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
+- LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Attack Atlas: A Practitioner's Perspective on Challenges and Pitfalls in Red Teaming GenAI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15398)
 - DetoxBench: Benchmarking Large Language Models for Multitask Fraud & Abuse Detection, Sep 2024, [arxiv](https://arxiv.org/abs/2409.06072)
 - Purple Llama, an umbrella project from Meta, [Purple Llama repository](https://github.com/meta-llama/PurpleLlama)
@@ -336,6 +337,8 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Code Generating LLMs
 - Evaluating Large Language Models Trained on Code HumanEval Jul 2022 [arxiv](https://arxiv.org/abs/2107.03374)
 - CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation Feb 21 [arxiv](https://arxiv.org/abs/2102.04664)
+- SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
+- LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming Feb 24 [arxiv](https://arxiv.org/abs/2402.14261)
 - SWE Bench SWE-bench: Can Language Models Resolve Real-World GitHub Issues? Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863) [Tech Report](https://www.cognition-labs.com/post/swe-bench-technical-report)
 - Gorilla Functional Calling Leaderboard, Berkeley [Leaderboard]( https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
@@ -377,7 +380,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Graph understanding
 -  GPT4Graph: Can Large Language Models Understand Graph Structured Data ? An Empirical Evaluation and Benchmarking, May 2023, [arxiv](https://arxiv.org/abs/2305.15066)
 - LLM4DyG: Can Large Language Models Solve Spatial-Temporal Problems on Dynamic Graphs? Oct 2023, [arxiv](https://arxiv.org/abs/2310.17110)
-- Talk like a Graph: Encoding Graphs for Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.04560)
+- Talk like a Graph: En Graphs for Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.04560)
 - Open Graph Benchmark: Datasets for Machine Learning on Graphs, [NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/fb60d411a5c5b72b2e7d3527cfc84fd0-Abstract.html)
 - Can Language Models Solve Graph Problems in Natural Language? [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/622afc4edf2824a1b6aaf5afe153fa93-Abstract-Conference.html)
 - Evaluating Large Language Models on Graphs: Performance Insights and Comparative Analysis, Aug 2023, [https://arxiv.org/abs/2308.11224]
