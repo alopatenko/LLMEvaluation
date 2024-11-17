@@ -35,6 +35,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [Ethical AI](#ethical-ai)
     - [Biases](#biases)
     - [Safe AI](#safe-ai)
+    - [Cybersecurity](#cybersecurity)
     - [Code Generating LLMs](#code-generating-llms)
     - [Summarization](#summarization)
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
@@ -319,9 +320,6 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Safe AI
-- CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models, July 2023, [Meta](https://ai.meta.com/research/publications/cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models/) [arxiv](https://arxiv.org/abs/2408.01605)
-- CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
-- Benchmarking OpenAI o1 in Cyber Security, Oct 2024, [arxiv](https://arxiv.org/abs/2410.21939)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
 - LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Attack Atlas: A Practitioner's Perspective on Challenges and Pitfalls in Red Teaming GenAI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15398)
@@ -334,6 +332,12 @@ QA is used in many vertical domains, see Vertical section bellow
 - Announcing a Benchmark to Improve AI Safety MLCommons has made benchmarks for AI performance—now it's time to measure safety, Apr 2024 [IEEE Spectrum](https://spectrum.ieee.org/ai-safety-benchmark)
 - Model evaluation for extreme risks, May 2023, [arxiv](https://arxiv.org/abs/2305.15324)
 - Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05566)
+---
+### Cybersecurity
+- CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models, July 2023, [Meta](https://ai.meta.com/research/publications/cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models/) [arxiv](https://arxiv.org/abs/2408.01605)
+- CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
+- Benchmarking OpenAI o1 in Cyber Security, Oct 2024, [arxiv](https://arxiv.org/abs/2410.21939)
+- Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models, Aug 2024, [arxiv](https://arxiv.org/abs/2408.08926)
 ---
 ### Code Generating LLMs
 - Evaluating Large Language Models Trained on Code HumanEval Jul 2022 [arxiv](https://arxiv.org/abs/2107.03374)
