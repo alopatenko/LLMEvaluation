@@ -319,6 +319,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Safe AI
+- CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
+- Purple Llama, an umbrella project from Meta, [Purple Llama repository](https://github.com/meta-llama/PurpleLlama)
 - Explore, Establish, Exploit: Red Teaming Language Models from Scratch, Jun 2023, [arxiv](https://arxiv.org/abs/2306.09442)
 - Rethinking Backdoor Detection Evaluation for Language Models, Aug 2024, [arxiv pdf](https://arxiv.org/abs/2409.00399)
 - Gradient-Based Language Model Red Teaming, Jan 24, [arxiv](https://arxiv.org/abs/2401.16656)
