@@ -68,6 +68,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 -  New Hard Leaderboard by HuggingFace [leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) [description, blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog)
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - Salesforce's Contextual Bench leaderboard [hugging face](https://huggingface.co/spaces/Salesforce/ContextualBench-Leaderboard)  an overview of how different LLMs perform across a variety of contextual tasks,
+- OpenGPT-X Multi- Lingual European LLM Leaderboard, [evaluation of LLMs for many European languages - on HuggingFace](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard) 
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
 - [SWE Bench ](https://www.swebench.com/)
