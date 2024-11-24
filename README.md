@@ -190,6 +190,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ## LLM Evaluation
 ### Embeddings
 - MTEB: Massive Text Embedding Benchmark Oct 2022 [arxiv](https://arxiv.org/abs/2210.07316 Leaderboard) [Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
+- Marqo embedding benchmark for eCommerce [at Huggingface](https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks), text to image and category to image tasks 
 - The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding, [openreview pdf](https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf)
 - MMTEB: Community driven extension to MTEB [repository](https://github.com/embeddings-benchmark/mteb/blob/main/docs/mmteb/readme.md)
 - Chinese MTEB C-MTEB [repository](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)
@@ -460,6 +461,7 @@ And Dialog systems
 ### Search and Recommendation Engines
 - Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 [arxiv](https://arxiv.org/abs/2304.10149)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
+- Marqo embedding benchmark for eCommerce [at Huggingface](https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks), text to image and category to image tasks 
 - LaMP: When Large Language Models Meet Personalization, Apr 2023,  [arxiv](https://arxiv.org/abs/2304.11406)
 - Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses, Oct 2024, Salesforce, [arxiv](https://arxiv.org/abs/2410.22349) [Answer Engine (RAG) Evaluation Repository](https://github.com/SalesforceAIResearch/answer-engine-eval)
 - BIRCO: A Benchmark of Information Retrieval Tasks with Complex Objectives, Feb 2024, [arxiv](https://arxiv.org/abs/2402.14151)
