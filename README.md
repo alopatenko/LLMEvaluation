@@ -132,6 +132,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
+- Ranking Unraveled: Recipes for LLM Rankings in Head-to-Head AI Combat, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14483)
+- Sabotage Evaluations for Frontier Models, Anthropic, Nov 2024, [paper](https://assets.anthropic.com/m/377027d5b36ac1eb/original/Sabotage-Evaluations-for-Frontier-Models.pdf)  [blog post](https://www.anthropic.com/research/sabotage-evaluations)
 - Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - Examining the robustness of LLM evaluation to the distributional assumptions of benchmarks, Aug 2024, [ACL 2024](https://aclanthology.org/2024.acl-long.560/)
 - *Synthetic data in evaluation*, see Chapter 3 in Best Practices and Lessons Learned on Synthetic Data for Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.07503)
@@ -251,7 +253,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Multi-Lingual
-- AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology [ACL pdf](https://aclanthology.org/2023.arabicnlp-1.21.pdf) [article](https://aclanthology.org/2023.arabicnlp-1.21/) 
+- AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology [ACL pdf](https://aclanthology.org/2023.arabicnlp-1.21.pdf) [article](https://aclanthology.org/2023.arabicnlp-1.21/)
+- Evaluating and Advancing Multimodal Large Language Models in Ability Lens, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14725)
 - Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem [HF blog](https://huggingface.co/blog/leaderboard-upstage)
 - Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese , Apr 2024 [arxiv](https://arxiv.org/abs/2404.07824)
 - BanglaQuAD: A Bengali Open-domain Question Answering Dataset, Oct 2024, [arxiv](https://arxiv.org/abs/2410.10229)
