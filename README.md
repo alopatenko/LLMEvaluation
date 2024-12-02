@@ -170,6 +170,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ### LLM as Judge
 - Large Language Models are Inconsistent and Biased Evaluators, May 2024, [arxiv](https://arxiv.org/abs/2405.01724)
 - Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
+- Evaluating LLMs at Detecting Errors in LLM Responses, Apr 2024, [arxiv](https://arxiv.org/abs/2404.03602)
 - Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18796)
 - Report Cards: Qualitative Evaluation of Language Models Using Natural Language Summaries, Sep 2024, [arxiv](https://arxiv.org/abs/2409.00844)
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
@@ -404,6 +405,8 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning, Meta AI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16456) evaluation for tasks of travel planning
+- Assessing the Performance of Human-Capable LLMs -- Are LLMs Coming for Your Job?, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16285),  SelfScore, a novel benchmark designed to assess the performance of automated Large Language Model (LLM) agents on help desk and professional consultation task
 - Should We Really Edit Language Models? On the Evaluation of Edited Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.18785)
 - DyKnow: Dynamically Verifying Time-Sensitive Factual Knowledge in LLMs, EMNLP 2024, Oct 2024, [arxiv](https://arxiv.org/abs/2404.08700), [Repository for DyKnow](https://github.com/sislab-unitn/DyKnow)
 - Evaluation of Response Generation Models: Shouldn’t It Be Shareable and Replicable?, Dec 2022, [Proceedings of the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)](https://aclanthology.org/2022.gem-1.12/) [Github repository for Human Evaluation Protocol](https://github.com/sislab-unitn/Human-Evaluation-Protocol)
