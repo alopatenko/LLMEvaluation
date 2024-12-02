@@ -243,6 +243,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Reasoning
 - FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
+- Easy Problems That LLMs Get Wrong, May 2024, [arxiv](https://arxiv.org/abs/2405.19616v2), a comprehensive Linguistic Benchmark designed to evaluate the limitations of Large Language Models (LLMs) in domains such as logical reasoning, spatial intelligence, and linguistic understanding
 - Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning, NeurIPS 2024 Track Datasets and Benchmarks Spotlight, Sep 2024, [OpenReview](https://openreview.net/forum?id=aXeiCbMFFJ)
 - Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks 2023, [arxiv](https://arxiv.org/abs/2311.09247)
 - LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models, [arxiv](https://arxiv.org/abs/2404.05221)
