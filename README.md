@@ -170,6 +170,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 -
 ---
 ### LLM as Judge
+- LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
 - Large Language Models are Inconsistent and Biased Evaluators, May 2024, [arxiv](https://arxiv.org/abs/2405.01724)
 - Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
 - Evaluating LLMs at Detecting Errors in LLM Responses, Apr 2024, [arxiv](https://arxiv.org/abs/2404.03602)
