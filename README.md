@@ -208,8 +208,10 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 -   
 ---
 ### Hallucinations
+- TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS: A PRINCIPLE AND BENCHMARK, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
 - INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - A Survey of Hallucination in Large Visual Language Models, Oct 2024, See Chapter IV, Evaluation of Hallucinations [arxiv](https://arxiv.org/pdf/2410.15359#page=9.46)
+- Generating Benchmarks for Factuality Evaluation of Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.06908)
 - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  [ACL](https://aclanthology.org/2023.emnlp-main.397.pdf) 
 - Long-form factuality in large language models, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
 - Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models, Sep 2023, [arxiv](https://arxiv.org/abs/2309.01219)
@@ -374,6 +376,8 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ### Summarization
 - Human-like Summarization Evaluation with ChatGPT, Apr 2023, [arxiv](https://arxiv.org/abs/2304.02554)
+- Evaluating the Factual Consistency of Large Language Models Through News Summarization, Nov 2022, [arxiv](https://arxiv.org/abs/2211.08412)
+- USB: A Unified Summarization Benchmark Across Tasks and Domains, May 2023, [arxiv](https://arxiv.org/abs/2305.14296)
 - WikiAsp: A Dataset for Multi-domain Aspect-based Summarization, 2021, [Transactions ACL](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00362/98088/WikiAsp-A-Dataset-for-Multi-domain-Aspect-based) [dataset](https://huggingface.co/datasets/wiki_asp)
 
 ---
