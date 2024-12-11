@@ -341,6 +341,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Introducing v0.5 of the AI Safety Benchmark from MLCommons, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12241)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
 - Beyond Prompt Brittleness: Evaluating the Reliability and Consistency of Political Worldviews in LLMs , Nov 2024, [MIT Press](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00710/125176)
+- Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05778)
 - LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Attack Atlas: A Practitioner's Perspective on Challenges and Pitfalls in Red Teaming GenAI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15398)
 - DetoxBench: Benchmarking Large Language Models for Multitask Fraud & Abuse Detection, Sep 2024, [arxiv](https://arxiv.org/abs/2409.06072)
@@ -414,6 +415,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- Evaluating Superhuman Models with Consistency Checks, Apr 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10516635)
 - To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning, Meta AI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16456) evaluation for tasks of travel planning
 - Assessing the Performance of Human-Capable LLMs -- Are LLMs Coming for Your Job?, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16285),  SelfScore, a novel benchmark designed to assess the performance of automated Large Language Model (LLM) agents on help desk and professional consultation task
 - Should We Really Edit Language Models? On the Evaluation of Edited Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.18785)
