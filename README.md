@@ -521,6 +521,7 @@ And Dialog systems
 ---
 ## Verticals
 ### Healthcare and medicine
+- MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
 - A framework for human evaluation of large language models in healthcare derived from literature review, September 2024, [Nature Digital Medicine](https://www.nature.com/articles/s41746-024-01258-7) 
 - Evaluation and mitigation of cognitive biases in medical language models, Oct 2024 [Nature](https://www.nature.com/articles/s41746-024-01283-6)
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
