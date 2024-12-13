@@ -280,6 +280,11 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Multi-Modal
+- LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models, Nov 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10769058)
+- MMBench: Is Your Multi-modal Model an All-Around Player?, Oct 2024 [springer ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-72658-3_13)
+- MMT-Bench: A Comprehensive Multimodal Benchmark for Evaluating Large Vision-Language Models Towards Multitask AGI, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16006)
+- MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI, CVPR 2024, [CVPR](https://openaccess.thecvf.com/content/CVPR2024/html/Yue_MMMU_A_Massive_Multi-discipline_Multimodal_Understanding_and_Reasoning_Benchmark_for_CVPR_2024_paper.html)
+- ConvBench: A Multi-Turn Conversation Evaluation Benchmark with Hierarchical Ablation Capability for Large Vision-Language Models, Dec 2024, [open review](https://openreview.net/pdf?id=PyTf2jj0SH) [github for the benchmark and evaluation framework](https://github.com/shirlyliu64/ConvBench)
 - Careless Whisper: Speech-to-Text Hallucination Harms, FAccT '24, [ACM](https://dl.acm.org/doi/abs/10.1145/3630106.3658996)
 - AutoBench-V: Can Large Vision-Language Models Benchmark Themselves?, Oct 2024 [arxiv](https://arxiv.org/abs/2410.21259)
 - HaloQuest: A Visual Hallucination Dataset for Advancing Multimodal Reasoning, Oct 2024,  [Computer Vision – ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-72980-5_17) 
@@ -299,7 +304,14 @@ QA is used in many vertical domains, see Vertical section bellow
 - Eyes Can Deceive: Benchmarking Counterfactual Reasoning Capabilities of Multimodal Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12966)
 - Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
 - VALOR-EVAL: Holistic Coverage and Faithfulness Evaluation of Large Vision-Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13874v1)
+- MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts, Oct 2023, [arxiv](MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts)
 - Evaluation part of https://arxiv.org/abs/2404.18930, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18930), [repository](https://github.com/showlab/Awesome-MLLM-Hallucination)
+- VisIT-Bench: A Benchmark for Vision-Language Instruction Following Inspired by Real-World Use, Aug 2023. [arxiv](https://arxiv.org/abs/2308.06595)
+- MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities, Aug 2023, [arxiv](https://arxiv.org/abs/2308.02490)
+- SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension, Jul 2023, [arxiv](https://arxiv.org/abs/2307.16125)
+- LAMM: Language-Assisted Multi-Modal Instruction-Tuning Dataset, Framework, and Benchmark, NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/548a41b9cac6f50dccf7e63e9e1b1b9b-Abstract-Datasets_and_Benchmarks.html)
+- mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality, Apr 2023 [arxiv](https://arxiv.org/abs/2304.14178)
+
 
 
 -
