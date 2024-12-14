@@ -502,8 +502,11 @@ And Dialog systems
 ---
 ### Search and Recommendation Engines
 - Investigating Users' Search Behavior and Outcome with ChatGPT in Learning-oriented Search Tasks, SIGIR-AP 2024, [ACM](https://dl.acm.org/doi/abs/10.1145/3673791.3698406)
+- Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation,[RecSys 2023](https://dl.acm.org/doi/abs/10.1145/3604915.3608860)
 - Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 [arxiv](https://arxiv.org/abs/2304.10149)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
+- LLMRec: Benchmarking Large Language Models on Recommendation Task, Aug 2023, [arxiv](https://arxiv.org/abs/2308.12241)
+- OpenP5: Benchmarking Foundation Models for Recommendation, Jun 2023, [researchgate](https://www.researchgate.net/publication/371727972_OpenP5_Benchmarking_Foundation_Models_for_Recommendation)
 - Marqo embedding benchmark for eCommerce [at Huggingface](https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks), text to image and category to image tasks 
 - LaMP: When Large Language Models Meet Personalization, Apr 2023,  [arxiv](https://arxiv.org/abs/2304.11406)
 - Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses, Oct 2024, Salesforce, [arxiv](https://arxiv.org/abs/2410.22349) [Answer Engine (RAG) Evaluation Repository](https://github.com/SalesforceAIResearch/answer-engine-eval)
