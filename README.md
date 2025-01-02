@@ -359,6 +359,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Safe AI
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
+- ECCV 2024 MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models, Jan 2024, [github](https://github.com/isXinLiu/MM-SafetyBench) [arxiv nov 2023](https://arxiv.org/abs/2311.17600)
 - Introducing v0.5 of the AI Safety Benchmark from MLCommons, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12241)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
 - Beyond Prompt Brittleness: Evaluating the Reliability and Consistency of Political Worldviews in LLMs , Nov 2024, [MIT Press](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00710/125176)
