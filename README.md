@@ -284,6 +284,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Multi-Modal
 - LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models, Nov 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10769058)
 - ScImage: How Good Are Multimodal Large Language Models at Scientific Text-to-Image Generation?, Dec 2024, [arxiv](https://arxiv.org/abs/2412.02368)
+- RealWorldQA, Apr 2024, [HuggingFace](https://huggingface.co/blog/KennyUTC/realworldqa)
 - Image2Struct: Benchmarking Structure Extraction for Vision-Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.22456)
 - MMBench: Is Your Multi-modal Model an All-Around Player?, Oct 2024 [springer ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-72658-3_13)
 - MMIE: Massive Multimodal Interleaved Comprehension Benchmark for Large Vision-Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.10139)
@@ -433,6 +434,8 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- Holmes ⌕ A Benchmark to Assess the Linguistic Competence of Language Models , Dec 2024, [MIT Press Transactions of ACL, 2024](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00718/125534)
+- EscapeBench: Pushing Language Models to Think Outside the Box, Dec 2024, [arxiv](https://arxiv.org/abs/2412.13549)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks, Nov 2024, [arxiv](https://arxiv.org/abs/2411.05821)
 - Evaluating Superhuman Models with Consistency Checks, Apr 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10516635)
