@@ -325,6 +325,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Instruction Following
 - Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, [arxiv](https://arxiv.org/abs/2310.07641)
+- Find the INTENTION OF INSTRUCTION: Comprehensive Evaluation of Instruction Understanding for Large Language Models, Dec 2024, [arxiv](https://arxiv.org/abs/2412.19450)
 - HREF: Human Response-Guided Evaluation of Instruction Following in Language Models, Dec 2024, [arxiv](https://arxiv.org/abs/2412.15524)
 - CFBench: A Comprehensive Constraints-Following Benchmark for LLMs. Aug 2024, [arxiv](https://arxiv.org/abs/2408.01122)
 - Instruction-Following Evaluation for Large Language Models, IFEval, Nov 2023, [arxiv](https://arxiv.org/abs/2311.07911)
