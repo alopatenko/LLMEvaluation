@@ -444,6 +444,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Holmes ⌕ A Benchmark to Assess the Linguistic Competence of Language Models , Dec 2024, [MIT Press Transactions of ACL, 2024](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00718/125534)
 - EscapeBench: Pushing Language Models to Think Outside the Box, Dec 2024, [arxiv](https://arxiv.org/abs/2412.13549)
 - OLMES: A Standard for Language Model Evaluations, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08446)
+- Tulu 3: Pushing Frontiers in Open Language Model Post-Training, Nov 2024, [arxiv](https://arxiv.org/abs/2411.15124) see 7.1 Open Language Model Evaluation System (OLMES) and AllenAI Githib rep for [Olmes](http://github.com/allenai/olmes)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks, Nov 2024, [arxiv](https://arxiv.org/abs/2411.05821)
 - Evaluating Superhuman Models with Consistency Checks, Apr 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10516635)
