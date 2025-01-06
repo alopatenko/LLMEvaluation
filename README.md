@@ -133,6 +133,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
+- Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - Ranking Unraveled: Recipes for LLM Rankings in Head-to-Head AI Combat, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14483)
 - Sabotage Evaluations for Frontier Models, Anthropic, Nov 2024, [paper](https://assets.anthropic.com/m/377027d5b36ac1eb/original/Sabotage-Evaluations-for-Frontier-Models.pdf)  [blog post](https://www.anthropic.com/research/sabotage-evaluations)
 - AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM becnmarks
@@ -442,6 +443,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - OmniEvalKit: A Modular, Lightweight Toolbox for Evaluating Large Language Model and its Omni-Extensions, Dec 2024, [arxiv](https://arxiv.org/abs/2412.06693)
 - Holmes ⌕ A Benchmark to Assess the Linguistic Competence of Language Models , Dec 2024, [MIT Press Transactions of ACL, 2024](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00718/125534)
 - EscapeBench: Pushing Language Models to Think Outside the Box, Dec 2024, [arxiv](https://arxiv.org/abs/2412.13549)
+- OLMES: A Standard for Language Model Evaluations, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08446)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks, Nov 2024, [arxiv](https://arxiv.org/abs/2411.05821)
 - Evaluating Superhuman Models with Consistency Checks, Apr 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10516635)
