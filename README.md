@@ -449,6 +449,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - Assessing the Performance of Human-Capable LLMs -- Are LLMs Coming for Your Job?, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16285),  SelfScore, a novel benchmark designed to assess the performance of automated Large Language Model (LLM) agents on help desk and professional consultation task
 - Should We Really Edit Language Models? On the Evaluation of Edited Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.18785)
 - DyKnow: Dynamically Verifying Time-Sensitive Factual Knowledge in LLMs, EMNLP 2024, Oct 2024, [arxiv](https://arxiv.org/abs/2404.08700), [Repository for DyKnow](https://github.com/sislab-unitn/DyKnow)
+- Jeopardy dataset at HuggingFace, [huggingface](https://huggingface.co/datasets/jeopardy-datasets/jeopardy)
+- AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models, Aug 2023, [arxiv](https://arxiv.org/abs/2304.06364)
 - Evaluation of Response Generation Models: Shouldn’t It Be Shareable and Replicable?, Dec 2022, [Proceedings of the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)](https://aclanthology.org/2022.gem-1.12/) [Github repository for Human Evaluation Protocol](https://github.com/sislab-unitn/Human-Evaluation-Protocol)
 - From Babbling to Fluency: Evaluating the Evolution of Language Models in Terms of Human Language Acquisition, Oct 2024, [arxiv](https://arxiv.org/abs/2410.13259)
 - DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph, June 2024, [arxiv](https://arxiv.org/abs/2406.17271)
@@ -571,6 +573,7 @@ And Dialog systems
 - 
 ### Science
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
+- What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks, NeurIPS 2023, [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbb330189ce02be00cf7346167028ab1-Abstract-Datasets_and_Benchmarks.html)
 - GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
 - MATH Mathematics Aptitude Test of Heuristics, Measuring Mathematical Problem Solving With the MATH Dataset, Nov 2021 [arxiv](https://arxiv.org/abs/2103.03874)
 
