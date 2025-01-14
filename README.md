@@ -265,6 +265,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Multi-Lingual
+- LLMzSzŁ: a comprehensive LLM benchmark for Polish, Jan 2024, [arxiv](https://arxiv.org/abs/2501.02266)
 - AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology [ACL pdf](https://aclanthology.org/2023.arabicnlp-1.21.pdf) [article](https://aclanthology.org/2023.arabicnlp-1.21/)
 - CALAMITA: Challenge the Abilities of LAnguage Models in ITAlian, Dec 2024, [Tenth Italian Conference on Computational Linguistics,](https://ceur-ws.org/Vol-3878/116_calamita_preface_long.pdf)
 - Evaluating and Advancing Multimodal Large Language Models in Ability Lens, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14725)
@@ -286,6 +287,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Multi-Modal
+- Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
 - LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models, Nov 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10769058)
 - ScImage: How Good Are Multimodal Large Language Models at Scientific Text-to-Image Generation?, Dec 2024, [arxiv](https://arxiv.org/abs/2412.02368)
 - RealWorldQA, Apr 2024, [HuggingFace](https://huggingface.co/blog/KennyUTC/realworldqa)
