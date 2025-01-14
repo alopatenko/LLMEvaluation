@@ -66,6 +66,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Leaderboards and Arenas
 -  New Hard Leaderboard by HuggingFace [leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) [description, blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog)
+- The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - Salesforce's Contextual Bench leaderboard [hugging face](https://huggingface.co/spaces/Salesforce/ContextualBench-Leaderboard)  an overview of how different LLMs perform across a variety of contextual tasks,
 - OpenGPT-X Multi- Lingual European LLM Leaderboard, [evaluation of LLMs for many European languages - on HuggingFace](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard) 
@@ -210,7 +211,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 -   
 ---
 ### Hallucinations
-- TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS: A PRINCIPLE AND BENCHMARK, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
+- The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
+- TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS: A PRINCIPLE AND BENCHMARK, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561), 
 - INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - A Survey of Hallucination in Large Visual Language Models, Oct 2024, See Chapter IV, Evaluation of Hallucinations [arxiv](https://arxiv.org/pdf/2410.15359#page=9.46)
 - Generating Benchmarks for Factuality Evaluation of Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.06908)
@@ -551,6 +553,7 @@ And Dialog systems
 - A framework for human evaluation of large language models in healthcare derived from literature review, September 2024, [Nature Digital Medicine](https://www.nature.com/articles/s41746-024-01258-7) 
 - Evaluation and mitigation of cognitive biases in medical language models, Oct 2024 [Nature](https://www.nature.com/articles/s41746-024-01283-6)
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
+- Evaluation and mitigation of the limitations of large language models in clinical decision-making, July 2024, [Nature Medicine](https://www.nature.com/articles/s41591-024-03097-1)
 - Evaluating Generative AI Responses to Real-world Drug-Related Questions, June 2024, [Psychiatry Research](https://www.sciencedirect.com/science/article/abs/pii/S0165178124003433)
 - Clinical Insights: A Comprehensive Review of Language Models in Medicine, Aug 2024, [arxiv](https://arxiv.org/abs/2408.11735) See table 2 for evaluation
 - Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 [arxiv](https://arxiv.org/abs/2401.06866)
