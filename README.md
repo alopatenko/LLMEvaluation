@@ -362,6 +362,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - 
 ---
 ### Safe AI
+- Medical large language models are vulnerable to data-poisoning attacks, Jan 2025, [Nature Medicine](https://www.nature.com/articles/s41591-024-03445-1)
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
 - ECCV 2024 MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models, Jan 2024, [github](https://github.com/isXinLiu/MM-SafetyBench) [arxiv nov 2023](https://arxiv.org/abs/2311.17600)
 - Introducing v0.5 of the AI Safety Benchmark from MLCommons, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12241)
@@ -549,6 +550,7 @@ And Dialog systems
 ## Verticals
 ### Healthcare and medicine
 - MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [arxiv](https://arxiv.org/abs/2403.03744) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
+- Medical large language models are vulnerable to data-poisoning attacks, Jan 2025, [Nature Medicine](https://www.nature.com/articles/s41591-024-03445-1)
 - A dataset and benchmark for hospital course summarization with adapted large language models, Dec 2024, [Journal of the American Medical Informatics Association](https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocae312/7934937?redirectedFrom=fulltext)
 - A framework for human evaluation of large language models in healthcare derived from literature review, September 2024, [Nature Digital Medicine](https://www.nature.com/articles/s41746-024-01258-7) 
 - Evaluation and mitigation of cognitive biases in medical language models, Oct 2024 [Nature](https://www.nature.com/articles/s41746-024-01283-6)
