@@ -226,6 +226,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Question answering
 QA is used in many vertical domains, see Vertical section bellow
+- CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03447)
+- Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x)
 - Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses, Oct 2024, Salesforce, [arxiv](https://arxiv.org/abs/2410.22349) [Answer Engine (RAG) Evaluation Repository](https://github.com/SalesforceAIResearch/answer-engine-eval)
 - Introducing SimpleQA, OpenAI, Oct 2024 [OpenAI](https://openai.com/index/introducing-simpleqa/)
 - Are Large Language Models Consistent over Value-laden Questions?, Jul 2024, [arxiv](https://arxiv.org/abs/2407.02996)
@@ -586,6 +588,7 @@ And Dialog systems
 - Multi-LexSum: Real-world Summaries of Civil Rights Lawsuits at Multiple Granularities [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/552ef803bef9368c29e53c167de34b55-Abstract-Datasets_and_Benchmarks.html)
 - 
 ### Science
+- Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks, NeurIPS 2023, [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbb330189ce02be00cf7346167028ab1-Abstract-Datasets_and_Benchmarks.html)
 - GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
