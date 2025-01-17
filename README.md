@@ -369,6 +369,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Safe AI
 - Medical large language models are vulnerable to data-poisoning attacks, Jan 2025, [Nature Medicine](https://www.nature.com/articles/s41591-024-03445-1)
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
+- Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
 - ECCV 2024 MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models, Jan 2024, [github](https://github.com/isXinLiu/MM-SafetyBench) [arxiv nov 2023](https://arxiv.org/abs/2311.17600)
 - Introducing v0.5 of the AI Safety Benchmark from MLCommons, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12241)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
@@ -448,6 +449,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
 - LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation, Jan 2025, [arxiv](https://arxiv.org/abs/2501.05414)
 - DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [The American Society of Mechanical Engineers](https://asmedigitalcollection.asme.org/computingengineering/article-abstract/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating?redirectedFrom=fulltext)
 - OmniEvalKit: A Modular, Lightweight Toolbox for Evaluating Large Language Model and its Omni-Extensions, Dec 2024, [arxiv](https://arxiv.org/abs/2412.06693)
