@@ -132,6 +132,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
 - Re-evaluating Automatic LLM System Ranking for Alignment with Human Preference, Dec 2024, [arxiv](https://arxiv.org/abs/2501.00560)
