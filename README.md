@@ -474,6 +474,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - DyKnow: Dynamically Verifying Time-Sensitive Factual Knowledge in LLMs, EMNLP 2024, Oct 2024, [arxiv](https://arxiv.org/abs/2404.08700), [Repository for DyKnow](https://github.com/sislab-unitn/DyKnow)
 - Jeopardy dataset at HuggingFace, [huggingface](https://huggingface.co/datasets/jeopardy-datasets/jeopardy)
 - A framework for few-shot language model evaluation, Zenodo, Jul 2024, [Zenodo](https://zenodo.org/records/5371629)
+- ORAN-Bench-13K: An Open Source Benchmark for Assessing LLMs in Open Radio Access Networks, Jul 2024 [arxiv](https://arxiv.org/abs/2407.06245)
 - AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models, Aug 2023, [arxiv](https://arxiv.org/abs/2304.06364)
 - Evaluation of Response Generation Models: Shouldn’t It Be Shareable and Replicable?, Dec 2022, [Proceedings of the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)](https://aclanthology.org/2022.gem-1.12/) [Github repository for Human Evaluation Protocol](https://github.com/sislab-unitn/Human-Evaluation-Protocol)
 - From Babbling to Fluency: Evaluating the Evolution of Language Models in Terms of Human Language Acquisition, Oct 2024, [arxiv](https://arxiv.org/abs/2410.13259)
