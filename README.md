@@ -462,6 +462,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [The American Society of Mechanical Engineers](https://asmedigitalcollection.asme.org/computingengineering/article-abstract/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating?redirectedFrom=fulltext)
 - OmniEvalKit: A Modular, Lightweight Toolbox for Evaluating Large Language Model and its Omni-Extensions, Dec 2024, [arxiv](https://arxiv.org/abs/2412.06693)
 - Holmes ⌕ A Benchmark to Assess the Linguistic Competence of Language Models , Dec 2024, [MIT Press Transactions of ACL, 2024](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00718/125534)
+- BENCHAGENTS: Automated Benchmark Creation with Agent Interaction, Oct 2024, [arxiv](https://arxiv.org/abs/2410.22584)
 - EscapeBench: Pushing Language Models to Think Outside the Box, Dec 2024, [arxiv](https://arxiv.org/abs/2412.13549)
 - OLMES: A Standard for Language Model Evaluations, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08446)
 - Tulu 3: Pushing Frontiers in Open Language Model Post-Training, Nov 2024, [arxiv](https://arxiv.org/abs/2411.15124) see 7.1 Open Language Model Evaluation System (OLMES) and AllenAI Githib rep for [Olmes](http://github.com/allenai/olmes)
@@ -561,6 +562,8 @@ And Dialog systems
 - 
 ---
 ### Task Utility
+- Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05449)
+- Assessing and Verifying Task Utility in LLM-Powered Applications, May 2024, [arxiv](https://arxiv.org/abs/2405.02178)
 - Towards better Human-Agent Alignment: Assessing Task Utility in LLM-Powered Applications, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09015)
 - 
 ---
