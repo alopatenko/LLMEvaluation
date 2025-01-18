@@ -63,9 +63,12 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM benchmarks
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
+- A Survey on Evaluation of Multimodal Large Language Models, aug 2024, [arxiv](https://arxiv.org/abs/2408.15769)
+- A Survey of Useful LLM Evaluation, Jun 2024, [arxiv](https://arxiv.org/abs/2406.00936)
 - Evaluating Large Language Models: A Comprehensive Survey , Oct 2023 [arxiv:](https://arxiv.org/abs/2310.19736)
 - A Survey on Evaluation of Large Language Models Jul 2023 [arxiv:](https://arxiv.org/abs/2307.03109)
 - Through the Lens of Core Competency: Survey on Evaluation of Large Language Models, Aug 2023 , [arxiv:](https://arxiv.org/abs/2308.07902)
+- for industrial specific surveys of evaluation methods for industries such as medical, see in respective parts of this compendium
 ---
 ### Leaderboards and Arenas
 -  New Hard Leaderboard by HuggingFace [leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) [description, blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog)
@@ -576,6 +579,8 @@ And Dialog systems
 - Clinical Insights: A Comprehensive Review of Language Models in Medicine, Aug 2024, [arxiv](https://arxiv.org/abs/2408.11735) See table 2 for evaluation
 - Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 [arxiv](https://arxiv.org/abs/2401.06866)
 - Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, [arxiv](https://arxiv.org/abs/2402.01730)
+- A Comprehensive Survey on Evaluating Large Language Model Applications in the Medical Industry, May 2024, [arxiv](https://arxiv.org/abs/2404.15777)
+- Evaluating large language models in medical applications: a survey, May 2024, [arxiv](https://arxiv.org/abs/2405.07468)
 - MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering, 2022, [PMLR](https://proceedings.mlr.press/v174/pal22a.html)
 - What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams, MedQA benchmark, Sep 2020, [arxiv](https://arxiv.org/abs/2009.13081)
 - PubMedQA: A Dataset for Biomedical Research Question Answering, 2019, [acl](https://aclanthology.org/D19-1259/)
