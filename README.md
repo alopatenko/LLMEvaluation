@@ -59,7 +59,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
-- Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
+- Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, UMD,  Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
 - AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM benchmarks
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
@@ -221,15 +221,15 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Hallucinations
 - The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
-- TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS: A PRINCIPLE AND BENCHMARK, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561), 
-- INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
+- TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS: A PRINCIPLE AND BENCHMARK, Lehigh University, University of Notre Dame, MS Research,  etc,  Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561), 
+- INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, Amazon Science, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
 - A Survey of Hallucination in Large Visual Language Models, Oct 2024, See Chapter IV, Evaluation of Hallucinations [arxiv](https://arxiv.org/pdf/2410.15359#page=9.46)
 - Generating Benchmarks for Factuality Evaluation of Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.06908)
 - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  [ACL](https://aclanthology.org/2023.emnlp-main.397.pdf) 
-- Long-form factuality in large language models, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
-- Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models, Sep 2023, [arxiv](https://arxiv.org/abs/2309.01219)
-- Measuring Faithfulness in Chain-of-Thought Reasoning, Jul 2023, [[arxiv](https://arxiv.org/abs/2307.13702)
-- FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation, May 2023, [arxiv](https://arxiv.org/abs/2305.14251) [repository](https://github.com/shmsw25/FActScore)
+- Long-form factuality in large language models, Google DeepMind etc, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
+- Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models, Tencent AI lab etc, Sep 2023, [arxiv](https://arxiv.org/abs/2309.01219)
+- Measuring Faithfulness in Chain-of-Thought Reasoning,  Anthropic etc,  Jul 2023, [[arxiv](https://arxiv.org/abs/2307.13702)
+- FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation, University of Washington etc,  May 2023, [arxiv](https://arxiv.org/abs/2305.14251) [repository](https://github.com/shmsw25/FActScore)
 - Introducing SimpleQA, OpenAI, Oct 2024 [OpenAI](https://openai.com/index/introducing-simpleqa/)
 ---
 ### Question answering
