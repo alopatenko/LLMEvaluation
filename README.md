@@ -76,6 +76,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - Aider Polyglot, code edit benchmark, [Aider Polyglot](https://aider.chat/docs/leaderboards/)
 - Salesforce's Contextual Bench leaderboard [hugging face](https://huggingface.co/spaces/Salesforce/ContextualBench-Leaderboard)  an overview of how different LLMs perform across a variety of contextual tasks,
+- [ArenaHard Leaderboard](https://github.com/lmarena/arena-hard-auto?tab=readme-ov-file#leaderboard) Paper: From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)   ArenaHard benchmark
 - OpenGPT-X Multi- Lingual European LLM Leaderboard, [evaluation of LLMs for many European languages - on HuggingFace](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard) 
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
@@ -477,7 +478,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
-- From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)
+- From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)   ArenaHard benchmark
 - Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
 - LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation, Jan 2025, [arxiv](https://arxiv.org/abs/2501.05414)
 - DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [The American Society of Mechanical Engineers](https://asmedigitalcollection.asme.org/computingengineering/article-abstract/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating?redirectedFrom=fulltext)
