@@ -180,17 +180,21 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 
 ---
 ### LLM as Judge
-- LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
-- Large Language Models are Inconsistent and Biased Evaluators, May 2024, [arxiv](https://arxiv.org/abs/2405.01724)
-- Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
-- Evaluating LLMs at Detecting Errors in LLM Responses, Apr 2024, [arxiv](https://arxiv.org/abs/2404.03602)
-- Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18796)
-- Report Cards: Qualitative Evaluation of Language Models Using Natural Language Summaries, Sep 2024, [arxiv](https://arxiv.org/abs/2409.00844)
-- Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
-- Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges, Jum 2024, [arxiv](https://arxiv.org/abs/2406.12624)
+- LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Tsinghua University, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
+- Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Seoul National University , Naver etc Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
+- Using LLMs for Evaluation LLM-as-a-Judge and other scalable additions to human quality ratings. Aug 2024, [Deep Learning Focus](https://cameronrwolfe.substack.com/p/llm-as-a-judge)
+- Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges, Jun 2024, [arxiv](https://arxiv.org/abs/2406.12624)
 - Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators, Apr 2024, [arxiv](https://arxiv.org/abs/2404.04475) [leaderboard](https://tatsu-lab.github.io/alpaca_eval/) [code](https://github.com/tatsu-lab/alpaca_eval)
-- Discovering Language Model Behaviors with Model-Written Evaluations, Dec 2022, [arxiv](https://arxiv.org/abs/2212.09251)
+- Large Language Models are Inconsistent and Biased Evaluators, Grammarly Duke Nvidia, May 2024, [arxiv](https://arxiv.org/abs/2405.01724)
+- Report Cards: Qualitative Evaluation of Language Models Using Natural Language Summaries, University of Toronto and Vector Institute, Sep 2024, [arxiv](https://arxiv.org/abs/2409.00844)
+- Evaluating LLMs at Detecting Errors in LLM Responses, Apr 2024, [arxiv](https://arxiv.org/abs/2404.03602)
+- Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models, Cohere, Apr 2024, [arxiv](https://arxiv.org/abs/2404.18796)
+- Aligning with Human Judgement: The Role of Pairwise Preference in Large Language Model Evaluators, Mar 2024, [arxiv](https://arxiv.org/abs/2403.16950)
+- LLM Evaluators Recognize and Favor Their Own Generations, Apr 2024, [pdf](https://drive.google.com/file/d/19H7-BNqccOw_IN3h-0WEz_zzc5ak3nyW/view)
+- Who Validates the Validators? Aligning LLM-Assisted Evaluation of LLM Outputs with Human Preferences, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12272)
 - The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate, Feb 2024, [arxiv](https://arxiv.org/abs/2402.06204)
+- Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Jun 2023, [arxiv](https://arxiv.org/abs/2306.05685)
+- Discovering Language Model Behaviors with Model-Written Evaluations, Dec 2022, [arxiv](https://arxiv.org/abs/2212.09251)
 - Benchmarking Foundation Models with Language-Model-as-an-Examiner, 2022, [NEURIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f64e55d03e2fe61aa4114e49cb654acb-Abstract-Datasets_and_Benchmarks.html)
 - Red Teaming Language Models with Language Models, Feb 2022, [arxiv](https://arxiv.org/abs/2202.03286)
 - ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate, Aug 2023, [arxiv](https://arxiv.org/abs/2308.07201)
@@ -198,10 +202,6 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Style Over Substance: Evaluation Biases for Large Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.03025)
 - Large Language Models Are State-of-the-Art Evaluators of Translation Quality, Feb 2023, [arxiv](https://arxiv.org/abs/2302.14520)
 - Large Language Models Are State-of-the-Art Evaluators of Code Generation, Apr 2023, [researchgate](https://www.researchgate.net/publication/370338371_Large_Language_Models_Are_State-of-the-Art_Evaluators_of_Code_Generation)
-- Aligning with Human Judgement: The Role of Pairwise Preference in Large Language Model Evaluators, Mar 2024, [arxiv](https://arxiv.org/abs/2403.16950)
-- LLM Evaluators Recognize and Favor Their Own Generations, Apr 2024, [pdf](https://drive.google.com/file/d/19H7-BNqccOw_IN3h-0WEz_zzc5ak3nyW/view)
-- Who Validates the Validators? Aligning LLM-Assisted Evaluation of LLM Outputs with Human Preferences, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12272)
-- Using LLMs for Evaluation LLM-as-a-Judge and other scalable additions to human quality ratings. Aug 2024, [Deep Learning Focus](https://cameronrwolfe.substack.com/p/llm-as-a-judge)
 ---
 ---
 ## LLM Evaluation
