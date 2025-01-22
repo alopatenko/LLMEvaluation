@@ -77,7 +77,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Aider Polyglot, code edit benchmark, [Aider Polyglot](https://aider.chat/docs/leaderboards/)
 - Salesforce's Contextual Bench leaderboard [hugging face](https://huggingface.co/spaces/Salesforce/ContextualBench-Leaderboard)  an overview of how different LLMs perform across a variety of contextual tasks,
 - [ArenaHard Leaderboard](https://github.com/lmarena/arena-hard-auto?tab=readme-ov-file#leaderboard) Paper: From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)   ArenaHard benchmark
-- OpenGPT-X Multi- Lingual European LLM Leaderboard, [evaluation of LLMs for many European languages - on HuggingFace](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard) 
+- OpenGPT-X Multi- Lingual European LLM Leaderboard, [evaluation of LLMs for many European languages - on HuggingFace](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard)
+- [LeaderBoard](https://huggingface.co/spaces/allenai/ZeroEval) on [ZeroEval from AllenAI](https://github.com/WildEval/ZeroEval)  unified framework for evaluating (large) language models on various reasoning tasks  
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
 - [SWE Bench ](https://www.swebench.com/)
@@ -106,6 +107,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [Microsoft Prompty](https://github.com/microsoft/prompty) 
 - [NVidia Garac evaluation of LLMs vulnerabilities](https://github.com/NVIDIA/garak) Generative AI Red-teaming & Assessment Kit
 - [Toolkit from Mozilla AI for LLM as judge evaluation](https://blog.mozilla.ai/local-llm-as-judge-evaluation-with-lm-buddy-prometheus-and-llamafile/) tool: [lm-buddy eval tool](https://github.com/mozilla-ai/lm-buddy?ref=blog.mozilla.ai) model: [Prometheus](https://kaistai.github.io/prometheus/)
+- [ZeroEval from AllenAI](https://github.com/WildEval/ZeroEval)  unified framework for evaluating (large) language models on various reasoning tasks  [LeaderBoard](https://huggingface.co/spaces/allenai/ZeroEval)
 - [TruLens ](https://github.com/truera/trulens/)
 - [Promptfoo](https://www.promptfoo.dev/)
 - [BigCode Evaluation Harness ](https://github.com/bigcode-project/bigcode-evaluation-harness)
