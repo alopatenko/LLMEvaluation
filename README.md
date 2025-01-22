@@ -154,8 +154,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM benchmarks
 - Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - Examining the robustness of LLM evaluation to the distributional assumptions of benchmarks, Aug 2024, [ACL 2024](https://aclanthology.org/2024.acl-long.560/)
-- *Synthetic data in evaluation*, see Chapter 3 in Best Practices and Lessons Learned on Synthetic Data for Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.07503)
-- When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards, Feb 2024, [arxiv](https://arxiv.org/abs/2402.01781)
+- Synthetic data in evaluation*, see Chapter 3 in Best Practices and Lessons Learned on Synthetic Data for Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.07503)
 - When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards, National Center for AI (NCAI), Feb 2024, [arxiv](https://arxiv.org/abs/2402.01781)
 - Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, [arxiv](https://arxiv.org/abs/2402.19472)
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
@@ -175,6 +174,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
 - A Theory of Dynamic Benchmarks, ICLR 2023, University of California, Berkeley, [arxiv](https://arxiv.org/abs/2210.03165)
 - Holistic Evaluation of Language Models, Center for Research on Foundation Models (CRFM), Stanford, Oct 2022, [arxiv](https://arxiv.org/abs/2211.09110)
+- What Will it Take to Fix Benchmarking in Natural Language Understanding?, NY University , Google Brain, Oct 2022, [arxiv](https://arxiv.org/abs/2104.02145)
+- Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, Jun 2022, [arxiv](https://arxiv.org/abs/2206.04615)
 - Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
 
 
