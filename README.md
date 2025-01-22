@@ -169,17 +169,15 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - State of What Art? A Call for Multi-Prompt LLM Evaluation , Aug 2024, [Transactions of the Association for Computational Linguistics (2024) 12](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00681/123885)
 
 ### Long Comprehensive Studies
+- Evaluation of OpenAI o1: Opportunities and Challenges of AGI, University of Alberta etc, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
 - TrustLLM: Trustworthiness in Large Language Models, Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561)
-- Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, [arxiv](https://arxiv.org/abs/2307.02191)
-- Evaluation of OpenAI o1: Opportunities and Challenges of AGI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
-
-
+- Evaluating AI systems under uncertain ground truth: a case study in dermatology, Jul 2023, Google DeepMind etc, [arxiv](https://arxiv.org/abs/2307.02191)
 ---
 ### HITL (Human in the Loop)
+- Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Univ of Washington, Stanford, Amazon AI etc, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09346)
+- Which Prompts Make The Difference? Data Prioritization For Efficient Human LLM Evaluation, Cohere, Nov 2023, [arxiv](https://arxiv.org/abs/2310.14424)
 - Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
-- Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop, Feb 2024, [arxiv](https://arxiv.org/abs/2402.09346)
-- Which Prompts Make The Difference? Data Prioritization For Efficient Human LLM Evaluation, Nov 2023, [arxiv](https://arxiv.org/abs/2310.14424)
--
+
 ---
 ### LLM as Judge
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
