@@ -151,26 +151,32 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - Ranking Unraveled: Recipes for LLM Rankings in Head-to-Head AI Combat, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14483)
 - Sabotage Evaluations for Frontier Models, Anthropic, Nov 2024, [paper](https://assets.anthropic.com/m/377027d5b36ac1eb/original/Sabotage-Evaluations-for-Frontier-Models.pdf)  [blog post](https://www.anthropic.com/research/sabotage-evaluations)
-- AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM becnmarks
+- AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM benchmarks
 - Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - Examining the robustness of LLM evaluation to the distributional assumptions of benchmarks, Aug 2024, [ACL 2024](https://aclanthology.org/2024.acl-long.560/)
 - *Synthetic data in evaluation*, see Chapter 3 in Best Practices and Lessons Learned on Synthetic Data for Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.07503)
-- Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
 - When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards, Feb 2024, [arxiv](https://arxiv.org/abs/2402.01781)
-- Are Emergent Abilities of Large Language Models a Mirage? Apr 23 [arxiv](https://arxiv.org/abs/2304.15004)
-- Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 [arxiv](https://arxiv.org/abs/2311.01964)
-- Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
-- Evaluating Open-QA Evaluation, 2023, [arxiv](https://arxiv.org/abs/2305.12421)
-- (RE: stat methods ) Prediction-Powered Inference jan 23 [arxiv](https://arxiv.org/abs/2301.09633)  PPI++: Efficient Prediction-Powered Inference nov 23, [arxiv](https://arxiv.org/abs/2311.01453)
+- When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards, National Center for AI (NCAI), Feb 2024, [arxiv](https://arxiv.org/abs/2402.01781)
 - Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress, Feb 2024, [arxiv](https://arxiv.org/abs/2402.19472)
 - Are We on the Right Way for Evaluating Large Vision-Language Models?, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20330.pdf)
 - What Are We Measuring When We Evaluate Large Vision-Language Models? An Analysis of Latent Factors and Biases, Apr 2024, [arxiv](https://arxiv.org/abs/2404.02415)
 - Detecting Pretraining Data from Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.16789)
 - Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings, Apr 2024, [arxiv](https://arxiv.org/abs/2404.16820)
 - Faithful model evaluation for model-based metrics, EMNLP 2023, [amazon science](https://www.amazon.science/publications/faithful-model-evaluation-for-model-based-metrics)
-- Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models, ICML 2023, [mlr press](https://proceedings.mlr.press/v202/liu23ao.html)
 - AI Snake Oil, June 2024, [AI leaderboards are no longer useful. It's time to switch to Pareto curves.](https://www.aisnakeoil.com/p/ai-leaderboards-are-no-longer-useful)
 - State of What Art? A Call for Multi-Prompt LLM Evaluation , Aug 2024, [Transactions of the Association for Computational Linguistics (2024) 12](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00681/123885)
+- Data Contamination Through the Lens of Time, Abacus AI etc, Oct 2023, [arxiv](https://arxiv.org/abs/2310.10628)
+- Same Pre-training Loss, Better Downstream: Implicit Bias Matters for Language Models, ICML 2023, [mlr press](https://proceedings.mlr.press/v202/liu23ao.html)
+- Are Emergent Abilities of Large Language Models a Mirage? Apr 23 [arxiv](https://arxiv.org/abs/2304.15004)
+- Don't Make Your LLM an Evaluation Benchmark Cheater nov 2023 [arxiv](https://arxiv.org/abs/2311.01964)
+- Holistic Evaluation of Text-to-Image Models, Stanford etc NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/dd83eada2c3c74db3c7fe1c087513756-Paper-Datasets_and_Benchmarks.pdf) 
+- Evaluating Open-QA Evaluation, 2023, [arxiv](https://arxiv.org/abs/2305.12421)
+- (RE: stat methods ) Prediction-Powered Inference Jan 23 [arxiv](https://arxiv.org/abs/2301.09633)  PPI++: Efficient Prediction-Powered Inference nov 23, [arxiv](https://arxiv.org/abs/2311.01453)
+- Elo Uncovered: Robustness and Best Practices in Language Model Evaluation, Nov 2023 [arxiv](https://arxiv.org/abs/2311.17295)
+- A Theory of Dynamic Benchmarks, ICLR 2023, University of California, Berkeley, [arxiv](https://arxiv.org/abs/2210.03165)
+- Holistic Evaluation of Language Models, Center for Research on Foundation Models (CRFM), Stanford, Oct 2022, [arxiv](https://arxiv.org/abs/2211.09110)
+- Evaluating Question Answering Evaluation, 2019, [ACL](https://aclanthology.org/D19-5817/)
+
 
 ### Long Comprehensive Studies
 - Evaluation of OpenAI o1: Opportunities and Challenges of AGI, University of Alberta etc, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
@@ -336,6 +342,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities, Aug 2023, [arxiv](https://arxiv.org/abs/2308.02490)
 - SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension, Jul 2023, [arxiv](https://arxiv.org/abs/2307.16125)
 - LAMM: Language-Assisted Multi-Modal Instruction-Tuning Dataset, Framework, and Benchmark, NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/548a41b9cac6f50dccf7e63e9e1b1b9b-Abstract-Datasets_and_Benchmarks.html)
+- Holistic Evaluation of Text-to-Image Models, Stanford etc NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/dd83eada2c3c74db3c7fe1c087513756-Paper-Datasets_and_Benchmarks.pdf) 
 - mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality, Apr 2023 [arxiv](https://arxiv.org/abs/2304.14178)
 
 
