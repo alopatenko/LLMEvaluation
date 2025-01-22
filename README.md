@@ -101,6 +101,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [Confident-AI DeepEval The LLM Evaluation Framework](https://github.com/confident-ai/deepeval) (unittest alike evaluation of LLM outputs)
 - [ML Flow Evaluate ](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html)
 - [MosaicML Composer ](https://github.com/mosaicml/composer)
+- [Microsoft Prompty](https://github.com/microsoft/prompty) 
 - [NVidia Garac evaluation of LLMs vulnerabilities](https://github.com/NVIDIA/garak) Generative AI Red-teaming & Assessment Kit
 - [Toolkit from Mozilla AI for LLM as judge evaluation](https://blog.mozilla.ai/local-llm-as-judge-evaluation-with-lm-buddy-prometheus-and-llamafile/) tool: [lm-buddy eval tool](https://github.com/mozilla-ai/lm-buddy?ref=blog.mozilla.ai) model: [Prometheus](https://kaistai.github.io/prometheus/)
 - [TruLens ](https://github.com/truera/trulens/)
