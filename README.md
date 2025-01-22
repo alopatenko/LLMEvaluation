@@ -143,6 +143,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
 - Re-evaluating Automatic LLM System Ranking for Alignment with Human Preference, Dec 2024, [arxiv](https://arxiv.org/abs/2501.00560)
+- Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations, Nov 2024, Anthropic, [arxiv](https://arxiv.org/abs/2411.00640)
 - Lessons from the Trenches on Reproducible Evaluation of Language Models, May 2024, [arxiv](https://arxiv.org/abs/2405.14782)
 - Ranking Unraveled: Recipes for LLM Rankings in Head-to-Head AI Combat, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14483)
 - Sabotage Evaluations for Frontier Models, Anthropic, Nov 2024, [paper](https://assets.anthropic.com/m/377027d5b36ac1eb/original/Sabotage-Evaluations-for-Frontier-Models.pdf)  [blog post](https://www.anthropic.com/research/sabotage-evaluations)
