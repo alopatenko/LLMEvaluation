@@ -138,6 +138,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Large benchmarks
+- MMLU-Pro+: Evaluating Higher-Order Reasoning and Shortcut Learning in LLMs, Sep 2024, Audesk AI, [arxiv](https://arxiv.org/abs/2409.02257)
 - MMLU Pro Massive Multitask Language Understanding - Pro version, Jun 2024, [arxiv](https://arxiv.org/abs/2406.01574)
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
 - Measuring Massive Multitask Language Understanding,  MMLU, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf) [MMLU dataset](https://github.com/hendrycks/test)
