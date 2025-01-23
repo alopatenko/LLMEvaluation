@@ -308,6 +308,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
 - LAraBench: Benchmarking Arabic AI with Large Language Models, May 23, [arxiv](https://arxiv.org/abs/2305.14982)
 - Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?, Apr 2024, [arxiv](https://arxiv.org/abs/2404.06644)
+- CLUE: A Chinese Language Understanding Evaluation Benchmark, Apr 2020, [arxiv](https://arxiv.org/abs/2407.16931) [CLUEWSC(Winograd Scheme Challenge)](https://github.com/CLUEbenchmark/CLUEWSC2020)
 #### Multi-Lingual Embedding tasks
 - The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding, [openreview pdf](https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf)
 - Chinese MTEB C-MTEB [repository](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)
