@@ -39,7 +39,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [Code Generating LLMs](#code-generating-llms)
     - [Summarization](#summarization)
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
-    - [Software Performace (latency, throughput, memory, storage)](#software-performance)
+    - [Software Performance (latency, throughput, memory, storage)](#software-performance)
     - [Agent LLM architectures](#agent-llm-architectures)
     - [Long Text Generation](#long-text-generation)
     - [Graph Understandings](#graph-understanding)
