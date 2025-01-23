@@ -517,6 +517,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - LoTa-Bench: Benchmarking Language-oriented Task Planners for Embodied Agents, Feb 2024, [arxiv](https://arxiv.org/abs/2402.08178)
 - Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07440), LoCoV1 benchmark for long context LLM,
 - A User-Centric Benchmark for Evaluating Large Language Models, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13940), [data of user centric benchmark at github](https://github.com/Alice1998/URS)
+- Evaluating Quantized Large Language Models, Tsinghua University etc, International Conference on Machine Learning, PMLR 2024, [arxiv](https://arxiv.org/abs/2402.18158)
 - RACE: Large-scale ReAding Comprehension Dataset From Examinations, 2017, [arxiv](https://arxiv.org/abs/1704.04683) [RACE dataset at CMU](https://www.cs.cmu.edu/~glai1/data/race/)
 - CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models, 2020, [arxiv](https://arxiv.org/abs/2010.00133) [CrowS-Pairs dataset](https://github.com/nyu-mll/crows-pairs)
 - DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs, Jun 2019, [ACL](https://aclanthology.org/N19-1246/) [data](https://allenai.org/data/drop)
