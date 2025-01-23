@@ -551,6 +551,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Conversational systems
 And Dialog systems
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
+- Comparative Analysis of Finetuning Strategies and Automated Evaluation Metrics for Large Language Models in Customer Service Chatbots, Aug 2024, [preprint](https://www.researchsquare.com/article/rs-4895456/v1)
 - Introducing v0.5 of the AI Safety Benchmark from MLCommons, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12241)
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
 - CausalScore: An Automatic Reference-Free Metric for Assessing Response Relevance in Open-Domain Dialogue Systems, Jun 2024, [arxiv](https://arxiv.org/abs/2406.17300)
