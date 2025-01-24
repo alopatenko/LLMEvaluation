@@ -206,6 +206,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Seoul National University , Naver etc Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
 - JudgeBench: A Benchmark for Evaluating LLM-based Judges, UC Berkeley, Oct 2024, [arxiv](https://arxiv.org/abs/2410.12784)
 - Using LLMs for Evaluation LLM-as-a-Judge and other scalable additions to human quality ratings. Aug 2024, [Deep Learning Focus](https://cameronrwolfe.substack.com/p/llm-as-a-judge)
+- Language Model Council: Democratically Benchmarking Foundation Models on Highly Subjective Tasks, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08598)
 - Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges, University of Massachusetts Amherst, Meta, Jun 2024, [arxiv](https://arxiv.org/abs/2406.12624)
 - Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators, Stanford University, Apr 2024, [arxiv](https://arxiv.org/abs/2404.04475) [leaderboard](https://tatsu-lab.github.io/alpaca_eval/) [code](https://github.com/tatsu-lab/alpaca_eval)
 - Large Language Models are Inconsistent and Biased Evaluators, Grammarly Duke Nvidia, May 2024, [arxiv](https://arxiv.org/abs/2405.01724)
