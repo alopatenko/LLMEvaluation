@@ -244,16 +244,19 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Hallucinations
 - The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
+- Introducing SimpleQA, OpenAI, Oct 2024 [OpenAI](https://openai.com/index/introducing-simpleqa/)
+- A Survey of Hallucination in Large Visual Language Models, Oct 2024, See Chapter IV, Evaluation of Hallucinations [arxiv](https://arxiv.org/pdf/2410.15359#page=9.46)
+- Long-form factuality in large language models, Google DeepMind etc, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
 - TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS: A PRINCIPLE AND BENCHMARK, Lehigh University, University of Notre Dame, MS Research,  etc,  Jan 2024, [arxiv](https://arxiv.org/abs/2401.05561), 
 - INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations, Amazon Science, EMNLP 2023, [amazon science](https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations)
-- A Survey of Hallucination in Large Visual Language Models, Oct 2024, See Chapter IV, Evaluation of Hallucinations [arxiv](https://arxiv.org/pdf/2410.15359#page=9.46)
 - Generating Benchmarks for Factuality Evaluation of Language Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.06908)
+- AlignScore: Evaluating Factual Consistency with a Unified Alignment Function, May 2023, [arxiv](https://arxiv.org/abs/2305.16739)
+- ChatGPT as a Factual Inconsistency Evaluator for Text Summarization, Mar 2023, [arxiv](https://arxiv.org/abs/2303.15621)
 - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models, Dec 2023,  [ACL](https://aclanthology.org/2023.emnlp-main.397.pdf) 
-- Long-form factuality in large language models, Google DeepMind etc, Mar 2024, [arxiv](https://arxiv.org/abs/2403.18802)
 - Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models, Tencent AI lab etc, Sep 2023, [arxiv](https://arxiv.org/abs/2309.01219)
 - Measuring Faithfulness in Chain-of-Thought Reasoning,  Anthropic etc,  Jul 2023, [[arxiv](https://arxiv.org/abs/2307.13702)
 - FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation, University of Washington etc,  May 2023, [arxiv](https://arxiv.org/abs/2305.14251) [repository](https://github.com/shmsw25/FActScore)
-- Introducing SimpleQA, OpenAI, Oct 2024 [OpenAI](https://openai.com/index/introducing-simpleqa/)
+- TRUE: Re-evaluating Factual Consistency Evaluation, Apt 2022, [arxiv](https://arxiv.org/abs/2204.04991)
   
 ---
 ### Question answering
