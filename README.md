@@ -39,7 +39,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [Code Generating LLMs](#code-generating-llms)
     - [Summarization](#summarization)
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
-    - [Software Performace (latency, throughput, memory, storage)](#software-performance)
+    - [Inference Performance](#inference-performance)
     - [Agent LLM architectures](#agent-llm-architectures)
     - [Long Text Generation](#long-text-generation)
     - [Graph Understandings](#graph-understanding)
@@ -465,7 +465,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - [WeightWatcher](https://calculatedcontent.com/2024/01/23/evaluating-fine-tuned-llms-with-weightwatcher/)
   
 ---
-### Software Performance
+### LLM Inference Performance
 - Ray/Anyscale's LLM Performance [Leaderboard](https://github.com/ray-project/llmperf-leaderboard) ([explanation:](https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm))
 - MLCommons MLPerf benchmarks (inference) [MLPerf announcement of the LLM track](https://mlcommons.org/2023/09/mlperf-results-highlight-growing-importance-of-generative-ai-and-storage/)
   
