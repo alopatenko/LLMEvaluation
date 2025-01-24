@@ -465,7 +465,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - [WeightWatcher](https://calculatedcontent.com/2024/01/23/evaluating-fine-tuned-llms-with-weightwatcher/)
   
 ---
-### LLM Inference Performance
+### Inference Performance
 - Ray/Anyscale's LLM Performance [Leaderboard](https://github.com/ray-project/llmperf-leaderboard) ([explanation:](https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm))
 - MLCommons MLPerf benchmarks (inference) [MLPerf announcement of the LLM track](https://mlcommons.org/2023/09/mlperf-results-highlight-growing-importance-of-generative-ai-and-storage/)
   
