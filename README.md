@@ -446,10 +446,13 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Summarization
+- Evaluation & Hallucination Detection for Abstractive Summaries, [online blog article](https://eugeneyan.com/writing/abstractive/)
 - Human-like Summarization Evaluation with ChatGPT, Apr 2023, [arxiv](https://arxiv.org/abs/2304.02554)
 - A dataset and benchmark for hospital course summarization with adapted large language models, Dec 2024, [Journal of the American Medical Informatics Association](https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocae312/7934937?redirectedFrom=fulltext)
+- SEAHORSE: A Multilingual, Multifaceted Dataset for Summarization Evaluation, May 2023, [arxiv](https://arxiv.org/abs/2305.13194) [benchmark data](https://github.com/google-research-datasets/seahorse?tab=readme-ov-file)
 - Evaluating the Factual Consistency of Large Language Models Through News Summarization, Nov 2022, [arxiv](https://arxiv.org/abs/2211.08412)
 - USB: A Unified Summarization Benchmark Across Tasks and Domains, May 2023, [arxiv](https://arxiv.org/abs/2305.14296)
+- SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization, Nov 2021, [arxiv](https://arxiv.org/abs/2111.09525) [github data](https://github.com/tingofurro/summac)
 - WikiAsp: A Dataset for Multi-domain Aspect-based Summarization, 2021, [Transactions ACL](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00362/98088/WikiAsp-A-Dataset-for-Multi-domain-Aspect-based) [dataset](https://huggingface.co/datasets/wiki_asp)
   
 ---
