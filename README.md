@@ -433,6 +433,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ### Code Generating LLMs
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
 - Aider Polyglot, code editing benchmark [Aider polyglot site](https://aider.chat/docs/benchmarks.html#the-benchmark)
+- A Survey on Evaluating Large Language Models in Code Generation Tasks, Peking University etc, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16498)
 - LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming Feb 24 [arxiv](https://arxiv.org/abs/2402.14261)
 - LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code, Berkeley, MIT, Cornell, Mar 2024, [arxiv](https://arxiv.org/abs/2403.07974)
