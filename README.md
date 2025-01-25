@@ -571,6 +571,8 @@ And Dialog systems
   
 ---
 ### Copilots
+- Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise, Stanford, Oct 2024, [arxiv](https://arxiv.org/abs/2410.03017)
+- From Interaction to Impact: Towards Safer AI Agents Through Understanding and Evaluating UI Operation Impacts, University of Washington , Apple, Oct 2024, [arxiv](https://arxiv.org/abs/2410.09006)
 - Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming Feb 24 [arxiv](https://arxiv.org/abs/2402.14261)
 - ELITR-Bench: A Meeting Assistant Benchmark for Long-Context Language Models, Apr 2024, [arxiv](https://arxiv.org/pdf/2403.20262.pdf)
   
