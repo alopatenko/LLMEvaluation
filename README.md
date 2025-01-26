@@ -401,6 +401,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Safe AI
 - Lessons From Red Teaming 100 Generative AI Products, Microsoft, Jan 2025, [arxiv](https://arxiv.org/abs/2501.07238)
+- Trading Inference-Time Compute for Adversarial Robustness, OpenAI, Jan 2025, [arxiv](https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/)
 - Medical large language models are vulnerable to data-poisoning attacks, New York University, Jan 2025, [Nature Medicine](https://www.nature.com/articles/s41591-024-03445-1)
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
 - Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Stanford University, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
@@ -420,7 +421,9 @@ QA is used in many vertical domains, see Vertical section bellow
 - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models, University of Pennsylvania, ETH Zurich, etc, , Mar 2024, [arxiv](https://arxiv.org/abs/2404.01318)
 - Announcing a Benchmark to Improve AI Safety MLCommons has made benchmarks for AI performance—now it's time to measure safety, Apr 2024 [IEEE Spectrum](https://spectrum.ieee.org/ai-safety-benchmark)
 - Model evaluation for extreme risks, Google DeepMind, OpenAI, etc, May 2023, [arxiv](https://arxiv.org/abs/2305.15324)
+- A StrongREJECT for Empty Jailbreaks, Center for Human-Compatible AI, UC Berkeley, Feb 2024, [arxiv](https://arxiv.org/abs/2402.10260) [StrongREJECT Benchmark](https://strong-reject.readthedocs.io/en/latest/)
 - Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training, Anthropic, Redwood Research etc Jan 2024, [arxiv](https://arxiv.org/abs/2401.05566)
+- How Robust is Google's Bard to Adversarial Image Attacks?, Sep 2023, [arxiv](https://arxiv.org/abs/2309.11751)
   
 ---
 ### Cybersecurity
