@@ -612,6 +612,7 @@ And Dialog systems
 ## Verticals
 ### Healthcare and medicine
 - MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [arxiv](https://arxiv.org/abs/2403.03744) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
+- Evaluation of LLMs accuracy and consistency in the registered dietitian exam through prompt engineering and knowledge retrieval, Nature, Jan 2025, [Scientific reporta Nature](https://www.nature.com/articles/s41598-024-85003-w)
 - Medical large language models are vulnerable to data-poisoning attacks, Jan 2025, [Nature Medicine](https://www.nature.com/articles/s41591-024-03445-1)
 - A dataset and benchmark for hospital course summarization with adapted large language models, Dec 2024, [Journal of the American Medical Informatics Association](https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocae312/7934937?redirectedFrom=fulltext)
 - MedQA-CS: Benchmarking Large Language Models Clinical Skills Using an AI-SCE Framework, Oct 2024, [arxiv](https://arxiv.org/abs/2410.01553)
@@ -652,7 +653,7 @@ And Dialog systems
 - Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks, NeurIPS 2023, [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbb330189ce02be00cf7346167028ab1-Abstract-Datasets_and_Benchmarks.html)
-- GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
+- GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022) [gpqa benchmark dataset](https://huggingface.co/datasets/Idavidrein/gpqa)
 - MATH Mathematics Aptitude Test of Heuristics, Measuring Mathematical Problem Solving With the MATH Dataset, Nov 2021 [arxiv](https://arxiv.org/abs/2103.03874)
 
 ---
