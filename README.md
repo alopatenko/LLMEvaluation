@@ -415,6 +415,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Attack Atlas: A Practitioner's Perspective on Challenges and Pitfalls in Red Teaming GenAI, IBM Research etc, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15398)
 - DetoxBench: Benchmarking Large Language Models for Multitask Fraud & Abuse Detection, Amazon.com, Sep 2024, [arxiv](https://arxiv.org/abs/2409.06072)
 - Purple Llama, an umbrella project from Meta, Meta, [Purple Llama repository](https://github.com/meta-llama/PurpleLlama)
+- How Many Are in This Image A Safety Evaluation Benchmark for Vision LLMs, ECCV 2024, [ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-72983-6_3)
 - Explore, Establish, Exploit: Red Teaming Language Models from Scratch, MIT CSAIL etc, Jun 2023, [arxiv](https://arxiv.org/abs/2306.09442)
 - Rethinking Backdoor Detection Evaluation for Language Models, University of Southern California, Aug 2024, [arxiv pdf](https://arxiv.org/abs/2409.00399)
 - Gradient-Based Language Model Red Teaming, Google Research & Anthropic, Jan 24, [arxiv](https://arxiv.org/abs/2401.16656)
@@ -423,6 +424,8 @@ QA is used in many vertical domains, see Vertical section bellow
 - Model evaluation for extreme risks, Google DeepMind, OpenAI, etc, May 2023, [arxiv](https://arxiv.org/abs/2305.15324)
 - A StrongREJECT for Empty Jailbreaks, Center for Human-Compatible AI, UC Berkeley, Feb 2024, [arxiv](https://arxiv.org/abs/2402.10260) [StrongREJECT Benchmark](https://strong-reject.readthedocs.io/en/latest/)
 - Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training, Anthropic, Redwood Research etc Jan 2024, [arxiv](https://arxiv.org/abs/2401.05566)
+- How Many Unicorns Are in This Image? A Safety Evaluation Benchmark for Vision LLMs, Nov 2023, [arxiv](https://arxiv.org/abs/2311.16101)
+- On Evaluating Adversarial Robustness of Large Vision-Language Models, NeurIPS 2023, [NeuriPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a97b58c4f7551053b0512f92244b0810-Abstract-Conference.html)
 - How Robust is Google's Bard to Adversarial Image Attacks?, Sep 2023, [arxiv](https://arxiv.org/abs/2309.11751)
   
 ---
