@@ -151,6 +151,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
+- Evaluating the Evaluations: A Perspective on Benchmarks, Opinion paper, Amazon, Jan 2025, [SIGIR](https://www.sigir.org/wp-content/uploads/2025/01/p18.pdf)
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, Max Planck Institute for Intelligent Systems, Tübingen, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
 - Re-evaluating Automatic LLM System Ranking for Alignment with Human Preference, Dec 2024, [arxiv](https://arxiv.org/abs/2501.00560)
@@ -292,6 +293,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 ### Reasoning
+- Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning, Jan 2025, [Proceedings of the 31st International Conference on Computational Linguistics](https://aclanthology.org/2025.coling-main.330/)
 - FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
 - Easy Problems That LLMs Get Wrong, May 2024, [arxiv](https://arxiv.org/abs/2405.19616v2), a comprehensive Linguistic Benchmark designed to evaluate the limitations of Large Language Models (LLMs) in domains such as logical reasoning, spatial intelligence, and linguistic understanding
 - Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning, NeurIPS 2024 Track Datasets and Benchmarks Spotlight, Sep 2024, [OpenReview](https://openreview.net/forum?id=aXeiCbMFFJ)
@@ -565,6 +567,8 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Conversational systems
 And Dialog systems
+- A survey on chatbots and large language models: Testing and evaluation techniques, Jan 2025, [Natural Language Processing Journal Mar 2025](https://www.sciencedirect.com/science/article/pii/S2949719125000044)
+- How Well Can Large Language Models Reflect? A Human Evaluation of LLM-generated Reflections for Motivational Interviewing Dialogues, Jan 2025, [Proceedings of the 31st International Conference on Computational Linguistics COLING](https://aclanthology.org/2025.coling-main.135/) 
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
 - Comparative Analysis of Finetuning Strategies and Automated Evaluation Metrics for Large Language Models in Customer Service Chatbots, Aug 2024, [preprint](https://www.researchsquare.com/article/rs-4895456/v1)
 - Introducing v0.5 of the AI Safety Benchmark from MLCommons, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12241)
