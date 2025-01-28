@@ -294,7 +294,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 ### Reasoning
-- See 5.3 Evaluations chapter of DeepSeek R3 tech report on how new frontier models are evaluated Dec 2024 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437v1) and 3.1. DeepSeek-R1 Evaluation Chapter of DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning Jan 2025 [arxiv](https://arxiv.org/abs/2501.12948
+- See 5.3 Evaluations chapter of DeepSeek R3 tech report on how new frontier models are evaluated Dec 2024 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437v1) and 3.1. DeepSeek-R1 Evaluation Chapter of DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning Jan 2025 [arxiv](https://arxiv.org/abs/2501.12948)
 - Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning, Jan 2025, [Proceedings of the 31st International Conference on Computational Linguistics](https://aclanthology.org/2025.coling-main.330/))
 - FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
 - Easy Problems That LLMs Get Wrong, May 2024, [arxiv](https://arxiv.org/abs/2405.19616v2), a comprehensive Linguistic Benchmark designed to evaluate the limitations of Large Language Models (LLMs) in domains such as logical reasoning, spatial intelligence, and linguistic understanding
