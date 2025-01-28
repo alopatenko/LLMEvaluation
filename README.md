@@ -120,6 +120,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 
 ﻿---
 ### LLM Evaluation articles in tech media and blog posts from companies
+- A Framework for Building Micro Metrics for LLM System Evaluation, Jan 2025, [InfoQ](https://www.infoq.com/articles/micro-metrics-llm-evaluation/)
 - Evaluate LLMs using Evaluation Harness and Hugging Face TGI/vLLM, Sep 2024, [blog](https://www.philschmid.de/evaluate-llms-with-lm-eval-and-tgi-vllm)
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
 - Let's talk about LLM Evaluation, HuggingFace, [article](https://huggingface.co/blog/clefourrier/llm-evaluation)
