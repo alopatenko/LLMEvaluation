@@ -43,6 +43,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [Agent LLM architectures](#agent-llm-architectures)
     - [Long Text Generation](#long-text-generation)
     - [Graph Understandings](#graph-understanding)
+    - [Reward Models](#reward-models)
     - [Various unclassified tasks](#various-unclassified-tasks)
 - [LLM Systems](#llm-systems)
     - [RAG Evaluation](#rag-evaluation)
@@ -512,7 +513,11 @@ QA is used in many vertical domains, see Vertical section bellow
 - Open Graph Benchmark: Datasets for Machine Learning on Graphs, [NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/fb60d411a5c5b72b2e7d3527cfc84fd0-Abstract.html)
 - Can Language Models Solve Graph Problems in Natural Language? [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/622afc4edf2824a1b6aaf5afe153fa93-Abstract-Conference.html)
 - Evaluating Large Language Models on Graphs: Performance Insights and Comparative Analysis, Aug 2023, [https://arxiv.org/abs/2308.11224]
-  
+## Reward Models 
+- RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16184)
+- HelpSteer2: Open-source dataset for training top-performing reward models, Aug 2024, [arxiv](https://arxiv.org/abs/2406.08673)
+- RewardBench: Evaluating Reward Models for Language Modeling, Mar 2024, [arxiv](https://arxiv.org/abs/2403.13787v1)
+- MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 [arxiv](https://arxiv.org/abs/2402.14762)
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
