@@ -208,6 +208,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Tsinghua University, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
 - Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Seoul National University , Naver etc Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
 - JudgeBench: A Benchmark for Evaluating LLM-based Judges, UC Berkeley, Oct 2024, [arxiv](https://arxiv.org/abs/2410.12784)
+- From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, Oct 2024, UC Berkeley, [arxiv](https://arxiv.org/abs/2406.11939)
 - Using LLMs for Evaluation LLM-as-a-Judge and other scalable additions to human quality ratings. Aug 2024, [Deep Learning Focus](https://cameronrwolfe.substack.com/p/llm-as-a-judge)
 - Language Model Council: Democratically Benchmarking Foundation Models on Highly Subjective Tasks, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08598)
 - Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges, University of Massachusetts Amherst, Meta, Jun 2024, [arxiv](https://arxiv.org/abs/2406.12624)
@@ -324,6 +325,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
 - LAraBench: Benchmarking Arabic AI with Large Language Models, May 23, [arxiv](https://arxiv.org/abs/2305.14982)
 - Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?, Apr 2024, [arxiv](https://arxiv.org/abs/2404.06644)
+- Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model, Cohere, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07827) see [Evaluation chapter](https://arxiv.org/pdf/2402.07827#page=13.36) with details how to evaluate multi lingual model capabilities
 - CLUE: A Chinese Language Understanding Evaluation Benchmark, Apr 2020, [arxiv](https://arxiv.org/abs/2407.16931) [CLUEWSC(Winograd Scheme Challenge)](https://github.com/CLUEbenchmark/CLUEWSC2020)
 
 ---
