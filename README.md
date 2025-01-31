@@ -310,6 +310,9 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Lingual
+- Mexa: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment, (ICLR 2025 submission) [open review](https://openreview.net/forum?id=hsMkpzr9Oy)
+- Multilingual Large Language Models: A Systematic Survey, Nov 2024, see Evaluation chapter about details of evaluation of multi-lingual large language models
+ [Evaluation chapter, arxiv](https://arxiv.org/pdf/2411.11072#page=32.71)
 - Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models, Taobao & Tmall Group of Alibaba, Nov 2024, [arxiv](https://arxiv.org/pdf/2411.07140)
 - Cross-Lingual Auto Evaluation for Assessing Multilingual LLMs, Oct 2024, [arxiv](https://arxiv.org/abs/2410.13394)
 - Towards Multilingual LLM Evaluation for European Languages, TU Dresden etc, Oct 2024, [arxiv](https://arxiv.org/abs/2410.08928)
@@ -321,13 +324,15 @@ QA is used in many vertical domains, see Vertical section bellow
 - Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem [HF blog](https://huggingface.co/blog/leaderboard-upstage)
 - Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese , Apr 2024 [arxiv](https://arxiv.org/abs/2404.07824)
 - BanglaQuAD: A Bengali Open-domain Question Answering Dataset, Oct 2024, [arxiv](https://arxiv.org/abs/2410.10229)
-- AlignBench: Benchmarking Chinese Alignment of Large Language Models, Nov 2023, [arxiv](https://arxiv.org/abs/2311.18743)
+- MultiPragEval: Multilingual Pragmatic Evaluation of Large Language Models, Jun 2024, [arxiv](https://arxiv.org/abs/2406.07736)
+- Are Large Language Model-based Evaluators the Solution to Scaling Up Multilingual Evaluation?, Mar 2024, [Findings of the Association for Computational Linguistics: EACL 2024](https://aclanthology.org/2024.findings-eacl.71/)
 - The Invalsi Benchmark: measuring Language Models Mathematical and Language understanding in Italian, Mar 2024, [arxiv](https://arxiv.org/pdf/2403.18697.pdf)
 - MEGA: Multilingual Evaluation of Generative AI, Mar 2023, [arxiv](https://arxiv.org/abs/2303.12528)
-- M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
-- LAraBench: Benchmarking Arabic AI with Large Language Models, May 23, [arxiv](https://arxiv.org/abs/2305.14982)
 - Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?, Apr 2024, [arxiv](https://arxiv.org/abs/2404.06644)
 - Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model, Cohere, Feb 2024, [arxiv](https://arxiv.org/abs/2402.07827) see [Evaluation chapter](https://arxiv.org/pdf/2402.07827#page=13.36) with details how to evaluate multi lingual model capabilities
+- M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, 2023, [NIPS website](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)
+- LAraBench: Benchmarking Arabic AI with Large Language Models, May 23, [arxiv](https://arxiv.org/abs/2305.14982)
+- AlignBench: Benchmarking Chinese Alignment of Large Language Models, Nov 2023, [arxiv](https://arxiv.org/abs/2311.18743)
 - CLUE: A Chinese Language Understanding Evaluation Benchmark, Apr 2020, [arxiv](https://arxiv.org/abs/2407.16931) [CLUEWSC(Winograd Scheme Challenge)](https://github.com/CLUEbenchmark/CLUEWSC2020)
 
 ---
