@@ -318,6 +318,7 @@ QA is used in many vertical domains, see Vertical section bellow
 - Towards Multilingual LLM Evaluation for European Languages, TU Dresden etc, Oct 2024, [arxiv](https://arxiv.org/abs/2410.08928)
 - MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.17578)
 - LLMzSzŁ: a comprehensive LLM benchmark for Polish, Jan 2024, [arxiv](https://arxiv.org/abs/2501.02266)
+- Are Large Language Model-based Evaluators the Solution to Scaling Up Multilingual Evaluation?, Microsoft/CMU etc , Sep 2024, [arxiv](https://arxiv.org/abs/2309.07462)
 - AlGhafa Evaluation Benchmark for Arabic Language Models Dec 23, ACL Anthology [ACL pdf](https://aclanthology.org/2023.arabicnlp-1.21.pdf) [article](https://aclanthology.org/2023.arabicnlp-1.21/)
 - CALAMITA: Challenge the Abilities of LAnguage Models in ITAlian, Dec 2024, [Tenth Italian Conference on Computational Linguistics,](https://ceur-ws.org/Vol-3878/116_calamita_preface_long.pdf)
 - Evaluating and Advancing Multimodal Large Language Models in Ability Lens, Nov 2024, [arxiv](https://arxiv.org/abs/2411.14725)
