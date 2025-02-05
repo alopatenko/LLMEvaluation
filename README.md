@@ -120,7 +120,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - LM-PUB-QUIZ: A Comprehensive Framework for Zero-Shot Evaluation of Relational Knowledge in Language Models, [arxiv pdf](https://arxiv.org/abs/2408.15729) [github repository](https://lm-pub-quiz.github.io/)
 
 ﻿---
-### LLM Evaluation articles in tech media and blog posts from companies
+### LLM Evaluation articles in tech media and blog posts and podcasts from companies
+- Apoorva Joshi on LLM Application Evaluation and Performance Improvements, InfoQ,Frb 2005, [infoq](https://www.infoq.com/podcasts/llm-application-evaluation-performance-improvements/)
 - A Framework for Building Micro Metrics for LLM System Evaluation, Jan 2025, [InfoQ](https://www.infoq.com/articles/micro-metrics-llm-evaluation/)
 - Evaluate LLMs using Evaluation Harness and Hugging Face TGI/vLLM, Sep 2024, [blog](https://www.philschmid.de/evaluate-llms-with-lm-eval-and-tgi-vllm)
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
