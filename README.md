@@ -78,6 +78,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - Aider Polyglot, code edit benchmark, [Aider Polyglot](https://aider.chat/docs/leaderboards/)
 - Salesforce's Contextual Bench leaderboard [hugging face](https://huggingface.co/spaces/Salesforce/ContextualBench-Leaderboard)  an overview of how different LLMs perform across a variety of contextual tasks,
+- WebQA - Multimodal and Multihop QA, by WebQA [WebQA leaderboard](https://eval.ai/web/challenges/challenge-page/1255/leaderboard/3168)
 - [ArenaHard Leaderboard](https://github.com/lmarena/arena-hard-auto?tab=readme-ov-file#leaderboard) Paper: From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)   ArenaHard benchmark
 - OpenGPT-X Multi- Lingual European LLM Leaderboard, [evaluation of LLMs for many European languages - on HuggingFace](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard)
 - [AllenAI's ZeroEval LeaderBoard](https://huggingface.co/spaces/allenai/ZeroEval)  benchmark: [ZeroEval from AllenAI](https://github.com/WildEval/ZeroEval)  unified framework for evaluating (large) language models on various reasoning tasks  
