@@ -316,6 +316,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Multi-Lingual
 - Mexa: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment, (ICLR 2025 submission) [open review](https://openreview.net/forum?id=hsMkpzr9Oy)
+- Evalita-LLM: Benchmarking Large Language Models on Italian, Feb 2025, [arxiv](https://arxiv.org/abs/2502.02289)
 - Multilingual Large Language Models: A Systematic Survey, Nov 2024, see Evaluation chapter about details of evaluation of multi-lingual large language models
  [Evaluation chapter, arxiv](https://arxiv.org/pdf/2411.11072#page=32.71)
 - Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models, Taobao & Tmall Group of Alibaba, Nov 2024, [arxiv](https://arxiv.org/pdf/2411.07140)
