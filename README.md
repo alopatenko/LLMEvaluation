@@ -100,6 +100,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
 - Eureka, Microsoft, A framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. [github](https://github.com/microsoft/eureka-ml-insights) Sep 2024 [arxiv](https://arxiv.org/abs/2409.10566)
 - [OpenAI Evals]( https://github.com/openai/evals)
+- [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
+](https://arxiv.org/abs/2411.04468v1)
 - [Phoenix Arize AI LLM observability and evaluation platform](https://github.com/Arize-ai/phoenix)
 - [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
 - [OpenICL Framework ](https://arxiv.org/abs/2303.02913)
@@ -508,6 +510,8 @@ and other software co-pilot tasks
 ---
 ### Agent LLM Architectures
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
+- [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
+](https://arxiv.org/abs/2411.04468v1)
 - LLM4RL: Enhancing Reinforcement Learning with Large Language Models, Aug 2024, [IEEE Explore](https://ieeexplore.ieee.org/document/10667224)
 - Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena, Oct 2023, [arxiv](https://arxiv.org/abs/2310.05746)
 - Chapter 4 4 LLM-based autonomous agent evaluation in A survey on large language model based autonomous agents, Front. Comput. Sci., 2024, [Front. Comput. Sci., 2024, at Springer](https://link.springer.com/content/pdf/10.1007/s11704-024-40231-1.pdf#page=16.50)
