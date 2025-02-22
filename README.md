@@ -354,6 +354,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Modal
+- MMRC: A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation, Feb 2025, [arxiv](https://arxiv.org/abs/2502.11903)
 - Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
 - LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models, Nov 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10769058)
 - ScImage: How Good Are Multimodal Large Language Models at Scientific Text-to-Image Generation?, Dec 2024, [arxiv](https://arxiv.org/abs/2412.02368)
