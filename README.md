@@ -209,6 +209,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 
 ---
 ### LLM as Judge
+- Learning to Plan & Reason for Evaluation with Thinking-LLM-as-a-Judge, Jan 2025, [arxiv](https://arxiv.org/abs/2501.18099)
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Tsinghua University, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
 - Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Seoul National University , Naver etc Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
 - JudgeBench: A Benchmark for Evaluating LLM-based Judges, UC Berkeley, Oct 2024, [arxiv](https://arxiv.org/abs/2410.12784)
