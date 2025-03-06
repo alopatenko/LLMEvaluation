@@ -557,23 +557,24 @@ and other software co-pilot tasks
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
-- From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)   ArenaHard benchmark
-- Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
+- Better Benchmarking LLMs for Zero-Shot Dependency Parsing, Feb 2025, [arxiv](https://arxiv.org/abs/2502.20866)
 - LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation, Jan 2025, [arxiv](https://arxiv.org/abs/2501.05414)
-- DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [The American Society of Mechanical Engineers](https://asmedigitalcollection.asme.org/computingengineering/article-abstract/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating?redirectedFrom=fulltext)
+- Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
 - OmniEvalKit: A Modular, Lightweight Toolbox for Evaluating Large Language Model and its Omni-Extensions, Dec 2024, [arxiv](https://arxiv.org/abs/2412.06693)
 - Holmes ⌕ A Benchmark to Assess the Linguistic Competence of Language Models , Dec 2024, [MIT Press Transactions of ACL, 2024](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00718/125534)
-- BENCHAGENTS: Automated Benchmark Creation with Agent Interaction, Oct 2024, [arxiv](https://arxiv.org/abs/2410.22584)
 - EscapeBench: Pushing Language Models to Think Outside the Box, Dec 2024, [arxiv](https://arxiv.org/abs/2412.13549)
-- OLMES: A Standard for Language Model Evaluations, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08446)
+- DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [The American Society of Mechanical Engineers](https://asmedigitalcollection.asme.org/computingengineering/article-abstract/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating?redirectedFrom=fulltext)
 - Tulu 3: Pushing Frontiers in Open Language Model Post-Training, Nov 2024, [arxiv](https://arxiv.org/abs/2411.15124) see 7.1 Open Language Model Evaluation System (OLMES) and AllenAI Githib rep for [Olmes](http://github.com/allenai/olmes)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks, Nov 2024, [arxiv](https://arxiv.org/abs/2411.05821)
-- Evaluating Superhuman Models with Consistency Checks, Apr 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10516635)
+- BENCHAGENTS: Automated Benchmark Creation with Agent Interaction, Oct 2024, [arxiv](https://arxiv.org/abs/2410.22584)
 - To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning, Meta AI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16456) evaluation for tasks of travel planning
 - Assessing the Performance of Human-Capable LLMs -- Are LLMs Coming for Your Job?, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16285),  SelfScore, a novel benchmark designed to assess the performance of automated Large Language Model (LLM) agents on help desk and professional consultation task
 - Should We Really Edit Language Models? On the Evaluation of Edited Language Models, Oct 2024, [arxiv](https://arxiv.org/abs/2410.18785)
 - DyKnow: Dynamically Verifying Time-Sensitive Factual Knowledge in LLMs, EMNLP 2024, Oct 2024, [arxiv](https://arxiv.org/abs/2404.08700), [Repository for DyKnow](https://github.com/sislab-unitn/DyKnow)
+- From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline, UC Berkeley, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11939) [github repo](https://github.com/lmarena/arena-hard-auto)   ArenaHard benchmark
+- OLMES: A Standard for Language Model Evaluations, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08446)
+- Evaluating Superhuman Models with Consistency Checks, Apr 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10516635)
 - Jeopardy dataset at HuggingFace, [huggingface](https://huggingface.co/datasets/jeopardy-datasets/jeopardy)
 - A framework for few-shot language model evaluation, Zenodo, Jul 2024, [Zenodo](https://zenodo.org/records/5371629)
 - ORAN-Bench-13K: An Open Source Benchmark for Assessing LLMs in Open Radio Access Networks, Jul 2024 [arxiv](https://arxiv.org/abs/2407.06245)
