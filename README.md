@@ -102,6 +102,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [OpenAI Evals]( https://github.com/openai/evals)
 - [github: LLM Comparator from PAIR Google](https://github.com/PAIR-code/llm-comparator), a side by side evaluation tool, [LLM Comparator: A tool for human-driven LLM evaluation](https://medium.com/people-ai-research/llm-comparator-a-tool-for-human-driven-llm-evaluation-81292c17f521)
 - [OpenEvals from LangChain](https://github.com/langchain-ai/openevals) [indtroductory blog post from langchain](https://blog.langchain.dev/evaluating-llms-with-openevals/)
+- [Score from Nvidia, a link to the github is inside the article, the code should be available soon](https://arxiv.org/abs/2503.00137v1)
 - [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
 ](https://arxiv.org/abs/2411.04468v1)
 - [Phoenix Arize AI LLM observability and evaluation platform](https://github.com/Arize-ai/phoenix)
@@ -159,6 +160,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
+- SCORE: Systematic COnsistency and Robustness Evaluation for Large Language Models, Feb 2025, Nvidia, [arxiv](https://arxiv.org/abs/2503.00137v1)
 - Evaluating the Evaluations: A Perspective on Benchmarks, Opinion paper, Amazon, Jan 2025, [SIGIR](https://www.sigir.org/wp-content/uploads/2025/01/p18.pdf)
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, Max Planck Institute for Intelligent Systems, Tübingen, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
 - A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations, EMNLP 2024, [ACLAnthology](https://aclanthology.org/2024.emnlp-main.764/)
