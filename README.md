@@ -161,6 +161,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
+- MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures, [NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b1f34d7b4a03a3d80be8e72eb430dd81-Abstract-Conference.html)
 - SCORE: Systematic COnsistency and Robustness Evaluation for Large Language Models, Feb 2025, Nvidia, [arxiv](https://arxiv.org/abs/2503.00137v1)
 - Evaluating the Evaluations: A Perspective on Benchmarks, Opinion paper, Amazon, Jan 2025, [SIGIR](https://www.sigir.org/wp-content/uploads/2025/01/p18.pdf)
 - Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks, Max Planck Institute for Intelligent Systems, Tübingen, May 2024, ICML 2024, [arxiv](https://arxiv.org/abs/2405.01719)
@@ -214,6 +215,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 
 ---
 ### LLM as Judge
+- Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering, Feb 2025, [arxiv](https://arxiv.org/abs/2502.06193)
 - Learning to Plan & Reason for Evaluation with Thinking-LLM-as-a-Judge, Jan 2025, [arxiv](https://arxiv.org/abs/2501.18099)
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Tsinghua University, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
 - Are LLM-Judges Robust to Expressions of Uncertainty? Investigating the effect of Epistemic Markers on LLM-based Evaluation, Seoul National University , Naver etc Oct 2024, [arxiv](https://www.arxiv.org/pdf/2410.20774)
@@ -472,6 +474,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Code Generating LLMs
 and other software co-pilot tasks
+- Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering, Feb 2025, [arxiv](https://arxiv.org/abs/2502.06193)
 - SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?, OpenAI, Feb 2025, [arxiv](https://arxiv.org/abs/2502.12115)
 - Mutation-Guided LLM-based Test Generation at Meta, Jan 2025, see 4 ENGINEERS’ EVALUATION OF ACH chapter of [arxiv](https://arxiv.org/abs/2501.12862) and [blog post at meta](https://engineering.fb.com/2025/02/05/security/revolutionizing-software-testing-llm-powered-bug-catchers-meta-ach/)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
@@ -557,6 +560,7 @@ and other software co-pilot tasks
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- LLM Evaluate: An Industry-Focused Evaluation Tool for Large Language Models, [Coling 2025](https://aclanthology.org/2025.coling-industry.24/)
 - Better Benchmarking LLMs for Zero-Shot Dependency Parsing, Feb 2025, [arxiv](https://arxiv.org/abs/2502.20866)
 - LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation, Jan 2025, [arxiv](https://arxiv.org/abs/2501.05414)
 - Fooling LLM graders into giving better grades through neural activity guided adversarial prompting, Dec 2024, [arxiv](https://www.arxiv.org/abs/2412.15275)
@@ -565,6 +569,7 @@ and other software co-pilot tasks
 - EscapeBench: Pushing Language Models to Think Outside the Box, Dec 2024, [arxiv](https://arxiv.org/abs/2412.13549)
 - DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [The American Society of Mechanical Engineers](https://asmedigitalcollection.asme.org/computingengineering/article-abstract/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating?redirectedFrom=fulltext)
 - Tulu 3: Pushing Frontiers in Open Language Model Post-Training, Nov 2024, [arxiv](https://arxiv.org/abs/2411.15124) see 7.1 Open Language Model Evaluation System (OLMES) and AllenAI Githib rep for [Olmes](http://github.com/allenai/olmes)
+- CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses, [NeuIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6c1d2496c04d1ef648d58684b699643f-Abstract-Datasets_and_Benchmarks_Track.html)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - Benchmarking Vision, Language, & Action Models on Robotic Learning Tasks, Nov 2024, [arxiv](https://arxiv.org/abs/2411.05821)
 - BENCHAGENTS: Automated Benchmark Creation with Agent Interaction, Oct 2024, [arxiv](https://arxiv.org/abs/2410.22584)
