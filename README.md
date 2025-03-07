@@ -105,6 +105,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [Score from Nvidia, a link to the github is inside the article, the code should be available soon](https://arxiv.org/abs/2503.00137v1)
 - [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
 ](https://arxiv.org/abs/2411.04468v1)
+- [coPilot Arena: github repo](https://github.com/lmarena/copilot-arena), article: Copilot Arena: A Platform for Code LLM Evaluation in the Wild, Feb 2025, [arxiv](https://arxiv.org/abs/2502.09328)
 - [Phoenix Arize AI LLM observability and evaluation platform](https://github.com/Arize-ai/phoenix)
 - [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
 - [OpenICL Framework ](https://arxiv.org/abs/2303.02913)
@@ -474,6 +475,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Code Generating LLMs
 and other software co-pilot tasks
+- [coPilot Arena: github repo](https://github.com/lmarena/copilot-arena), article: Copilot Arena: A Platform for Code LLM Evaluation in the Wild, Feb 2025, [arxiv](https://arxiv.org/abs/2502.09328)
 - Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering, Feb 2025, [arxiv](https://arxiv.org/abs/2502.06193)
 - SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?, OpenAI, Feb 2025, [arxiv](https://arxiv.org/abs/2502.12115)
 - Mutation-Guided LLM-based Test Generation at Meta, Jan 2025, see 4 ENGINEERS’ EVALUATION OF ACH chapter of [arxiv](https://arxiv.org/abs/2501.12862) and [blog post at meta](https://engineering.fb.com/2025/02/05/security/revolutionizing-software-testing-llm-powered-bug-catchers-meta-ach/)
