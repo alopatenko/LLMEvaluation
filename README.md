@@ -41,6 +41,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
     - [Inference Performance](#inference-performance)
     - [Agent LLM architectures](#agent-llm-architectures)
+    - [AGI Evaluation](#agi-evaluation)
     - [Long Text Generation](#long-text-generation)
     - [Graph Understandings](#graph-understanding)
     - [Reward Models](#reward-models)
@@ -536,16 +537,23 @@ and other software co-pilot tasks
 - ProAgent: Building Proactive Cooperative Agents with Large Language Models, Aug 2023, [arxiv](https://arxiv.org/abs/2308.11339)
 - Towards A Unified Agent with Foundation Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.09668)
 - RestGPT: Connecting Large Language Models with Real-World RESTful APIs, Jun 2023, [arxiv](https://arxiv.org/abs/2306.06624)
-- Large Language Models Are Semi-Parametric Reinforcement Learning Agents, Jun 2023, [arxiv](https://arxiv.org/abs/2306.07929)
+- Large Language Models Are Semi-Parametric Reinforcement Learning Agents, Jun 2023, [arxiv](https://arxiv.org/abs/2306.07929)  
 
-  
+---
+### AGI Evaluation
+- Evaluating Intelligence via Trial and Error, Feb 2025, [arxiv](https://arxiv.org/abs/2502.18858v2)
+- Evaluation of OpenAI o1: Opportunities and Challenges of AGI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
+-  Levels of AGI for Operationalizing Progress on the Path to AGI, 2023, [levels of agi](https://www.foreveryscale.com/api/v1/file/36c810a4-eae5-40e4-9160-11e999e3e7c0.pdf)
+
+
+
 ---
 ### Long Text Generation
 - Suri: Multi-constraint Instruction Following for Long-form Text Generation, Jun 2024, [arxiv](https://arxiv.org/abs/2406.19371)
 - LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs, Aug 2024, [arxiv](https://arxiv.org/abs/2408.07055)
 - LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding, Aug 2023, [arxiv](https://arxiv.org/abs/2308.14508)
 - HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models, Sep 2024, [arxiv](https://arxiv.org/abs/2409.16191)
-  
+
 ---
 ### Graph understanding
 -  GPT4Graph: Can Large Language Models Understand Graph Structured Data ? An Empirical Evaluation and Benchmarking, May 2023, [arxiv](https://arxiv.org/abs/2305.15066)
@@ -554,11 +562,14 @@ and other software co-pilot tasks
 - Open Graph Benchmark: Datasets for Machine Learning on Graphs, [NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/fb60d411a5c5b72b2e7d3527cfc84fd0-Abstract.html)
 - Can Language Models Solve Graph Problems in Natural Language? [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/622afc4edf2824a1b6aaf5afe153fa93-Abstract-Conference.html)
 - Evaluating Large Language Models on Graphs: Performance Insights and Comparative Analysis, Aug 2023, [https://arxiv.org/abs/2308.11224]
+
+---
 ## Reward Models 
 - RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style, Oct 2024, [arxiv](https://arxiv.org/abs/2410.16184)
 - HelpSteer2: Open-source dataset for training top-performing reward models, Aug 2024, [arxiv](https://arxiv.org/abs/2406.08673)
 - RewardBench: Evaluating Reward Models for Language Modeling, Mar 2024, [arxiv](https://arxiv.org/abs/2403.13787v1)
 - MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 [arxiv](https://arxiv.org/abs/2402.14762)
+
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
