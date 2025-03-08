@@ -691,15 +691,18 @@ And Dialog systems
 - MedQA-CS: Benchmarking Large Language Models Clinical Skills Using an AI-SCE Framework, Oct 2024, [arxiv](https://arxiv.org/abs/2410.01553)
 - A framework for human evaluation of large language models in healthcare derived from literature review, September 2024, [Nature Digital Medicine](https://www.nature.com/articles/s41746-024-01258-7) 
 - Evaluation and mitigation of cognitive biases in medical language models, Oct 2024 [Nature](https://www.nature.com/articles/s41746-024-01283-6)
+- A Preliminary Study of o1 in Medicine: Are We Closer to an AI Doctor?, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15277) 
 - Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI Feb 24, [Nature](https://www.nature.com/articles/s41746-024-01074-z.epdf)
 - Evaluation and mitigation of the limitations of large language models in clinical decision-making, July 2024, [Nature Medicine](https://www.nature.com/articles/s41591-024-03097-1)
 - Evaluating Generative AI Responses to Real-world Drug-Related Questions, June 2024, [Psychiatry Research](https://www.sciencedirect.com/science/article/abs/pii/S0165178124003433)
 - MedExQA: Medical Question Answering Benchmark with Multiple Explanations, Jun 2024, [arxiv](https://arxiv.org/abs/2406.06331)
+- GPT versus Resident Physicians — A Benchmark Based on Official Board Scores, Apr 2024, [source](https://ai.nejm.org/doi/full/10.1056/AIdbp2300192) [benchmark dataset at github](https://jonathansomer.github.io/nejm-medical-board-exams-qa-benchmark/) for NEJM Medical Board Residency Exams Question Answering Benchmark, or NEJMQA
 - Clinical Insights: A Comprehensive Review of Language Models in Medicine, Aug 2024, [arxiv](https://arxiv.org/abs/2408.11735) See table 2 for evaluation
 - Health-LLM: Large Language Models for Health Prediction via Wearable Sensor Data Jan 2024 [arxiv](https://arxiv.org/abs/2401.06866)
 - Evaluating LLM -- Generated Multimodal Diagnosis from Medical Images and Symptom Analysis, Jan 2024, [arxiv](https://arxiv.org/abs/2402.01730)
 - A Comprehensive Survey on Evaluating Large Language Model Applications in the Medical Industry, May 2024, [arxiv](https://arxiv.org/abs/2404.15777)
 - Evaluating large language models in medical applications: a survey, May 2024, [arxiv](https://arxiv.org/abs/2405.07468)
+- Holistic Evaluation of GPT-4V for Biomedical Imaging, Nov 2023, 205 pages report, [arxiv](https://arxiv.org/abs/2312.05256)
 - MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering, 2022, [PMLR](https://proceedings.mlr.press/v174/pal22a.html)
 - What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams, MedQA benchmark, Sep 2020, [arxiv](https://arxiv.org/abs/2009.13081)
 - PubMedQA: A Dataset for Biomedical Research Question Answering, 2019, [acl](https://aclanthology.org/D19-1259/)
