@@ -132,7 +132,9 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 in tech media and blog posts and podcasts from companies
 - On GPT-4.5 by Zvi Mowshowitz, [a good writeup about several topics including evaluation at Zvi Mowschowitz's substack](https://thezvi.substack.com/p/on-gpt-45)
 - Mastering LLM Techniques: Evaluation, Jan 2025, Nvidia, [nvidia blog](https://developer.nvidia.com/blog/mastering-llm-techniques-evaluation/)
+- Andrej Karpathy on evaluation [X](https://twitter.com/karpathy/status/1795873666481402010)
 - Apoorva Joshi on LLM Application Evaluation and Performance Improvements, InfoQ,Frb 2005, [infoq](https://www.infoq.com/podcasts/llm-application-evaluation-performance-improvements/)
+- From Meta on evaluation of Llama 3 models [github](https://github.com/meta-llama/llama3/blob/main/eval_details.md)
 - A Framework for Building Micro Metrics for LLM System Evaluation, Jan 2025, [InfoQ](https://www.infoq.com/articles/micro-metrics-llm-evaluation/)
 - Evaluate LLMs using Evaluation Harness and Hugging Face TGI/vLLM, Sep 2024, [blog](https://www.philschmid.de/evaluate-llms-with-lm-eval-and-tgi-vllm)
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
@@ -147,8 +149,6 @@ in tech media and blog posts and podcasts from companies
 - [Mozilla AI Exploring LLM Evaluation at scale](https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/)
 - Evaluation part of [How to Maximize LLM Performance](https://humanloop.com/blog/optimizing-llms)
 - Mozilla AI blog published multiple good articles in [Mozilla AI blog](https://blog.mozilla.ai/)
-- Andrej Karpathy on evaluation [X](https://twitter.com/karpathy/status/1795873666481402010)
-- From Meta on evaluation of Llama 3 models [github](https://github.com/meta-llama/llama3/blob/main/eval_details.md)
 - DeepMind AI Safety evaluation June 24 [deepmind blog, Introducing Frontier Safety Framework](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)
 - AI Snake Oil, June 2024, [AI leaderboards are no longer useful. It's time to switch to Pareto curves.](https://www.aisnakeoil.com/p/ai-leaderboards-are-no-longer-useful)
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
