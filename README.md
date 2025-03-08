@@ -16,7 +16,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [Reviews and Surveys](#reviews-and-surveys)
 - [Leaderboards and Arenas](#leaderboards-and-arenas)
 - [Evaluation Software](#evaluation-software)
-- [LLM Evaluation articles in tech media and blog posts from companies](#llm-evaluation-articles-in-tech-media-and-blog-posts-from-companies)
+- [LLM Evaluation articles in tech media and blog posts from companies](#llm-evaluation-articles)
 - [Large benchmarks](#large-benchmarks)
 - [Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation](#evaluation-of-evaluation-evaluation-theory-evaluation-methods-analysis-of-evaluation)
 - [Long Comprehensive Studies](#long-comprehensive-studies)
@@ -128,7 +128,8 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - LM-PUB-QUIZ: A Comprehensive Framework for Zero-Shot Evaluation of Relational Knowledge in Language Models, [arxiv pdf](https://arxiv.org/abs/2408.15729) [github repository](https://lm-pub-quiz.github.io/)
 
 ﻿---
-### LLM Evaluation articles in tech media and blog posts and podcasts from companies
+### LLM Evaluation articles
+in tech media and blog posts and podcasts from companies
 - On GPT-4.5 by Zvi Mowshowitz, [a good writeup about several topics including evaluation at Zvi Mowschowitz's substack](https://thezvi.substack.com/p/on-gpt-45)
 - Mastering LLM Techniques: Evaluation, Jan 2025, Nvidia, [nvidia blog](https://developer.nvidia.com/blog/mastering-llm-techniques-evaluation/)
 - Apoorva Joshi on LLM Application Evaluation and Performance Improvements, InfoQ,Frb 2005, [infoq](https://www.infoq.com/podcasts/llm-application-evaluation-performance-improvements/)
