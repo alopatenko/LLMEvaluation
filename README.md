@@ -637,7 +637,7 @@ and other software co-pilot tasks
   
 ---
 ### Conversational systems
-And Dialog systems
+And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen-AI,-Search-and-Recommender-Engines)
 - A survey on chatbots and large language models: Testing and evaluation techniques, Jan 2025, [Natural Language Processing Journal Mar 2025](https://www.sciencedirect.com/science/article/pii/S2949719125000044)
 - How Well Can Large Language Models Reflect? A Human Evaluation of LLM-generated Reflections for Motivational Interviewing Dialogues, Jan 2025, [Proceedings of the 31st International Conference on Computational Linguistics COLING](https://aclanthology.org/2025.coling-main.135/) 
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
