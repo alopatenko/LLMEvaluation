@@ -8,7 +8,7 @@ I aim to create a resource that will enable anyone with queries—whether it's a
 
 My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and AICamp](https://www.youtube.com/watch?v=dW89BHjLA4M) [video Analytics Vidhya](https://community.analyticsvidhya.com/c/datahour/evaluating-llms-and-llm-systems-pragmatic-approach) ([Data Phoenix Mar 5](https://www.youtube.com/watch?v=spgVnMgvLSw)) (by [Andrei Lopatenko](https://www.linkedin.com/in/lopatenko/))
 
-## [The github repository](https://github.com/alopatenko/LLMEvaluation) ||| adjacent compendium on [LLM, Search and Recommender engines](https://github.com/alopatenko/LLMEvaluation/wiki/Gen-AI,-Search-and-Recommender-Engines)
+## [The github repository](https://github.com/alopatenko/LLMEvaluation) ||| adjacent compendium on [LLM, Search and Recommender engines](https://github.com/alopatenko/LLMSearchRecommender)
 
 
 ![Evals are surprisingly often all you need](greg.png)
