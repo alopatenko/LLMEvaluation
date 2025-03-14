@@ -62,6 +62,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
+- Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
 - Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, UMD,  Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
 - AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM benchmarks
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
@@ -166,6 +167,7 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
 - MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures, [NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b1f34d7b4a03a3d80be8e72eb430dd81-Abstract-Conference.html)
 - SCORE: Systematic COnsistency and Robustness Evaluation for Large Language Models, Feb 2025, Nvidia, [arxiv](https://arxiv.org/abs/2503.00137v1)
