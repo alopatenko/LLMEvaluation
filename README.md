@@ -223,6 +223,8 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding, Mar 2025, [arxiv](No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding
+)
 - Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering, Feb 2025, [arxiv](https://arxiv.org/abs/2502.06193)
 - Learning to Plan & Reason for Evaluation with Thinking-LLM-as-a-Judge, Jan 2025, [arxiv](https://arxiv.org/abs/2501.18099)
 - LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods, Tsinghua University, Dec 2024, [arxiv](https://arxiv.org/abs/2412.05579)
