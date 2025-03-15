@@ -551,7 +551,8 @@ and other software co-pilot tasks
 ### AGI Evaluation
 - Evaluating Intelligence via Trial and Error, Feb 2025, [arxiv](https://arxiv.org/abs/2502.18858v2)
 - Evaluation of OpenAI o1: Opportunities and Challenges of AGI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
--  Levels of AGI for Operationalizing Progress on the Path to AGI, 2023, [levels of agi](https://www.foreveryscale.com/api/v1/file/36c810a4-eae5-40e4-9160-11e999e3e7c0.pdf)
+- GAIA: a benchmark for General AI Assistants, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12983), a joint effort by Meta, HuggingFace to design a benchmark measuring AGI assistants [GAIA benchmark](https://huggingface.co/gaia-benchmark)
+- Levels of AGI for Operationalizing Progress on the Path to AGI, 2023, [levels of agi](https://www.foreveryscale.com/api/v1/file/36c810a4-eae5-40e4-9160-11e999e3e7c0.pdf)
 
 
 
