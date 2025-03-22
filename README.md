@@ -77,6 +77,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
 ---
 ### Leaderboards and Arenas
 -  New Hard Leaderboard by HuggingFace [leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) [description, blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog)
+- ViDoRe Benchmark V2: Raising the Bar for Visual Retrieval, The Visual Document Retrieval Benchmark,  Mar 2025, [HuggingSpace](https://huggingface.co/blog/manu/vidore-v2) See leaderboard in the document
 - The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
 - Aider Polyglot, code edit benchmark, [Aider Polyglot](https://aider.chat/docs/leaderboards/)
@@ -373,6 +374,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Modal
+- ViDoRe Benchmark V2: Raising the Bar for Visual Retrieval, The Visual Document Retrieval Benchmark,  Mar 2025, [HuggingSpace](https://huggingface.co/blog/manu/vidore-v2)
 - MMRC: A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation, Feb 2025, [arxiv](https://arxiv.org/abs/2502.11903)
 - Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
 - LVLM-EHub: A Comprehensive Evaluation Benchmark for Large Vision-Language Models, Nov 2024, [IEEE](https://ieeexplore.ieee.org/abstract/document/10769058)
