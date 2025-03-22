@@ -374,6 +374,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Modal
+- MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs,  see Cubify Anything VQA (CA-VQA) in the paper, Mar 2025, [arxiv](https://arxiv.org/abs/2503.13111)
 - ViDoRe Benchmark V2: Raising the Bar for Visual Retrieval, The Visual Document Retrieval Benchmark,  Mar 2025, [HuggingSpace](https://huggingface.co/blog/manu/vidore-v2)
 - MMRC: A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation, Feb 2025, [arxiv](https://arxiv.org/abs/2502.11903)
 - Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
