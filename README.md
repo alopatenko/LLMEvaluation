@@ -32,7 +32,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [Reasoning](#reasoning)
     - [Multi-Lingual](#multi-lingual)
     - [Multi-Modal](#multi-modal)
-         - [Audio-Models][#audio-models]
+         - [Audio-Models](#audio-models)
     - [Instruction Following](#instruction-following)
     - [Ethical AI](#ethical-ai)
     - [Biases](#biases)
