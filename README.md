@@ -32,6 +32,7 @@ My view on LLM Evaluation: [Deck](LLMEvaluation.pdf), and [SF Big Analytics and 
     - [Reasoning](#reasoning)
     - [Multi-Lingual](#multi-lingual)
     - [Multi-Modal](#multi-modal)
+    -    [Audio-Models][#audio-models]
     - [Instruction Following](#instruction-following)
     - [Ethical AI](#ethical-ai)
     - [Biases](#biases)
@@ -417,7 +418,16 @@ QA is used in many vertical domains, see Vertical section bellow
 - LAMM: Language-Assisted Multi-Modal Instruction-Tuning Dataset, Framework, and Benchmark, NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/548a41b9cac6f50dccf7e63e9e1b1b9b-Abstract-Datasets_and_Benchmarks.html)
 - Holistic Evaluation of Text-to-Image Models, Stanford etc NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/dd83eada2c3c74db3c7fe1c087513756-Paper-Datasets_and_Benchmarks.pdf) 
 - mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality, Apr 2023 [arxiv](https://arxiv.org/abs/2304.14178)
-  
+### Audio models
+- MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark, MMAU Music, MMAU Sound, Oct 2024, [arxiv](https://arxiv.org/abs/2410.19168)
+- MuChoMusic: Evaluating Music Understanding in Multimodal Audio-Language Models, Aug 2024, [arxiv](https://arxiv.org/abs/2408.01337)
+- GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities, Jun 2024, [arxiv](https://arxiv.org/abs/2406.11768)
+- Audio Entailment: Assessing Deductive Reasoning for Audio Understanding, May 2023, audio entailment clotho and audio entailment audio caps, [arxiv](https://arxiv.org/abs/2305.10790)
+- Listen, Think, and Understand, OpenAQA dataset, May 2023, [arxiv](https://arxiv.org/abs/2305.10790) 
+- Clotho-AQA: A Crowdsourced Dataset for Audio Question Answering, Apr 2022, [arxiv](https://arxiv.org/abs/2204.09634)
+- AudioCaps: Generating Captions for Audios in The Wild, [NA ACL 2019](https://aclanthology.org/N19-1011/)
+- Medley-solos-DB: a cross-collection dataset for musical instrument recognition, 2019, [zenodo](https://zenodo.org/records/3464194)
+- CREMA-D Crowd-sourced Emotional Multimodal Actors Dataset[repository](https://github.com/CheyneyComputerScience/CREMA-D) paper CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset, [IEEE transactions in affective computing 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4313618/)
 ---
 ### Instruction Following
 - Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, [arxiv](https://arxiv.org/abs/2310.07641)
