@@ -313,9 +313,10 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi Turn
-- LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, [arxiv](https://arxiv.org/abs/2311.18232)
 - MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 [arxiv](https://arxiv.org/abs/2402.14762)
 - How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863)
+- LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, [arxiv](https://arxiv.org/abs/2311.18232)
+- BotChat: Evaluating LLMs’ Capabilities of Having Multi-Turn Dialogues, Oct 2023, [arxiv](https://arxiv.org/abs/2310.13650)
 - Parrot: Enhancing Multi-Turn Instruction Following for Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.07301)
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena, NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html)
 - MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback, Sep 2023, [arxiv](https://arxiv.org/abs/2309.10691)
