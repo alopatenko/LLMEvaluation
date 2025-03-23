@@ -313,6 +313,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi Turn
+- MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03468)
 - MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues Feb 24 [arxiv](https://arxiv.org/abs/2402.14762)
 - How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863)
 - LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models Nov 2023, [arxiv](https://arxiv.org/abs/2311.18232)
@@ -640,6 +641,7 @@ and other software co-pilot tasks
 ---
 ## LLM Systems
 ### RAG Evaluation
+- MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03468)
 - Google Frames Dataset for evaluation of RAG systems, Sep 2024, [arxiv paper: Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation
 - Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses, Oct 2024, Salesforce, [arxiv](https://arxiv.org/abs/2410.22349) [Answer Engine (RAG) Evaluation Repository](https://github.com/SalesforceAIResearch/answer-engine-eval)
 ](https://arxiv.org/abs/2409.12941) [Hugging Face, dataset](https://huggingface.co/datasets/google/frames-benchmark)
