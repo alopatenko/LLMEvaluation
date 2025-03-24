@@ -569,6 +569,7 @@ and other software co-pilot tasks
 
 ---
 ### AGI Evaluation
+AGI (Artificial General Intelligence) evaluation refers to the process of assessing whether an AI system possesses or approaches general intelligence—the ability to perform any intellectual task that a human can.
 - Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI-2), Mar 2025, [github](https://github.com/arcprize/ARC-AGI-2) an explanation from [François Chollet on X](https://x.com/fchollet/status/1904265979192086882) [more details ARCPrize announcement](https://arcprize.org/blog/announcing-arc-agi-2-and-arc-prize-2025)
 - Evaluating Intelligence via Trial and Error, Feb 2025, [arxiv](https://arxiv.org/abs/2502.18858v2)
 - Evaluation of OpenAI o1: Opportunities and Challenges of AGI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
