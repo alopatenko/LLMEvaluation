@@ -545,6 +545,7 @@ and other software co-pilot tasks
   
 ---
 ### Inference Performance
+- LLM-Inference-Bench: Inference Benchmarking of Large Language Models on AI Accelerators, Oct 2024, [arxiv](https://arxiv.org/abs/2411.00136v1)
 - Ray/Anyscale's LLM Performance [Leaderboard](https://github.com/ray-project/llmperf-leaderboard) ([explanation:](https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm))
 - MLCommons MLPerf benchmarks (inference) [MLPerf announcement of the LLM track](https://mlcommons.org/2023/09/mlperf-results-highlight-growing-importance-of-generative-ai-and-storage/)
   
