@@ -569,6 +569,7 @@ and other software co-pilot tasks
 
 ---
 ### AGI Evaluation
+- Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI-2), Mar 2025, [github](https://github.com/arcprize/ARC-AGI-2) an explanation from [François Chollet on X](https://x.com/fchollet/status/1904265979192086882)
 - Evaluating Intelligence via Trial and Error, Feb 2025, [arxiv](https://arxiv.org/abs/2502.18858v2)
 - Evaluation of OpenAI o1: Opportunities and Challenges of AGI, Sep 2024, [arxiv](https://arxiv.org/abs/2409.18486)
 - GAIA: a benchmark for General AI Assistants, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12983), a joint effort by Meta, HuggingFace to design a benchmark measuring AGI assistants [GAIA benchmark](https://huggingface.co/gaia-benchmark)
