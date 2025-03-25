@@ -136,6 +136,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+-  Mastering LLM Techniques: Evaluation, by Nvidia, Jan 2025, [nvidia blog](https://developer.nvidia.com/blog/mastering-llm-techniques-evaluation/)
 - AI Search Has A Citation Problem, "A study of eight AI search engines found they provided incorrect citations of news articles in 60%+ of queries; Grok 3 answered 94% of the queries incorrectly", Mar 2025, [Columbia Journalism Review](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php)
 - On GPT-4.5 by Zvi Mowshowitz, [a good writeup about several topics including evaluation at Zvi Mowschowitz's substack](https://thezvi.substack.com/p/on-gpt-45)
 - Mastering LLM Techniques: Evaluation, Jan 2025, Nvidia, [nvidia blog](https://developer.nvidia.com/blog/mastering-llm-techniques-evaluation/)
