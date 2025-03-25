@@ -294,6 +294,7 @@ in tech media and blog posts and podcasts from companies
 ---
 ### Question answering
 QA is used in many vertical domains, see Vertical section bellow
+- SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines, Mar 2025, [arxiv](https://arxiv.org/abs/2502.14739)
 - CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03447)
 - Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x) ScholarChemQA Dataset
 - Search Engines in an AI Era: The False Promise of Factual and Verifiable Source-Cited Responses, Oct 2024, Salesforce, [arxiv](https://arxiv.org/abs/2410.22349) [Answer Engine (RAG) Evaluation Repository](https://github.com/SalesforceAIResearch/answer-engine-eval)
