@@ -79,6 +79,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ---
 ### Leaderboards and Arenas
 -  New Hard Leaderboard by HuggingFace [leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) [description, blog post](https://huggingface.co/spaces/open-llm-leaderboard/blog)
+-  [MathArena](https://matharena.ai/)  Evaluating LLMs on Uncontaminated Math Competitions [Evaluation code](https://github.com/eth-sri/matharena)  
 - ViDoRe Benchmark V2: Raising the Bar for Visual Retrieval, The Visual Document Retrieval Benchmark,  Mar 2025, [HuggingSpace](https://huggingface.co/blog/manu/vidore-v2) See leaderboard in the document
 - The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
 - [LMSys Arena]( https://chat.lmsys.org/?leaderboard) ([explanation:]( https://lmsys.org/blog/2023-05-03-arena/))
