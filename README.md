@@ -329,6 +329,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 ### Reasoning
+- Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
 - Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning, Feb 2025, [Coling 2025](https://aclanthology.org/2025.coling-main.330/)
 - JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models, Jan 2025, [arxiv](https://arxiv.org/abs/2501.14851)
 - See 5.3 Evaluations chapter of DeepSeek R3 tech report on how new frontier models are evaluated Dec 2024 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437v1) and 3.1. DeepSeek-R1 Evaluation Chapter of DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning Jan 2025 [arxiv](https://arxiv.org/abs/2501.12948)
@@ -780,6 +781,7 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 
 ---
 ### Math
+- Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
 -  How well do large language models perform in arithmetic tasks?, Mar 2023, [arxiv](https://arxiv.org/abs/2304.02015)
 - FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
 -   Cmath: Can your language model pass chinese elementary school math test?, Jun 23, [arxiv](https://arxiv.org/abs/2306.16636)
