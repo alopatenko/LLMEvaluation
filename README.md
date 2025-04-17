@@ -748,6 +748,7 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 ---
 ## Verticals
 ### Healthcare and medicine
+- A systematic review of large language model (LLM) evaluations in clinical medicine, Mar 2025, [BMC Medical Informatics and Decision Making](https://link.springer.com/article/10.1186/s12911-025-02954-4)
 - MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [arxiv](https://arxiv.org/abs/2403.03744) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
 - Evaluation of LLMs accuracy and consistency in the registered dietitian exam through prompt engineering and knowledge retrieval, Nature, Jan 2025, [Scientific reporta Nature](https://www.nature.com/articles/s41598-024-85003-w)
 - Medical large language models are vulnerable to data-poisoning attacks, Jan 2025, [Nature Medicine](https://www.nature.com/articles/s41591-024-03445-1)
