@@ -362,6 +362,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Lingual
+- The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks, Apr 2025, [arxiv](https://arxiv.org/abs/2504.15521)
 - Mexa: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment, (ICLR 2025 submission) [open review](https://openreview.net/forum?id=hsMkpzr9Oy)
 - MMTEB: Massive Multilingual Text Embedding Benchmark, Feb 2025, [arxiv](https://arxiv.org/abs/2502.13595)
 - Evalita-LLM: Benchmarking Large Language Models on Italian, Feb 2025, [arxiv](https://arxiv.org/abs/2502.02289)
@@ -394,6 +395,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 #### Multi-Lingual Embedding tasks
+- MMTEB: Massive Multilingual Text Embedding Benchmark, Feb 2025, [arxiv](https://arxiv.org/abs/2502.13595v2)
 - The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding, [openreview pdf](https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf)
 - Chinese MTEB C-MTEB [repository](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)
 - French MTEB [repository](https://github.com/Lyon-NLP/mteb-french)
