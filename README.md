@@ -489,6 +489,8 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Safe AI
+- RAG LLMs are Not Safer: A Safety Analysis of Retrieval-Augmented Generation for Large Language Models, Bloomberg, Apr 2025, [arxiv](https://arxiv.org/abs/2504.18041v1)
+- Understanding and Mitigating Risks of Generative AI in Financial Services, Bloomberg, Apr 2025, [Bloomberg](https://assets.bbhub.io/company/sites/51/2025/04/arXiv-Understanding-and-Mitigating-Risks-of-Generative-AI-in-Financial-Services-FINAL-4-25-25.pdf)
 - The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems, The Center for Safe AI, Scale AI, [arxiv](https://arxiv.org/abs/2503.03750)  [MASK Benchmark](https://www.mask-benchmark.ai/)
 - Lessons From Red Teaming 100 Generative AI Products, Microsoft, Jan 2025, [arxiv](https://arxiv.org/abs/2501.07238)
 - Trading Inference-Time Compute for Adversarial Robustness, OpenAI, Jan 2025, [arxiv](https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/)
