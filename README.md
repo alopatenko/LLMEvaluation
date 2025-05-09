@@ -175,6 +175,7 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- The Leaderboard Illusion, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
 - Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
 - The LLM Evaluation guidebook ⚖️ from HuggingFace, Oct 2024,  [Hugging Face Evaluation guidebook](https://github.com/huggingface/evaluation-guidebook)
@@ -344,6 +345,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 ### Reasoning
+- DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition, Apr 2025, ProverBench, a collection of 325 formalized problems, [arxiv](https://arxiv.org/abs/2504.21801)
 - Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
 - EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges, ScaleAI, Feb 2025, [arxiv](https://arxiv.org/abs/2502.08859)
 - Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning, Feb 2025, [Coling 2025](https://aclanthology.org/2025.coling-main.330/)
@@ -805,8 +807,9 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 
 ---
 ### Math
+- DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition, Apr 2025, ProverBench, a collection of 325 formalized problems, [arxiv](https://arxiv.org/abs/2504.21801)
 - Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
--  How well do large language models perform in arithmetic tasks?, Mar 2023, [arxiv](https://arxiv.org/abs/2304.02015)
+- How well do large language models perform in arithmetic tasks?, Mar 2023, [arxiv](https://arxiv.org/abs/2304.02015)
 - FrontierMath at EpochAI, [FrontierAI page](https://epoch.ai/frontiermath), FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2024,  [arxiv](https://arxiv.org/abs/2411.04872)
 -   Cmath: Can your language model pass chinese elementary school math test?, Jun 23, [arxiv](https://arxiv.org/abs/2306.16636)
 -   GSM8K [paperwithcode](https://paperswithcode.com/dataset/gsm8k) [repository github](https://github.com/openai/grade-school-math)
