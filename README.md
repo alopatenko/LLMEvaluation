@@ -233,6 +233,7 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [TruthEval](https://giovannigatti.github.io/trutheval/)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
 - No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding, Mar 2025, [arxiv](No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding
@@ -405,6 +406,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Modal
+- How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks, Jul 2025, [HF](https://huggingface.co/papers/2507.01955)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
 - Can Large Vision Language Models Read Maps Like a Human?, Mar 2025, [arxiv](https://arxiv.org/abs/2503.14607)
 - MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs,  see Cubify Anything VQA (CA-VQA) in the paper, Mar 2025, [arxiv](https://arxiv.org/abs/2503.13111)
@@ -691,6 +693,8 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ## LLM Systems
 ### RAG Evaluation
 and knowledge assistant and information seeking LLM based systems
+- RAGtifier: Evaluating RAG Generation Approaches of State-of-the-Art RAG Systems for the SIGIR LiveRAG Competition, Jun 2025, [arxiv](https://www.arxiv.org/abs/2506.14412)
+- Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge, Jun 2025, [arxiv](https://arxiv.org/abs/2506.21506)
 - MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03468)
 - RAD-Bench: Evaluating Large Language Models Capabilities in Retrieval Augmented Dialogues, Sep 2024, [arrxiv](https://arxiv.org/abs/2409.12558)
 - TREC iKAT 2023: A Test Collection for Evaluating Conversational and Interactive Knowledge Assistants, [SIGIR 2024](https://dl.acm.org/doi/abs/10.1145/3626772.3657860)
