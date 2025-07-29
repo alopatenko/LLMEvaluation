@@ -365,6 +365,7 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Lingual
+- Checklist Engineering Empowers Multilingual LLM Judges, July 2025, [[Paper](https://arxiv.org/pdf/2507.06774)] [[Github](https://github.com/mghiasvand1/CE-Judge)]
 - The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks, Apr 2025, [arxiv](https://arxiv.org/abs/2504.15521)
 - Mexa: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment, (ICLR 2025 submission) [open review](https://openreview.net/forum?id=hsMkpzr9Oy)
 - MMTEB: Massive Multilingual Text Embedding Benchmark, Feb 2025, [arxiv](https://arxiv.org/abs/2502.13595)
