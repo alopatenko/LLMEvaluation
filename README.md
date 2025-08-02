@@ -108,6 +108,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
 - Eureka, Microsoft, A framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. [github](https://github.com/microsoft/eureka-ml-insights) Sep 2024 [arxiv](https://arxiv.org/abs/2409.10566)
 - [OpenAI Evals]( https://github.com/openai/evals)
+- Visualizations of embedding space, [Atlas from Apple](https://apple.github.io/embedding-atlas/)
 - [github: LLM Comparator from PAIR Google](https://github.com/PAIR-code/llm-comparator), a side by side evaluation tool, [LLM Comparator: A tool for human-driven LLM evaluation](https://medium.com/people-ai-research/llm-comparator-a-tool-for-human-driven-llm-evaluation-81292c17f521)
 - [OpenEvals from LangChain](https://github.com/langchain-ai/openevals) [indtroductory blog post from langchain](https://blog.langchain.dev/evaluating-llms-with-openevals/)
 - YourBench: A Dynamic Benchmark Generation Framework, [github](https://github.com/huggingface/yourbench/tree/main) "YourBench is an open-source framework for generating domain-specific benchmarks in a zero-shot manner. It aims to keep your large language models on their toes—even as new data sources, domains, and knowledge demands evolve."
@@ -587,6 +588,7 @@ and other software co-pilot tasks
   
 ---
 ### Agent LLM Architectures
+- MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models, Jul 2025, [arxiv](https://arxiv.org/abs/2507.12806)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
 ](https://arxiv.org/abs/2411.04468v1)
