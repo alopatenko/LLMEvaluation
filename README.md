@@ -286,6 +286,7 @@ in tech media and blog posts and podcasts from companies
    
 ---
 ### Hallucinations
+- MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them, Jul 2025, [arxiv](https://arxiv.org/abs/2507.21017)
 - The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems, The Center for Safe AI, Scale AI, [arxiv](https://arxiv.org/abs/2503.03750)  [MASK Benchmark](https://www.mask-benchmark.ai/)
 - The FACTS Grounding Leaderboard: Benchmarking LLMs' Ability to Ground Responses to Long-Form Input, DeepMind, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03200) [Leaderboard](https://www.kaggle.com/facts-leaderboard)
 - Introducing SimpleQA, OpenAI, Oct 2024 [OpenAI](https://openai.com/index/introducing-simpleqa/)
@@ -642,6 +643,7 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- EvoBench: Towards Real-world LLM-Generated Text Detection Benchmarking for Evolving Large Language Models, [ACL 2025](https://aclanthology.org/2025.findings-acl.754/)
 - LLM Evaluate: An Industry-Focused Evaluation Tool for Large Language Models, [Coling 2025](https://aclanthology.org/2025.coling-industry.24/)
 - Better Benchmarking LLMs for Zero-Shot Dependency Parsing, Feb 2025, [arxiv](https://arxiv.org/abs/2502.20866)
 - LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation, Jan 2025, [arxiv](https://arxiv.org/abs/2501.05414)
@@ -694,7 +696,8 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ---
 ## LLM Systems
 ### RAG Evaluation
-and knowledge assistant and information seeking LLM based systems
+and knowledge assistant and information seeking LLM based systems, 
+- RankArena: A Unified Platform for Evaluating Retrieval, Reranking and RAG with Human and LLM Feedback, Aug 2025, [arxiv](https://arxiv.org/abs/2508.05512)
 - RAGtifier: Evaluating RAG Generation Approaches of State-of-the-Art RAG Systems for the SIGIR LiveRAG Competition, Jun 2025, [arxiv](https://www.arxiv.org/abs/2506.14412)
 - Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge, Jun 2025, [arxiv](https://arxiv.org/abs/2506.21506)
 - MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03468)
