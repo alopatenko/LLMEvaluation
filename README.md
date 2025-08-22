@@ -271,9 +271,12 @@ in tech media and blog posts and podcasts from companies
 ---
 ## LLM Evaluation
 ### Embeddings
+- MIEB: Massive Image Embedding Benchmark, apr 2025, [arxiv](https://arxiv.org/abs/2504.10471)
 - MMTEB: Massive Multilingual Text Embedding Benchmark, Feb 2025, [hugging face](https://huggingface.co/papers/2502.13595), [leaderboard](https://huggingface.co/spaces/mteb/leaderboard) Brief:  1043 languages in total, primarily in Bitext mining (text pairing), but also 255 in classification, 209 in clustering, and 142 in Retrieval., 550 tasks, anything from sentiment analysis, question-answering reranking, to long-document retrieval. 17 domains, like legal, religious, programming, web, social, medical, blog, academic, etc. Across this collection of tasks, we subdivide into a lot of separate benchmarks, like MTEB(eng, v2), MTEB(Multilingual, v1), MTEB(Law, v1). Our new MTEB(eng, v2) is much smaller and faster than the original English MTEB, making submissions much cheaper and simpler. [from Tom Aarsen's linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7298723379514155008/)
+- ChemTEB: Chemical Text Embedding Benchmark, an Overview of Embedding Models Performance & Efficiency on a Specific Domain, Nov 2024, [arxiv](https://arxiv.org/abs/2412.00532)
 - MTEB: Massive Text Embedding Benchmark Oct 2022 [arxiv](https://arxiv.org/abs/2210.07316 Leaderboard) [Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
-- Marqo embedding benchmark for eCommerce [at Huggingface](https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks), text to image and category to image tasks 
+- Marqo embedding benchmark for eCommerce [at Huggingface](https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks), text to image and category to image tasks
+- LongEmbed: Extending Embedding Models for Long Context Retrieval, Apr 2024, [arxiv](https://arxiv.org/abs/2404.12096)
 - The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding, [openreview pdf](https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf)
 - MMTEB: Community driven extension to MTEB [repository](https://github.com/embeddings-benchmark/mteb/blob/main/docs/mmteb/readme.md)
 - Chinese MTEB C-MTEB [repository](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)
@@ -409,6 +412,7 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Multi-Modal
 - How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks, Jul 2025, [HF](https://huggingface.co/papers/2507.01955)
+- MIEB: Massive Image Embedding Benchmark, apr 2025, [arxiv](https://arxiv.org/abs/2504.10471)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
 - Can Large Vision Language Models Read Maps Like a Human?, Mar 2025, [arxiv](https://arxiv.org/abs/2503.14607)
 - MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs,  see Cubify Anything VQA (CA-VQA) in the paper, Mar 2025, [arxiv](https://arxiv.org/abs/2503.13111)
