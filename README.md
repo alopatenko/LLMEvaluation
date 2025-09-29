@@ -544,6 +544,11 @@ QA is used in many vertical domains, see Vertical section bellow
 ---
 ### Code Generating LLMs
 and other software co-pilot tasks
+- SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?, Sep 2025, [arxiv](https://arxiv.org/abs/2509.16941)
+- The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason, Jun 2025, [arxiv](https://arxiv.org/abs/2506.12286)
+- SWE-bench Goes Live!, May 2025. [arxiv](https://arxiv.org/abs/2505.23419)
+- SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents, Apr 2025, [arxiv](https://arxiv.org/abs/2504.08703)
+- Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving, Apr 2025, [arxiv](https://arxiv.org/abs/2504.02605)
 - Evaluating Large Language Models in Code Generation: INFINITE Methodology for Defining the Inference Index, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05852)
 - [coPilot Arena: github repo](https://github.com/lmarena/copilot-arena), article: Copilot Arena: A Platform for Code LLM Evaluation in the Wild, Feb 2025, [arxiv](https://arxiv.org/abs/2502.09328)
 - Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering, Feb 2025, [arxiv](https://arxiv.org/abs/2502.06193)
