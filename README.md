@@ -702,7 +702,6 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 - Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs, 05 2024,Bird, a big benchmark for large-scale database grounded in text-to-SQL tasks, containing 12,751 pairs of text-to-SQL data and 95 databases with a total size of 33.4 GB, spanning 37 professional domain [arxiv](https://arxiv.org/abs/2305.03111) [data and leaderboard](https://bird-bench.github.io/)
 - MuSiQue: Multihop Questions via Single-hop Question Composition, Aug 2021, [arxiv](https://arxiv.org/abs/2108.00573)
 - Evaluating Copyright Takedown Methods for Language Models, June 2024, [arxiv](https://arxiv.org/abs/2406.18664)
-  
 ---
 ## LLM Systems
 ### RAG Evaluation
@@ -725,7 +724,26 @@ and knowledge assistant and information seeking LLM based systems,
 - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems Nov 23, [arxiv](https://arxiv.org/abs/2311.09476)
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
-  
+### Evaluation Deep Research
+- BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
+- DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents, Jun 2025, [arxiv](https://arxiv.org/abs/2506.11763)
+- DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research, May 2025, [arxiv](https://arxiv.org/abs/2505.19253)
+- AstaBench (from AllenAI), [Benchmark at Guthub](https://github.com/allenai/asta-bench)
+- FieldWorkArena: Agentic AI Benchmark for Real Field Work Tasks, May 2025, [arxiv](https://arxiv.org/abs/2505.19662)
+- GAIA: a benchmark for General AI Assistants, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12983)
+### Evaluation Agentic Search
+- WideSearch: Benchmarking Agentic Broad Info-Seeking, Aug 2025, [arxiv](https://arxiv.org/abs/2508.07999)
+- BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
+- Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge, Jun 2025, [arxiv](https://arxiv.org/abs/2506.21506)
+- Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks, May 2025, [arxiv](https://arxiv.org/abs/2505.24876)
+- InfoDeepDeek [emergntmind](https://www.emergentmind.com/papers/2505.15872)
+- WebArena: A Realistic Web Environment for Building Autonomous Agents, Apr 2024, [arxiv](https://arxiv.org/abs/2307.13854)
+- AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents, Dec 2024, [arxiv]( https://arxiv.org/abs/2401.13178)
+### Evaluation Reasoning and RAG
+- R2MED: A Benchmark for Reasoning-Driven Medical Retrieval, May 2025, [arxiv](https://arxiv.org/abs/2505.14558)
+- GraphRAG-Bench: Challenging Domain-Specific Reasoning for Evaluating Graph Retrieval-Augmented Generation, Jun 2025, [arxiv](https://arxiv.org/abs/2506.02404)
+- MR2-BENCH: GOING BEYOND MATCHING TO REA-SONING IN MULTIMODAL RETRIEVAL, Sep 2025, [arxiv](https://www.arxiv.org/pdf/2509.26378)
+- BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval, Jul 2024, [arxiv](https://arxiv.org/abs/2407.12883)  
 ---
 ### Conversational systems
 And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen-AI,-Search-and-Recommender-Engines)
