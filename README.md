@@ -179,6 +179,8 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- LiveTradeBench: Seeking Real-World Alpha with Large Language Models, Nov 2025, Evaluation on Live data, [arxiv](https://arxiv.org/abs/2511.03628)
+- Measuring what Matters: Construct Validity in Large Language Model Benchmarks, [NeuriIPS 2025](https://oxrml.com/measuring-what-matters/)
 - The Leaderboard Illusion, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
 - Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
@@ -237,6 +239,8 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
+- Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction, Sep 2025, [arxiv](https://arxiv.org/abs/2509.18658)
 - Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [TruthEval](https://giovannigatti.github.io/trutheval/)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
@@ -354,6 +358,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 ### Reasoning
+- LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models, LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models, [ACL Findings 2025](https://aclanthology.org/2025.findings-acl.77/)
 - DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition, Apr 2025, ProverBench, a collection of 325 formalized problems, [arxiv](https://arxiv.org/abs/2504.21801)
 - Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
 - EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges, ScaleAI, Feb 2025, [arxiv](https://arxiv.org/abs/2502.08859)
@@ -656,6 +661,8 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data, Oct 2025, [arxiv](https://arxiv.org/abs/2510.10159)
+- Butter-Bench: Evaluating LLM Controlled Robots for Practical Intelligence, Oct 2025, [arxiv](https://www.arxiv.org/abs/2510.21860)
 - EvoBench: Towards Real-world LLM-Generated Text Detection Benchmarking for Evolving Large Language Models, [ACL 2025](https://aclanthology.org/2025.findings-acl.754/)
 - LLM Evaluate: An Industry-Focused Evaluation Tool for Large Language Models, [Coling 2025](https://aclanthology.org/2025.coling-industry.24/)
 - Better Benchmarking LLMs for Zero-Shot Dependency Parsing, Feb 2025, [arxiv](https://arxiv.org/abs/2502.20866)
@@ -771,6 +778,7 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
   
 ---
 ### Search and Recommendation Engines
+- ConsintBench: Evaluating Language Models on Real-World Consumer Intent Understanding, Oct 2025, [arxiv](https://arxiv.org/abs/2510.13499)
 - Investigating Users' Search Behavior and Outcome with ChatGPT in Learning-oriented Search Tasks, SIGIR-AP 2024, [ACM](https://dl.acm.org/doi/abs/10.1145/3673791.3698406)
 - Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation,[RecSys 2023](https://dl.acm.org/doi/abs/10.1145/3604915.3608860)
 - Is ChatGPT a Good Recommender? A Preliminary Study Apr 2023 [arxiv](https://arxiv.org/abs/2304.10149)
@@ -798,6 +806,7 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 ---
 ## Verticals
 ### Healthcare and medicine
+- Medical Large Language Model Benchmarks Should Prioritize Construct Validity, Mar 2025, [arxiv](https://arxiv.org/abs/2503.10694)
 - A systematic review of large language model (LLM) evaluations in clinical medicine, Mar 2025, [BMC Medical Informatics and Decision Making](https://link.springer.com/article/10.1186/s12911-025-02954-4)
 - MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [arxiv](https://arxiv.org/abs/2403.03744) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
 - Evaluation of LLMs accuracy and consistency in the registered dietitian exam through prompt engineering and knowledge retrieval, Nature, Jan 2025, [Scientific reporta Nature](https://www.nature.com/articles/s41598-024-85003-w)
