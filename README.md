@@ -239,7 +239,7 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
-- Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
+- Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Google, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
 - Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction, Sep 2025, [arxiv](https://arxiv.org/abs/2509.18658)
 - Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [TruthEval](https://giovannigatti.github.io/trutheval/)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
@@ -315,7 +315,8 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Question answering
-QA is used in many vertical domains, see Vertical section bellow
+QA is used in many vertical domains, see Vertical section below
+- NLP-QA: A Large-scale Benchmark for Informative Question Answering over Natural Language Processing Documents, Nov 2025 , [short paper CIKM 2025](https://dl.acm.org/doi/abs/10.1145/3746252.3761625)
 - SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines, Mar 2025, [arxiv](https://arxiv.org/abs/2502.14739)
 - CoReQA: Uncovering Potentials of Language Models in Code Repository Question Answering, Jan 2025, [arxiv](https://arxiv.org/abs/2501.03447)
 - Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x) ScholarChemQA Dataset
@@ -358,6 +359,7 @@ QA is used in many vertical domains, see Vertical section bellow
 
 ---
 ### Reasoning
+- Are Language Models Efficient Reasoners? A Perspective from Logic Programming, Oct 2025, [arxiv](https://arxiv.org/abs/2510.25626)
 - LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models, LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models, [ACL Findings 2025](https://aclanthology.org/2025.findings-acl.77/)
 - DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition, Apr 2025, ProverBench, a collection of 325 formalized problems, [arxiv](https://arxiv.org/abs/2504.21801)
 - Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
@@ -420,6 +422,8 @@ QA is used in many vertical domains, see Vertical section bellow
   
 ---
 ### Multi-Modal
+- Roboflow100-VL: A Multi-Domain Object Detection Benchmark for Vision-Language Models, RoboFlow, CMU, [NeurIPS 2025](https://openreview.net/pdf?id=H3cqr50G7Q)
+- MM-OPERA: Benchmarking Open-ended Association Reasoning for Large Vision-Language Models, Oct 2025, [arxiv](https://arxiv.org/abs/2510.26937)
 - How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks, Jul 2025, [HF](https://huggingface.co/papers/2507.01955)
 - MIEB: Massive Image Embedding Benchmark, apr 2025, [arxiv](https://arxiv.org/abs/2504.10471)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
@@ -661,6 +665,7 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- REFINEBENCH: Evaluating Refinement Capability of Language Models with Checklists, KAIST, CMU, NVidia, [NeurIPS 2025](https://openreview.net/pdf?id=Ycred6ETQR)
 - BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data, Oct 2025, [arxiv](https://arxiv.org/abs/2510.10159)
 - Butter-Bench: Evaluating LLM Controlled Robots for Practical Intelligence, Oct 2025, [arxiv](https://www.arxiv.org/abs/2510.21860)
 - EvoBench: Towards Real-world LLM-Generated Text Detection Benchmarking for Evolving Large Language Models, [ACL 2025](https://aclanthology.org/2025.findings-acl.754/)
@@ -716,6 +721,7 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ## LLM Systems
 ### RAG Evaluation
 and knowledge assistant and information seeking LLM based systems, 
+- RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering, [NeurIPS 2025](https://openreview.net/pdf?id=GGMQ3gYhzh)
 - Evaluating Large Language Models for Cross-Lingual Retrieval, Sep 2025, [arxiv](https://arxiv.org/abs/2509.14749)
 - A Comprehensive Evaluation of Embedding Models and LLMs for IR and QA Across English and Italian, May 2025, [ Advances in Natural Language Processing and Text Mining May 2025](https://www.mdpi.com/2504-2289/9/5/141)
 - RankArena: A Unified Platform for Evaluating Retrieval, Reranking and RAG with Human and LLM Feedback, Aug 2025, [arxiv](https://arxiv.org/abs/2508.05512)
@@ -735,6 +741,7 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
+- InnovatorBench: Evaluating Agents’ Ability to Conduct Innovative LLM Research, Oct 2025 [arxiv](https://arxiv.org/abs/2510.27598) 
 - BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
 - DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents, Jun 2025, [arxiv](https://arxiv.org/abs/2506.11763)
 - DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research, May 2025, [arxiv](https://arxiv.org/abs/2505.19253)
@@ -757,6 +764,7 @@ and knowledge assistant and information seeking LLM based systems,
 ---
 ### Conversational systems
 And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen-AI,-Search-and-Recommender-Engines)
+- REFINEBENCH: Evaluating Refinement Capability of Language Models with Checklists, KAIST, CMU, NVidia, [NeurIPS 2025](https://openreview.net/pdf?id=Ycred6ETQ)
 - A survey on chatbots and large language models: Testing and evaluation techniques, Jan 2025, [Natural Language Processing Journal Mar 2025](https://www.sciencedirect.com/science/article/pii/S2949719125000044)
 - How Well Can Large Language Models Reflect? A Human Evaluation of LLM-generated Reflections for Motivational Interviewing Dialogues, Jan 2025, [Proceedings of the 31st International Conference on Computational Linguistics COLING](https://aclanthology.org/2025.coling-main.135/) 
 - Benchmark for general-purpose AI chat model, December 2024, AILuminate from ML Commons, [mlcommons website](https://ailuminate.mlcommons.org/benchmarks/)
