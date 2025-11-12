@@ -239,6 +239,7 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- CLUE: Using Large Language Models for Judging Document Usefulness in Web Search Evaluation, Oct 2025, [CIKM 2025](https://dl.acm.org/doi/abs/10.1145/3746252.3761158)
 - Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Google, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
 - Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction, Sep 2025, [arxiv](https://arxiv.org/abs/2509.18658)
 - Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [TruthEval](https://giovannigatti.github.io/trutheval/)
