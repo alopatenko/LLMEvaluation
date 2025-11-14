@@ -142,6 +142,8 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+- Measuring political bias in Claude, Nov 2025, [Anthropic](https://www.anthropic.com/news/political-even-handedness)
+- Understanding the 4 Main Approaches to LLM Evaluation (From Scratch), Oct 2025, Sebastian Raschka [blog](https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches)
 - About Evalus by Andrew Ng , April 2025, [the batch](https://www.deeplearning.ai/the-batch/issue-297/)
 -  Mastering LLM Techniques: Evaluation, by Nvidia, Jan 2025, [nvidia blog](https://developer.nvidia.com/blog/mastering-llm-techniques-evaluation/)
 - AI Search Has A Citation Problem, "A study of eight AI search engines found they provided incorrect citations of news articles in 60%+ of queries; Grok 3 answered 94% of the queries incorrectly", Mar 2025, [Columbia Journalism Review](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php)
