@@ -19,6 +19,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Leaderboards and Arenas](#leaderboards-and-arenas)
 - [Evaluation Software](#evaluation-software)
 - [LLM Evaluation articles in tech media and blog posts from companies](#llm-evaluation-articles)
+- [Frontier models](#frontier-models)
 - [Large benchmarks](#large-benchmarks)
 - [Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation](#evaluation-of-evaluation-evaluation-theory-evaluation-methods-analysis-of-evaluation)
 - [Long Comprehensive Studies](#long-comprehensive-studies)
@@ -169,7 +170,29 @@ in tech media and blog posts and podcasts from companies
 - DeepMind AI Safety evaluation June 24 [deepmind blog, Introducing Frontier Safety Framework](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)
 - AI Snake Oil, June 2024, [AI leaderboards are no longer useful. It's time to switch to Pareto curves.](https://www.aisnakeoil.com/p/ai-leaderboards-are-no-longer-useful)
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
-  
+---
+### Frontier models
+- Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures, Oct 2025, [arxiv](https://arxiv.org/abs/2510.24081)
+- SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric Knowledge, Sep 2025, [arxiv](https://arxiv.org/abs/2509.07968)
+- MathArena Apex, Aug 2025 [blogpost](https://matharena.ai/apex/#)
+- AIME 2025 Benchmark Leaderboard, [leaderboard](https://artificialanalysis.ai/evaluations/aime-2025) AIME 2025 dataset [huggingface](https://huggingface.co/datasets/MathArena/aime_2025)
+- LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?, Jun 2025, [arxiv](https://arxiv.org/abs/2506.11928)
+- τ2-Bench: Evaluating Conversational Agents in a Dual-Control Environment, Jun 2025, p[arxiv](https://arxiv.org/abs/2506.07982)
+- ARC-AGI-2: A New Challenge for Frontier AI Reasoning Systems, May 2025, [arxiv](https://arxiv.org/abs/2505.11831)
+- Terminal Bench 2.0 [Leaderboard and data](https://www.tbench.ai/leaderboard/terminal-bench/2.0)
+- Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents, Feb 2025, [arxiv](https://arxiv.org/abs/2502.15840)
+- Humanity's Last Exam, Jan 2025, [arxiv](https://arxiv.org/abs/2501.14249)
+- Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos, Jan 2025, [arxiv](https://arxiv.org/abs/2501.13826)
+- OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations, Dec 2024, [arxiv](https://arxiv.org/abs/2412.07626v1)
+- FACTS Grounding: A new benchmark for evaluating the factuality of large language models, Dec 2024, [Google Blog](https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/)
+- MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark, Sep 2024, [arxiv](https://arxiv.org/abs/2409.02813)
+- MRCR v2 (Multi-Round Coreference Resolution version 2), [leaderboard](https://llm-stats.com/benchmarks/mrcr-v2) Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries, [DeepMind](https://arxiv.org/abs/2409.12640v2)
+- CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs, Jun 2024, [arxiv](https://arxiv.org/abs/2406.18521)
+- SWE Bench Verified [blog and data at openai](https://openai.com/index/introducing-swe-bench-verified/)
+- ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use, Apr 2024, [arxiv](https://arxiv.org/abs/2504.07981)
+- GPQA Diamond, [dataset](https://github.com/idavidrein/gpqa?tab=readme-ov-file) , original paper GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
+- GPQA diamond Leaderboard [leaderboard at epoch](https://epoch.ai/benchmarks/gpqa-diamond)
+- Measuring Massive Multitask Language Understanding, May 2020, [arxiv](https://arxiv.org/abs/2009.03300)
 ---
 ### Large benchmarks
 - MMLU-Pro+: Evaluating Higher-Order Reasoning and Shortcut Learning in LLMs, Sep 2024, Audesk AI, [arxiv](https://arxiv.org/abs/2409.02257)
@@ -359,7 +382,6 @@ QA is used in many vertical domains, see Vertical section below
 - Parrot: Enhancing Multi-Turn Instruction Following for Large Language Models, Oct 2023, [arxiv](https://arxiv.org/abs/2310.07301)
 - Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena, NeurIPS 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html)
 - MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback, Sep 2023, [arxiv](https://arxiv.org/abs/2309.10691)
-
 ---
 ### Reasoning
 - Are Language Models Efficient Reasoners? A Perspective from Logic Programming, Oct 2025, [arxiv](https://arxiv.org/abs/2510.25626)
@@ -368,6 +390,7 @@ QA is used in many vertical domains, see Vertical section below
 - Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad, Mar 2025, [arxiv](https://arxiv.org/abs/2503.21934)
 - EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges, ScaleAI, Feb 2025, [arxiv](https://arxiv.org/abs/2502.08859)
 - Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning, Feb 2025, [Coling 2025](https://aclanthology.org/2025.coling-main.330/)
+- Humanity's Last Exam, Jan 2025, [arxiv](https://arxiv.org/abs/2501.14249)
 - JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in Large Language Models, Jan 2025, [arxiv](https://arxiv.org/abs/2501.14851)
 - See 5.3 Evaluations chapter of DeepSeek R3 tech report on how new frontier models are evaluated Dec 2024 [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437v1) and 3.1. DeepSeek-R1 Evaluation Chapter of DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning Jan 2025 [arxiv](https://arxiv.org/abs/2501.12948)
 - Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning, Jan 2025, [Proceedings of the 31st International Conference on Computational Linguistics](https://aclanthology.org/2025.coling-main.330/))
