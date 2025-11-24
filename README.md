@@ -174,6 +174,7 @@ in tech media and blog posts and podcasts from companies
 ### Frontier models
 - Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures, Oct 2025, [arxiv](https://arxiv.org/abs/2510.24081)
 - SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric Knowledge, Sep 2025, [arxiv](https://arxiv.org/abs/2509.07968)
+- MCP Atlas Sep 2025 [Leaderboard](https://scale.com/leaderboard/mcp_atlas) [blog post](https://scale.com/blog/mcp-atlas)
 - MathArena Apex, Aug 2025 [blogpost](https://matharena.ai/apex/#)
 - AIME 2025 Benchmark Leaderboard, [leaderboard](https://artificialanalysis.ai/evaluations/aime-2025) AIME 2025 dataset [huggingface](https://huggingface.co/datasets/MathArena/aime_2025)
 - LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?, Jun 2025, [arxiv](https://arxiv.org/abs/2506.11928)
@@ -578,7 +579,8 @@ QA is used in many vertical domains, see Vertical section below
 - CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models, Apr 2024, [Meta](https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/) [arxiv](https://arxiv.org/abs/2404.13161)
 - Benchmarking OpenAI o1 in Cyber Security, Oct 2024, [arxiv](https://arxiv.org/abs/2410.21939)
 - Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models, Aug 2024, [arxiv](https://arxiv.org/abs/2408.08926)
-  
+---
+
 ---
 ### Code Generating LLMs
 and other software co-pilot tasks
@@ -594,12 +596,13 @@ and other software co-pilot tasks
 - Mutation-Guided LLM-based Test Generation at Meta, Jan 2025, see 4 ENGINEERS’ EVALUATION OF ACH chapter of [arxiv](https://arxiv.org/abs/2501.12862) and [blog post at meta](https://engineering.fb.com/2025/02/05/security/revolutionizing-software-testing-llm-powered-bug-catchers-meta-ach/)
 - SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI, Oct 2024, [arxiv](https://arxiv.org/abs/2410.11096)
 - L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models , Oct 2024, [arxiv](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00705/124835)
+- SWE-bench Verified, [Introducing SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/)
 - Aider Polyglot, code editing benchmark [Aider polyglot site](https://aider.chat/docs/benchmarks.html#the-benchmark)
 - A Survey on Evaluating Large Language Models in Code Generation Tasks, Peking University etc, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16498)
 - LLMSecCode: Evaluating Large Language Models for Secure Coding, Aug 2024, [arxiv](https://arxiv.org/abs/2408.16100)
 - Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming Feb 24 [arxiv](https://arxiv.org/abs/2402.14261)
 - LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code, Berkeley, MIT, Cornell, Mar 2024, [arxiv](https://arxiv.org/abs/2403.07974)
-- Introducing SWE-bench Verified, OpenAI, Aug 2024, [OpenAI](https://openai.com/index/introducing-swe-bench-verified/)
+- Introducing SWE-bench Verified, OpenAI, Aug 2024, [OpenAI](https://openai.com/index/introducing-swe-bench-verified/) [SWE Bench Leaderboard](https://www.swebench.com/)
 - SWE Bench SWE-bench: Can Language Models Resolve Real-World GitHub Issues? Feb 2024 [arxiv](https://arxiv.org/abs/2402.05863) [Tech Report](https://www.cognition-labs.com/post/swe-bench-technical-report)
 - Gorilla Functional Calling Leaderboard, Berkeley [Leaderboard]( https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
 - DevBench: A Comprehensive Benchmark for Software Development, Mar 2024,[arxiv](https://arxiv.org/abs/2403.08604)
