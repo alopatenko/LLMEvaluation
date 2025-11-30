@@ -770,7 +770,8 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
-- InnovatorBench: Evaluating Agents’ Ability to Conduct Innovative LLM Research, Oct 2025 [arxiv](https://arxiv.org/abs/2510.27598) 
+- InnovatorBench: Evaluating Agents’ Ability to Conduct Innovative LLM Research, Oct 2025 [arxiv](https://arxiv.org/abs/2510.27598)
+- DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis, Aug 2025, [arxiv](https://arxiv.org/abs/2508.20033)
 - BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
 - DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents, Jun 2025, [arxiv](https://arxiv.org/abs/2506.11763)
 - DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research, May 2025, [arxiv](https://arxiv.org/abs/2505.19253)
