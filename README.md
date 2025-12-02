@@ -265,6 +265,7 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- How to Correctly Report LLM-as-a-Judge Evaluations, nov 2025, [arxiv](https://arxiv.org/abs/2511.21140)
 - CLUE: Using Large Language Models for Judging Document Usefulness in Web Search Evaluation, Oct 2025, [CIKM 2025](https://dl.acm.org/doi/abs/10.1145/3746252.3761158)
 - Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Google, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
 - Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction, Sep 2025, [arxiv](https://arxiv.org/abs/2509.18658)
@@ -509,11 +510,12 @@ QA is used in many vertical domains, see Vertical section below
 - CREMA-D Crowd-sourced Emotional Multimodal Actors Dataset[repository](https://github.com/CheyneyComputerScience/CREMA-D) paper CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset, [IEEE transactions in affective computing 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4313618/)
 ---
 ### Instruction Following
-- Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, [arxiv](https://arxiv.org/abs/2310.07641)
+- AdvancedIF: Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following, Nov 2025, [arxiv](https://arxiv.org/abs/2511.10507)
 - Find the INTENTION OF INSTRUCTION: Comprehensive Evaluation of Instruction Understanding for Large Language Models, Dec 2024, [arxiv](https://arxiv.org/abs/2412.19450)
 - HREF: Human Response-Guided Evaluation of Instruction Following in Language Models, Dec 2024, [arxiv](https://arxiv.org/abs/2412.15524)
 - CFBench: A Comprehensive Constraints-Following Benchmark for LLMs. Aug 2024, [arxiv](https://arxiv.org/abs/2408.01122)
 - Instruction-Following Evaluation for Large Language Models, IFEval, Nov 2023, [arxiv](https://arxiv.org/abs/2311.07911)
+- Evaluating Large Language Models at Evaluating Instruction Following Oct 2023, [arxiv](https://arxiv.org/abs/2310.07641)
 - FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets, Jul 2023, [arxiv](https://arxiv.org/abs/2307.10928) , [FLASK dataset](https://github.com/kaistAI/FLASK)
 - DINGO: Towards Diverse and Fine-Grained Instruction-Following Evaluation, Mar 2024, [aaai](https://ojs.aaai.org/index.php/AAAI/article/view/29768), [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/29768/31322)
 - LongForm: Effective Instruction Tuning with Reverse Instructions, Apr 2023, [arxiv](https://arxiv.org/abs/2304.08460) [dataset](https://github.com/akoksal/LongForm)
@@ -640,6 +642,8 @@ and other software co-pilot tasks
   
 ---
 ### Agent LLM Architectures
+- Crumbling Under Pressure: PropensityBench Reveals AI’s Weaknesses, Nov 2025, [arxiv](https://scale.com/blog/propensitybench)
+- AdvancedIF: Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following, Nov 2025, [arxiv](https://arxiv.org/abs/2511.10507)
 - MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models, Jul 2025, [arxiv](https://arxiv.org/abs/2507.12806)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
