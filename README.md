@@ -143,6 +143,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+- Product Evals in Three Simple Steps, Eugene Yan, Nov 2025, [blog post](https://eugeneyan.com/writing/product-evals/)
 - Measuring political bias in Claude, Nov 2025, [Anthropic](https://www.anthropic.com/news/political-even-handedness)
 - Understanding the 4 Main Approaches to LLM Evaluation (From Scratch), Oct 2025, Sebastian Raschka [blog](https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches)
 - About Evalus by Andrew Ng , April 2025, [the batch](https://www.deeplearning.ai/the-batch/issue-297/)
