@@ -111,6 +111,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ### Evaluation Software
 - [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
 - Eureka, Microsoft, A framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. [github](https://github.com/microsoft/eureka-ml-insights) Sep 2024 [arxiv](https://arxiv.org/abs/2409.10566)
+- [Rhesis](https://github.com/rhesis-ai/rhesis) Open-source testing platform & SDK for LLM and agentic applications. Define requirements in plain language, generates hundreds of test scenarios including adversarial cases, supports both single-turn and multi-turn testing. Built for cross-functional teams with UI for non-technical users and SDK/API for engineers. [website](https://www.rhesis.ai/)
 - [OpenAI Evals]( https://github.com/openai/evals)
 - Visualizations of embedding space, [Atlas from Apple](https://apple.github.io/embedding-atlas/)
 - [github: LLM Comparator from PAIR Google](https://github.com/PAIR-code/llm-comparator), a side by side evaluation tool, [LLM Comparator: A tool for human-driven LLM evaluation](https://medium.com/people-ai-research/llm-comparator-a-tool-for-human-driven-llm-evaluation-81292c17f521)
