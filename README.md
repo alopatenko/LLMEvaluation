@@ -643,12 +643,20 @@ and other software co-pilot tasks
   
 ---
 ### Agent LLM Architectures
+Agentic Tasks
+- DeliveryBench: Can Agents Earn Profit in Real World?, Dec 2025, [arxiv](https://arxiv.org/abs/2512.19234)
 - Crumbling Under Pressure: PropensityBench Reveals AI’s Weaknesses, Nov 2025, [arxiv](https://scale.com/blog/propensitybench)
 - AdvancedIF: Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following, Nov 2025, [arxiv](https://arxiv.org/abs/2511.10507)
+- MCPVerse: An Expansive, Real-World Benchmark for Agentic Tool Use, Oct 2025, [arxiv](https://arxiv.org/abs/2508.16260v1)
+- CookBench: A Long-Horizon Embodied Planning Benchmark for Complex Cooking Scenarios, aug 2025, [arxiv](https://arxiv.org/abs/2508.03232)
+- Establishing Best Practices for Building Rigorous Agentic Benchmarks, Jul 2025, [arxiv](https://arxiv.org/abs/2507.02825)
 - MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models, Jul 2025, [arxiv](https://arxiv.org/abs/2507.12806)
+- TRAIL: Trace Reasoning and Agentic Issue Localization, May 2025, [arxiv](https://arxiv.org/abs/2505.08638)
+- Survey on Evaluation of LLM-based Agents, Mar 2025, [arxiv](https://arxiv.org/abs/2503.16416v1)
 - Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making, Oct 2024, [arxiv](https://arxiv.org/abs/2410.07166)
 - [AutoGenBench -- A Tool for Measuring and Evaluating AutoGen Agents from Microsoft](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/) see an example how it's used in the evaluation of [Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks
 ](https://arxiv.org/abs/2411.04468v1)
+- Overcoming the Machine Penalty with Imperfectly Fair AI Agents, Sep 2024, [arxiv](https://arxiv.org/abs/2410.03724)
 - LLM4RL: Enhancing Reinforcement Learning with Large Language Models, Aug 2024, [IEEE Explore](https://ieeexplore.ieee.org/document/10667224)
 - Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena, Oct 2023, [arxiv](https://arxiv.org/abs/2310.05746)
 - Chapter 4 4 LLM-based autonomous agent evaluation in A survey on large language model based autonomous agents, Front. Comput. Sci., 2024, [Front. Comput. Sci., 2024, at Springer](https://link.springer.com/content/pdf/10.1007/s11704-024-40231-1.pdf#page=16.50)
@@ -659,8 +667,8 @@ and other software co-pilot tasks
 - ProAgent: Building Proactive Cooperative Agents with Large Language Models, Aug 2023, [arxiv](https://arxiv.org/abs/2308.11339)
 - Towards A Unified Agent with Foundation Models, Jul 2023, [arxiv](https://arxiv.org/abs/2307.09668)
 - RestGPT: Connecting Large Language Models with Real-World RESTful APIs, Jun 2023, [arxiv](https://arxiv.org/abs/2306.06624)
-- Large Language Models Are Semi-Parametric Reinforcement Learning Agents, Jun 2023, [arxiv](https://arxiv.org/abs/2306.07929)  
-
+- Large Language Models Are Semi-Parametric Reinforcement Learning Agents, Jun 2023, [arxiv](https://arxiv.org/abs/2306.07929)
+- ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills, Feb 2023, [arxiv](https://arxiv.org/abs/2302.04659)
 ---
 ### AGI Evaluation
 AGI (Artificial General Intelligence) evaluation refers to the process of assessing whether an AI system possesses or approaches general intelligence—the ability to perform any intellectual task that a human can.
