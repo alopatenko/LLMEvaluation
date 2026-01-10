@@ -143,6 +143,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+- Demystifying evals for AI agents, Anthropic, Jan 2026, [arxiv](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - Product Evals in Three Simple Steps, Eugene Yan, Nov 2025, [blog post](https://eugeneyan.com/writing/product-evals/)
 - Measuring political bias in Claude, Nov 2025, [Anthropic](https://www.anthropic.com/news/political-even-handedness)
 - Understanding the 4 Main Approaches to LLM Evaluation (From Scratch), Oct 2025, Sebastian Raschka [blog](https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches)
@@ -644,6 +645,7 @@ and other software co-pilot tasks
 ---
 ### Agent LLM Architectures
 Agentic Tasks
+- Demystifying evals for AI agents, Anthropic, Jan 2026, [arxiv](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - DeliveryBench: Can Agents Earn Profit in Real World?, Dec 2025, [arxiv](https://arxiv.org/abs/2512.19234)
 - Crumbling Under Pressure: PropensityBench Reveals AI’s Weaknesses, Nov 2025, [arxiv](https://scale.com/blog/propensitybench)
 - AdvancedIF: Rubric-Based Benchmarking and Reinforcement Learning for Advancing LLM Instruction Following, Nov 2025, [arxiv](https://arxiv.org/abs/2511.10507)
