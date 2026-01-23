@@ -709,6 +709,7 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
+- LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understading
 - REFINEBENCH: Evaluating Refinement Capability of Language Models with Checklists, KAIST, CMU, NVidia, [NeurIPS 2025](https://openreview.net/pdf?id=Ycred6ETQR)
 - BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data, Oct 2025, [arxiv](https://arxiv.org/abs/2510.10159)
 - Butter-Bench: Evaluating LLM Controlled Robots for Practical Intelligence, Oct 2025, [arxiv](https://www.arxiv.org/abs/2510.21860)
@@ -859,6 +860,7 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 ---
 ## Verticals
 ### Healthcare and medicine
+- MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks, May 2025, [arxiv](https://arxiv.org/abs/2505.23802) published in Nature
 - Medical Large Language Model Benchmarks Should Prioritize Construct Validity, Mar 2025, [arxiv](https://arxiv.org/abs/2503.10694)
 - A systematic review of large language model (LLM) evaluations in clinical medicine, Mar 2025, [BMC Medical Informatics and Decision Making](https://link.springer.com/article/10.1186/s12911-025-02954-4)
 - MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [arxiv](https://arxiv.org/abs/2403.03744) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
