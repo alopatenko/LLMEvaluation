@@ -47,6 +47,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
     - [Agent LLM architectures](#agent-llm-architectures)
     - [AGI Evaluation](#agi-evaluation)
     - [Long Text Generation](#long-text-generation)
+    - [Document Understanding](#document-understanding)
     - [Graph Understandings](#graph-understanding)
     - [Reward Models](#reward-models)
     - [Various unclassified tasks](#various-unclassified-tasks)
@@ -691,6 +692,17 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 - HelloBench: Evaluating Long Text Generation Capabilities of Large Language Models, Sep 2024, [arxiv](https://arxiv.org/abs/2409.16191)
 
 ---
+### Document Understanding
+- LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understadinng
+- M-LongDoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework, EMNLP 2025 [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.469/)
+- LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locatingp ACL 2025 [ACL 2025](https://aclanthology.org/2025.acl-long.57/)
+- Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering, May 2025, [arxiv](https://arxiv.org/abs/2505.16470)
+- DocBench: A Benchmark for Evaluating LLM-based Document Reading Systems, ACL Workshop 2025, [ACL 2025](https://aclanthology.org/2025.knowledgenlp-1.29/)
+- Document Haystack: A Long Context Multimodal Image/Document Understanding Vision LLM Benchmark, ICCV Workshop 2025, Amazon AGI team [ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025W/MRR%202025/papers/Huybrechts_Document_Haystack_A_Long_Context_Multimodal_ImageDocument_Understanding_Vision_LLM_ICCVW_2025_paper.pdf)
+- DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [ASME 2024](https://asmedigitalcollection.asme.org/computingengineering/article/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating)
+- MMLONGBENCH-DOC: Benchmarking Long-context Document Understanding with Visualizations, [neurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html)
+- VRDU: A Benchmark for Visually-rich Document Understanding, KDD 2023 [KDD 2023](https://dl.acm.org/doi/abs/10.1145/3580305.3599929)
+---
 ### Graph understanding
 -  GPT4Graph: Can Large Language Models Understand Graph Structured Data ? An Empirical Evaluation and Benchmarking, May 2023, [arxiv](https://arxiv.org/abs/2305.15066)
 - LLM4DyG: Can Large Language Models Solve Spatial-Temporal Problems on Dynamic Graphs? Oct 2023, [arxiv](https://arxiv.org/abs/2310.17110)
@@ -709,7 +721,6 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ---
 ### Various unclassified tasks
 (TODO as there are more than three papers per class, make a class a separate chapter in this Compendium)
-- LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understading
 - REFINEBENCH: Evaluating Refinement Capability of Language Models with Checklists, KAIST, CMU, NVidia, [NeurIPS 2025](https://openreview.net/pdf?id=Ycred6ETQR)
 - BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data, Oct 2025, [arxiv](https://arxiv.org/abs/2510.10159)
 - Butter-Bench: Evaluating LLM Controlled Robots for Practical Intelligence, Oct 2025, [arxiv](https://www.arxiv.org/abs/2510.21860)
