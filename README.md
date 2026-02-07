@@ -69,6 +69,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
+- Benchmark^2: Systematic Evaluation of LLM Benchmarks, Jan 2026, [arxiv](https://arxiv.org/abs/2601.03986)
 - Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
 - Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, UMD,  Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
 - AI Benchmarks and Datasets for LLM Evaluation, Dec 2024, [arxiv](https://arxiv.org/abs/2412.01020), a survey of many LLM benchmarks
@@ -268,10 +269,13 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- Efficient Inference for Noisy LLM-as-a-Judge Evaluation, Jan 2026, [arxiv](https://arxiv.org/abs/2601.05420)
+- MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory, Feb 2026, [Databricks](https://www.databricks.com/blog/memalign-building-better-llm-judges-human-feedback-scalable-memory)
 - How to Correctly Report LLM-as-a-Judge Evaluations, nov 2025, [arxiv](https://arxiv.org/abs/2511.21140)
 - CLUE: Using Large Language Models for Judging Document Usefulness in Web Search Evaluation, Oct 2025, [CIKM 2025](https://dl.acm.org/doi/abs/10.1145/3746252.3761158)
 - Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Google, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
 - Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction, Sep 2025, [arxiv](https://arxiv.org/abs/2509.18658)
+- An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Model is not a General Substitute for GPT-4, Jul 2025, [ACL 2025](https://aclanthology.org/2025.findings-acl.306/)
 - Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [TruthEval](https://giovannigatti.github.io/trutheval/)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
@@ -872,6 +876,7 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 ## Verticals
 ### Healthcare and medicine
 - MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks, May 2025, [arxiv](https://arxiv.org/abs/2505.23802) published in Nature
+- A systematic review of large language model (LLM) evaluations in clinical medicine, Mar 2025, [BMC Medical Informatics and Decision Making ](https://link.springer.com/article/10.1186/s12911-025-02954-4)
 - Medical Large Language Model Benchmarks Should Prioritize Construct Validity, Mar 2025, [arxiv](https://arxiv.org/abs/2503.10694)
 - A systematic review of large language model (LLM) evaluations in clinical medicine, Mar 2025, [BMC Medical Informatics and Decision Making](https://link.springer.com/article/10.1186/s12911-025-02954-4)
 - MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models, Dec 2024, [openreview](https://openreview.net/pdf?id=cFyagd2Yh4) [arxiv](https://arxiv.org/abs/2403.03744) [benchmark code and data at github](https://github.com/AI4LIFE-GROUP/med-safety-bench)
