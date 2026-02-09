@@ -69,6 +69,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
+- Order in the Evaluation Court: A Critical Analysis of NLG Evaluation Trends, Jan 2026, [arxiv](https://arxiv.org/abs/2601.07648)
 - Benchmark^2: Systematic Evaluation of LLM Benchmarks, Jan 2026, [arxiv](https://arxiv.org/abs/2601.03986)
 - Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
 - Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey, UMD,  Jan 2025, [arxiv](https://www.arxiv.org/abs/2501.02189)
