@@ -25,6 +25,11 @@ Probabilistic Graphical Models: Principles and Techniques
 Daphne Koller & Nir Friedman
 https://github.com/Zhenye-Na/machine-learning-uiuc/blob/master/docs/Probabilistic%20Graphical%20Models%20-%20Principles%20and%20Techniques.pdf
 
+David Barber
+Bayesian Reasoning and Machine Learning
+online version 2025
+http://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/180325.pdf
+
 Information Theory, Inference, and Learning Algorithms
 David J. C. MacKay
 https://www.inference.org.uk/mackay/itila/book.html
