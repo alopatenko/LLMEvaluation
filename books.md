@@ -15,6 +15,13 @@ The Elements of Statistical Learning
 Trevor Hastie, Robert Tibshirani, Jerome Friedman
 https://hastie.su.domains/ElemStatLearn/
 
+Advanced Data Analysis from an Elementary Point of View
+Cosma Shalizi
+https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/
+
+Probabilistic Machine Learning: Advanced Topics
+https://probml.github.io/pml-book/book2.html
+
 Machine Learning
 Tom M. Mitchell
 https://archive.org/details/machinelearningb0000theo
@@ -65,11 +72,20 @@ https://lpuguidecom.wordpress.com/wp-content/uploads/2017/05/youblisher-com-1651
 
 Optimization, Control & Mathematical Foundations
 
-Generalized Type-Convolutions
+Convex Optimization by Boyd Lieven Vandenberghe, Book and slides
+https://web.stanford.edu/~boyd/cvxbook/
+
+Fundamentals of Linear Optimization:
+A Hopefully Uplifting Treatment
+https://people.orie.cornell.edu/huseyin/publications/lp_book.pdf
+
+A First Course in Optimization, Byrne  UML
+https://faculty.uml.edu/cbyrne/optfirst0.pdf 
+
+Multilevel Optimization Methods: Convergence and
+Problem Structure, Review
 https://www.doc.ic.ac.uk/~pp500/pubs/Gtype_conv.pdf
 
-Complex Systems and Networks
-https://matthbeck.github.io/papers/complex.pdf
 
 Recent Research Papers (ArXiv / ACM)
 
@@ -91,6 +107,9 @@ https://strimmerlab.github.io/notes/textbooks.html
 Applied Analytics & Policy Textbooks
 https://aap.misken.org/textbooks
 ?
+
+Complex analysis first course
+https://matthbeck.github.io/papers/complex.pdf
 
 Other (Non-ML, Reference)
 
