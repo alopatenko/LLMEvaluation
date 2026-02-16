@@ -55,6 +55,12 @@ Algorithms for Decision Making
 Mykel J. Kochenderfer, Tim A. Wheeler, Kyle H. Wray
 https://algorithmsbook.com/decisionmaking/
 
+Bandit AlgorithmsTor Lattimore and Csaba Szepesv ́ari
+https://tor-lattimore.com/downloads/book/book.pdf
+
+
+
+
 Time Series, Forecasting & Simulation
 
 Introduction to Time Series Analysis and Forecasting
