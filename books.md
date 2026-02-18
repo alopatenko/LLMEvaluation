@@ -92,19 +92,6 @@ Multilevel Optimization Methods: Convergence and
 Problem Structure, Review
 https://www.doc.ic.ac.uk/~pp500/pubs/Gtype_conv.pdf
 
-
-Recent Research Papers (ArXiv / ACM)
-
-Reinforcement Learning from Human Feedback — arXiv:2504.12501; a comprehensive introduction to reinforcement learning from human preferences and feedback, covering core methods and optimization stages.
-
-Small Language Models are the Future of Agentic AI — arXiv:2506.02153; argues that smaller, efficient language models (SLMs) will play the dominant role in agentic AI systems due to practical and economic advantages.
-
-Undermining Federated Learning Accuracy in EdgeIoT via Variational Graph Auto-Encoders — arXiv:2504.10067; study on attacking federated learning in edge-based IoT systems using adversarial graph auto-encoders.
-
-(ACM Paper) — Title from ACM Digital Library DOI: 10.1145/3379347 (specific title available from ACM). (Note: title inferred from DOI reference code, verify actual name.)
-
-A Research Paper from ACL Anthology (ACL/NAACL/etc.) — e.g., SemEval-2025 Task 4: Unlearning sensitive content from Large Language Models (SemEval-2025 workshop paper).
-
 Textbook Collections & Reading Lists
 
 Statistics & ML Textbook Collection (Strimmer Lab)
@@ -122,3 +109,18 @@ Other (Non-ML, Reference)
 Inorganic Chemistry (5th Edition)
 Miessler, Fischer, Tarr
 https://celqusb.wordpress.com/wp-content/uploads/2017/12/inorganic-chemistry-g-l-miessler-2014.pdf
+
+
+unrelated / red noise
+Recent Research Papers (ArXiv / ACM)
+
+Reinforcement Learning from Human Feedback — arXiv:2504.12501; a comprehensive introduction to reinforcement learning from human preferences and feedback, covering core methods and optimization stages.
+
+Small Language Models are the Future of Agentic AI — arXiv:2506.02153; argues that smaller, efficient language models (SLMs) will play the dominant role in agentic AI systems due to practical and economic advantages.
+
+Undermining Federated Learning Accuracy in EdgeIoT via Variational Graph Auto-Encoders — arXiv:2504.10067; study on attacking federated learning in edge-based IoT systems using adversarial graph auto-encoders.
+
+(ACM Paper) — Title from ACM Digital Library DOI: 10.1145/3379347 (specific title available from ACM). (Note: title inferred from DOI reference code, verify actual name.)
+
+A Research Paper from ACL Anthology (ACL/NAACL/etc.) — e.g., SemEval-2025 Task 4: Unlearning sensitive content from Large Language Models (SemEval-2025 workshop paper).
+
