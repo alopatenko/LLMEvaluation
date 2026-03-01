@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome LLM Evaluation — Compendium</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
+  :root {
+    --bg: #0f1117;
+    --surface: #161b27;
+    --surface2: #1e2535;
+    --border: #2a3347;
+    --accent: #4f8ef7;
+    --accent2: #7dd3fc;
+    --gold: #f5c542;
+    --muted: #8a9bb8;
+    --text: #e4eaf5;
+    --text-dim: #b0bed6;
+    --tag-bg: #1c2a42;
+    --tag-border: #2e4068;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* LAYOUT */
+  .sidebar {
+    position: fixed;
+    top: 0; left: 0;
+    width: 260px;
+    height: 100vh;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 28px 0 40px;
+    z-index: 100;
+  }
+
+  .sidebar-brand {
+    padding: 0 22px 20px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+
+  .sidebar-brand .logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    color: var(--accent2);
+    line-height: 1.3;
+  }
+
+  .sidebar-brand .sub {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 4px;
+  }
+
+  .nav-group { margin-bottom: 6px; }
+
+  .nav-group-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    padding: 8px 22px 4px;
+    font-weight: 600;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 5px 22px;
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.83rem;
+    border-left: 2px solid transparent;
+    transition: all 0.15s;
+  }
+
+  .sidebar a:hover {
+    color: var(--accent2);
+    border-left-color: var(--accent);
+    background: rgba(79,142,247,0.06);
+  }
+
+  .sidebar a.sub-link {
+    padding-left: 34px;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  .sidebar a.sub-link:hover { color: var(--accent2); }
+
+  main {
+    margin-left: 260px;
+    padding: 0 48px 80px;
+    max-width: 1000px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 60px 0 40px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+
+  .hero h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+
+  .hero h1 span { color: var(--accent2); }
+
+  .hero .subtitle {
+    font-size: 1.05rem;
+    color: var(--text-dim);
+    max-width: 620px;
+    margin-bottom: 24px;
+  }
+
+  .hero-links { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  .pill-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    color: var(--accent2);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+
+  .pill-link:hover {
+    background: rgba(79,142,247,0.15);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  /* INTRO BOX */
+  .intro-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 22px 26px;
+    margin-bottom: 48px;
+    font-size: 0.93rem;
+    color: var(--text-dim);
+    line-height: 1.8;
+  }
+
+  .intro-box p + p { margin-top: 12px; }
+
+  /* SECTIONS */
+  section {
+    margin-bottom: 56px;
+    scroll-margin-top: 80px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-header h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.55rem;
+    color: #fff;
+  }
+
+  .section-header .section-icon {
+    font-size: 1.2rem;
+  }
+
+  .count-badge {
+    margin-left: auto;
+    font-size: 0.72rem;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    color: var(--muted);
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+
+  /* SUBSECTIONS */
+  .subsection {
+    margin-bottom: 36px;
+    scroll-margin-top: 80px;
+  }
+
+  .subsection h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent2);
+    margin-bottom: 14px;
+    padding: 6px 0 6px 12px;
+    border-left: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* PAPER CARDS */
+  .paper-list { display: flex; flex-direction: column; gap: 8px; }
+
+  .paper {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .paper:hover {
+    border-color: var(--accent);
+    background: var(--surface2);
+  }
+
+  .paper-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+    line-height: 1.45;
+  }
+
+  .paper-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+  }
+
+  .year-tag {
+    font-size: 0.7rem;
+    background: rgba(79,142,247,0.1);
+    color: var(--accent2);
+    padding: 1px 7px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  .venue-tag {
+    font-size: 0.7rem;
+    background: rgba(245,197,66,0.1);
+    color: var(--gold);
+    padding: 1px 7px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  .paper-links { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
+
+  .paper-links a {
+    font-size: 0.72rem;
+    color: var(--accent);
+    text-decoration: none;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    padding: 1px 8px;
+    border-radius: 4px;
+    transition: all 0.12s;
+  }
+
+  .paper-links a:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  .paper-note {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  /* LEADERBOARD / SOFTWARE CARDS */
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+  }
+
+  .tool-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    transition: all 0.15s;
+  }
+
+  .tool-card:hover {
+    border-color: var(--accent);
+    background: var(--surface2);
+  }
+
+  .tool-card .tool-name {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 0.88rem;
+    margin-bottom: 4px;
+  }
+
+  .tool-card .tool-desc {
+    font-size: 0.77rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  .tool-card .paper-links { margin-top: 0; }
+
+  /* CITATION BOX */
+  .citation-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 24px;
+  }
+
+  .citation-box pre {
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 0.82rem;
+    color: var(--accent2);
+    white-space: pre-wrap;
+    line-height: 1.8;
+  }
+
+  /* SCROLLBAR */
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-track { background: transparent; }
+  .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    main { margin-left: 0; padding: 20px 20px 60px; }
+    .tool-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2rem; }
+  }
+
+  hr.section-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 48px 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav class="sidebar">
+  <div class="sidebar-brand">
+    <div class="logo-text">Awesome LLM Evaluation</div>
+    <div class="sub">Compendium of Methods</div>
+  </div>
+
+  <div class="nav-group">
+    <div class="nav-group-label">Overview</div>
+    <a href="#intro">Introduction</a>
+    <a href="#reviews">Reviews &amp; Surveys</a>
+    <a href="#leaderboards">Leaderboards &amp; Arenas</a>
+    <a href="#software">Evaluation Software</a>
+    <a href="#articles">Articles &amp; Blog Posts</a>
+  </div>
+
+  <div class="nav-group">
+    <div class="nav-group-label">Benchmarks</div>
+    <a href="#frontier">Frontier Models</a>
+    <a href="#large-benchmarks">Large Benchmarks</a>
+    <a href="#eval-of-eval">Eval of Evaluation</a>
+    <a href="#comprehensive">Long Comprehensive Studies</a>
+    <a href="#hitl">HITL (Human in the Loop)</a>
+    <a href="#llm-as-judge">LLM as Judge</a>
+  </div>
+
+  <div class="nav-group">
+    <div class="nav-group-label">LLM Evaluation</div>
+    <a href="#embeddings" class="sub-link">Embeddings</a>
+    <a href="#icl" class="sub-link">In-Context Learning</a>
+    <a href="#hallucinations" class="sub-link">Hallucinations</a>
+    <a href="#qa" class="sub-link">Question Answering</a>
+    <a href="#multi-turn" class="sub-link">Multi-Turn</a>
+    <a href="#reasoning" class="sub-link">Reasoning</a>
+    <a href="#multilingual" class="sub-link">Multi-Lingual</a>
+    <a href="#multimodal" class="sub-link">Multi-Modal</a>
+    <a href="#audio" class="sub-link">Audio Models</a>
+    <a href="#instruction" class="sub-link">Instruction Following</a>
+    <a href="#ethical" class="sub-link">Ethical AI</a>
+    <a href="#biases" class="sub-link">Biases</a>
+    <a href="#safe-ai" class="sub-link">Safe AI</a>
+    <a href="#cyber" class="sub-link">Cybersecurity</a>
+    <a href="#code" class="sub-link">Code Generating LLMs</a>
+    <a href="#summarization" class="sub-link">Summarization</a>
+    <a href="#llm-quality" class="sub-link">LLM Quality</a>
+    <a href="#inference" class="sub-link">Inference Performance</a>
+    <a href="#agents" class="sub-link">Agent Architectures</a>
+    <a href="#agi" class="sub-link">AGI Evaluation</a>
+    <a href="#long-text" class="sub-link">Long Text Generation</a>
+    <a href="#doc-understanding" class="sub-link">Document Understanding</a>
+    <a href="#graph" class="sub-link">Graph Understanding</a>
+    <a href="#reward" class="sub-link">Reward Models</a>
+    <a href="#various" class="sub-link">Various Tasks</a>
+  </div>
+
+  <div class="nav-group">
+    <div class="nav-group-label">LLM Systems</div>
+    <a href="#rag" class="sub-link">RAG Evaluation</a>
+    <a href="#deep-research" class="sub-link">Deep Research</a>
+    <a href="#agentic-search" class="sub-link">Agentic Search</a>
+    <a href="#reasoning-rag" class="sub-link">Reasoning &amp; RAG</a>
+    <a href="#conversational" class="sub-link">Conversational</a>
+    <a href="#copilots" class="sub-link">Copilots</a>
+    <a href="#search-rec" class="sub-link">Search &amp; Recommendation</a>
+    <a href="#task-utility" class="sub-link">Task Utility</a>
+  </div>
+
+  <div class="nav-group">
+    <div class="nav-group-label">Verticals</div>
+    <a href="#healthcare" class="sub-link">Healthcare &amp; Medicine</a>
+    <a href="#law" class="sub-link">Law</a>
+    <a href="#science" class="sub-link">Science</a>
+    <a href="#math" class="sub-link">Math</a>
+    <a href="#financial" class="sub-link">Financial</a>
+  </div>
+
+  <div class="nav-group">
+    <div class="nav-group-label">More</div>
+    <a href="#other-collections">Other Collections</a>
+    <a href="#citation">Citation</a>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+
+  <!-- HERO -->
+  <div class="hero" id="intro">
+    <h1>Awesome <span>LLM Evaluation</span></h1>
+    <p class="subtitle">A comprehensive compendium of evaluation methods for large language models and LLM-based systems — curated for academics and industry professionals.</p>
+    <div class="hero-links">
+      <a href="https://github.com/alopatenko/LLMEvaluation" class="pill-link" target="_blank">⭐ GitHub Repository</a>
+      <a href="https://github.com/alopatenko/LLMSearchRecommender" class="pill-link" target="_blank">📚 LLM Search &amp; Recommender</a>
+      <a href="https://www.youtube.com/watch?v=dW89BHjLA4M" class="pill-link" target="_blank">▶ SF Big Analytics Talk</a>
+      <a href="https://community.analyticsvidhya.com/c/datahour/evaluating-llms-and-llm-systems-pragmatic-approach" class="pill-link" target="_blank">▶ Analytics Vidhya</a>
+      <a href="https://www.youtube.com/watch?v=spgVnMgvLSw" class="pill-link" target="_blank">▶ Data Phoenix Mar'24</a>
+      <a href="https://www.linkedin.com/in/lopatenko/" class="pill-link" target="_blank">👤 Andrei Lopatenko</a>
+    </div>
+  </div>
+
+  <!-- INTRO BOX -->
+  <div class="intro-box">
+    <p>The aim of this compendium is to assist academics and industry professionals in creating effective evaluation suites tailored to their specific needs. It reviews the top industry practices for assessing large language models (LLMs) and their applications — going beyond merely cataloging benchmarks, encompassing a comprehensive overview of all effective and practical evaluation techniques, including those embedded within papers that primarily introduce new LLM methodologies and tasks.</p>
+    <p>This resource enables anyone to easily find information needed for evaluating an LLM or LLM application for specific tasks, determining the best assessment methods, or understanding how well an LLM performs in a particular domain. It also highlights various methods for evaluating the evaluation tasks themselves, to ensure evaluations align with business or academic objectives.</p>
+  </div>
+
+  <!-- REVIEWS AND SURVEYS -->
+  <section id="reviews">
+    <div class="section-header">
+      <span class="section-icon">📖</span>
+      <h2>Reviews &amp; Surveys</h2>
+    </div>
+    <div class="paper-list">
+
+      <div class="paper">
+        <div class="paper-title">Order in the Evaluation Court: A Critical Analysis of NLG Evaluation Trends</div>
+        <div class="paper-meta"><span class="year-tag">Jan 2026</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2601.07648" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Benchmark²: Systematic Evaluation of LLM Benchmarks</div>
+        <div class="paper-meta"><span class="year-tag">Jan 2026</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2601.03986" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Toward an evaluation science for generative AI systems</div>
+        <div class="paper-meta"><span class="year-tag">Mar 2025</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2503.05336" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey</div>
+        <div class="paper-meta"><span class="year-tag">Jan 2025</span><span class="venue-tag">UMD</span></div>
+        <div class="paper-links"><a href="https://www.arxiv.org/abs/2501.02189" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">AI Benchmarks and Datasets for LLM Evaluation — a survey of many LLM benchmarks</div>
+        <div class="paper-meta"><span class="year-tag">Dec 2024</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2412.01020" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods</div>
+        <div class="paper-meta"><span class="year-tag">Dec 2024</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2412.05579" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations</div>
+        <div class="paper-meta"><span class="year-tag">2024</span><span class="venue-tag">EMNLP 2024</span></div>
+        <div class="paper-links"><a href="https://aclanthology.org/2024.emnlp-main.764/" target="_blank">ACLAnthology</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">A Survey on Evaluation of Multimodal Large Language Models</div>
+        <div class="paper-meta"><span class="year-tag">Aug 2024</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2408.15769" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">A Survey of Useful LLM Evaluation</div>
+        <div class="paper-meta"><span class="year-tag">Jun 2024</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2406.00936" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Evaluating Large Language Models: A Comprehensive Survey</div>
+        <div class="paper-meta"><span class="year-tag">Oct 2023</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2310.19736" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">A Survey on Evaluation of Large Language Models</div>
+        <div class="paper-meta"><span class="year-tag">Jul 2023</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2307.03109" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Through the Lens of Core Competency: Survey on Evaluation of Large Language Models</div>
+        <div class="paper-meta"><span class="year-tag">Aug 2023</span></div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2308.07902" target="_blank">arxiv</a></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LEADERBOARDS -->
+  <section id="leaderboards">
+    <div class="section-header">
+      <span class="section-icon">🏆</span>
+      <h2>Leaderboards &amp; Arenas</h2>
+    </div>
+    <div class="tool-grid">
+
+      <div class="tool-card">
+        <div class="tool-name">Open LLM Leaderboard (HuggingFace)</div>
+        <div class="tool-desc">New Hard Leaderboard by HuggingFace</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard" target="_blank">Leaderboard</a><a href="https://huggingface.co/spaces/open-llm-leaderboard/blog" target="_blank">Blog Post</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">MathArena</div>
+        <div class="tool-desc">Evaluating LLMs on Uncontaminated Math Competitions</div>
+        <div class="paper-links"><a href="https://matharena.ai/" target="_blank">Website</a><a href="https://github.com/eth-sri/matharena" target="_blank">Code</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">FACTS Grounding Leaderboard</div>
+        <div class="tool-desc">Benchmarking LLMs' ability to ground responses to long-form input — DeepMind, Jan 2025</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2501.03200" target="_blank">arxiv</a><a href="https://www.kaggle.com/facts-leaderboard" target="_blank">Leaderboard</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">LMSys Arena (Chatbot Arena)</div>
+        <div class="tool-desc">Human preference-based LLM ranking via pairwise comparisons</div>
+        <div class="paper-links"><a href="https://chat.lmsys.org/?leaderboard" target="_blank">Arena</a><a href="https://lmsys.org/blog/2023-05-03-arena/" target="_blank">Explanation</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Aider Polyglot</div>
+        <div class="tool-desc">Code edit benchmark for LLMs</div>
+        <div class="paper-links"><a href="https://aider.chat/docs/leaderboards/" target="_blank">Leaderboard</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Salesforce ContextualBench</div>
+        <div class="tool-desc">Overview of LLM performance across contextual tasks</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/Salesforce/ContextualBench-Leaderboard" target="_blank">HuggingFace</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">GAIA Leaderboard</div>
+        <div class="tool-desc">Benchmark for General AI Assistants by Meta &amp; HuggingFace</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/gaia-benchmark/leaderboard" target="_blank">Leaderboard</a><a href="https://arxiv.org/abs/2311.12983" target="_blank">Paper</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">ArenaHard Leaderboard</div>
+        <div class="tool-desc">High-quality benchmark via BenchBuilder pipeline — UC Berkeley, Jun 2024</div>
+        <div class="paper-links"><a href="https://github.com/lmarena/arena-hard-auto?tab=readme-ov-file#leaderboard" target="_blank">Leaderboard</a><a href="https://arxiv.org/abs/2406.11939" target="_blank">arxiv</a><a href="https://github.com/lmarena/arena-hard-auto" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">AlpacaEval Leaderboard</div>
+        <div class="tool-desc">Length-Controlled AlpacaEval — debiased automatic evaluator</div>
+        <div class="paper-links"><a href="https://tatsu-lab.github.io/alpaca_eval/" target="_blank">Leaderboard</a><a href="https://arxiv.org/abs/2404.04475" target="_blank">arxiv</a><a href="https://github.com/tatsu-lab/alpaca_eval" target="_blank">Code</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Gorilla / Berkeley Function Calling</div>
+        <div class="tool-desc">Function calling benchmark — UC Berkeley</div>
+        <div class="paper-links"><a href="https://gorilla.cs.berkeley.edu/leaderboard.html" target="_blank">Leaderboard</a><a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html" target="_blank">Explanation</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">SWE-Bench</div>
+        <div class="tool-desc">Software engineering task resolution benchmark</div>
+        <div class="paper-links"><a href="https://www.swebench.com/" target="_blank">Website</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">MTEB Leaderboard</div>
+        <div class="tool-desc">Massive Text Embedding Benchmark</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/mteb/leaderboard" target="_blank">Leaderboard</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">ZeroEval (AllenAI)</div>
+        <div class="tool-desc">Unified framework for evaluating LLMs on reasoning tasks</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/allenai/ZeroEval" target="_blank">Leaderboard</a><a href="https://github.com/WildEval/ZeroEval" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">WildBench</div>
+        <div class="tool-desc">Benchmarking LLMs with challenging real-user tasks from the wild</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/allenai/WildBench" target="_blank">HuggingFace</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Open Medical LLM Leaderboard</div>
+        <div class="paper-links"><a href="https://huggingface.co/blog/leaderboard-medicalllm" target="_blank">HuggingFace</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Vectara Hallucination Leaderboard</div>
+        <div class="paper-links"><a href="https://github.com/vectara/hallucination-leaderboard" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Ray/Anyscale LLM Performance Leaderboard</div>
+        <div class="paper-links"><a href="https://github.com/ray-project/llmperf-leaderboard" target="_blank">GitHub</a><a href="https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm" target="_blank">Explanation</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">MMLU Leaderboard</div>
+        <div class="tool-desc">Multi-task Language Understanding</div>
+        <div class="paper-links"><a href="https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu" target="_blank">PapersWithCode</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">OpenGPT-X European LLM Leaderboard</div>
+        <div class="tool-desc">Multi-lingual evaluation for many European languages</div>
+        <div class="paper-links"><a href="https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard" target="_blank">HuggingFace</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Enterprise Scenarios (Patronus)</div>
+        <div class="paper-links"><a href="https://huggingface.co/blog/leaderboard-patronus" target="_blank">HuggingFace</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">WebQA Leaderboard</div>
+        <div class="tool-desc">Multimodal and Multihop QA</div>
+        <div class="paper-links"><a href="https://eval.ai/web/challenges/challenge-page/1255/leaderboard/3168" target="_blank">EvalAI</a></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EVALUATION SOFTWARE -->
+  <section id="software">
+    <div class="section-header">
+      <span class="section-icon">🛠</span>
+      <h2>Evaluation Software</h2>
+    </div>
+    <div class="tool-grid">
+
+      <div class="tool-card">
+        <div class="tool-name">EleutherAI LM Evaluation Harness</div>
+        <div class="paper-links"><a href="https://github.com/EleutherAI/lm-evaluation-harness" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Eureka (Microsoft)</div>
+        <div class="tool-desc">Framework for standardizing evaluations beyond single-score reporting, Sep 2024</div>
+        <div class="paper-links"><a href="https://github.com/microsoft/eureka-ml-insights" target="_blank">GitHub</a><a href="https://arxiv.org/abs/2409.10566" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">OpenAI Evals</div>
+        <div class="paper-links"><a href="https://github.com/openai/evals" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Embedding Atlas (Apple)</div>
+        <div class="tool-desc">Visualizations of embedding space</div>
+        <div class="paper-links"><a href="https://apple.github.io/embedding-atlas/" target="_blank">Website</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">LLM Comparator (Google PAIR)</div>
+        <div class="tool-desc">Side-by-side human-driven LLM evaluation tool</div>
+        <div class="paper-links"><a href="https://github.com/PAIR-code/llm-comparator" target="_blank">GitHub</a><a href="https://medium.com/people-ai-research/llm-comparator-a-tool-for-human-driven-llm-evaluation-81292c17f521" target="_blank">Article</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">OpenEvals (LangChain)</div>
+        <div class="paper-links"><a href="https://github.com/langchain-ai/openevals" target="_blank">GitHub</a><a href="https://blog.langchain.dev/evaluating-llms-with-openevals/" target="_blank">Blog Post</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">YourBench (HuggingFace)</div>
+        <div class="tool-desc">Dynamic benchmark generation framework — zero-shot, domain-specific</div>
+        <div class="paper-links"><a href="https://github.com/huggingface/yourbench/tree/main" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">SCORE (Nvidia)</div>
+        <div class="tool-desc">Systematic Consistency and Robustness Evaluation</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2503.00137v1" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">AutoGenBench (Microsoft)</div>
+        <div class="tool-desc">Tool for measuring and evaluating AutoGen agents</div>
+        <div class="paper-links"><a href="https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/" target="_blank">Website</a><a href="https://arxiv.org/abs/2411.04468v1" target="_blank">Magentic-One</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Copilot Arena</div>
+        <div class="tool-desc">Platform for code LLM evaluation in the wild, Feb 2025</div>
+        <div class="paper-links"><a href="https://github.com/lmarena/copilot-arena" target="_blank">GitHub</a><a href="https://arxiv.org/abs/2502.09328" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Phoenix (Arize AI)</div>
+        <div class="tool-desc">LLM observability and evaluation platform</div>
+        <div class="paper-links"><a href="https://github.com/Arize-ai/phoenix" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">RAGAS</div>
+        <div class="paper-links"><a href="https://docs.ragas.io/en/stable/" target="_blank">Docs</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">DeepEval (Confident AI)</div>
+        <div class="tool-desc">Unittest-like evaluation framework for LLM outputs</div>
+        <div class="paper-links"><a href="https://github.com/confident-ai/deepeval" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">MLflow Evaluate</div>
+        <div class="paper-links"><a href="https://mlflow.org/docs/latest/llms/llm-evaluate/index.html" target="_blank">Docs</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Garak (Nvidia)</div>
+        <div class="tool-desc">Generative AI Red-teaming &amp; Assessment Kit</div>
+        <div class="paper-links"><a href="https://github.com/NVIDIA/garak" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Mozilla AI LLM-as-Judge Toolkit</div>
+        <div class="paper-links"><a href="https://blog.mozilla.ai/local-llm-as-judge-evaluation-with-lm-buddy-prometheus-and-llamafile/" target="_blank">Blog</a><a href="https://github.com/mozilla-ai/lm-buddy?ref=blog.mozilla.ai" target="_blank">lm-buddy</a><a href="https://kaistai.github.io/prometheus/" target="_blank">Prometheus</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">TruLens</div>
+        <div class="paper-links"><a href="https://github.com/truera/trulens/" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Promptfoo</div>
+        <div class="paper-links"><a href="https://www.promptfoo.dev/" target="_blank">Website</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">BigCode Evaluation Harness</div>
+        <div class="paper-links"><a href="https://github.com/bigcode-project/bigcode-evaluation-harness" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">LangFuse</div>
+        <div class="tool-desc">LLM Engineering platform with observability and evaluation</div>
+        <div class="paper-links"><a href="https://langfuse.com/" target="_blank">Website</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">LLMeBench</div>
+        <div class="paper-links"><a href="https://github.com/qcri/LLMeBench/" target="_blank">GitHub</a><a href="https://arxiv.org/abs/2308.04945" target="_blank">Paper</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">ChainForge</div>
+        <div class="paper-links"><a href="https://chainforge.ai/" target="_blank">Website</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Ironclad Rivet</div>
+        <div class="paper-links"><a href="https://rivet.ironcladapp.com/" target="_blank">Website</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">Microsoft Prompty</div>
+        <div class="paper-links"><a href="https://github.com/microsoft/prompty" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">LM-PUB-QUIZ</div>
+        <div class="tool-desc">Zero-shot evaluation of relational knowledge in language models</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2408.15729" target="_blank">arxiv</a><a href="https://lm-pub-quiz.github.io/" target="_blank">GitHub</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">OpenICL Framework</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2303.02913" target="_blank">arxiv</a></div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-name">MosaicML Composer</div>
+        <div class="paper-links"><a href="https://github.com/mosaicml/composer" target="_blank">GitHub</a></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ARTICLES -->
+  <section id="articles">
+    <div class="section-header">
+      <span class="section-icon">📰</span>
+      <h2>LLM Evaluation Articles, Blog Posts &amp; Podcasts</h2>
+    </div>
+    <div class="paper-list">
+
+      <div class="paper"><div class="paper-title">Demystifying evals for AI agents — Anthropic</div><div class="paper-meta"><span class="year-tag">Jan 2026</span></div><div class="paper-links"><a href="https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents" target="_blank">Anthropic</a></div></div>
+      <div class="paper"><div class="paper-title">Product Evals in Three Simple Steps — Eugene Yan</div><div class="paper-meta"><span class="year-tag">Nov 2025</span></div><div class="paper-links"><a href="https://eugeneyan.com/writing/product-evals/" target="_blank">Blog Post</a></div></div>
+      <div class="paper"><div class="paper-title">Measuring political bias in Claude — Anthropic</div><div class="paper-meta"><span class="year-tag">Nov 2025</span></div><div class="paper-links"><a href="https://www.anthropic.com/news/political-even-handedness" target="_blank">Anthropic</a></div></div>
+      <div class="paper"><div class="paper-title">Understanding the 4 Main Approaches to LLM Evaluation (From Scratch) — Sebastian Raschka</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches" target="_blank">Blog</a></div></div>
+      <div class="paper"><div class="paper-title">About Evals — Andrew Ng, DeepLearning.AI</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://www.deeplearning.ai/the-batch/issue-297/" target="_blank">The Batch</a></div></div>
+      <div class="paper"><div class="paper-title">AI Search Has A Citation Problem — Columbia Journalism Review</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php" target="_blank">CJR</a></div></div>
+      <div class="paper"><div class="paper-title">Mastering LLM Techniques: Evaluation — Nvidia</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://developer.nvidia.com/blog/mastering-llm-techniques-evaluation/" target="_blank">Nvidia Blog</a></div></div>
+      <div class="paper"><div class="paper-title">A Framework for Building Micro Metrics for LLM System Evaluation</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://www.infoq.com/articles/micro-metrics-llm-evaluation/" target="_blank">InfoQ</a></div></div>
+      <div class="paper"><div class="paper-title">The LLM Evaluation guidebook — HuggingFace</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://github.com/huggingface/evaluation-guidebook" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">Introducing SimpleQA — OpenAI</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://openai.com/index/introducing-simpleqa/" target="_blank">OpenAI</a></div></div>
+      <div class="paper"><div class="paper-title">Evaluate LLMs using Evaluation Harness and Hugging Face TGI/vLLM</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://www.philschmid.de/evaluate-llms-with-lm-eval-and-tgi-vllm" target="_blank">Blog</a></div></div>
+      <div class="paper"><div class="paper-title">Using LLMs for Evaluation: LLM-as-a-Judge and other scalable additions to human quality ratings</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://cameronrwolfe.substack.com/p/llm-as-a-judge" target="_blank">Deep Learning Focus</a></div></div>
+      <div class="paper"><div class="paper-title">Let's talk about LLM Evaluation — HuggingFace</div><div class="paper-links"><a href="https://huggingface.co/blog/clefourrier/llm-evaluation" target="_blank">HuggingFace</a></div></div>
+      <div class="paper"><div class="paper-title">From Meta on evaluation of Llama 3 models</div><div class="paper-links"><a href="https://github.com/meta-llama/llama3/blob/main/eval_details.md" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">Andrej Karpathy on evaluation</div><div class="paper-links"><a href="https://twitter.com/karpathy/status/1795873666481402010" target="_blank">X (Twitter)</a></div></div>
+      <div class="paper"><div class="paper-title">Your AI Product Needs Eval — Hamel Dev</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://hamel.dev/blog/posts/evals/" target="_blank">Blog</a></div></div>
+      <div class="paper"><div class="paper-title">AI leaderboards are no longer useful. It's time to switch to Pareto curves — AI Snake Oil</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://www.aisnakeoil.com/p/ai-leaderboards-are-no-longer-useful" target="_blank">AI Snake Oil</a></div></div>
+      <div class="paper"><div class="paper-title">A.I. has a measurement problem — NY Times</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://www.nytimes.com/2024/04/15/technology/ai-models-measurement.html" target="_blank">NY Times</a></div></div>
+      <div class="paper"><div class="paper-title">Beyond Accuracy: The Changing Landscape Of AI Evaluation — Forbes</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://www.forbes.com/sites/sylvainduranton/2024/03/14/beyond-accuracy-the-changing-landscape-of-ai-evaluation/?sh=34576ff61e3d" target="_blank">Forbes</a></div></div>
+      <div class="paper"><div class="paper-title">Introducing Frontier Safety Framework — DeepMind AI Safety Evaluation</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/" target="_blank">DeepMind Blog</a></div></div>
+      <div class="paper"><div class="paper-title">Catch me if you can! How to beat GPT-4 with a 13B model</div><div class="paper-links"><a href="https://lmsys.org/blog/2023-11-14-llm-decontaminator/" target="_blank">LMSys</a></div></div>
+
+    </div>
+  </section>
+
+  <!-- FRONTIER MODELS -->
+  <section id="frontier">
+    <div class="section-header">
+      <span class="section-icon">🚀</span>
+      <h2>Frontier Model Benchmarks</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2510.24081" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric Knowledge</div><div class="paper-meta"><span class="year-tag">Sep 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2509.07968" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MCP Atlas</div><div class="paper-meta"><span class="year-tag">Sep 2025</span></div><div class="paper-links"><a href="https://scale.com/leaderboard/mcp_atlas" target="_blank">Leaderboard</a><a href="https://scale.com/blog/mcp-atlas" target="_blank">Blog Post</a></div></div>
+      <div class="paper"><div class="paper-title">MathArena Apex</div><div class="paper-meta"><span class="year-tag">Aug 2025</span></div><div class="paper-links"><a href="https://matharena.ai/apex/#" target="_blank">Blog Post</a></div></div>
+      <div class="paper"><div class="paper-title">AIME 2025 Benchmark</div><div class="paper-meta"><span class="year-tag">2025</span></div><div class="paper-links"><a href="https://artificialanalysis.ai/evaluations/aime-2025" target="_blank">Leaderboard</a><a href="https://huggingface.co/datasets/MathArena/aime_2025" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?</div><div class="paper-meta"><span class="year-tag">Jun 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2506.11928" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment</div><div class="paper-meta"><span class="year-tag">Jun 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2506.07982" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">ARC-AGI-2: A New Challenge for Frontier AI Reasoning Systems</div><div class="paper-meta"><span class="year-tag">May 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2505.11831" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Terminal Bench 2.0</div><div class="paper-links"><a href="https://www.tbench.ai/leaderboard/terminal-bench/2.0" target="_blank">Leaderboard &amp; Data</a></div></div>
+      <div class="paper"><div class="paper-title">Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.15840" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Humanity's Last Exam</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.14249" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.13826" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">OmniDocBench: Benchmarking Diverse PDF Document Parsing</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.07626v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">FACTS Grounding: A new benchmark for evaluating the factuality of LLMs — Google DeepMind</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/" target="_blank">Google Blog</a></div></div>
+      <div class="paper"><div class="paper-title">MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.02813" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MRCR v2 — Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries</div><div class="paper-links"><a href="https://llm-stats.com/benchmarks/mrcr-v2" target="_blank">Leaderboard</a><a href="https://arxiv.org/abs/2409.12640v2" target="_blank">DeepMind</a></div></div>
+      <div class="paper"><div class="paper-title">CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.18521" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">SWE-Bench Verified</div><div class="paper-links"><a href="https://openai.com/index/introducing-swe-bench-verified/" target="_blank">OpenAI</a></div></div>
+      <div class="paper"><div class="paper-title">ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.07981" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">GPQA Diamond — Graduate-Level Google-Proof Q&A Benchmark</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://github.com/idavidrein/gpqa?tab=readme-ov-file" target="_blank">Dataset</a><a href="https://arxiv.org/abs/2311.12022" target="_blank">arxiv</a><a href="https://epoch.ai/benchmarks/gpqa-diamond" target="_blank">Leaderboard</a></div></div>
+      <div class="paper"><div class="paper-title">Measuring Massive Multitask Language Understanding (MMLU)</div><div class="paper-meta"><span class="year-tag">May 2020</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2009.03300" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <!-- LARGE BENCHMARKS -->
+  <section id="large-benchmarks">
+    <div class="section-header">
+      <span class="section-icon">📊</span>
+      <h2>Large Benchmarks</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">MMLU-Pro+: Evaluating Higher-Order Reasoning and Shortcut Learning in LLMs</div><div class="paper-meta"><span class="year-tag">Sep 2024</span><span class="venue-tag">Autodesk AI</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.02257" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MMLU Pro — Massive Multitask Language Understanding (Pro version)</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.01574" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks</div><div class="paper-meta"><span class="year-tag">2022</span><span class="venue-tag">EMNLP 2022</span></div><div class="paper-links"><a href="https://aclanthology.org/2022.emnlp-main.340.pdf" target="_blank">PDF</a></div></div>
+      <div class="paper"><div class="paper-title">MMLU — Measuring Massive Multitask Language Understanding</div><div class="paper-meta"><span class="year-tag">2021</span><span class="venue-tag">ICLR</span></div><div class="paper-links"><a href="https://arxiv.org/pdf/2009.03300.pdf" target="_blank">arxiv</a><a href="https://github.com/hendrycks/test" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">BigBench: Beyond the Imitation Game — Quantifying and extrapolating the capabilities of language models</div><div class="paper-meta"><span class="year-tag">2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2206.04615" target="_blank">arxiv</a><a href="https://github.com/google/BIG-bench" target="_blank">Datasets</a></div></div>
+      <div class="paper"><div class="paper-title">Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them</div><div class="paper-meta"><span class="year-tag">Oct 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2210.09261" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <!-- EVAL OF EVAL -->
+  <section id="eval-of-eval">
+    <div class="section-header">
+      <span class="section-icon">🔬</span>
+      <h2>Evaluation of Evaluation, Theory &amp; Methods</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">LiveTradeBench: Seeking Real-World Alpha with Large Language Models — Evaluation on Live Data</div><div class="paper-meta"><span class="year-tag">Nov 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2511.03628" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Measuring what Matters: Construct Validity in Large Language Model Benchmarks</div><div class="paper-meta"><span class="year-tag">2025</span><span class="venue-tag">NeurIPS 2025</span></div><div class="paper-links"><a href="https://oxrml.com/measuring-what-matters/" target="_blank">NeurIPS 2025</a></div></div>
+      <div class="paper"><div class="paper-title">The Leaderboard Illusion</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.13128" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in IR Evaluation — DeepMind</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.19092v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">SCORE: Systematic COnsistency and Robustness Evaluation for LLMs — Nvidia</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.00137v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Evaluating the Evaluations: A Perspective on Benchmarks — Amazon</div><div class="paper-meta"><span class="year-tag">Jan 2025</span><span class="venue-tag">SIGIR</span></div><div class="paper-links"><a href="https://www.sigir.org/wp-content/uploads/2025/01/p18.pdf" target="_blank">SIGIR</a></div></div>
+      <div class="paper"><div class="paper-title">MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures</div><div class="paper-meta"><span class="year-tag">2024</span><span class="venue-tag">NeurIPS 2024</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b1f34d7b4a03a3d80be8e72eb430dd81-Abstract-Conference.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations — Anthropic</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2411.00640" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Sabotage Evaluations for Frontier Models — Anthropic</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://assets.anthropic.com/m/377027d5b36ac1eb/original/Sabotage-Evaluations-for-Frontier-Models.pdf" target="_blank">Paper</a><a href="https://www.anthropic.com/research/sabotage-evaluations" target="_blank">Blog Post</a></div></div>
+      <div class="paper"><div class="paper-title">Inherent Trade-Offs between Diversity and Stability in Multi-Task Benchmarks — Max Planck Institute</div><div class="paper-meta"><span class="year-tag">May 2024</span><span class="venue-tag">ICML 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2405.01719" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline — UC Berkeley</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.11939" target="_blank">arxiv</a><a href="https://github.com/lmarena/arena-hard-auto" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">Lessons from the Trenches on Reproducible Evaluation of Language Models</div><div class="paper-meta"><span class="year-tag">May 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2405.14782" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">When Benchmarks are Targets: Revealing the Sensitivity of LLM Leaderboards — NCAI</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.01781" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.19472" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Are Emergent Abilities of Large Language Models a Mirage?</div><div class="paper-meta"><span class="year-tag">Apr 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2304.15004" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Data Contamination Through the Lens of Time — Abacus AI</div><div class="paper-meta"><span class="year-tag">Oct 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2310.10628" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Elo Uncovered: Robustness and Best Practices in Language Model Evaluation</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.17295" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">A Theory of Dynamic Benchmarks — UC Berkeley</div><div class="paper-meta"><span class="year-tag">2023</span><span class="venue-tag">ICLR 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2210.03165" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Holistic Evaluation of Language Models (HELM) — Stanford CRFM</div><div class="paper-meta"><span class="year-tag">Oct 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2211.09110" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <!-- COMPREHENSIVE STUDIES -->
+  <section id="comprehensive">
+    <div class="section-header">
+      <span class="section-icon">📋</span>
+      <h2>Long Comprehensive Studies</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Evaluation of OpenAI o1: Opportunities and Challenges of AGI — University of Alberta et al.</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.18486" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">TrustLLM: Trustworthiness in Large Language Models</div><div class="paper-meta"><span class="year-tag">Jan 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2401.05561" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Evaluating AI systems under uncertain ground truth: a case study in dermatology — Google DeepMind</div><div class="paper-meta"><span class="year-tag">Jul 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2307.02191" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <!-- HITL -->
+  <section id="hitl">
+    <div class="section-header">
+      <span class="section-icon">👥</span>
+      <h2>HITL — Human in the Loop</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Developing a Framework for Auditing Large Language Models Using Human-in-the-Loop — UW, Stanford, Amazon AI</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.09346" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Which Prompts Make The Difference? Data Prioritization For Efficient Human LLM Evaluation — Cohere</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2310.14424" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Evaluating Question Answering Evaluation</div><div class="paper-meta"><span class="year-tag">2019</span><span class="venue-tag">ACL</span></div><div class="paper-links"><a href="https://aclanthology.org/D19-5817/" target="_blank">ACL</a></div></div>
+    </div>
+  </section>
+
+  <!-- LLM AS JUDGE -->
+  <section id="llm-as-judge">
+    <div class="section-header">
+      <span class="section-icon">⚖️</span>
+      <h2>LLM as Judge</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Efficient Inference for Noisy LLM-as-a-Judge Evaluation</div><div class="paper-meta"><span class="year-tag">Jan 2026</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2601.05420" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory — Databricks</div><div class="paper-meta"><span class="year-tag">Feb 2026</span></div><div class="paper-links"><a href="https://www.databricks.com/blog/memalign-building-better-llm-judges-human-feedback-scalable-memory" target="_blank">Databricks</a></div></div>
+      <div class="paper"><div class="paper-title">How to Correctly Report LLM-as-a-Judge Evaluations</div><div class="paper-meta"><span class="year-tag">Nov 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2511.21140" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">CLUE: Using LLMs for Judging Document Usefulness in Web Search Evaluation</div><div class="paper-meta"><span class="year-tag">Oct 2025</span><span class="venue-tag">CIKM 2025</span></div><div class="paper-links"><a href="https://dl.acm.org/doi/abs/10.1145/3746252.3761158" target="_blank">CIKM</a></div></div>
+      <div class="paper"><div class="paper-title">Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning — Google</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2510.23038" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">An Empirical Study of LLM-as-a-Judge: Fine-tuned Judge Model is not a General Substitute for GPT-4</div><div class="paper-meta"><span class="year-tag">Jul 2025</span><span class="venue-tag">ACL 2025</span></div><div class="paper-links"><a href="https://aclanthology.org/2025.findings-acl.306/" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">Can We Trust the Judges? Validation of Factuality Evaluation via Answer Perturbation</div><div class="paper-links"><a href="https://giovannigatti.github.io/trutheval/" target="_blank">TruthEval</a></div></div>
+      <div class="paper"><div class="paper-title">Judge Anything: MLLM as a Judge Across Any Modality</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.17489" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Can LLMs Replace Human Evaluators? An Empirical Study in Software Engineering</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.06193" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Learning to Plan &amp; Reason for Evaluation with Thinking-LLM-as-a-Judge</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.18099" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods — Tsinghua University</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.05579" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">JudgeBench: A Benchmark for Evaluating LLM-based Judges — UC Berkeley</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.12784" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2408.13006" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges — UMass, Meta</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.12624" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators — Stanford</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.04475" target="_blank">arxiv</a><a href="https://tatsu-lab.github.io/alpaca_eval/" target="_blank">Leaderboard</a><a href="https://github.com/tatsu-lab/alpaca_eval" target="_blank">Code</a></div></div>
+      <div class="paper"><div class="paper-title">Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models — Cohere</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.18796" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LLM Evaluators Recognize and Favor Their Own Generations</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://drive.google.com/file/d/19H7-BNqccOw_IN3h-0WEz_zzc5ak3nyW/view" target="_blank">PDF</a></div></div>
+      <div class="paper"><div class="paper-title">The Generative AI Paradox on Evaluation: What It Can Solve, It May Not Evaluate</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.06204" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</div><div class="paper-meta"><span class="year-tag">Jun 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2306.05685" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2308.07201" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Red Teaming Language Models with Language Models</div><div class="paper-meta"><span class="year-tag">Feb 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2202.03286" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- LLM EVALUATION SUBSECTIONS -->
+
+  <section id="embeddings">
+    <div class="section-header">
+      <span class="section-icon">🔢</span>
+      <h2>Embeddings</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">MIEB: Massive Image Embedding Benchmark</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.10471" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MMTEB: Massive Multilingual Text Embedding Benchmark — 1043 languages, 550 tasks, 17 domains</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://huggingface.co/papers/2502.13595" target="_blank">HuggingFace</a><a href="https://huggingface.co/spaces/mteb/leaderboard" target="_blank">Leaderboard</a></div></div>
+      <div class="paper"><div class="paper-title">ChemTEB: Chemical Text Embedding Benchmark</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.00532" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MTEB: Massive Text Embedding Benchmark</div><div class="paper-meta"><span class="year-tag">Oct 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2210.07316" target="_blank">arxiv</a><a href="https://huggingface.co/spaces/mteb/leaderboard" target="_blank">Leaderboard</a></div></div>
+      <div class="paper"><div class="paper-title">Marqo eCommerce Embedding Benchmark — text-to-image and category-to-image tasks</div><div class="paper-links"><a href="https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks" target="_blank">HuggingFace</a></div></div>
+      <div class="paper"><div class="paper-title">LongEmbed: Extending Embedding Models for Long Context Retrieval</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.12096" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">The Scandinavian Embedding Benchmarks</div><div class="paper-links"><a href="https://openreview.net/pdf/f5f1953a9c798ec61bb050e62bc7a94037fd4fab.pdf" target="_blank">OpenReview PDF</a></div></div>
+      <div class="paper"><div class="paper-title">Chinese MTEB (C-MTEB)</div><div class="paper-links"><a href="https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">French MTEB</div><div class="paper-links"><a href="https://github.com/Lyon-NLP/mteb-french" target="_blank">GitHub</a></div></div>
+    </div>
+  </section>
+
+  <section id="icl">
+    <div class="section-header">
+      <span class="section-icon">💡</span>
+      <h2>In-Context Learning</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">HellaSwag: Can a Machine Really Finish Your Sentence?</div><div class="paper-meta"><span class="year-tag">2019</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1905.07830" target="_blank">arxiv</a><a href="https://rowanzellers.com/hellaswag/" target="_blank">Paper + Code + Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">The LAMBADA Dataset: Word prediction requiring a broad discourse context</div><div class="paper-meta"><span class="year-tag">2016</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1606.06031" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="hallucinations">
+    <div class="section-header">
+      <span class="section-icon">👻</span>
+      <h2>Hallucinations</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them</div><div class="paper-meta"><span class="year-tag">Jul 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2507.21017" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems — Center for Safe AI, Scale AI</div><div class="paper-links"><a href="https://arxiv.org/abs/2503.03750" target="_blank">arxiv</a><a href="https://www.mask-benchmark.ai/" target="_blank">Website</a></div></div>
+      <div class="paper"><div class="paper-title">The FACTS Grounding Leaderboard — DeepMind</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.03200" target="_blank">arxiv</a><a href="https://www.kaggle.com/facts-leaderboard" target="_blank">Leaderboard</a></div></div>
+      <div class="paper"><div class="paper-title">Long-form factuality in large language models — Google DeepMind</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2403.18802" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">HaluEval: A Large-Scale Hallucination Evaluation Benchmark</div><div class="paper-meta"><span class="year-tag">Dec 2023</span><span class="venue-tag">EMNLP</span></div><div class="paper-links"><a href="https://aclanthology.org/2023.emnlp-main.397.pdf" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation — University of Washington</div><div class="paper-meta"><span class="year-tag">May 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.14251" target="_blank">arxiv</a><a href="https://github.com/shmsw25/FActScore" target="_blank">Repository</a></div></div>
+      <div class="paper"><div class="paper-title">AlignScore: Evaluating Factual Consistency with a Unified Alignment Function</div><div class="paper-meta"><span class="year-tag">May 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.16739" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Siren's Song in the AI Ocean: A Survey on Hallucination in LLMs — Tencent AI Lab</div><div class="paper-meta"><span class="year-tag">Sep 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2309.01219" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Measuring Faithfulness in Chain-of-Thought Reasoning — Anthropic</div><div class="paper-meta"><span class="year-tag">Jul 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2307.13702" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">INVITE: A testbed of automatically generated invalid questions to evaluate LLMs for hallucinations — Amazon Science</div><div class="paper-meta"><span class="year-tag">EMNLP 2023</span></div><div class="paper-links"><a href="https://www.amazon.science/publications/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations" target="_blank">Amazon Science</a></div></div>
+      <div class="paper"><div class="paper-title">TRUE: Re-evaluating Factual Consistency Evaluation</div><div class="paper-meta"><span class="year-tag">Apr 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2204.04991" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="qa">
+    <div class="section-header">
+      <span class="section-icon">❓</span>
+      <h2>Question Answering</h2>
+    </div>
+    <div class="paper-note">QA is also covered in vertical domain sections below.</div>
+    <br>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">NLP-QA: A Large-scale Benchmark for Informative QA over NLP Documents</div><div class="paper-meta"><span class="year-tag">Nov 2025</span><span class="venue-tag">CIKM 2025</span></div><div class="paper-links"><a href="https://dl.acm.org/doi/abs/10.1145/3746252.3761625" target="_blank">CIKM</a></div></div>
+      <div class="paper"><div class="paper-title">SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.14739" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.02694v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2308.14508" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">TruthfulQA: Measuring How Models Mimic Human Falsehoods</div><div class="paper-meta"><span class="year-tag">Sep 2021</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2109.07958" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge</div><div class="paper-meta"><span class="year-tag">Jun 2019</span><span class="venue-tag">ACL</span></div><div class="paper-links"><a href="https://aclanthology.org/N19-1421/" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions</div><div class="paper-meta"><span class="year-tag">2019</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1905.10044" target="_blank">arxiv</a><a href="https://huggingface.co/datasets/google/boolq" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">PIQA: Reasoning about Physical Commonsense in Natural Language</div><div class="paper-meta"><span class="year-tag">Nov 2019</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1911.11641" target="_blank">arxiv</a><a href="https://github.com/ybisk/ybisk.github.io/tree/master/piqa" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">ARC — AI2 Reasoning Challenge</div><div class="paper-meta"><span class="year-tag">2018</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1803.05457" target="_blank">arxiv</a><a href="https://allenai.org/data/arc" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">OpenBookQA: Open Book Question Answering</div><div class="paper-meta"><span class="year-tag">Sep 2018</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1809.02789" target="_blank">arxiv</a><a href="https://allenai.org/data/open-book-qa" target="_blank">AllenAI</a></div></div>
+      <div class="paper"><div class="paper-title">WinoGrande: An Adversarial Winograd Schema Challenge at Scale</div><div class="paper-meta"><span class="year-tag">2017</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1907.10641" target="_blank">arxiv</a><a href="https://www.tensorflow.org/datasets/catalog/winogrande" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">Natural Questions: A Benchmark for Question Answering Research</div><div class="paper-meta"><span class="year-tag">2019</span><span class="venue-tag">Transactions ACL</span></div><div class="paper-links"><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00276/43518/Natural-Questions-A-Benchmark-for-Question" target="_blank">TACL</a></div></div>
+      <div class="paper"><div class="paper-title">SciQ — Crowdsourcing Multiple Choice Science Questions</div><div class="paper-links"><a href="https://arxiv.org/abs/1707.06209" target="_blank">arxiv</a><a href="https://allenai.org/data/sciq" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">NarrativeQA Reading Comprehension Challenge</div><div class="paper-meta"><span class="year-tag">Dec 2017</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1712.07040" target="_blank">arxiv</a><a href="https://github.com/google-deepmind/narrativeqa" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">TyDi QA: Information-Seeking QA in Typologically Diverse Languages</div><div class="paper-meta"><span class="year-tag">2020</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2003.05002" target="_blank">arxiv</a><a href="https://github.com/google-research-datasets/tydiqa" target="_blank">Data</a></div></div>
+    </div>
+  </section>
+
+  <section id="multi-turn">
+    <div class="section-header">
+      <span class="section-icon">💬</span>
+      <h2>Multi-Turn Evaluation</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">MTRAG: A Multi-Turn Conversational Benchmark for Evaluating RAG Systems</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.03468" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MT-Bench-101: A Fine-Grained Benchmark for Evaluating LLMs in Multi-Turn Dialogues</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.14762" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform and Analysis</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.05863" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.18232" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">BotChat: Evaluating LLMs' Capabilities of Having Multi-Turn Dialogues</div><div class="paper-meta"><span class="year-tag">Oct 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2310.13650" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena</div><div class="paper-meta"><span class="year-tag">NeurIPS 2023</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback</div><div class="paper-meta"><span class="year-tag">Sep 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2309.10691" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="reasoning">
+    <div class="section-header">
+      <span class="section-icon">🧠</span>
+      <h2>Reasoning</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Are Language Models Efficient Reasoners? A Perspective from Logic Programming</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2510.25626" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LogicGame: Benchmarking Rule-Based Reasoning Abilities of LLMs</div><div class="paper-meta"><span class="year-tag">ACL Findings 2025</span></div><div class="paper-links"><a href="https://aclanthology.org/2025.findings-acl.77/" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">DeepSeek-Prover-V2: Formal Mathematical Reasoning via RL for Subgoal Decomposition — ProverBench (325 problems)</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.21801" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.21934" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges — ScaleAI</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.08859" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Humanity's Last Exam</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.14249" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">JustLogic: A Comprehensive Benchmark for Evaluating Deductive Reasoning in LLMs</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.14851" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI — EpochAI</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://epoch.ai/frontiermath" target="_blank">FrontierAI Page</a><a href="https://arxiv.org/abs/2411.04872" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Easy Problems That LLMs Get Wrong — Linguistic Benchmark for logical, spatial, linguistic reasoning</div><div class="paper-meta"><span class="year-tag">May 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2405.19616v2" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MuSR: Testing the Limits of Chain-of-thought with Multistep Soft Reasoning</div><div class="paper-meta"><span class="year-tag">Oct 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2310.16049" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">DeepSeek-V3 Technical Report — see §5.3 Evaluations</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.19437v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">DeepSeek-R1: Incentivizing Reasoning Capability via Reinforcement Learning — see §3.1 Evaluation</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.12948" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="multilingual">
+    <div class="section-header">
+      <span class="section-icon">🌍</span>
+      <h2>Multi-Lingual</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Evaluating Large Language Models for Cross-Lingual Retrieval</div><div class="paper-meta"><span class="year-tag">Sep 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2509.14749" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.15521" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MMTEB: Massive Multilingual Text Embedding Benchmark</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.13595" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Evalita-LLM: Benchmarking Large Language Models on Italian</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.02289" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Chinese SimpleQA: A Chinese Factuality Evaluation for LLMs — Alibaba</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://arxiv.org/pdf/2411.07140" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.17578" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Towards Multilingual LLM Evaluation for European Languages — TU Dresden</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.08928" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Aya Model: Instruction Finetuned Open-Access Multilingual Language Model — Cohere — see Evaluation chapter</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.07827" target="_blank">arxiv</a><a href="https://arxiv.org/pdf/2402.07827#page=13.36" target="_blank">Eval Chapter</a></div></div>
+      <div class="paper"><div class="paper-title">M3Exam: A Multilingual, Multimodal, Multilevel Benchmark</div><div class="paper-meta"><span class="year-tag">2023</span><span class="venue-tag">NeurIPS</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">AlignBench: Benchmarking Chinese Alignment of Large Language Models</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.18743" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MEGA: Multilingual Evaluation of Generative AI</div><div class="paper-meta"><span class="year-tag">Mar 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2303.12528" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">XOR QA: Cross-lingual Open-Retrieval Question Answering</div><div class="paper-meta"><span class="year-tag">Oct 2020</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2010.11856" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">CLUE: A Chinese Language Understanding Evaluation Benchmark</div><div class="paper-meta"><span class="year-tag">Apr 2020</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2407.16931" target="_blank">arxiv</a><a href="https://github.com/CLUEbenchmark/CLUEWSC2020" target="_blank">CLUEWSC</a></div></div>
+      <div class="paper"><div class="paper-title">Open Ko-LLM Leaderboard — Korean LLM Evaluation Ecosystem</div><div class="paper-links"><a href="https://huggingface.co/blog/leaderboard-upstage" target="_blank">HuggingFace</a></div></div>
+      <div class="paper"><div class="paper-title">C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite</div><div class="paper-meta"><span class="year-tag">May 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.08322" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="multimodal">
+    <div class="section-header">
+      <span class="section-icon">🖼</span>
+      <h2>Multi-Modal</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Roboflow100-VL: A Multi-Domain Object Detection Benchmark for Vision-Language Models — RoboFlow, CMU</div><div class="paper-meta"><span class="year-tag">NeurIPS 2025</span></div><div class="paper-links"><a href="https://openreview.net/pdf?id=H3cqr50G7Q" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">How Well Does GPT-4o Understand Vision? Evaluating Multimodal Foundation Models on Standard Computer Vision Tasks</div><div class="paper-meta"><span class="year-tag">Jul 2025</span></div><div class="paper-links"><a href="https://huggingface.co/papers/2507.01955" target="_blank">HuggingFace</a></div></div>
+      <div class="paper"><div class="paper-title">ViDoRe Benchmark V2: Raising the Bar for Visual Document Retrieval</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://huggingface.co/blog/manu/vidore-v2" target="_blank">HuggingFace</a></div></div>
+      <div class="paper"><div class="paper-title">MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs — Cubify Anything VQA (CA-VQA)</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.13111" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges — ScaleAI</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.08859" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Benchmark Evaluations, Applications, and Challenges of Large Vision Language Models: A Survey</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://www.arxiv.org/abs/2501.02189" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI</div><div class="paper-meta"><span class="year-tag">CVPR 2024</span></div><div class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Yue_MMMU_A_Massive_Multi-discipline_Multimodal_Understanding_and_Reasoning_Benchmark_for_CVPR_2024_paper.html" target="_blank">CVPR</a></div></div>
+      <div class="paper"><div class="paper-title">VHELM: A Holistic Evaluation of Vision Language Models</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.07112" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Vibe-Eval: A hard evaluation suite for multimodal language models — Reka AI</div><div class="paper-meta"><span class="year-tag">May 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2405.02287" target="_blank">arxiv</a><a href="https://github.com/reka-ai/reka-vibe-eval" target="_blank">Dataset</a><a href="https://www.reka.ai/news/vibe-eval" target="_blank">Blog</a></div></div>
+      <div class="paper"><div class="paper-title">BLINK: Multimodal Large Language Models Can See but Not Perceive</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.12390" target="_blank">arxiv</a><a href="https://zeyofu.github.io/blink/" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2308.02490" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">ConvBench: Multi-Turn Conversation Evaluation for Large Vision-Language Models</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://openreview.net/pdf?id=PyTf2jj0SH" target="_blank">OpenReview</a><a href="https://github.com/shirlyliu64/ConvBench" target="_blank">GitHub</a></div></div>
+    </div>
+
+    <div class="subsection" id="audio">
+      <h3>🎵 Audio Models</h3>
+      <div class="paper-list">
+        <div class="paper"><div class="paper-title">MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark (MMAU Music, MMAU Sound)</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.19168" target="_blank">arxiv</a></div></div>
+        <div class="paper"><div class="paper-title">MuChoMusic: Evaluating Music Understanding in Multimodal Audio-Language Models</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2408.01337" target="_blank">arxiv</a></div></div>
+        <div class="paper"><div class="paper-title">GAMA: A Large Audio-Language Model with Advanced Audio Understanding</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.11768" target="_blank">arxiv</a></div></div>
+        <div class="paper"><div class="paper-title">Clotho-AQA: A Crowdsourced Dataset for Audio Question Answering</div><div class="paper-meta"><span class="year-tag">Apr 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2204.09634" target="_blank">arxiv</a></div></div>
+        <div class="paper"><div class="paper-title">AudioCaps: Generating Captions for Audios in The Wild</div><div class="paper-meta"><span class="year-tag">2019</span><span class="venue-tag">NAACL</span></div><div class="paper-links"><a href="https://aclanthology.org/N19-1011/" target="_blank">ACL</a></div></div>
+        <div class="paper"><div class="paper-title">CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset</div><div class="paper-meta"><span class="year-tag">2014</span></div><div class="paper-links"><a href="https://github.com/CheyneyComputerScience/CREMA-D" target="_blank">Repository</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4313618/" target="_blank">Paper</a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="instruction">
+    <div class="section-header">
+      <span class="section-icon">📝</span>
+      <h2>Instruction Following</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">AdvancedIF: Rubric-Based Benchmarking and RL for Advancing LLM Instruction Following</div><div class="paper-meta"><span class="year-tag">Nov 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2511.10507" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">HREF: Human Response-Guided Evaluation of Instruction Following in Language Models</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.15524" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">CFBench: A Comprehensive Constraints-Following Benchmark for LLMs</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2408.01122" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">IFEval — Instruction-Following Evaluation for Large Language Models</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.07911" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets</div><div class="paper-meta"><span class="year-tag">Jul 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2307.10928" target="_blank">arxiv</a><a href="https://github.com/kaistAI/FLASK" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">DINGO: Towards Diverse and Fine-Grained Instruction-Following Evaluation</div><div class="paper-meta"><span class="year-tag">Mar 2024</span><span class="venue-tag">AAAI</span></div><div class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29768" target="_blank">AAAI</a></div></div>
+    </div>
+  </section>
+
+  <section id="ethical">
+    <div class="section-header">
+      <span class="section-icon">🤝</span>
+      <h2>Ethical AI</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Evaluating the Moral Beliefs Encoded in LLMs</div><div class="paper-meta"><span class="year-tag">Jul 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2307.14324" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">AI Deception: A Survey of Examples, Risks, and Potential Solutions</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2308.14752" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Aligning AI With Shared Human Value — ETHICS benchmark</div><div class="paper-meta"><span class="year-tag">2020–2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2008.02275" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">What are human values, and how do we align AI to them?</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://static1.squarespace.com/static/65392ca578eee444c445c9de/t/6606f95edb20e8118074a344/1711733370985/human-values-and-alignment-29MAR2024.pdf" target="_blank">PDF</a></div></div>
+      <div class="paper"><div class="paper-title">Helpfulness, Honesty, Harmlessness (HHH) Framework — Anthropic — now in BigBench</div><div class="paper-meta"><span class="year-tag">2021</span></div><div class="paper-links"><a href="https://arxiv.org/pdf/2112.00861" target="_blank">arxiv</a><a href="https://github.com/google/BIG-bench" target="_blank">BigBench</a></div></div>
+      <div class="paper"><div class="paper-title">WorldValuesBench: Benchmark for Multi-Cultural Value Awareness of Language Models</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.16308" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">The Ethics of Advanced AI Assistants — Google DeepMind — Chapter 19</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/ethics-of-advanced-ai-assistants/the-ethics-of-advanced-ai-assistants-2024-i.pdf" target="_blank">PDF</a></div></div>
+      <div class="paper"><div class="paper-title">BEHONEST: Benchmarking Honesty of Large Language Models</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.13261" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="biases">
+    <div class="section-header">
+      <span class="section-icon">⚡</span>
+      <h2>Biases</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">FairPair: A Robust Evaluation of Biases in Language Models through Paired Perturbations</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.06619v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation</div><div class="paper-meta"><span class="year-tag">2021</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2101.11718" target="_blank">arxiv</a><a href="https://github.com/amazon-science/bold" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">"I'm fully who I am": Towards centering transgender and non-binary voices to measure biases</div><div class="paper-meta"><span class="year-tag">ACM FAccT 2023</span></div><div class="paper-links"><a href="https://www.amazon.science/publications/im-fully-who-i-am-towards-centering-transgender-and-non-binary-voices-to-measure-biases-in-open-language-generation" target="_blank">Amazon Science</a></div></div>
+      <div class="paper"><div class="paper-title">This Land is {Your, My} Land: Evaluating Geopolitical Biases in Language Models</div><div class="paper-meta"><span class="year-tag">May 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.14610" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="safe-ai">
+    <div class="section-header">
+      <span class="section-icon">🛡</span>
+      <h2>Safe AI</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">RAG LLMs are Not Safer: A Safety Analysis of RAG for LLMs — Bloomberg</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.18041v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Lessons From Red Teaming 100 Generative AI Products — Microsoft</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.07238" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">AILuminate Benchmark for general-purpose AI chat models — ML Commons</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://ailuminate.mlcommons.org/benchmarks/" target="_blank">MLCommons</a></div></div>
+      <div class="paper"><div class="paper-title">SORRY-Bench: Systematically Evaluating LLM Safety Refusal Behaviors</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.14598" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">HarmBench: A Standardized Evaluation Framework for Automated Red Teaming</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.04249" target="_blank">arxiv</a><a href="https://github.com/centerforaisafety/HarmBench" target="_blank">Code</a></div></div>
+      <div class="paper"><div class="paper-title">The WMDP Benchmark: Weapons of Mass Destruction Proxy</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2403.03218" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">JailbreakBench: An Open Robustness Benchmark for Jailbreaking LLMs — UPenn, ETH Zurich</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.01318" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">A StrongREJECT for Empty Jailbreaks — UC Berkeley</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.10260" target="_blank">arxiv</a><a href="https://strong-reject.readthedocs.io/en/latest/" target="_blank">StrongREJECT</a></div></div>
+      <div class="paper"><div class="paper-title">Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training — Anthropic</div><div class="paper-meta"><span class="year-tag">Jan 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2401.05566" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress? — Center for AI Safety</div><div class="paper-meta"><span class="year-tag">Jul 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2407.21792" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Purple Llama — Meta's umbrella project for safety evaluation</div><div class="paper-links"><a href="https://github.com/meta-llama/PurpleLlama" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">MM-SafetyBench: Safety Evaluation of Multimodal LLMs — Shanghai AI Lab</div><div class="paper-meta"><span class="year-tag">Jan 2024</span><span class="venue-tag">ECCV 2024</span></div><div class="paper-links"><a href="https://github.com/isXinLiu/MM-SafetyBench" target="_blank">GitHub</a><a href="https://arxiv.org/abs/2311.17600" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="cyber">
+    <div class="section-header">
+      <span class="section-icon">🔒</span>
+      <h2>Cybersecurity</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in LLMs — Meta</div><div class="paper-meta"><span class="year-tag">Jul 2024</span></div><div class="paper-links"><a href="https://ai.meta.com/research/publications/cyberseceval-3-advancing-the-evaluation-of-cybersecurity-risks-and-capabilities-in-large-language-models/" target="_blank">Meta</a><a href="https://arxiv.org/abs/2408.01605" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">CYBERSECEVAL 2: A Wide-Ranging Cybersecurity Evaluation Suite for LLMs — Meta</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://ai.meta.com/research/publications/cyberseceval-2-a-wide-ranging-cybersecurity-evaluation-suite-for-large-language-models/" target="_blank">Meta</a><a href="https://arxiv.org/abs/2404.13161" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Benchmarking OpenAI o1 in Cyber Security</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.21939" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2408.08926" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="code">
+    <div class="section-header">
+      <span class="section-icon">💻</span>
+      <h2>Code Generating LLMs</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?</div><div class="paper-meta"><span class="year-tag">Sep 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2509.16941" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason</div><div class="paper-meta"><span class="year-tag">Jun 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2506.12286" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering? — OpenAI</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2502.12115" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.02605" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Copilot Arena: A Platform for Code LLM Evaluation in the Wild</div><div class="paper-meta"><span class="year-tag">Feb 2025</span></div><div class="paper-links"><a href="https://github.com/lmarena/copilot-arena" target="_blank">GitHub</a><a href="https://arxiv.org/abs/2502.09328" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LiveCodeBench: Holistic and Contamination Free Evaluation of LLMs for Code — Berkeley, MIT, Cornell</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2403.07974" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.05863" target="_blank">arxiv</a><a href="https://www.swebench.com/" target="_blank">Leaderboard</a></div></div>
+      <div class="paper"><div class="paper-title">Aider Polyglot — Code editing benchmark</div><div class="paper-links"><a href="https://aider.chat/docs/benchmarks.html#the-benchmark" target="_blank">Aider</a></div></div>
+      <div class="paper"><div class="paper-title">HumanEval — Evaluating Large Language Models Trained on Code</div><div class="paper-meta"><span class="year-tag">Jul 2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2107.03374" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MBPP (Mostly Basic Python Programming) Benchmark</div><div class="paper-meta"><span class="year-tag">2021</span></div><div class="paper-links"><a href="https://paperswithcode.com/paper/program-synthesis-with-large-language-models" target="_blank">PapersWithCode</a><a href="https://huggingface.co/datasets/mbpp" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation</div><div class="paper-meta"><span class="year-tag">Feb 2021</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2102.04664" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="summarization">
+    <div class="section-header">
+      <span class="section-icon">📄</span>
+      <h2>Summarization</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Evaluation &amp; Hallucination Detection for Abstractive Summaries — Eugene Yan</div><div class="paper-links"><a href="https://eugeneyan.com/writing/abstractive/" target="_blank">Blog Article</a></div></div>
+      <div class="paper"><div class="paper-title">A Field Guide to Automatic Evaluation of LLM-Generated Summaries</div><div class="paper-meta"><span class="year-tag">SIGIR 2024</span></div><div class="paper-links"><a href="https://dl.acm.org/doi/abs/10.1145/3626772.3661346" target="_blank">SIGIR</a></div></div>
+      <div class="paper"><div class="paper-title">Benchmarking Large Language Models for News Summarization</div><div class="paper-meta"><span class="year-tag">Jan 2024</span><span class="venue-tag">Transactions of ACL</span></div><div class="paper-links"><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00632/119276" target="_blank">TACL</a></div></div>
+      <div class="paper"><div class="paper-title">SEAHORSE: A Multilingual, Multifaceted Dataset for Summarization Evaluation</div><div class="paper-meta"><span class="year-tag">May 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.13194" target="_blank">arxiv</a><a href="https://github.com/google-research-datasets/seahorse?tab=readme-ov-file" target="_blank">Data</a></div></div>
+      <div class="paper"><div class="paper-title">SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization</div><div class="paper-meta"><span class="year-tag">Nov 2021</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2111.09525" target="_blank">arxiv</a><a href="https://github.com/tingofurro/summac" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">WikiAsp: A Dataset for Multi-domain Aspect-based Summarization</div><div class="paper-meta"><span class="year-tag">2021</span><span class="venue-tag">Transactions ACL</span></div><div class="paper-links"><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00362/98088/WikiAsp-A-Dataset-for-Multi-domain-Aspect-based" target="_blank">TACL</a><a href="https://huggingface.co/datasets/wiki_asp" target="_blank">Dataset</a></div></div>
+    </div>
+  </section>
+
+  <section id="llm-quality">
+    <div class="section-header">
+      <span class="section-icon">🔍</span>
+      <h2>LLM Quality (Generic Methods)</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">WeightWatcher — Evaluating fine-tuned LLMs</div><div class="paper-links"><a href="https://calculatedcontent.com/2024/01/23/evaluating-fine-tuned-llms-with-weightwatcher/" target="_blank">Blog</a></div></div>
+    </div>
+  </section>
+
+  <section id="inference">
+    <div class="section-header">
+      <span class="section-icon">⚡</span>
+      <h2>Inference Performance</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">LLM-Inference-Bench: Inference Benchmarking of LLMs on AI Accelerators</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2411.00136v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Ray/Anyscale LLM Performance Leaderboard</div><div class="paper-links"><a href="https://github.com/ray-project/llmperf-leaderboard" target="_blank">GitHub</a><a href="https://www.anyscale.com/blog/comparing-llm-performance-introducing-the-open-source-leaderboard-for-llm" target="_blank">Explanation</a></div></div>
+      <div class="paper"><div class="paper-title">MLCommons MLPerf Benchmarks (inference) — LLM track</div><div class="paper-links"><a href="https://mlcommons.org/2023/09/mlperf-results-highlight-growing-importance-of-generative-ai-and-storage/" target="_blank">MLPerf</a></div></div>
+    </div>
+  </section>
+
+  <section id="agents">
+    <div class="section-header">
+      <span class="section-icon">🤖</span>
+      <h2>Agent LLM Architectures</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Demystifying evals for AI agents — Anthropic</div><div class="paper-meta"><span class="year-tag">Jan 2026</span></div><div class="paper-links"><a href="https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents" target="_blank">Anthropic</a></div></div>
+      <div class="paper"><div class="paper-title">DeliveryBench: Can Agents Earn Profit in Real World?</div><div class="paper-meta"><span class="year-tag">Dec 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2512.19234" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MCPVerse: An Expansive, Real-World Benchmark for Agentic Tool Use</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2508.16260v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Establishing Best Practices for Building Rigorous Agentic Benchmarks</div><div class="paper-meta"><span class="year-tag">Jul 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2507.02825" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models</div><div class="paper-meta"><span class="year-tag">Jul 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2507.12806" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Survey on Evaluation of LLM-based Agents</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.16416v1" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.07166" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">AutoGenBench — A Tool for Measuring and Evaluating AutoGen Agents from Microsoft</div><div class="paper-links"><a href="https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/" target="_blank">Website</a><a href="https://arxiv.org/abs/2411.04468v1" target="_blank">Magentic-One</a></div></div>
+      <div class="paper"><div class="paper-title">AgentBench: Evaluating LLMs as Agents</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2308.03688" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">R-Judge: Benchmarking Safety Risk Awareness for LLM Agents</div><div class="paper-meta"><span class="year-tag">Jan 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2401.10019" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills</div><div class="paper-meta"><span class="year-tag">Feb 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2302.04659" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="agi">
+    <div class="section-header">
+      <span class="section-icon">🌟</span>
+      <h2>AGI Evaluation</h2>
+    </div>
+    <p style="color: var(--muted); font-size: 0.85rem; margin-bottom: 16px;">Assessing whether an AI system possesses or approaches general intelligence — the ability to perform any intellectual task that a human can.</p>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">ARC-AGI-2: Abstraction and Reasoning Corpus for AGI</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://github.com/arcprize/ARC-AGI-2" target="_blank">GitHub</a><a href="https://x.com/fchollet/status/1904265979192086882" target="_blank">François Chollet on X</a><a href="https://arcprize.org/blog/announcing-arc-agi-2-and-arc-prize-2025" target="_blank">ARCPrize</a></div></div>
+      <div class="paper"><div class="paper-title">Humanity's Last Exam — Center for Safe AI, Scale AI</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.14249" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Evaluation of OpenAI o1: Opportunities and Challenges of AGI</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.18486" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">GAIA: a benchmark for General AI Assistants — Meta, HuggingFace</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.12983" target="_blank">arxiv</a><a href="https://huggingface.co/gaia-benchmark" target="_blank">Dataset</a></div></div>
+    </div>
+  </section>
+
+  <section id="long-text">
+    <div class="section-header">
+      <span class="section-icon">📜</span>
+      <h2>Long Text Generation</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2408.07055" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">HelloBench: Evaluating Long Text Generation Capabilities of LLMs</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.16191" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Suri: Multi-constraint Instruction Following for Long-form Text Generation</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.19371" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2308.14508" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="doc-understanding">
+    <div class="section-header">
+      <span class="section-icon">🗂</span>
+      <h2>Document Understanding</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">LongDA: Benchmarking LLM Agents for Long-Document Data Analysis</div><div class="paper-meta"><span class="year-tag">Jan 2026</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2601.02598" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">M-LongDoc: Benchmark For Multimodal Super-Long Document Understanding</div><div class="paper-meta"><span class="year-tag">EMNLP 2025</span></div><div class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.469/" target="_blank">EMNLP</a></div></div>
+      <div class="paper"><div class="paper-title">LongDocURL: Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating</div><div class="paper-meta"><span class="year-tag">ACL 2025</span></div><div class="paper-links"><a href="https://aclanthology.org/2025.acl-long.57/" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">Document Haystack: Long Context Multimodal Vision LLM Benchmark — Amazon AGI</div><div class="paper-meta"><span class="year-tag">ICCV Workshop 2025</span></div><div class="paper-links"><a href="https://openaccess.thecvf.com/content/ICCV2025W/MRR%202025/papers/Huybrechts_Document_Haystack_A_Long_Context_Multimodal_ImageDocument_Understanding_Vision_LLM_ICCVW_2025_paper.pdf" target="_blank">ICCV</a></div></div>
+      <div class="paper"><div class="paper-title">MMLONGBENCH-DOC: Benchmarking Long-context Document Understanding with Visualizations</div><div class="paper-meta"><span class="year-tag">NeurIPS 2024</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">VRDU: A Benchmark for Visually-rich Document Understanding</div><div class="paper-meta"><span class="year-tag">KDD 2023</span></div><div class="paper-links"><a href="https://dl.acm.org/doi/abs/10.1145/3580305.3599929" target="_blank">KDD</a></div></div>
+    </div>
+  </section>
+
+  <section id="graph">
+    <div class="section-header">
+      <span class="section-icon">🕸</span>
+      <h2>Graph Understanding</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">GPT4Graph: Can LLMs Understand Graph Structured Data?</div><div class="paper-meta"><span class="year-tag">May 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.15066" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">LLM4DyG: Can LLMs Solve Spatial-Temporal Problems on Dynamic Graphs?</div><div class="paper-meta"><span class="year-tag">Oct 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2310.17110" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Can Language Models Solve Graph Problems in Natural Language?</div><div class="paper-meta"><span class="year-tag">NeurIPS 2023</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/622afc4edf2824a1b6aaf5afe153fa93-Abstract-Conference.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">Open Graph Benchmark: Datasets for Machine Learning on Graphs</div><div class="paper-meta"><span class="year-tag">NeurIPS 2020</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper/2020/hash/fb60d411a5c5b72b2e7d3527cfc84fd0-Abstract.html" target="_blank">NeurIPS</a></div></div>
+    </div>
+  </section>
+
+  <section id="reward">
+    <div class="section-header">
+      <span class="section-icon">🏅</span>
+      <h2>Reward Models</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">RM-Bench: Benchmarking Reward Models with Subtlety and Style</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.16184" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">HelpSteer2: Open-source dataset for training top-performing reward models</div><div class="paper-meta"><span class="year-tag">Aug 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.08673" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">RewardBench: Evaluating Reward Models for Language Modeling</div><div class="paper-meta"><span class="year-tag">Mar 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2403.13787v1" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="various">
+    <div class="section-header">
+      <span class="section-icon">🗃</span>
+      <h2>Various Unclassified Tasks</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">REFINEBENCH: Evaluating Refinement Capability of Language Models with Checklists — KAIST, CMU, Nvidia</div><div class="paper-meta"><span class="year-tag">NeurIPS 2025</span></div><div class="paper-links"><a href="https://openreview.net/pdf?id=Ycred6ETQR" target="_blank">OpenReview</a></div></div>
+      <div class="paper"><div class="paper-title">Tulu 3: Pushing Frontiers in Open Language Model Post-Training — see OLMES evaluation system</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2411.15124" target="_blank">arxiv</a><a href="http://github.com/allenai/olmes" target="_blank">OLMES</a></div></div>
+      <div class="paper"><div class="paper-title">OLMES: A Standard for Language Model Evaluations</div><div class="paper-meta"><span class="year-tag">Jun 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2406.08446" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">EscapeBench: Pushing Language Models to Think Outside the Box</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.13549" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">BIRD: Can LLMs Serve as a Database Interface? A Big Bench for Large-Scale Text-to-SQL — 12,751 pairs, 95 databases, 37 domains</div><div class="paper-meta"><span class="year-tag">2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2305.03111" target="_blank">arxiv</a><a href="https://bird-bench.github.io/" target="_blank">Data &amp; Leaderboard</a></div></div>
+      <div class="paper"><div class="paper-title">Table Meets LLM: Can LLMs Understand Structured Table Data? — Microsoft</div><div class="paper-meta"><span class="year-tag">WSDM 2024</span></div><div class="paper-links"><a href="https://www.microsoft.com/en-us/research/publication/table-meets-llm-can-large-language-models-understand-structured-table-data-a-benchmark-and-empirical-study/" target="_blank">MS Research</a></div></div>
+      <div class="paper"><div class="paper-title">AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models</div><div class="paper-meta"><span class="year-tag">Aug 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2304.06364" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">RACE: Large-scale ReAding Comprehension Dataset From Examinations</div><div class="paper-meta"><span class="year-tag">2017</span></div><div class="paper-links"><a href="https://arxiv.org/abs/1704.04683" target="_blank">arxiv</a><a href="https://www.cs.cmu.edu/~glai1/data/race/" target="_blank">Dataset at CMU</a></div></div>
+      <div class="paper"><div class="paper-title">DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs</div><div class="paper-meta"><span class="year-tag">Jun 2019</span><span class="venue-tag">ACL</span></div><div class="paper-links"><a href="https://aclanthology.org/N19-1246/" target="_blank">ACL</a><a href="https://allenai.org/data/drop" target="_blank">Data</a></div></div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- LLM SYSTEMS -->
+  <section id="rag">
+    <div class="section-header">
+      <span class="section-icon">🔎</span>
+      <h2>RAG Evaluation</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain QA</div><div class="paper-meta"><span class="year-tag">NeurIPS 2025</span></div><div class="paper-links"><a href="https://openreview.net/pdf?id=GGMQ3gYhzh" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">RankArena: A Unified Platform for Evaluating Retrieval, Reranking and RAG</div><div class="paper-meta"><span class="year-tag">Aug 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2508.05512" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MTRAG: A Multi-Turn Conversational Benchmark for Evaluating RAG Systems</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2501.03468" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Google Frames Dataset — Fact, Fetch, and Reason: A Unified Evaluation of RAG</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.12941" target="_blank">arxiv</a><a href="https://huggingface.co/datasets/google/frames-benchmark" target="_blank">HuggingFace</a></div></div>
+      <div class="paper"><div class="paper-title">Search Engines in an AI Era: The False Promise of Factual Source-Cited Responses — Salesforce</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.22349" target="_blank">arxiv</a><a href="https://github.com/SalesforceAIResearch/answer-engine-eval" target="_blank">Repository</a></div></div>
+      <div class="paper"><div class="paper-title">RAGAS: Automated Evaluation of Retrieval Augmented Generation</div><div class="paper-meta"><span class="year-tag">Jul 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2309.15217" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">ARES: An Automated Evaluation Framework for RAG Systems</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.09476" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MultiHop-RAG: Benchmarking RAG for Multi-Hop Queries</div><div class="paper-meta"><span class="year-tag">Jan 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2401.15391" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="deep-research">
+    <div class="section-header">
+      <span class="section-icon">🔭</span>
+      <h2>Evaluation of Deep Research</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">InnovatorBench: Evaluating Agents' Ability to Conduct Innovative LLM Research</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2510.27598" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</div><div class="paper-meta"><span class="year-tag">Jun 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2506.11763" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">AstaBench (AllenAI)</div><div class="paper-links"><a href="https://github.com/allenai/asta-bench" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">GAIA: a benchmark for General AI Assistants — Meta, HuggingFace</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.12983" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="agentic-search">
+    <div class="section-header">
+      <span class="section-icon">🌐</span>
+      <h2>Evaluation of Agentic Search</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">WideSearch: Benchmarking Agentic Broad Info-Seeking</div><div class="paper-meta"><span class="year-tag">Aug 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2508.07999" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge</div><div class="paper-meta"><span class="year-tag">Jun 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2506.21506" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks</div><div class="paper-meta"><span class="year-tag">May 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2505.24876" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">WebArena: A Realistic Web Environment for Building Autonomous Agents</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2307.13854" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="reasoning-rag">
+    <div class="section-header">
+      <span class="section-icon">🧩</span>
+      <h2>Evaluation of Reasoning and RAG</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">GraphRAG-Bench: Challenging Domain-Specific Reasoning for Evaluating Graph RAG</div><div class="paper-meta"><span class="year-tag">Jun 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2506.02404" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">R2MED: A Benchmark for Reasoning-Driven Medical Retrieval</div><div class="paper-meta"><span class="year-tag">May 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2505.14558" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval</div><div class="paper-meta"><span class="year-tag">Jul 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2407.12883" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="conversational">
+    <div class="section-header">
+      <span class="section-icon">🗣</span>
+      <h2>Conversational Systems</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">A survey on chatbots and LLMs: Testing and evaluation techniques</div><div class="paper-meta"><span class="year-tag">Jan 2025</span></div><div class="paper-links"><a href="https://www.sciencedirect.com/science/article/pii/S2949719125000044" target="_blank">NLP Journal</a></div></div>
+      <div class="paper"><div class="paper-title">AILuminate Benchmark for general-purpose AI chat models — ML Commons</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://ailuminate.mlcommons.org/benchmarks/" target="_blank">MLCommons</a></div></div>
+      <div class="paper"><div class="paper-title">Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI</div><div class="paper-meta"><span class="year-tag">Feb 2024</span><span class="venue-tag">Nature</span></div><div class="paper-links"><a href="https://www.nature.com/articles/s41746-024-01074-z.epdf" target="_blank">Nature</a></div></div>
+      <div class="paper"><div class="paper-title">How Well Can LLMs Negotiate? NEGOTIATIONARENA Platform</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.05863" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="copilots">
+    <div class="section-header">
+      <span class="section-icon">✈️</span>
+      <h2>Copilots</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise — Stanford</div><div class="paper-meta"><span class="year-tag">Oct 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2410.03017" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.14261" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">ELITR-Bench: A Meeting Assistant Benchmark for Long-Context LLMs</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/pdf/2403.20262.pdf" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="search-rec">
+    <div class="section-header">
+      <span class="section-icon">🔍</span>
+      <h2>Search &amp; Recommendation Engines</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">ConsintBench: Evaluating Language Models on Real-World Consumer Intent Understanding</div><div class="paper-meta"><span class="year-tag">Oct 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2510.13499" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Is ChatGPT Fair for Recommendation? Evaluating Fairness in LLM Recommendation</div><div class="paper-meta"><span class="year-tag">RecSys 2023</span></div><div class="paper-links"><a href="https://dl.acm.org/doi/abs/10.1145/3604915.3608860" target="_blank">ACM</a></div></div>
+      <div class="paper"><div class="paper-title">BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models</div><div class="paper-meta"><span class="year-tag">Oct 2021</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2104.08663" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">STARK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.13207" target="_blank">arxiv</a><a href="https://github.com/snap-stanford/stark" target="_blank">Code</a></div></div>
+      <div class="paper"><div class="paper-title">LongEmbed: Extending Embedding Models for Long Context Retrieval</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2404.12096" target="_blank">arxiv</a><a href="https://github.com/dwzhu-pku/LongEmbed" target="_blank">Repository</a></div></div>
+      <div class="paper"><div class="paper-title">Marqo eCommerce Embedding Benchmark</div><div class="paper-links"><a href="https://huggingface.co/spaces/Marqo/Ecommerce-Embedding-Benchmarks" target="_blank">HuggingFace</a></div></div>
+    </div>
+  </section>
+
+  <section id="task-utility">
+    <div class="section-header">
+      <span class="section-icon">📈</span>
+      <h2>Task Utility</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications</div><div class="paper-meta"><span class="year-tag">Dec 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2412.05449" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Assessing and Verifying Task Utility in LLM-Powered Applications</div><div class="paper-meta"><span class="year-tag">May 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2405.02178" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Towards better Human-Agent Alignment: Assessing Task Utility in LLM-Powered Applications</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.09015" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- VERTICALS -->
+  <section id="healthcare">
+    <div class="section-header">
+      <span class="section-icon">🏥</span>
+      <h2>Healthcare &amp; Medicine</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">MedHELM: Holistic Evaluation of LLMs for Medical Tasks — published in Nature</div><div class="paper-meta"><span class="year-tag">May 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2505.23802" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">A systematic review of LLM evaluations in clinical medicine</div><div class="paper-meta"><span class="year-tag">Mar 2025</span><span class="venue-tag">BMC</span></div><div class="paper-links"><a href="https://link.springer.com/article/10.1186/s12911-025-02954-4" target="_blank">BMC</a></div></div>
+      <div class="paper"><div class="paper-title">Medical LLM Benchmarks Should Prioritize Construct Validity</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.10694" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Medical large language models are vulnerable to data-poisoning attacks — NYU</div><div class="paper-meta"><span class="year-tag">Jan 2025</span><span class="venue-tag">Nature Medicine</span></div><div class="paper-links"><a href="https://www.nature.com/articles/s41591-024-03445-1" target="_blank">Nature Medicine</a></div></div>
+      <div class="paper"><div class="paper-title">A Preliminary Study of o1 in Medicine: Are We Closer to an AI Doctor?</div><div class="paper-meta"><span class="year-tag">Sep 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2409.15277" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Evaluation and mitigation of the limitations of LLMs in clinical decision-making</div><div class="paper-meta"><span class="year-tag">Jul 2024</span><span class="venue-tag">Nature Medicine</span></div><div class="paper-links"><a href="https://www.nature.com/articles/s41591-024-03097-1" target="_blank">Nature Medicine</a></div></div>
+      <div class="paper"><div class="paper-title">GPT versus Resident Physicians — NEJM Board Exams Benchmark (NEJMQA)</div><div class="paper-meta"><span class="year-tag">Apr 2024</span></div><div class="paper-links"><a href="https://ai.nejm.org/doi/full/10.1056/AIdbp2300192" target="_blank">NEJM AI</a><a href="https://jonathansomer.github.io/nejm-medical-board-exams-qa-benchmark/" target="_blank">Dataset</a></div></div>
+      <div class="paper"><div class="paper-title">MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical QA</div><div class="paper-meta"><span class="year-tag">2022</span><span class="venue-tag">PMLR</span></div><div class="paper-links"><a href="https://proceedings.mlr.press/v174/pal22a.html" target="_blank">PMLR</a></div></div>
+      <div class="paper"><div class="paper-title">MedQA: Large-scale Open Domain QA from Medical Exams</div><div class="paper-meta"><span class="year-tag">Sep 2020</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2009.13081" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">PubMedQA: A Dataset for Biomedical Research Question Answering</div><div class="paper-meta"><span class="year-tag">2019</span><span class="venue-tag">ACL</span></div><div class="paper-links"><a href="https://aclanthology.org/D19-1259/" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">Open Medical LLM Leaderboard from HuggingFace</div><div class="paper-links"><a href="https://huggingface.co/blog/leaderboard-medicalllm" target="_blank">HuggingFace</a></div></div>
+    </div>
+  </section>
+
+  <section id="law">
+    <div class="section-header">
+      <span class="section-icon">⚖️</span>
+      <h2>Law</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning</div><div class="paper-meta"><span class="year-tag">NeurIPS 2023</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/89e44582fd28ddfea1ea4dcb0ebbf4b0-Abstract-Datasets_and_Benchmarks.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">LEXTREME: A Multi-Lingual and Multi-Task Benchmark for the Legal Domain</div><div class="paper-meta"><span class="year-tag">EMNLP 2023</span></div><div class="paper-links"><a href="https://aclanthology.org/2023.findings-emnlp.200/" target="_blank">ACL</a></div></div>
+      <div class="paper"><div class="paper-title">Multi-LexSum: Real-world Summaries of Civil Rights Lawsuits at Multiple Granularities</div><div class="paper-meta"><span class="year-tag">NeurIPS 2022</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/552ef803bef9368c29e53c167de34b55-Abstract-Datasets_and_Benchmarks.html" target="_blank">NeurIPS</a></div></div>
+    </div>
+  </section>
+
+  <section id="science">
+    <div class="section-header">
+      <span class="section-icon">🔭</span>
+      <h2>Science</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Unveiling the power of language models in chemical research question answering</div><div class="paper-meta"><span class="year-tag">Jan 2025</span><span class="venue-tag">Nature</span></div><div class="paper-links"><a href="https://www.nature.com/articles/s42004-024-01394-x" target="_blank">Nature</a></div></div>
+      <div class="paper"><div class="paper-title">SciRepEval: A Multi-Format Benchmark for Scientific Document Representations</div><div class="paper-meta"><span class="year-tag">2022</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2211.13308" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">What can LLMs do in chemistry? A comprehensive benchmark on eight tasks</div><div class="paper-meta"><span class="year-tag">NeurIPS 2023</span></div><div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbb330189ce02be00cf7346167028ab1-Abstract-Datasets_and_Benchmarks.html" target="_blank">NeurIPS</a></div></div>
+      <div class="paper"><div class="paper-title">GPQA: A Graduate-Level Google-Proof Q&amp;A Benchmark</div><div class="paper-meta"><span class="year-tag">Nov 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2311.12022" target="_blank">arxiv</a><a href="https://huggingface.co/datasets/Idavidrein/gpqa" target="_blank">Dataset</a></div></div>
+    </div>
+  </section>
+
+  <section id="math">
+    <div class="section-header">
+      <span class="section-icon">➗</span>
+      <h2>Math</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">DeepSeek-Prover-V2: Formal Mathematical Reasoning via RL for Subgoal Decomposition — ProverBench</div><div class="paper-meta"><span class="year-tag">Apr 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2504.21801" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad</div><div class="paper-meta"><span class="year-tag">Mar 2025</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2503.21934" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI — EpochAI</div><div class="paper-meta"><span class="year-tag">Nov 2024</span></div><div class="paper-links"><a href="https://epoch.ai/frontiermath" target="_blank">FrontierAI</a><a href="https://arxiv.org/abs/2411.04872" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">MATH — Measuring Mathematical Problem Solving with the MATH Dataset</div><div class="paper-meta"><span class="year-tag">Nov 2021</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2103.03874" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">GSM8K — Grade School Math</div><div class="paper-links"><a href="https://paperswithcode.com/dataset/gsm8k" target="_blank">PapersWithCode</a><a href="https://github.com/openai/grade-school-math" target="_blank">GitHub</a></div></div>
+      <div class="paper"><div class="paper-title">Cmath: Can your language model pass Chinese elementary school math test?</div><div class="paper-meta"><span class="year-tag">Jun 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2306.16636" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <section id="financial">
+    <div class="section-header">
+      <span class="section-icon">💹</span>
+      <h2>Financial</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper"><div class="paper-title">Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering</div><div class="paper-meta"><span class="year-tag">Feb 2024</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2402.11194v2" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance</div><div class="paper-meta"><span class="year-tag">Jun 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2306.05443" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">BloombergGPT: A Large Language Model for Finance — see Chapter 5 Evaluation</div><div class="paper-meta"><span class="year-tag">Mar 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2303.17564" target="_blank">arxiv</a></div></div>
+      <div class="paper"><div class="paper-title">FinGPT: Instruction Tuning Benchmark for Open-Source LLMs in Financial Datasets</div><div class="paper-meta"><span class="year-tag">Oct 2023</span></div><div class="paper-links"><a href="https://arxiv.org/abs/2310.04793" target="_blank">arxiv</a></div></div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- OTHER COLLECTIONS -->
+  <section id="other-collections">
+    <div class="section-header">
+      <span class="section-icon">📦</span>
+      <h2>Other Collections</h2>
+    </div>
+    <div class="paper-list">
+      <div class="paper">
+        <div class="paper-title">LLM/VLM Benchmarks — Aman Chadha</div>
+        <div class="paper-links"><a href="https://aman.ai/primers/ai/benchmarks/" target="_blank">aman.ai</a></div>
+      </div>
+      <div class="paper">
+        <div class="paper-title">Awesome LLMs Evaluation Papers — tjunlp-lab (papers from the Comprehensive Survey, Nov 2023)</div>
+        <div class="paper-links"><a href="https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers" target="_blank">GitHub</a><a href="https://arxiv.org/pdf/2310.19736" target="_blank">Survey Paper</a></div>
+      </div>
+      <div class="paper">
+        <div class="paper-title">Adjacent Compendium: LLM, Search and Recommender Engines</div>
+        <div class="paper-links"><a href="https://github.com/alopatenko/LLMSearchRecommender" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CITATION -->
+  <section id="citation">
+    <div class="section-header">
+      <span class="section-icon">✍️</span>
+      <h2>Citation</h2>
+    </div>
+    <div class="citation-box">
+      <pre>@article{Lopatenko2024CompendiumLLMEvaluation,
+  title   = {Compendium of LLM Evaluation methods},
+  author  = {Lopatenko, Andrei},
+  year    = {2024},
+  note    = {\url{https://github.com/alopatenko/LLMEvaluation}}
+}</pre>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
