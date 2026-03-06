@@ -698,15 +698,25 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 
 ---
 ### Document Understanding
-- LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understadinng
+- KARL: Knowledge Agents via Reinforcement Learning, Databricks, see 2 KARLBench [databrick techreport](https://www.databricks.com/karl.pdf)
+- LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understanding
 - M-LongDoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework, EMNLP 2025 [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.469/)
+- BBox DocVQA: A Large Scale Bounding Box Grounded Dataset for Enhancing Reasoning in Document Visual Question Answer, Nov 2025, [arxiv](https://arxiv.org/abs/2511.15090)
+- BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
 - LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locatingp ACL 2025 [ACL 2025](https://aclanthology.org/2025.acl-long.57/)
 - Benchmarking Retrieval-Augmented Multimodal Generation for Document Question Answering, May 2025, [arxiv](https://arxiv.org/abs/2505.16470)
+- FreshStack: Building Realistic Benchmarks for Evaluating Retrieval on Technical Documents, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
 - DocBench: A Benchmark for Evaluating LLM-based Document Reading Systems, ACL Workshop 2025, [ACL 2025](https://aclanthology.org/2025.knowledgenlp-1.29/)
+- Visual-TableQA: Open-Domain Benchmark for Reasoning over Table Images, Sep 2025, [arxiv](https://arxiv.org/abs/2509.07966)
 - Document Haystack: A Long Context Multimodal Image/Document Understanding Vision LLM Benchmark, ICCV Workshop 2025, Amazon AGI team [ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025W/MRR%202025/papers/Huybrechts_Document_Haystack_A_Long_Context_Multimodal_ImageDocument_Understanding_Vision_LLM_ICCVW_2025_paper.pdf)
+- M3DocVQA: Multi-modal Multi-page Multi-document Understanding, [ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)
 - DesignQA: A Multimodal Benchmark for Evaluating Large Language Models’ Understanding of Engineering Documentation, Dec 2024, [ASME 2024](https://asmedigitalcollection.asme.org/computingengineering/article/25/2/021009/1210215/DesignQA-A-Multimodal-Benchmark-for-Evaluating)
+- Overview of TREC 2024 Biomedical Generative Retrieval (BioGen) Track, Nov 2024, [arxiv](https://arxiv.org/abs/2411.18069)
 - MMLONGBENCH-DOC: Benchmarking Long-context Document Understanding with Visualizations, [neurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html)
+- M-Longdoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework, Nov 2024, [arxiv](https://arxiv.org/abs/2411.06176)
 - VRDU: A Benchmark for Visually-rich Document Understanding, KDD 2023 [KDD 2023](https://dl.acm.org/doi/abs/10.1145/3580305.3599929)
+- FinanceBench: A New Benchmark for Financial Question Answering, Nov 2023, [arxiv](https://arxiv.org/abs/2311.11944)
+- QAMPARI: A Benchmark for Open-domain Questions with Many Answers, Dec 2023, [ACL]()
 ---
 ### Graph understanding
 -  GPT4Graph: Can Large Language Models Understand Graph Structured Data ? An Empirical Evaluation and Benchmarking, May 2023, [arxiv](https://arxiv.org/abs/2305.15066)
