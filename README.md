@@ -698,7 +698,7 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 
 ---
 ### Document Understanding
-- KARL: Knowledge Agents via Reinforcement Learning, Databricks, see 2 KARLBench [databrick techreport](https://www.databricks.com/karl.pdf)
+- KARL: Knowledge Agents via Reinforcement Learning, Databricks, see 2 KARLBench [databrick techreport](https://www.databricks.com/karl.pdf).
 - LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understanding
 - M-LongDoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework, EMNLP 2025 [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.469/)
 - BBox DocVQA: A Large Scale Bounding Box Grounded Dataset for Enhancing Reasoning in Document Visual Question Answer, Nov 2025, [arxiv](https://arxiv.org/abs/2511.15090)
