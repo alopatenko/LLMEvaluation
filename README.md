@@ -812,7 +812,11 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
+- DeepFact: Co-Evolving Benchmarks and Agents for Deep Research Factuality, Mar 2026, [arxiv](https://arxiv.org/abs/2603.05912)
+- DeepResearch-9K: A Challenging Benchmark Dataset of Deep-Research Agent, Mar 2026, [arxiv](https://arxiv.org/abs/2603.01152)
+- Deep Research Arena: The First Exam of LLMs’ Research Abilities via Seminar-Grounded Tasks, Mar 2026, [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40620)
 - InnovatorBench: Evaluating Agents’ Ability to Conduct Innovative LLM Research, Oct 2025 [arxiv](https://arxiv.org/abs/2510.27598)
+- Deep Research Agents: Major Breakthrough or Incremental Progress for Medical AI?, Mar 2026, [JMIR](https://www.jmir.org/2026/1/e88195)
 - DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis, Aug 2025, [arxiv](https://arxiv.org/abs/2508.20033)
 - BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
 - DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents, Jun 2025, [arxiv](https://arxiv.org/abs/2506.11763)
