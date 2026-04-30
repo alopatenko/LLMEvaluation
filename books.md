@@ -32,6 +32,10 @@ Probabilistic Graphical Models: Principles and Techniques
 Daphne Koller & Nir Friedman
 https://github.com/Zhenye-Na/machine-learning-uiuc/blob/master/docs/Probabilistic%20Graphical%20Models%20-%20Principles%20and%20Techniques.pdf
 
+Probability in High DimensionAPC 550 Lecture Notes
+Princeton University
+https://web.math.princeton.edu/~rvan/APC550.pdf
+
 David Barber
 Bayesian Reasoning and Machine Learning
 online version 2025
