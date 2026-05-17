@@ -142,6 +142,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [ChainForge](https://chainforge.ai/)
 - [Ironclad Rivet](https://rivet.ironcladapp.com/)
 - LM-PUB-QUIZ: A Comprehensive Framework for Zero-Shot Evaluation of Relational Knowledge in Language Models, [arxiv pdf](https://arxiv.org/abs/2408.15729) [github repository](https://lm-pub-quiz.github.io/)
+- [ai-evaluation from Future AGI](https://github.com/future-agi/ai-evaluation) Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, guardrail scanners (jailbreak, PII, injection), and AutoEval pipelines with CI/CD support
 
 ﻿---
 ### LLM Evaluation articles
