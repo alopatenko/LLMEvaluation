@@ -138,6 +138,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Promptfoo](https://www.promptfoo.dev/)
 - [BigCode Evaluation Harness ](https://github.com/bigcode-project/bigcode-evaluation-harness)
 - [LangFuse LLM Engineering platform with observability and evaluation tools ](https://langfuse.com/)
+- [Future AGI](https://github.com/future-agi/future-agi) - Open-source platform to simulate, evaluate, trace, guardrail, route, and optimize LLM and AI agent apps in one feedback loop, so agents don't just get monitored, they self-improve. Self-hostable. Apache-2.0.
 - [LLMeBench]( https://github.com/qcri/LLMeBench/) see [LLMeBench: A Flexible Framework for Accelerating LLMs Benchmarking](https://arxiv.org/abs/2308.04945)
 - [ChainForge](https://chainforge.ai/)
 - [Ironclad Rivet](https://rivet.ironcladapp.com/)
