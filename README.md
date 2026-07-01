@@ -815,6 +815,7 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
+- DREAM: Deep Research Evaluation with Agentic Metrics, Jul 2026, [arxiv](https://aclanthology.org/2026.acl-long.448/)
 - DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.14683)
 - MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome, Mar 2026, [arxiv](https://arxiv.org/abs/2603.28407)
 - Deep Research, Shallow Evaluation: A Case Study in Meta-Evaluation for Long-Form QA Benchmarks, Mar 2026, [arxiv](https://arxiv.org/abs/2603.06942)
