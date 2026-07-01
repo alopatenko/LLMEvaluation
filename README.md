@@ -270,6 +270,9 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement, Jun 2026 [arxiv](https://arxiv.org/abs/2606.27226)
+- Beyond LLM-as-a-Judge: Deterministic Metrics for Multilingual Generative Text Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.05083)
+- Toward Robust LLM-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization, Mar 2026, [arxiv](https://arxiv.org/abs/2603.08091)
 - Efficient Inference for Noisy LLM-as-a-Judge Evaluation, Jan 2026, [arxiv](https://arxiv.org/abs/2601.05420)
 - MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory, Feb 2026, [Databricks](https://www.databricks.com/blog/memalign-building-better-llm-judges-human-feedback-scalable-memory)
 - How to Correctly Report LLM-as-a-Judge Evaluations, nov 2025, [arxiv](https://arxiv.org/abs/2511.21140)
@@ -812,9 +815,13 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
+- DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.14683)
+- MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome, Mar 2026, [arxiv](https://arxiv.org/abs/2603.28407)
+- Deep Research, Shallow Evaluation: A Case Study in Meta-Evaluation for Long-Form QA Benchmarks, Mar 2026, [arxiv](https://arxiv.org/abs/2603.06942)
 - DeepFact: Co-Evolving Benchmarks and Agents for Deep Research Factuality, Mar 2026, [arxiv](https://arxiv.org/abs/2603.05912)
 - DeepResearch-9K: A Challenging Benchmark Dataset of Deep-Research Agent, Mar 2026, [arxiv](https://arxiv.org/abs/2603.01152)
 - Deep Research Arena: The First Exam of LLMs’ Research Abilities via Seminar-Grounded Tasks, Mar 2026, [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/40620)
+- DeepResearchEval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation, Jan 2026, [arxiv](https://arxiv.org/abs/2601.09688)
 - InnovatorBench: Evaluating Agents’ Ability to Conduct Innovative LLM Research, Oct 2025 [arxiv](https://arxiv.org/abs/2510.27598)
 - Deep Research Agents: Major Breakthrough or Incremental Progress for Medical AI?, Mar 2026, [JMIR](https://www.jmir.org/2026/1/e88195)
 - DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis, Aug 2025, [arxiv](https://arxiv.org/abs/2508.20033)
