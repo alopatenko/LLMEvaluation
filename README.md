@@ -273,6 +273,7 @@ in tech media and blog posts and podcasts from companies
 - Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement, Jun 2026 [arxiv](https://arxiv.org/abs/2606.27226)
 - Beyond LLM-as-a-Judge: Deterministic Metrics for Multilingual Generative Text Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.05083)
 - Toward Robust LLM-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization, Mar 2026, [arxiv](https://arxiv.org/abs/2603.08091)
+- Rethinking Rubric Generation for Improving LLM Judge and Reward Modeling for Open-ended Tasks, Feb 2026, [arxiv](https://arxiv.org/abs/2602.05125)
 - Efficient Inference for Noisy LLM-as-a-Judge Evaluation, Jan 2026, [arxiv](https://arxiv.org/abs/2601.05420)
 - MemAlign: Building Better LLM Judges From Human Feedback With Scalable Memory, Feb 2026, [Databricks](https://www.databricks.com/blog/memalign-building-better-llm-judges-human-feedback-scalable-memory)
 - How to Correctly Report LLM-as-a-Judge Evaluations, nov 2025, [arxiv](https://arxiv.org/abs/2511.21140)
@@ -597,6 +598,9 @@ QA is used in many vertical domains, see Vertical section below
 ---
 ### Code Generating LLMs
 and other software co-pilot tasks
+- The Verification Horizon: No Silver Bullet for Coding Agent Rewards, Jun 2026, [arxiv](https://arxiv.org/abs/2606.26300)
+- RepoZero: Can LLMs Generate a Code Repository from Scratch?, May 2026, [arxiv](https://arxiv.org/abs/2605.07122)
+- SWE-Universe: Scale Real-World Verifiable Environments to Millions, Feb 2026, [arxiv](https://arxiv.org/abs/2602.02361)
 - SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?, Sep 2025, [arxiv](https://arxiv.org/abs/2509.16941)
 - The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason, Jun 2025, [arxiv](https://arxiv.org/abs/2506.12286)
 - SWE-bench Goes Live!, May 2025. [arxiv](https://arxiv.org/abs/2505.23419)
