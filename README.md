@@ -210,6 +210,7 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- Human-AI productivity claims should be reported as time-to-acceptance under explicit acceptance tests, Feb 2026, Position paper, [TechRxiv](https://doi.org/10.36227/techrxiv.177040595.50580086/v1)
 - LiveTradeBench: Seeking Real-World Alpha with Large Language Models, Nov 2025, Evaluation on Live data, [arxiv](https://arxiv.org/abs/2511.03628)
 - Measuring what Matters: Construct Validity in Large Language Model Benchmarks, [NeuriIPS 2025](https://oxrml.com/measuring-what-matters/)
 - The Leaderboard Illusion, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
