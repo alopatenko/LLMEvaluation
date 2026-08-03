@@ -69,6 +69,10 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
+- A Survey on Evaluation of LLM-based Agents, ACL 2026, July 2026 [ACL](https://aclanthology.org/2026.findings-acl.1330)
+- Agentic Tool Use in Large Language Models, Apr 2026 ( see the evaluation chapter) [arxiv](https://arxiv.org/abs/2604.00835?)
+- From benchmarks to deployment: a comprehensive review of agentic AI evaluation, Artificial Intelligence Review, Apr 2026, [Springer](https://link.springer.com/article/10.1007/s10462-026-11571-0?) 
+- AI Agent Systems: Architectures, Applications, and Evaluation, Jan 2026, [arxiv](https://arxiv.org/abs/2601.01743?)
 - Order in the Evaluation Court: A Critical Analysis of NLG Evaluation Trends, Jan 2026, [arxiv](https://arxiv.org/abs/2601.07648)
 - Benchmark^2: Systematic Evaluation of LLM Benchmarks, Jan 2026, [arxiv](https://arxiv.org/abs/2601.03986)
 - Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
