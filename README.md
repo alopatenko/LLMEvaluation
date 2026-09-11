@@ -878,6 +878,20 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
   
 ---
 ### Search and Recommendation Engines
+- Q2D-Web: Evaluating First-Stage Retrievers at Scale, Sep 2026, Perplexity, [blog post](https://www.perplexity.ai/hub/blog/q2d-web)
+- WildSEEK: Evaluating Language Models for Information-Seeking, Aug 2026, Stanford, IT University of Copenhagen etc [arxiv](https://arxiv.org/abs/2608.30683)
+- As It Was: Aligning LLM Search Evaluation with Historical User Preferences, SIGIR 2026, Jul 2026, [arxiv](https://arxiv.org/abs/2607.01040)
+- BrowseComp-Plus: A Fair and Disentangled Evaluation Benchmark for Deep Search Agents, Jul 2026, [ACL 2026](https://aclanthology.org/2026.acl-long.1023/)
+- Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems, Jul 2026, [ACL 2026](https://aclanthology.org/2026.acl-long.1705/)
+- AgentSearchBench: A Benchmark for AI Agent Search in the Wild, Apr 2026, [arxiv](https://arxiv.org/abs/2604.22436v1)
+- Agentic Search in the Wild: Intents and Trajectory Dynamics from 14M+ Real Search Requests, [SIGIR 2026](https://researchportal.ulisboa.pt/en/publications/agentic-search-in-the-wild-intents-and-trajectory-dynamics-from-1/)
+- WideSearch: Benchmarking Agentic Broad Info-Seeking, project page, Apr 2026, [project page at github](https://widesearch-seed.github.io/) [arxiv](https://arxiv.org/abs/2508.07999)
+- Evaluating the Search Agent in a Parallel World, Mar 2026, [arxiv](https://arxiv.org/abs/2603.04751)
+- DRBench: A Realistic Benchmark for Enterprise Deep Research, ICLR 2026, [ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ba520d93c3df592c83a611961314c98-Abstract-Conference.html)
+- SGR-Bench: Benchmarking Search Agents on State-Gated Retrieval, May 2026, [arxiv](https://arxiv.org/abs/2605.22219?)
+- Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents, May 2026, source verification, [arxiv](https://arxiv.org/abs/2605.06635?)
+- AgentIR: Reasoning-Aware Retrieval for Deep Research Agents, Mar 2026, [arxiv](https://arxiv.org/abs/2603.04384?)
+- SAGE: Benchmarking and Improving Retrieval for Deep Research Agents, Feb 2026, [arxiv](https://arxiv.org/abs/2602.05975v1)
 - ConsintBench: Evaluating Language Models on Real-World Consumer Intent Understanding, Oct 2025, [arxiv](https://arxiv.org/abs/2510.13499)
 - Investigating Users' Search Behavior and Outcome with ChatGPT in Learning-oriented Search Tasks, SIGIR-AP 2024, [ACM](https://dl.acm.org/doi/abs/10.1145/3673791.3698406)
 - Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation,[RecSys 2023](https://dl.acm.org/doi/abs/10.1145/3604915.3608860)
