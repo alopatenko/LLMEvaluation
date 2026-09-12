@@ -69,6 +69,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
+- Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation, Sep 2026, [arxiv](https://arxiv.org/abs/2609.11115)
 - A Survey on Evaluation of LLM-based Agents, ACL 2026, July 2026 [ACL](https://aclanthology.org/2026.findings-acl.1330)
 - Agentic Tool Use in Large Language Models, Apr 2026 ( see the evaluation chapter) [arxiv](https://arxiv.org/abs/2604.00835?)
 - From benchmarks to deployment: a comprehensive review of agentic AI evaluation, Artificial Intelligence Review, Apr 2026, [Springer](https://link.springer.com/article/10.1007/s10462-026-11571-0?) 
@@ -181,6 +182,10 @@ in tech media and blog posts and podcasts from companies
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Frontier models
+- FrontierOR: Benchmarking LLMs' Capacity for Efficient Algorithm Design in Large-Scale Optimization, May 2026, [arxiv](https://arxiv.org/abs/2604.12290)
+- Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization, Apr 2026, [arxiv](https://arxiv.org/abs/2604.12290)
+- FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2025, [arxiv](https://arxiv.org/abs/2604.12290)
+- AA-Omniscience: Evaluating Cross-Domain Knowledge Reliability in Large Language Models, Nov 2025, [arxiv](https://arxiv.org/abs/2511.13029)
 - Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures, Oct 2025, [arxiv](https://arxiv.org/abs/2510.24081)
 - SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric Knowledge, Sep 2025, [arxiv](https://arxiv.org/abs/2509.07968)
 - MCP Atlas Sep 2025 [Leaderboard](https://scale.com/leaderboard/mcp_atlas) [blog post](https://scale.com/blog/mcp-atlas)
@@ -214,6 +219,9 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- What AI Benchmarks Actually Measure: Adapting Convergent and Discriminant Validity to Interrogate Fifty-Six AI Benchmarks, Sep 2026, [arxiv](https://arxiv.org/abs/2609.08812)
+- How Inference Compute Shapes Frontier LLM Evaluation, Jul 2026, [arxiv](https://arxiv.org/abs/2606.17930v1)
+- The Capability Frontier: Benchmarks Miss 82% of Model Performance, jun 2026, [arxiv](https://arxiv.org/abs/2606.26836)
 - LiveTradeBench: Seeking Real-World Alpha with Large Language Models, Nov 2025, Evaluation on Live data, [arxiv](https://arxiv.org/abs/2511.03628)
 - Measuring what Matters: Construct Validity in Large Language Model Benchmarks, [NeuriIPS 2025](https://oxrml.com/measuring-what-matters/)
 - The Leaderboard Illusion, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
@@ -823,6 +831,7 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
+- Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents, Sep 2026, [arxiv](https://arxiv.org/abs/2609.11318)
 - DREAM: Deep Research Evaluation with Agentic Metrics, Jul 2026, [arxiv](https://aclanthology.org/2026.acl-long.448/)
 - DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.14683)
 - MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome, Mar 2026, [arxiv](https://arxiv.org/abs/2603.28407)
@@ -966,6 +975,8 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 
 ---
 ### Science
+- Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents, [arxiv](https://arxiv.org/abs/2609.11243)
+- OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows, Sep 2026, [arxiv](https://arxiv.org/abs/2609.09203)
 - Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks, NeurIPS 2023, [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbb330189ce02be00cf7346167028ab1-Abstract-Datasets_and_Benchmarks.html)
