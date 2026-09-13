@@ -154,7 +154,11 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
-- Does the Harness Matter? Lessons from ALE-Claw on Agents’ Last Exam, Ju 2026, [blog](https://agents-last-exam.org/blogs/harness-matters)
+- Measuring tactical intelligence targeting and conventional weapons capabilities of AI models, Sep 2026, [Anthropic Research](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
+- Who Grades the Graders? Rethinking Verifier Design for Computer Use Agents, Sep 2026, [arxiv](https://labs.scale.com/blog/verifier-design-for-cua)
+- Piloting the world's first double-blind AI evaluations, Aug 2026, [Google DeepMind blog](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/)
+- Separating signal from noise in coding evaluations, Jul 2026, [openAI blog](https://openai.com/index/separating-signal-from-noise-coding-evaluations)
+- Does the Harness Matter? Lessons from ALE-Claw on Agents’ Last Exam, Jun 2026, [blog](https://agents-last-exam.org/blogs/harness-matters)
 - Agents’ Last Exam, Jun 2026, [blog](https://agents-last-exam.org/blogs/job-ready-agents)
 - Demystifying evals for AI agents, Anthropic, Jan 2026, [Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - Product Evals in Three Simple Steps, Eugene Yan, Nov 2025, [blog post](https://eugeneyan.com/writing/product-evals/)
