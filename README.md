@@ -680,6 +680,7 @@ and other software co-pilot tasks
 ---
 ### Agent LLM Architectures
 Agentic Tasks
+- ClawBench: Can AI Agents Complete Everyday Online Tasks?, Apr 2026, [arxiv](https://arxiv.org/abs/2604.08523) [github](https://github.com/TIGER-AI-Lab/ClawBench)
 - Demystifying evals for AI agents, Anthropic, Jan 2026, [Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - DeliveryBench: Can Agents Earn Profit in Real World?, Dec 2025, [arxiv](https://arxiv.org/abs/2512.19234)
 - Crumbling Under Pressure: PropensityBench Reveals AI’s Weaknesses, Nov 2025, [arxiv](https://scale.com/blog/propensitybench)
