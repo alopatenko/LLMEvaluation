@@ -69,6 +69,13 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [Citation](#citation)
 ---
 ### Reviews and Surveys
+- Evaluating and regulating agentic AI: A study of benchmarks, metrics, and regulation, [Information Fusion for Dec 2026](https://www.sciencedirect.com/science/article/pii/S1566253526003246)
+- Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation, Sep 2026, [arxiv](https://arxiv.org/abs/2609.11115)
+- A Survey on Evaluation of LLM-based Agents, ACL 2026, July 2026 [ACL](https://aclanthology.org/2026.findings-acl.1330)
+- Agentic Tool Use in Large Language Models, Apr 2026 ( see the evaluation chapter) [arxiv](https://arxiv.org/abs/2604.00835?)
+- From benchmarks to deployment: a comprehensive review of agentic AI evaluation, Artificial Intelligence Review, Apr 2026, [Springer](https://link.springer.com/article/10.1007/s10462-026-11571-0?)
+- General Agent Evaluation, Feb 2026, [arxiv](https://arxiv.org/abs/2602.22953)
+- AI Agent Systems: Architectures, Applications, and Evaluation, Jan 2026, [arxiv](https://arxiv.org/abs/2601.01743?)
 - Order in the Evaluation Court: A Critical Analysis of NLG Evaluation Trends, Jan 2026, [arxiv](https://arxiv.org/abs/2601.07648)
 - Benchmark^2: Systematic Evaluation of LLM Benchmarks, Jan 2026, [arxiv](https://arxiv.org/abs/2601.03986)
 - Toward an evaluation science for generative AI systems, Mar 2025, [arxiv](https://arxiv.org/abs/2503.05336)
@@ -112,8 +119,10 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
   
 ---
 ### Evaluation Software
+- ALE Claw is the in-tree reference harness for running a general computer-use agent on Agents' Last Exam.  [ALE Claw](https://github.com/rdi-berkeley/agents-last-exam/tree/main/ale_run/agents/ale_claw)
 - [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
 - Eureka, Microsoft, A framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. [github](https://github.com/microsoft/eureka-ml-insights) Sep 2024 [arxiv](https://arxiv.org/abs/2409.10566)
+- [Rhesis](https://github.com/rhesis-ai/rhesis) Open-source testing platform & SDK for LLM and agentic applications. Define requirements in plain language, generates hundreds of test scenarios including adversarial cases, supports both single-turn and multi-turn testing. Built for cross-functional teams with UI for non-technical users and SDK/API for engineers. [website](https://www.rhesis.ai/)
 - [OpenAI Evals]( https://github.com/openai/evals)
 - Visualizations of embedding space, [Atlas from Apple](https://apple.github.io/embedding-atlas/)
 - [github: LLM Comparator from PAIR Google](https://github.com/PAIR-code/llm-comparator), a side by side evaluation tool, [LLM Comparator: A tool for human-driven LLM evaluation](https://medium.com/people-ai-research/llm-comparator-a-tool-for-human-driven-llm-evaluation-81292c17f521)
@@ -146,6 +155,12 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+- Measuring tactical intelligence targeting and conventional weapons capabilities of AI models, Sep 2026, [Anthropic Research](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
+- Who Grades the Graders? Rethinking Verifier Design for Computer Use Agents, Sep 2026, [arxiv](https://labs.scale.com/blog/verifier-design-for-cua)
+- Piloting the world's first double-blind AI evaluations, Aug 2026, [Google DeepMind blog](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/)
+- Separating signal from noise in coding evaluations, Jul 2026, [openAI blog](https://openai.com/index/separating-signal-from-noise-coding-evaluations)
+- Does the Harness Matter? Lessons from ALE-Claw on Agents’ Last Exam, Jun 2026, [blog](https://agents-last-exam.org/blogs/harness-matters)
+- Agents’ Last Exam, Jun 2026, [blog](https://agents-last-exam.org/blogs/job-ready-agents)
 - Demystifying evals for AI agents, Anthropic, Jan 2026, [Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - Product Evals in Three Simple Steps, Eugene Yan, Nov 2025, [blog post](https://eugeneyan.com/writing/product-evals/)
 - Measuring political bias in Claude, Nov 2025, [Anthropic](https://www.anthropic.com/news/political-even-handedness)
@@ -177,6 +192,10 @@ in tech media and blog posts and podcasts from companies
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Frontier models
+- FrontierOR: Benchmarking LLMs' Capacity for Efficient Algorithm Design in Large-Scale Optimization, May 2026, [arxiv](https://arxiv.org/abs/2604.12290)
+- Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization, Apr 2026, [arxiv](https://arxiv.org/abs/2604.12290)
+- FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2025, [arxiv](https://arxiv.org/abs/2604.12290)
+- AA-Omniscience: Evaluating Cross-Domain Knowledge Reliability in Large Language Models, Nov 2025, [arxiv](https://arxiv.org/abs/2511.13029)
 - Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures, Oct 2025, [arxiv](https://arxiv.org/abs/2510.24081)
 - SimpleQA Verified: A Reliable Factuality Benchmark to Measure Parametric Knowledge, Sep 2025, [arxiv](https://arxiv.org/abs/2509.07968)
 - MCP Atlas Sep 2025 [Leaderboard](https://scale.com/leaderboard/mcp_atlas) [blog post](https://scale.com/blog/mcp-atlas)
@@ -210,6 +229,9 @@ in tech media and blog posts and podcasts from companies
   
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
+- What AI Benchmarks Actually Measure: Adapting Convergent and Discriminant Validity to Interrogate Fifty-Six AI Benchmarks, Sep 2026, [arxiv](https://arxiv.org/abs/2609.08812)
+- How Inference Compute Shapes Frontier LLM Evaluation, Jul 2026, [arxiv](https://arxiv.org/abs/2606.17930v1)
+- The Capability Frontier: Benchmarks Miss 82% of Model Performance, jun 2026, [arxiv](https://arxiv.org/abs/2606.26836)
 - Human-AI productivity claims should be reported as time-to-acceptance under explicit acceptance tests, Feb 2026, Position paper, [TechRxiv](https://doi.org/10.36227/techrxiv.177040595.50580086/v1)
 - LiveTradeBench: Seeking Real-World Alpha with Large Language Models, Nov 2025, Evaluation on Live data, [arxiv](https://arxiv.org/abs/2511.03628)
 - Measuring what Matters: Construct Validity in Large Language Model Benchmarks, [NeuriIPS 2025](https://oxrml.com/measuring-what-matters/)
@@ -659,6 +681,7 @@ and other software co-pilot tasks
 ---
 ### Agent LLM Architectures
 Agentic Tasks
+- ClawBench: Can AI Agents Complete Everyday Online Tasks?, Apr 2026, [arxiv](https://arxiv.org/abs/2604.08523) [github](https://github.com/TIGER-AI-Lab/ClawBench)
 - Demystifying evals for AI agents, Anthropic, Jan 2026, [Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - DeliveryBench: Can Agents Earn Profit in Real World?, Dec 2025, [arxiv](https://arxiv.org/abs/2512.19234)
 - Crumbling Under Pressure: PropensityBench Reveals AI’s Weaknesses, Nov 2025, [arxiv](https://scale.com/blog/propensitybench)
@@ -820,6 +843,7 @@ and knowledge assistant and information seeking LLM based systems,
 - Evaluating Retrieval Quality in Retrieval-Augmented Generation, Apr 2024, [arxiv](https://arxiv.org/abs/2404.13781)
 - IRSC: A Zero-shot Evaluation Benchmark for Information Retrieval through Semantic Comprehension in Retrieval-Augmented Generation Scenarios, Sep 2024, [arxiv](https://arxiv.org/abs/2409.15763)
 ### Evaluation Deep Research
+- Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents, Sep 2026, [arxiv](https://arxiv.org/abs/2609.11318)
 - DREAM: Deep Research Evaluation with Agentic Metrics, Jul 2026, [arxiv](https://aclanthology.org/2026.acl-long.448/)
 - DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.14683)
 - MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome, Mar 2026, [arxiv](https://arxiv.org/abs/2603.28407)
@@ -875,6 +899,20 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
   
 ---
 ### Search and Recommendation Engines
+- Q2D-Web: Evaluating First-Stage Retrievers at Scale, Sep 2026, Perplexity, [blog post](https://www.perplexity.ai/hub/blog/q2d-web)
+- WildSEEK: Evaluating Language Models for Information-Seeking, Aug 2026, Stanford, IT University of Copenhagen etc [arxiv](https://arxiv.org/abs/2608.30683)
+- As It Was: Aligning LLM Search Evaluation with Historical User Preferences, SIGIR 2026, Jul 2026, [arxiv](https://arxiv.org/abs/2607.01040)
+- BrowseComp-Plus: A Fair and Disentangled Evaluation Benchmark for Deep Search Agents, Jul 2026, [ACL 2026](https://aclanthology.org/2026.acl-long.1023/)
+- Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems, Jul 2026, [ACL 2026](https://aclanthology.org/2026.acl-long.1705/)
+- AgentSearchBench: A Benchmark for AI Agent Search in the Wild, Apr 2026, [arxiv](https://arxiv.org/abs/2604.22436v1)
+- Agentic Search in the Wild: Intents and Trajectory Dynamics from 14M+ Real Search Requests, [SIGIR 2026](https://researchportal.ulisboa.pt/en/publications/agentic-search-in-the-wild-intents-and-trajectory-dynamics-from-1/)
+- WideSearch: Benchmarking Agentic Broad Info-Seeking, project page, Apr 2026, [project page at github](https://widesearch-seed.github.io/) [arxiv](https://arxiv.org/abs/2508.07999)
+- Evaluating the Search Agent in a Parallel World, Mar 2026, [arxiv](https://arxiv.org/abs/2603.04751)
+- DRBench: A Realistic Benchmark for Enterprise Deep Research, ICLR 2026, [ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ba520d93c3df592c83a611961314c98-Abstract-Conference.html)
+- SGR-Bench: Benchmarking Search Agents on State-Gated Retrieval, May 2026, [arxiv](https://arxiv.org/abs/2605.22219?)
+- Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents, May 2026, source verification, [arxiv](https://arxiv.org/abs/2605.06635?)
+- AgentIR: Reasoning-Aware Retrieval for Deep Research Agents, Mar 2026, [arxiv](https://arxiv.org/abs/2603.04384?)
+- SAGE: Benchmarking and Improving Retrieval for Deep Research Agents, Feb 2026, [arxiv](https://arxiv.org/abs/2602.05975v1)
 - ConsintBench: Evaluating Language Models on Real-World Consumer Intent Understanding, Oct 2025, [arxiv](https://arxiv.org/abs/2510.13499)
 - Investigating Users' Search Behavior and Outcome with ChatGPT in Learning-oriented Search Tasks, SIGIR-AP 2024, [ACM](https://dl.acm.org/doi/abs/10.1145/3673791.3698406)
 - Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation,[RecSys 2023](https://dl.acm.org/doi/abs/10.1145/3604915.3608860)
@@ -949,6 +987,8 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 
 ---
 ### Science
+- Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents, [arxiv](https://arxiv.org/abs/2609.11243)
+- OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows, Sep 2026, [arxiv](https://arxiv.org/abs/2609.09203)
 - Unveiling the power of language models in chemical research question answering, Jan 2025, [Nature, communication chemistry](https://www.nature.com/articles/s42004-024-01394-x)
 - SciRepEval: A Multi-Format Benchmark for Scientific Document Representations, 2022, [arxiv](https://arxiv.org/abs/2211.13308)
 - What can Large Language Models do in chemistry? A comprehensive benchmark on eight tasks, NeurIPS 2023, [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbb330189ce02be00cf7346167028ab1-Abstract-Datasets_and_Benchmarks.html)
@@ -966,6 +1006,8 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 
 ---
 ### Financial
+- ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge, Nov 2025, [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.739/), [benchmark dataset at HuggingFace](https://huggingface.co/datasets/cy0307/ESGenius)
+- MMESGBench: Pioneering Multimodal Understanding and Complex Reasoning Benchmark for ESG Tasks, Jul 2025, [arxiv](https://arxiv.org/abs/2507.18932), [benchmark code and data at github](https://github.com/Zhanglei1103/MMESGBench)
 - Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, [arxiv](https://arxiv.org/abs/2402.11194v2)
 - PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance, Jun 2023, [arxiv](https://arxiv.org/abs/2306.05443)
 - BloombergGPT: A Large Language Model for Finance (see Chapter 5 Evaluation), Mar 2023, [arxiv](https://arxiv.org/abs/2303.17564)
