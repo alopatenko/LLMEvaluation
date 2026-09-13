@@ -117,6 +117,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
   
 ---
 ### Evaluation Software
+- ALE Claw is the in-tree reference harness for running a general computer-use agent on Agents' Last Exam.  [ALE Claw](https://github.com/rdi-berkeley/agents-last-exam/tree/main/ale_run/agents/ale_claw)
 - [EleutherAI LLM Evaluation Harness ](https://github.com/EleutherAI/lm-evaluation-harness)
 - Eureka, Microsoft, A framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. [github](https://github.com/microsoft/eureka-ml-insights) Sep 2024 [arxiv](https://arxiv.org/abs/2409.10566)
 - [OpenAI Evals]( https://github.com/openai/evals)
@@ -151,6 +152,8 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+- Does the Harness Matter? Lessons from ALE-Claw on Agents’ Last Exam, Ju 2026, [blog](https://agents-last-exam.org/blogs/harness-matters)
+- Agents’ Last Exam, Jun 2026, [blog](https://agents-last-exam.org/blogs/job-ready-agents)
 - Demystifying evals for AI agents, Anthropic, Jan 2026, [Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - Product Evals in Three Simple Steps, Eugene Yan, Nov 2025, [blog post](https://eugeneyan.com/writing/product-evals/)
 - Measuring political bias in Claude, Nov 2025, [Anthropic](https://www.anthropic.com/news/political-even-handedness)
