@@ -293,7 +293,7 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
-- The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations, Aug 2026, [arix](https://arxiv.org/abs/2608.18300)
+- The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations, Aug 2026, [arxiv](https://arxiv.org/abs/2608.18300)
 - Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement, Jun 2026 [arxiv](https://arxiv.org/abs/2606.27226)
 - Beyond LLM-as-a-Judge: Deterministic Metrics for Multilingual Generative Text Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.05083)
 - Toward Robust LLM-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization, Mar 2026, [arxiv](https://arxiv.org/abs/2603.08091)
