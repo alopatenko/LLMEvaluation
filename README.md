@@ -1004,6 +1004,8 @@ And Dialog systems [search](https://github.com/alopatenko/LLMEvaluation/wiki/Gen
 
 ---
 ### Financial
+- ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge, Nov 2025, [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.739/), [benchmark dataset at HuggingFace](https://huggingface.co/datasets/cy0307/ESGenius)
+- MMESGBench: Pioneering Multimodal Understanding and Complex Reasoning Benchmark for ESG Tasks, Jul 2025, [arxiv](https://arxiv.org/abs/2507.18932), [benchmark code and data at github](https://github.com/Zhanglei1103/MMESGBench)
 - Evaluating LLMs' Mathematical Reasoning in Financial Document Question Answering, Feb 24, [arxiv](https://arxiv.org/abs/2402.11194v2)
 - PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance, Jun 2023, [arxiv](https://arxiv.org/abs/2306.05443)
 - BloombergGPT: A Large Language Model for Finance (see Chapter 5 Evaluation), Mar 2023, [arxiv](https://arxiv.org/abs/2303.17564)
