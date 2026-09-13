@@ -232,6 +232,7 @@ in tech media and blog posts and podcasts from companies
 - What AI Benchmarks Actually Measure: Adapting Convergent and Discriminant Validity to Interrogate Fifty-Six AI Benchmarks, Sep 2026, [arxiv](https://arxiv.org/abs/2609.08812)
 - How Inference Compute Shapes Frontier LLM Evaluation, Jul 2026, [arxiv](https://arxiv.org/abs/2606.17930v1)
 - The Capability Frontier: Benchmarks Miss 82% of Model Performance, jun 2026, [arxiv](https://arxiv.org/abs/2606.26836)
+- Human-AI productivity claims should be reported as time-to-acceptance under explicit acceptance tests, Feb 2026, Position paper, [TechRxiv](https://doi.org/10.36227/techrxiv.177040595.50580086/v1)
 - LiveTradeBench: Seeking Real-World Alpha with Large Language Models, Nov 2025, Evaluation on Live data, [arxiv](https://arxiv.org/abs/2511.03628)
 - Measuring what Matters: Construct Validity in Large Language Model Benchmarks, [NeuriIPS 2025](https://oxrml.com/measuring-what-matters/)
 - The Leaderboard Illusion, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
