@@ -293,6 +293,7 @@ in tech media and blog posts and podcasts from companies
 
 ---
 ### LLM as Judge
+- GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents, Sep 2026, Amazon, [arxiv](https://arxiv.org/abs/2609.12191v1)
 - The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations, Aug 2026, [arxiv](https://arxiv.org/abs/2608.18300)
 - Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement, Jun 2026 [arxiv](https://arxiv.org/abs/2606.27226)
 - Beyond LLM-as-a-Judge: Deterministic Metrics for Multilingual Generative Text Evaluation, Apr 2026, [arxiv](https://arxiv.org/abs/2604.05083)
