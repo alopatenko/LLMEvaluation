@@ -591,6 +591,7 @@ A few corrections/qualifications are important:
 - WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models, April 2024, [arxiv](https://arxiv.org/abs/2404.16308)
 - Chapter 19 in The Ethics of Advanced AI Assistants, Apr 2024, Google DeepMind, [pdf at google](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/ethics-of-advanced-ai-assistants/the-ethics-of-advanced-ai-assistants-2024-i.pdf)
 - BEHONEST: Benchmarking Honesty of Large Language Models, June 2024, [arxiv](https://arxiv.org/abs/2406.13261)
+- Jevsus: an open dataset of what a probability-only model answers when a statement can only be true or false, one subject swapped at a time, across wordings, perspectives and eleven languages, Sep 2026, [repo](https://github.com/2nd1st/Jevsus), [browse](https://position.secondfirst.ai), [method](https://github.com/2nd1st/Jevsus/blob/main/docs/method.md)
   
 ---
 ### Biases
