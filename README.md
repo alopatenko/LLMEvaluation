@@ -754,6 +754,14 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 
 ---
 ### Document Understanding
+- XL-DocBench: Benchmarking Evidence-Grounded Extra-Long Document Understanding, Jul 2026, [Microsoft Research](https://www.microsoft.com/en-us/research/publication/xl-docbench-benchmarking-evidence-grounded-extra-long-document-understanding/)
+- The olmOCR Project: Building Fully Open OCR using VLMs, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.acl-demo.62/)
+- From Recognition to Reasoning: Benchmarking and Enhancing MLLMs on Real-World Receipt Document Understanding, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.acl-long.2135/)
+- DocSplit: A Comprehensive Benchmark Dataset and Evaluation Approach for Document Packet Recognition and Splitting, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.acl-industry.12/)
+- CC-OCR V2: Benchmarking Large Multimodal Models for Literacy in Real-world Document Processing, May 2026, [arxiv](https://arxiv.org/abs/2605.03903)
+- ParseBench: A Document Parsing Benchmark for AI Agents, Apr 2026, [arxiv](https://arxiv.org/abs/2604.08538)
+- Benchmarking Complex Multimodal Document Processing Pipelines: A Unified Evaluation Framework for Enterprise AI, Apr 2026, [arxiv](https://arxiv.org/abs/2604.26382)
+- MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios, Mar 2026, [arxiv](https://arxiv.org/abs/2603.28130)
 - KARL: Knowledge Agents via Reinforcement Learning, Databricks, see 2 KARLBench [databrick techreport](https://www.databricks.com/karl.pdf).
 - LongDA: Benchmarking LLM Agents for Long-Document Data Analysis, Jan 2026, [arxiv](https://arxiv.org/abs/2601.02598) Document Understanding
 - M-LongDoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework, EMNLP 2025 [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.469/)
