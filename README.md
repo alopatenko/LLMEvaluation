@@ -856,6 +856,11 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 ## LLM Systems
 ### RAG Evaluation
 and knowledge assistant and information seeking LLM based systems, 
+- Evaluating Retrieval Augmented Generation: A Comprehensive Review of Evaluation Dimensions, Question Types, and Application, Jun 2026, [Springer](https://link.springer.com/article/10.1007/s42979-026-05134-x)
+- XRAG: Examining the Core — Benchmarking Foundational Components in Advanced Retrieval-Augmented Generation, Jun 2026, [IEEE](https://ieeexplore.ieee.org/document/11629265/)
+- AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.findings-acl.66/)
+- Trustworthiness in Retrieval-Augmented Generation Systems: A Survey, May 2026, [arxiv](https://arxiv.org/abs/2409.10102)
+- URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models, Mar 2026, [arxiv](https://arxiv.org/abs/2603.19281)
 - RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering, [NeurIPS 2025](https://openreview.net/pdf?id=GGMQ3gYhzh)
 - Evaluating Large Language Models for Cross-Lingual Retrieval, Sep 2025, [arxiv](https://arxiv.org/abs/2509.14749)
 - A Comprehensive Evaluation of Embedding Models and LLMs for IR and QA Across English and Italian, May 2025, [ Advances in Natural Language Processing and Text Mining May 2025](https://www.mdpi.com/2504-2289/9/5/141)
