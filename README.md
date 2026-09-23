@@ -900,6 +900,13 @@ and knowledge assistant and information seeking LLM based systems,
 - FieldWorkArena: Agentic AI Benchmark for Real Field Work Tasks, May 2025, [arxiv](https://arxiv.org/abs/2505.19662)
 - GAIA: a benchmark for General AI Assistants, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12983)
 ### Evaluation Agentic Search
+- BrowseComp-Plus: A Fair and Disentangled Evaluation Benchmark for Deep Search Agents, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.acl-long.1023/)
+- Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.acl-long.1705/)
+- DeepResearch Bench II: Diagnosing Deep Research Agents via Rubrics from Expert Reports, Feb 2026, [Agent Research Lab](https://agentresearchlab.com/benchmarks/deepresearch-bench-ii/)
+- Characterizing Deep Research: A Benchmark and Formal Definition, Apr 2026, [ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/114e1dc345fe31b8b9b0c6f7b55a0644-Abstract-Conference.html)
+- DRBench: A Realistic Benchmark for Enterprise Deep Research, Apr 2026, [ICLR](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0ba520d93c3df592c83a611961314c98-Abstract-Conference.html)
+- Agentic Search: Benchmark 8 Search APIs for Agents, May 2026, [AI Multiple](https://aimultiple.com/agentic-search)
+- DeepSearchQA Benchmark, Feb 2026, [GitHub](https://github.com/Parcha-ai/benchmarks/tree/main/deepsearchqa)
 - WideSearch: Benchmarking Agentic Broad Info-Seeking, Aug 2025, [arxiv](https://arxiv.org/abs/2508.07999)
 - BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent, Aug 2025, [arxiv](https://arxiv.org/abs/2508.06600)
 - Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge, Jun 2025, [arxiv](https://arxiv.org/abs/2506.21506)
