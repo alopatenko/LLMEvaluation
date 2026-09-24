@@ -54,6 +54,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
     - [Reward Models](#reward-models)
     - [Various unclassified tasks](#various-unclassified-tasks)
 - [LLM Systems](#llm-systems)
+    - [Agentic Systems](#agentic-systems)
     - [RAG Evaluation](#rag-evaluation)
     - [Evaluation Deep Research](#evaluation-deep-research)
     - [Evaluation Agentic Search](#evaluation-agentic-search)
@@ -872,6 +873,19 @@ AGI (Artificial General Intelligence) evaluation refers to the process of assess
 - Evaluating Copyright Takedown Methods for Language Models, June 2024, [arxiv](https://arxiv.org/abs/2406.18664)
 ---
 ## LLM Systems
+### Agentic systems
+- Efficient Benchmarking in Production: A Study of an Evolving LLM Agent, Sep 2026, [arxiv](https://arxiv.org/abs/2609.21267)
+- Policy Loopholes in Agent Evaluation: When Policy Ambiguity Masquerades as Agent Error, Sep 2026, [arxiv](https://arxiv.org/abs/2609.14400)
+- Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation, Sep 2026, [arxiv](https://arxiv.org/abs/2609.04298)
+- EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction, Sep 2026, [arxiv](https://arxiv.org/abs/2609.02783)
+- Benchmarking LLM Judges for Mobile Agent Evaluation, Aug 2026, [arxiv](https://arxiv.org/abs/2608.11434)
+- AgentSLABench: Evaluating and Benchmarking Agentic Systems Under Resource Constraints, Aug 2026, [arxiv](https://arxiv.org/abs/2608.00805)
+- The Hidden Footprint: Making Storage a First-Class Metric for LLM Agent Evaluation, Jul 2026, [arxiv](https://arxiv.org/abs/2607.11149)
+- HAS-Bench: Evaluating LLM-Based Human-Agent Systems under Configurable Human Participation, Jul 2026, [arxiv](https://arxiv.org/abs/2607.04329)
+- SWE-Milestone: Evaluating AI Agents on Continuous Software Evolution, Jul 2026, [arxiv](https://arxiv.org/abs/2603.13428)
+- Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle, Jun 2026, [arxiv](https://arxiv.org/abs/2606.07462)
+- What Twelve LLM Agent Benchmark Papers Disclose About Themselves: A Pilot Audit and an Open Scoring Schema, May 2026, [arxiv](https://arxiv.org/abs/2605.21404)
+- General Agent Evaluation, Feb 2026, [arxiv](https://arxiv.org/abs/2602.22953)
 ### RAG Evaluation
 and knowledge assistant and information seeking LLM based systems, 
 - Evaluating Retrieval Augmented Generation: A Comprehensive Review of Evaluation Dimensions, Question Types, and Application, Jun 2026, [Springer](https://link.springer.com/article/10.1007/s42979-026-05134-x)
