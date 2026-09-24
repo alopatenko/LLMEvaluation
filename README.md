@@ -154,6 +154,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [ChainForge](https://chainforge.ai/)
 - [Ironclad Rivet](https://rivet.ironcladapp.com/)
 - LM-PUB-QUIZ: A Comprehensive Framework for Zero-Shot Evaluation of Relational Knowledge in Language Models, [arxiv pdf](https://arxiv.org/abs/2408.15729) [github repository](https://lm-pub-quiz.github.io/)
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) records the HTTP traffic between an eval harness and its model server, then serves it back, so a published eval result can be re-derived with no endpoint reachable, no key and no spend. Re-running an EvalScope eval against the recording with the model server killed reproduced every metric byte-for-byte; only latency differed. Apache-2.0.
 
 ﻿---
 ### LLM Evaluation articles
