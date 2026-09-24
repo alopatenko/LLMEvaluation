@@ -42,6 +42,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
     - [Safe AI](#safe-ai)
     - [Cybersecurity](#cybersecurity)
     - [Code Generating LLMs](#code-generating-llms)
+    - [Analytics Agents (text to SQL, BI and data analysis)](#analytics-agents-text-to-sql-bi-and-data-analysis)
     - [Summarization](#summarization)
     - [LLM  quality (generic methods: overfitting, redundant layers etc)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
     - [Inference Performance](#inference-performance)
@@ -108,6 +109,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
 - [SWE Bench ](https://www.swebench.com/)
+- [Benchouse](https://benchouse.ai/benchmark), independent leaderboard of analytics agent products (Snowflake Cortex, Databricks Genie, Hex, nao, Lightdash, Supersimple) answering the same 300 questions over a warehouse with withheld ground truth, scored on accuracy, completeness and restraint
 - [AlpacaEval leaderboard](https://tatsu-lab.github.io/alpaca_eval/) Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators, Apr 2024, [arxiv](https://arxiv.org/abs/2404.04475)  [code](https://github.com/tatsu-lab/alpaca_eval)
 - [Open Medical LLM Leaderboard from HF](https://huggingface.co/blog/leaderboard-medicalllm) [Explanation](https://huggingface.co/blog/leaderboard-medicalllm)
 - [Gorilla, Berkeley function calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) [Explanation ](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
@@ -679,6 +681,20 @@ and other software co-pilot tasks
 - CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution, Jan 2024, [arxiv](https://arxiv.org/abs/2401.03065)
 - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning, Jul 2022, [arxiv](https://arxiv.org/abs/2207.01780) [code at salesforce github](https://github.com/salesforce/CodeRL)
   
+---
+### Analytics Agents (text to SQL, BI and data analysis)
+agents that answer business questions over a data warehouse: schema discovery, query generation, and the analysis on top of the result
+- DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces, Aug 2026, [arxiv](https://arxiv.org/abs/2608.03451)
+- [Benchouse](https://benchouse.ai/benchmark), an independent benchmark of analytics agent products (not models) on a simulated e-commerce warehouse with a withheld truth ledger. 300 questions in three tiers (descriptive / diagnostic / prescriptive), graded by an LLM judge on accuracy, completeness and restraint, where restraint is the share of deliberately unanswerable questions the agent declines instead of answering. [methodology](https://benchouse.ai/blog/how-we-benchmark-analytics-agents)
+- The Agentic Analytics Benchmark, ClickHouse, 201 real production analytics questions over a warehouse, [blog and leaderboard](https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist)
+- AA-AnalystAgent, Artificial Analysis, end to end quantitative analysis over spreadsheets and documents across 14 domains, scored pass^5 over five independent runs, [leaderboard](https://artificialanalysis.ai/evaluations/aa-analyst-agent)
+- DataBench, Hex, ~100 analytical tasks run inside a single product to compare models rather than products, [leaderboard](https://hex.tech/databench/)
+- ADE-bench, dbt Labs, analytical tasks in realistic dbt projects with staging models, macros and broken joins, [blog](https://docs.getdbt.com/blog/building-a-better-data-agent-benchmark)
+- FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data, 2007 tasks, Sep 2025, [arxiv](https://arxiv.org/abs/2509.02473)
+- InsightBench: Evaluating Business Analytics Agents Through Multi-Step Insight Generation, Jul 2024, [arxiv](https://arxiv.org/abs/2407.06423)
+- [Spider 2.0](https://spider2-sql.github.io/), enterprise scale text to SQL workflows over real warehouses with very large schemas, [github](https://github.com/xlang-ai/Spider2)
+- [BIRD](https://bird-bench.github.io/), large text to SQL benchmark with execution accuracy and efficiency scoring over 95 databases
+
 ---
 ### Summarization
 - Evaluation & Hallucination Detection for Abstractive Summaries, [online blog article](https://eugeneyan.com/writing/abstractive/)
