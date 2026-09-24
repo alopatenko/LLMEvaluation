@@ -310,7 +310,7 @@ in tech media and blog posts and podcasts from companies
 - Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning, Google, Oct 2025, [arxiv](https://arxiv.org/abs/2510.23038)
 - Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction, Sep 2025, [arxiv](https://arxiv.org/abs/2509.18658)
 - An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Model is not a General Substitute for GPT-4, Jul 2025, [ACL 2025](https://aclanthology.org/2025.findings-acl.306/)
-- Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [TruthEval](https://giovannigatti.github.io/trutheval/)
+- Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation, [arXiv](https://arxiv.org/abs/2609.15561), [TruthBench](https://github.com/GiovanniGatti/truthbench)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
 - Judge Anything: MLLM as a Judge Across Any Modality, Mar 2025, [arxiv](https://arxiv.org/abs/2503.17489)
 - No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding, Mar 2025, [arxiv](No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding
