@@ -16,76 +16,73 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 
 # Table of contents
 ## 📚 Foundations
-- [Reviews and Surveys](#reviews-and-surveys)
-- [Leaderboards and Arenas](#leaderboards-and-arenas)
-- [Evaluation Software](#evaluation-software)
-- [LLM Evaluation Articles in Tech Media and Blog Posts](#llm-evaluation-articles)
-- [Other Collections](#other-collections)
-- [Citation](#citation)
+- [Reviews and Surveys](#reviews-and-surveys) — survey papers on LLM evaluation methods
+- [Leaderboards and Arenas](#leaderboards-and-arenas) — live rankings comparing model performance
+- [Evaluation Software](#evaluation-software) — tools and frameworks for running evals
+- [LLM Evaluation Articles](#llm-evaluation-articles) — industry blog posts and commentary
+- [Other Collections](#other-collections) — related awesome-lists and resources
+- [Citation](#citation) — how to cite this compendium
 
 ## 🧭 Benchmarks & Meta-Evaluation
-- [Frontier Models](#frontier-models)
-- [Large Benchmarks](#large-benchmarks)
-- [Evaluation of Evaluation, Theory, Methods & Analysis](#evaluation-of-evaluation-evaluation-theory-evaluation-methods-analysis-of-evaluation)
-- [Long Comprehensive Studies](#long-comprehensive-studies)
-- [HITL (Human in the Loop)](#hitl-human-in-the-loop)
-- [LLM as Judge](#llm-as-judge)
+- [Frontier Models](#frontier-models) — benchmarks testing cutting-edge model capabilities
+- [Large Benchmarks](#large-benchmarks) — big multitask suites like MMLU
+- [Evaluation of Evaluation](#evaluation-of-evaluation-evaluation-theory-evaluation-methods-analysis-of-evaluation) — critiques of benchmark validity and design
+- [Long Comprehensive Studies](#long-comprehensive-studies) — deep, multi-dimensional model assessments
+- [HITL](#hitl-human-in-the-loop) — human reviewers auditing model outputs
+- [LLM as Judge](#llm-as-judge) — using LLMs to grade responses
 
 ## 🧠 Core LLM Evaluation
-- [Embeddings](#embeddings)
-- [In Context Learning](#in-context-learning)
-- [Hallucinations](#hallucinations)
-- [Question Answering](#question-answering)
-- [Multi Turn](#multi-turn)
-- [Reasoning](#reasoning)
-- [Multi-Lingual](#multi-lingual)
-- [Multi-Modal](#multi-modal)
-  - [Audio Models](#audio-models)
-- [Instruction Following](#instruction-following)
-- [World Models](#world-models)
+- [Embeddings](#embeddings) — benchmarking text and image embedding quality
+- [In Context Learning](#in-context-learning) — few-shot sentence completion tasks
+- [Hallucinations](#hallucinations) — measuring factual accuracy and fabrication
+- [Question Answering](#question-answering) — QA datasets across many domains
+- [Multi Turn](#multi-turn) — evaluating multi-turn dialogue coherence
+- [Reasoning](#reasoning) — math, logic, and inference benchmarks
+- [Multi-Lingual](#multi-lingual) — evaluation across non-English languages
+  - [Audio Models](#audio-models) — benchmarks for audio and speech understanding
+- [Instruction Following](#instruction-following) — how well models obey constraints
+- [World Models](#world-models) — video, driving, and simulation benchmarks
 
 ## ⚖️ Trust, Safety & Alignment
-- [Ethical AI](#ethical-ai)
-- [Biases](#biases)
-- [Safe AI](#safe-ai)
-- [Cybersecurity](#cybersecurity)
+- [Ethical AI](#ethical-ai) — benchmarks on values and honesty
+- [Biases](#biases) — detecting demographic and social bias
+- [Safe AI](#safe-ai) — red-teaming, jailbreaks, and refusal behavior
+- [Cybersecurity](#cybersecurity) — evaluating security risks in model outputs
 
 ## 🤖 Agentic AI
-- [Agent LLM Architectures](#agent-llm-architectures)
-- [Agentic Systems](#agentic-systems)
-- [Evaluation Agentic Search](#evaluation-agentic-search)
+- [Agent LLM Architectures](#agent-llm-architectures) — benchmarking autonomous multi-step agent behavior
+- [Agentic Systems](#agentic-systems) — evaluating real-world agent task completion
+- [Evaluation Agentic Search](#evaluation-agentic-search) — grading agents that search and retrieve
 
 ## 🧬 AGI Evaluation
-- [AGI Evaluation](#agi-evaluation)
+- [AGI Evaluation](#agi-evaluation) — testing general, human-like intelligence
 
 ## 💻 Task-Specific Capabilities
-- [Code Generating LLMs](#code-generating-llms)
-- [Analytics Agents (Text-to-SQL, BI, Data Analysis)](#analytics-agents-text-to-sql-bi-and-data-analysis)
-- [Summarization](#summarization)
-- [LLM Quality (Overfitting, Redundant Layers, etc.)](#llm--quality-generic-methods-overfitting-redundant-layers-etc)
-- [Inference Performance](#inference-performance)
-- [Long Text Generation](#long-text-generation)
-- [Document Understanding](#document-understanding)
-- [Graph Understanding](#graph-understanding)
-- [Reward Models](#reward-models)
-- [Various Unclassified Tasks](#various-unclassified-tasks)
+- [Code Generating LLMs](#code-generating-llms) — benchmarks for coding and software tasks
+- [Analytics Agents](#analytics-agents-text-to-sql-bi-and-data-analysis) — text-to-SQL and data analysis agents
+- [Summarization](#summarization) — evaluating faithfulness of generated summaries
+- [LLM Quality](#llm--quality-generic-methods-overfitting-redundant-layers-etc) — analyzing overfitting and model internals
+- [Inference Performance](#inference-performance) — measuring speed and hardware efficiency
+- [Long Text Generation](#long-text-generation) — evaluating quality of long outputs
+- [Document Understanding](#document-understanding) — parsing and reasoning over documents
+- [Graph Understanding](#graph-understanding) — testing reasoning over graph-structured data
+- [Reward Models](#reward-models) — benchmarking models that score responses
+- [Various Unclassified Tasks](#various-unclassified-tasks) — miscellaneous specialized evaluation tasks
 
 ## 🧩 LLM Systems
-- [RAG Evaluation](#rag-evaluation)
-- [Evaluation Deep Research](#evaluation-deep-research)
-- [Evaluation Reasoning and RAG](#evaluation-reasoning-and-rag)
-- [Conversational Systems](#conversational-systems)
-- [Copilots](#copilots)
-- [Search and Recommendation Engines](#search-and-recommendation-engines)
-- [Task Utility](#task-utility)
+- [RAG Evaluation](#rag-evaluation) — assessing retrieval-augmented generation accuracy
+- [Evaluation Deep Research](#evaluation-deep-research) — grading multi-step research agent outputs
+- [Evaluation Reasoning and RAG](#evaluation-reasoning-and-rag) — combined reasoning plus retrieval evaluation
+- [Conversational Systems](#conversational-systems) — evaluating chatbot and dialogue quality
+- [Copilots](#copilots) — assessing coding and productivity assistants
+- [Search and Recommendation Engines](#search-and-recommendation-engines) — evaluating search and recommender relevance
+- [Task Utility](#task-utility) — measuring real-world helpfulness of outputs
 
 ## 🏢 Verticals
-- [Healthcare and Medicine](#healthcare-and-medicine)
-- [Law](#law)
-- [Science (Generic)](#science)
-- [Financial](#financial)
-  
-- [Citation](#citation)
+- [Healthcare and Medicine](#healthcare-and-medicine) — clinical and medical QA benchmarks
+- [Law](#law) — legal reasoning and document evaluation
+- [Science](#science) — scientific knowledge and reasoning benchmarks
+- [Financial](#financial) — evaluating financial reasoning and analysis
 ---
 ### Reviews and Surveys
 - Evaluating and regulating agentic AI: A study of benchmarks, metrics, and regulation, [Information Fusion for Dec 2026](https://www.sciencedirect.com/science/article/pii/S1566253526003246)
