@@ -125,6 +125,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - [OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [MTEB ](https://huggingface.co/spaces/mteb/leaderboard)
 - [SWE Bench ](https://www.swebench.com/)
+- [The Aggregate](https://theaggregate.ai/), an aggregate LLM leaderboard that fits a robust IRT model across public benchmark leaderboards, rates every model on one Elo scale with a standard error, and links each score to its source leaderboard, [methodology](https://theaggregate.ai/how-it-works)
 - [Benchouse](https://benchouse.ai/benchmark), independent leaderboard of analytics agent products (Snowflake Cortex, Databricks Genie, Hex, nao, Lightdash, Supersimple) answering the same 300 questions over a warehouse with withheld ground truth, scored on accuracy, completeness and restraint
 - [AlpacaEval leaderboard](https://tatsu-lab.github.io/alpaca_eval/) Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators, Apr 2024, [arxiv](https://arxiv.org/abs/2404.04475)  [code](https://github.com/tatsu-lab/alpaca_eval)
 - [Open Medical LLM Leaderboard from HF](https://huggingface.co/blog/leaderboard-medicalllm) [Explanation](https://huggingface.co/blog/leaderboard-medicalllm)
