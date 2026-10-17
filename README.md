@@ -225,7 +225,6 @@ in tech media and blog posts and podcasts from companies
 ---
 ### Frontier models
 - Chartography: A Benchmark for Professional Chart Understanding, Aug 2026, [arxiv](https://arxiv.org/abs/2608.10677)
-- LVBench: An Extreme Long Video Understanding Benchmark, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08035)
 - OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks, Jun 2026, [arxiv](https://arxiv.org/abs/2606.29537)
 - Agents' Last Exam, Jun 2026, [arxiv](https://arxiv.org/abs/2606.05405)
 - FrontierOR: Benchmarking LLMs' Capacity for Efficient Algorithm Design in Large-Scale Optimization, May 2026, [arxiv](https://arxiv.org/abs/2604.12290)
@@ -253,6 +252,7 @@ in tech media and blog posts and podcasts from companies
 - MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark, Sep 2024, [arxiv](https://arxiv.org/abs/2409.02813)
 - MRCR v2 (Multi-Round Coreference Resolution version 2), [leaderboard](https://llm-stats.com/benchmarks/mrcr-v2) Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries, [DeepMind](https://arxiv.org/abs/2409.12640v2)
 - CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs, Jun 2024, [arxiv](https://arxiv.org/abs/2406.18521)
+- LVBench: An Extreme Long Video Understanding Benchmark, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08035)
 - SWE Bench Verified [blog and data at openai](https://openai.com/index/introducing-swe-bench-verified/)
 - ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use, Apr 2024, [arxiv](https://arxiv.org/abs/2504.07981)
 - GPQA Diamond, [dataset](https://github.com/idavidrein/gpqa?tab=readme-ov-file) , original paper GPQA: A Graduate-Level Google-Proof Q&A Benchmark, Nov 2023, [arxiv](https://arxiv.org/abs/2311.12022)
