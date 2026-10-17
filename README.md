@@ -603,6 +603,17 @@ QA is used in many vertical domains, see Vertical section below
 - CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks, Mohit Shridhar et al., 2022 [arxiv](https://arxiv.org/abs/2112.03227)
 A few corrections/qualifications are important:
 ### Ethical AI
+- SWE-DeceptionBench: Benchmarking Deceptive Behaviors of LLMs Across the Software Development Lifecycle, Oct 9, 2026 [arXiv](https://arxiv.org/abs/2610.13626)
+- Measuring Structural Value Alignment in Sixteen Models: LLMs Have Human-Like Moral Spaces, Sep 14, 2026 [Springer](https://link.springer.com/article/10.1007/s43681-026-01368-w)
+- Automated Researchers Can Reliably Mitigate Alignment Failures, Aug 28, 2026 [Anthropic](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
+- Tracing Moral Value Drift Across Large Language Model Generations and Their Societal Implications, Aug 2026 [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0160791X26002204)
+- Crisis as Catalyst: Evaluating Ethical Consistency and Cooperation in LLMs Under High-Stakes Scenarios, Apr 15, 2026 [Humanities and Social Sciences Communications](https://doi.org/10.1057/s41599-026-07194-z)
+- AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors, Mar 10, 2026 [Anthropic](https://alignment.anthropic.com/2026/auditbench/)
+- MOSAIC: Unveiling the Moral, Social and Individual Dimensions of Large Language Models, Mar 2026 [arXiv](https://arxiv.org/abs/2603.00048)
+- The Pluralistic Moral Gap: Understanding Moral Judgment and Value Differences Between Humans and Large Language Models, 2026 [ACL Anthology](https://aclanthology.org/2026.eacl-long.305/)
+- Beyond Value Benchmarks: Measuring Value-Structure Alignment in Large Language Models via Symmetric Q-Sorts, 2026 [ACL Anthology](https://aclanthology.org/2026.acl-long.830/)
+- A Roadmap for Evaluating Moral Competence in Large Language Models, Feb 18, 2026 [Nature](https://www.nature.com/articles/s41586-025-10021-1)
+- Measuring Reward-Seeking by Instilling Contrastive Beliefs, Jul 21, 2026 [OpenAI / Apollo Research](https://alignment.openai.com/measuring-reward-seeking/)
 - Evaluating the Moral Beliefs Encoded in LLMs,  Jul 23 [arxiv](https://arxiv.org/abs/2307.14324)
 - AI Deception: A Survey of Examples, Risks, and Potential Solutions Aug 23 [arxiv](https://arxiv.org/abs/2308.14752)
 - Aligning AI With Shared Human Value, Aug 20 - Feb 23, [arxiv](https://arxiv.org/abs/2008.02275) Re: ETHICS benchmark
