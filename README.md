@@ -260,13 +260,14 @@ in tech media and blog posts and podcasts from companies
 - Measuring Massive Multitask Language Understanding, May 2020, [arxiv](https://arxiv.org/abs/2009.03300)
 ---
 ### Large benchmarks
+- BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents, Sep 2026, org not confirmed, [arxiv](https://arxiv.org/abs/2609.23490) — 16,146 instances, 23 languages, 13 domains
+- MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers, Feb 2026, Scale AI, [arxiv](https://arxiv.org/abs/2602.00933) — 1,000 tasks, 36 real MCP servers
 - MMLU-Pro+: Evaluating Higher-Order Reasoning and Shortcut Learning in LLMs, Sep 2024, Audesk AI, [arxiv](https://arxiv.org/abs/2409.02257)
 - MMLU Pro Massive Multitask Language Understanding - Pro version, Jun 2024, [arxiv](https://arxiv.org/abs/2406.01574)
 - Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks EMNLP 2022, [pdf](https://aclanthology.org/2022.emnlp-main.340.pdf)
 - Measuring Massive Multitask Language Understanding,  MMLU, ICLR, 2021, [arxiv](https://arxiv.org/pdf/2009.03300.pdf) [MMLU dataset](https://github.com/hendrycks/test)
 - BigBench: Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models, 2022, [arxiv](https://arxiv.org/abs/2206.04615),  [datasets](https://github.com/google/BIG-bench)
 - Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them, Oct 2022, [arxiv](https://arxiv.org/abs/2210.09261)
-  
 ---
 ### Evaluation of evaluation, Evaluation theory, evaluation methods, analysis of evaluation
 - What AI Benchmarks Actually Measure: Adapting Convergent and Discriminant Validity to Interrogate Fifty-Six AI Benchmarks, Sep 2026, [arxiv](https://arxiv.org/abs/2609.08812)
