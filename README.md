@@ -177,6 +177,16 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 ﻿---
 ### LLM Evaluation articles
 in tech media and blog posts and podcasts from companies
+- Vals Index, 2025, [vals.ai](https://vals.ai/benchmarks/vals_index)
+- Vals Finance Agent v2, 2026, [vals.ai](https://www.vals.ai/benchmarks/fabv2)
+- Harvey's Legal Agent Benchmark, May 2026, [blog](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)
+- DeepSWE v1.1, Jun 2026, [blog](https://deepswe.datacurve.ai/blog/deepswe-v1-1)
+- FrontierSWE, 2026, [blog](https://www.frontierswe.com/blog)
+- Vibe Code Bench, Nov 2025, [vals.ai](https://www.vals.ai/benchmarks/vibe-code)
+- Terminal-Bench 4.0, 2026, [blog](https://www.tbench.ai/news/terminal-bench-4-0)
+- Terminal-Bench-Science 0.1, 2026, [blog](https://www.tbench.ai/news/tb-science-announcement)
+- GraphWalks, 2025, [Hugging Face](https://huggingface.co/datasets/openai/graphwalks)
+- CWE-bench v1, 2026, [blog](https://blog.collinear.ai/p/cwe-bench)
 - Measuring tactical intelligence targeting and conventional weapons capabilities of AI models, Sep 2026, [Anthropic Research](https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities)
 - Who Grades the Graders? Rethinking Verifier Design for Computer Use Agents, Sep 2026, [arxiv](https://labs.scale.com/blog/verifier-design-for-cua)
 - Piloting the world's first double-blind AI evaluations, Aug 2026, [Google DeepMind blog](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/)
@@ -214,8 +224,16 @@ in tech media and blog posts and podcasts from companies
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Frontier models
+- Chartography: A Benchmark for Professional Chart Understanding, Aug 2026, [arxiv](https://arxiv.org/abs/2608.10677)
+- LVBench: An Extreme Long Video Understanding Benchmark, Jun 2024, [arxiv](https://arxiv.org/abs/2406.08035)
+- OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks, Jun 2026, [arxiv](https://arxiv.org/abs/2606.29537)
+- Agents' Last Exam, Jun 2026, [arxiv](https://arxiv.org/abs/2606.05405)
 - FrontierOR: Benchmarking LLMs' Capacity for Efficient Algorithm Design in Large-Scale Optimization, May 2026, [arxiv](https://arxiv.org/abs/2604.12290)
+- AutomationBench, Apr 2026, [arxiv](https://arxiv.org/abs/2604.18934)
+- LABBench2: An Improved Benchmark for AI Systems Performing Biology Research, Apr 2026, [arxiv](https://arxiv.org/abs/2604.09554)
+- Riemann-Bench: A Benchmark for Moonshot Mathematics, Apr 2026, [arxiv](https://arxiv.org/abs/2604.06802)
 - Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization, Apr 2026, [arxiv](https://arxiv.org/abs/2604.12290)
+- PostTrainBench: Can LLM Agents Automate LLM Post-Training?, Mar 2026, [arxiv](https://arxiv.org/abs/2603.08640)
 - FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI, Nov 2025, [arxiv](https://arxiv.org/abs/2604.12290)
 - AA-Omniscience: Evaluating Cross-Domain Knowledge Reliability in Large Language Models, Nov 2025, [arxiv](https://arxiv.org/abs/2511.13029)
 - Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures, Oct 2025, [arxiv](https://arxiv.org/abs/2510.24081)
