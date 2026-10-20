@@ -275,6 +275,7 @@ in tech media and blog posts and podcasts from companies
 - The Capability Frontier: Benchmarks Miss 82% of Model Performance, jun 2026, [arxiv](https://arxiv.org/abs/2606.26836)
 - Human-AI productivity claims should be reported as time-to-acceptance under explicit acceptance tests, Feb 2026, Position paper, [TechRxiv](https://doi.org/10.36227/techrxiv.177040595.50580086/v1)
 - LiveTradeBench: Seeking Real-World Alpha with Large Language Models, Nov 2025, Evaluation on Live data, [arxiv](https://arxiv.org/abs/2511.03628)
+- Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation, Oct 2025, ICLR 2026, [arxiv](https://arxiv.org/abs/2510.04265) [video](https://mohsenhariri.github.io/assets/videos/bayes-at-n/bayes-at-n.mp4) [code](https://github.com/mohsenhariri/scorio). Bayes@N estimates model performance and uncertainty from repeated samples with binary or graded outcomes.
 - Measuring what Matters: Construct Validity in Large Language Model Benchmarks, [NeuriIPS 2025](https://oxrml.com/measuring-what-matters/)
 - The Leaderboard Illusion, Apr 2025, [arxiv](https://arxiv.org/abs/2504.13128)
 - Rankers, Judges, and Assistants: Towards Understanding the Interplay of LLMs in Information Retrieval Evaluation, DeepMind, Mar 2025, [arxiv](https://arxiv.org/abs/2503.19092v1)
