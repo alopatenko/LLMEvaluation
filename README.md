@@ -225,6 +225,7 @@ in tech media and blog posts and podcasts from companies
 - Hamel Dev March 2024, [Your AI Product Needs Eval. How to construct domain-specific LLM evaluation systems](https://hamel.dev/blog/posts/evals/)
 ---
 ### Frontier models
+- SMB Bench: Measuring AI's ability to learn from delayed consequences, Nov 2026, [report and leaderboard](https://oroagents.com/benchmarks/smb-bench) [dataset](https://huggingface.co/datasets/oro-agents/smb-bench)
 - Chartography: A Benchmark for Professional Chart Understanding, Aug 2026, [arxiv](https://arxiv.org/abs/2608.10677)
 - OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks, Jun 2026, [arxiv](https://arxiv.org/abs/2606.29537)
 - Agents' Last Exam, Jun 2026, [arxiv](https://arxiv.org/abs/2606.05405)
