@@ -174,6 +174,7 @@ My view on LLM Evaluation: [Deck 24](LLMEvaluation.pdf), and [SF Big Analytics a
 - LM-PUB-QUIZ: A Comprehensive Framework for Zero-Shot Evaluation of Relational Knowledge in Language Models, [arxiv pdf](https://arxiv.org/abs/2408.15729) [github repository](https://lm-pub-quiz.github.io/)
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) records the HTTP traffic between an eval harness and its model server, then serves it back, so a published eval result can be re-derived with no endpoint reachable, no key and no spend. Re-running an EvalScope eval against the recording with the model server killed reproduced every metric byte-for-byte; only latency differed. Apache-2.0.
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) Benchmark harness for coding agents: user-supplied task suites, explicit scoring protocol, transcript-verified per-attempt results. MIT.
+- [EvalShift](https://github.com/evalshift/evalshift-cli) Regression testing for model changes: runs the same test cases, or agent runs recorded in production, on the current and a candidate model and reports per-case output and tool-call regressions with paired statistics. Apache-2.0.
 
 ﻿---
 ### LLM Evaluation articles
