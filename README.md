@@ -944,6 +944,7 @@ and knowledge assistant and information seeking LLM based systems,
 - AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG, Jul 2026, [ACL Anthology](https://aclanthology.org/2026.findings-acl.66/)
 - Trustworthiness in Retrieval-Augmented Generation Systems: A Survey, May 2026, [arxiv](https://arxiv.org/abs/2409.10102)
 - URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models, Mar 2026, [arxiv](https://arxiv.org/abs/2603.19281)
+- CoFaithfulQA: A benchmark introduced in ParamMute that tests whether RAG answers follow retrieved evidence when it conflicts with the model's parametric knowledge, Dec 2025, [NeurIPS 2025](https://proceedings.neurips.cc/paper_files/paper/2025/hash/90d1e515d74686ad148b469a3cecbbaa-Abstract-Conference.html) [dataset](https://huggingface.co/datasets/chengpingan/CoFaithfulQA)
 - RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering, [NeurIPS 2025](https://openreview.net/pdf?id=GGMQ3gYhzh)
 - Evaluating Large Language Models for Cross-Lingual Retrieval, Sep 2025, [arxiv](https://arxiv.org/abs/2509.14749)
 - A Comprehensive Evaluation of Embedding Models and LLMs for IR and QA Across English and Italian, May 2025, [ Advances in Natural Language Processing and Text Mining May 2025](https://www.mdpi.com/2504-2289/9/5/141)
